@@ -52,9 +52,16 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int v, t;
-    while (cin >> v >> t) {
-        print(2 * v * t);
-    }
+    int g, s, c;
+    cin >> g>> s >> c;
+    int bp = 3 * g + 2 * s + c;
+
+    if (bp >= 8) cout << "Province or ";
+    else if (bp >= 5) cout << "Duchy or ";
+    else if (bp >= 2) cout << "Estate or ";
+
+    if (bp >= 6) cout << "Gold";
+    else if (bp >= 3) cout << "Silver";
+    else cout << "Copper";
     return 0;
 }

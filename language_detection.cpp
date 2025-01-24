@@ -52,9 +52,25 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int v, t;
-    while (cin >> v >> t) {
-        print(2 * v * t);
+    string s;
+    map<string, string> lang;
+    lang["HELLO"] = "ENGLISH";
+    lang["HOLA"] = "SPANISH";
+    lang["HALLO"] = "GERMAN";
+    lang["BONJOUR"] = "FRENCH";
+    lang["CIAO"] = "ITALIAN";
+    lang["ZDRAVSTVUJTE"] = "RUSSIAN";
+    int i = 1;
+    while (s != "#") {
+        cin >> s;
+        if (s == "#") break;
+        if (lang.find(s) != lang.end()) {
+            cout << "Case " << i << ": " << lang[s] << endl;
+        } else {
+            cout << "Case " << i << ": " << "UNKNOWN" << endl;
+
+        }
+        i++;
     }
     return 0;
 }

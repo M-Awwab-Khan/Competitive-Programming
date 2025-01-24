@@ -52,9 +52,14 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int v, t;
-    while (cin >> v >> t) {
-        print(2 * v * t);
+    int n, m;
+    cin >> m >> n;
+    if (m > n) {
+        if (m - n == 1) cout << "Dr. Chaz needs " << m - n << " more piece of chicken!";
+        else cout << "Dr. Chaz needs " << m - n << " more pieces of chicken!";
+    } else {
+        if (n - m == 1) cout << "Dr. Chaz will have " << n - m << " piece of chicken left over!";
+        else cout << "Dr. Chaz will have " << n - m << " pieces of chicken left over!";
     }
     return 0;
 }

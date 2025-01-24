@@ -52,9 +52,10 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int v, t;
-    while (cin >> v >> t) {
-        print(2 * v * t);
-    }
+    int l, r;
+    cin >> l >> r;
+    if (l == 0 && r == 0) cout << "Not a moose";
+    else if (l == r) cout << "Even " << l + r;
+    else cout << "Odd " << 2 * max(l, r);
     return 0;
 }

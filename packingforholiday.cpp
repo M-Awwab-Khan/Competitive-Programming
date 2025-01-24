@@ -52,9 +52,18 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int v, t;
-    while (cin >> v >> t) {
-        print(2 * v * t);
+    int t;
+    cin >> t;
+    int i = 1;
+    while (t--) {
+        ll a, b, c;
+        cin >> a >> b >> c;
+        if (a <= 20 && b <= 20 && c <= 20) {
+            cout << "Case " << i << ": good\n";
+        } else {
+            cout << "Case " << i << ": bad\n";
+        }
+        i++;
     }
     return 0;
 }
