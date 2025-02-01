@@ -52,43 +52,36 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int a, b, c, d, e;
-    while (true) {
-        cin >> a >> b >> c >> d >> e;
-        if (a == 0) break;
-        si A = {a, b, c};
-        si B = {d, e};
-        si notavailable = {a, b, c, d, e};
-        int awins = 0;
-        fnr(i, 2) {
-            auto it = A.upper_bound(*B.begin());
-            if (it == A.end()) {
-                if (i == 0) {
-                    cf(j, 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            break;
-                        }
-                    }
-                } else {
-                    cf(j, *(--A.end()) + 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            goto exit;
-                        }
-                    }
-                    print(-1);
-                    exit: break;
-                }
-                break;
-            }
-            ++awins;
-            A.erase(it);
-            B.erase(B.begin());
-            if (awins == 2){
-                print(-1); break;
-            }
+    int n, k; cin >> n >> k;
+    map<int, string> m;
+    int cnt = 0;
+    fnr(i, k) {
+        int c1, c2;
+        string p1, p2;
+        cin >> c1 >> c2 >> p1 >> p2;
+        m[c1] = p1;
+        m[c2] = p2;
+        if (p1 == p2) --cnt;
+    }
+    int hidden = 0;
+    set<string> st;
+    cf(i, 1, n) {
+        if (m[i] == "") {
+            ++hidden;
+            continue;
+        }
+        if (st.find(m[i]) != st.end()) {
+            st.erase(m[i]);
+            ++cnt;
+        } else {
+            st.insert(m[i]);
         }
     }
+    int res = cnt;
+    res = max(0, res);
+    int unmatched = st.size();
+    if (hidden == 2 && unmatched == 0) res++;
+    else if (unmatched >= hidden) res += hidden;
+    print(res);
     return 0;
 }

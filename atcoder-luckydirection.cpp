@@ -52,43 +52,24 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int a, b, c, d, e;
-    while (true) {
-        cin >> a >> b >> c >> d >> e;
-        if (a == 0) break;
-        si A = {a, b, c};
-        si B = {d, e};
-        si notavailable = {a, b, c, d, e};
-        int awins = 0;
-        fnr(i, 2) {
-            auto it = A.upper_bound(*B.begin());
-            if (it == A.end()) {
-                if (i == 0) {
-                    cf(j, 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            break;
-                        }
-                    }
-                } else {
-                    cf(j, *(--A.end()) + 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            goto exit;
-                        }
-                    }
-                    print(-1);
-                    exit: break;
-                }
-                break;
-            }
-            ++awins;
-            A.erase(it);
-            B.erase(B.begin());
-            if (awins == 2){
-                print(-1); break;
-            }
-        }
+    string direction;
+    cin >> direction;
+    if (direction == "N") {
+        cout << "S" << endl;
+    } else if (direction == "S") {
+        cout << "N" << endl;
+    } else if (direction == "E") {
+        cout << "W" << endl;
+    } else if (direction == "W") {
+        cout << "E" << endl;
+    } else if (direction == "NE") {
+        cout << "SW" << endl;
+    } else if (direction == "NW") {
+        cout << "SE" << endl;
+    } else if (direction == "SE") {
+        cout << "NW" << endl;
+    } else if (direction == "SW") {
+        cout << "NE" << endl;
     }
     return 0;
 }

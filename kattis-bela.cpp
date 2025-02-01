@@ -52,43 +52,37 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int a, b, c, d, e;
-    while (true) {
-        cin >> a >> b >> c >> d >> e;
-        if (a == 0) break;
-        si A = {a, b, c};
-        si B = {d, e};
-        si notavailable = {a, b, c, d, e};
-        int awins = 0;
-        fnr(i, 2) {
-            auto it = A.upper_bound(*B.begin());
-            if (it == A.end()) {
-                if (i == 0) {
-                    cf(j, 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            break;
-                        }
-                    }
-                } else {
-                    cf(j, *(--A.end()) + 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            goto exit;
-                        }
-                    }
-                    print(-1);
-                    exit: break;
-                }
-                break;
-            }
-            ++awins;
-            A.erase(it);
-            B.erase(B.begin());
-            if (awins == 2){
-                print(-1); break;
-            }
+    int N;
+    string suit;
+    cin >> N >> suit;
+    map<char, int> dominant;
+    dominant['A'] = 11;
+    dominant['K'] = 4;
+    dominant['Q'] = 3;
+    dominant['J'] = 20;
+    dominant['T'] = 10;
+    dominant['9'] = 14;
+    dominant['8'] = 0;
+    dominant['7'] = 0;
+    map<char, int> not_dominant;
+    not_dominant['A'] = 11;
+    not_dominant['K'] = 4;
+    not_dominant['Q'] = 3;
+    not_dominant['J'] = 2;
+    not_dominant['T'] = 10;
+    not_dominant['9'] = 0;
+    not_dominant['8'] = 0;
+    not_dominant['7'] = 0;
+    int total = 0;
+    for (int i = 0; i < N * 4; i++) {
+        string card;
+        cin >> card;
+        if (card[1] == suit[0]) {
+            total += dominant[card[0]];
+        } else {
+            total += not_dominant[card[0]];
         }
     }
+    print(total);
     return 0;
 }

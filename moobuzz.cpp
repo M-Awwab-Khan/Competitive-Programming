@@ -52,43 +52,26 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int a, b, c, d, e;
-    while (true) {
-        cin >> a >> b >> c >> d >> e;
-        if (a == 0) break;
-        si A = {a, b, c};
-        si B = {d, e};
-        si notavailable = {a, b, c, d, e};
-        int awins = 0;
-        fnr(i, 2) {
-            auto it = A.upper_bound(*B.begin());
-            if (it == A.end()) {
-                if (i == 0) {
-                    cf(j, 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            break;
-                        }
-                    }
-                } else {
-                    cf(j, *(--A.end()) + 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            goto exit;
-                        }
-                    }
-                    print(-1);
-                    exit: break;
-                }
-                break;
-            }
-            ++awins;
-            A.erase(it);
-            B.erase(B.begin());
-            if (awins == 2){
-                print(-1); break;
-            }
+    ll n; cin >> n;
+
+    // Binary search to find the nth number
+    ll left = 1, right = 2e18;
+    while (left < right) {
+        ll mid = left + (right - left) / 2;
+
+        // Count numbers up to mid that are NOT fizz, buzz, or fizzbuzz
+        ll fizz = mid/3;
+        ll buzz = mid/5;
+        ll fizzbuzz = mid/15;
+        ll valid_nums = mid - fizz - buzz + fizzbuzz;
+
+        if (valid_nums >= n) {
+            right = mid;
+        } else {
+            left = mid + 1;
         }
     }
+
+    print(left);
     return 0;
 }

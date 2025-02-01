@@ -52,41 +52,27 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int a, b, c, d, e;
-    while (true) {
-        cin >> a >> b >> c >> d >> e;
-        if (a == 0) break;
-        si A = {a, b, c};
-        si B = {d, e};
-        si notavailable = {a, b, c, d, e};
-        int awins = 0;
-        fnr(i, 2) {
-            auto it = A.upper_bound(*B.begin());
-            if (it == A.end()) {
-                if (i == 0) {
-                    cf(j, 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            break;
-                        }
+    int n, m; cin >> n >> m;
+    vs s(n);
+    fnr(i, n) cin >> s[i];
+    vs t(m);
+    fnr(i, m) cin >> t[i];
+    // locate grid t in grid s
+    fnr(i, n-m+1) {
+        fnr(j, n-m+1) {
+            bool found = true;
+            fnr(k, m) {
+                fnr(l, m) {
+                    if (s[i+k][j+l] != t[k][l]) {
+                        found = false;
+                        break;
                     }
-                } else {
-                    cf(j, *(--A.end()) + 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            goto exit;
-                        }
-                    }
-                    print(-1);
-                    exit: break;
                 }
-                break;
+                if (!found) break;
             }
-            ++awins;
-            A.erase(it);
-            B.erase(B.begin());
-            if (awins == 2){
-                print(-1); break;
+            if (found) {
+                cout << i + 1 << " " << j + 1 << endl;
+                return 0;
             }
         }
     }

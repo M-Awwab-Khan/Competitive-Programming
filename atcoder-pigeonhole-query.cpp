@@ -52,42 +52,27 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int a, b, c, d, e;
-    while (true) {
-        cin >> a >> b >> c >> d >> e;
-        if (a == 0) break;
-        si A = {a, b, c};
-        si B = {d, e};
-        si notavailable = {a, b, c, d, e};
-        int awins = 0;
-        fnr(i, 2) {
-            auto it = A.upper_bound(*B.begin());
-            if (it == A.end()) {
-                if (i == 0) {
-                    cf(j, 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            break;
-                        }
-                    }
-                } else {
-                    cf(j, *(--A.end()) + 1, 52) {
-                        if (notavailable.find(j) == notavailable.end()) {
-                            print(j);
-                            goto exit;
-                        }
-                    }
-                    print(-1);
-                    exit: break;
-                }
-                break;
-            }
-            ++awins;
-            A.erase(it);
-            B.erase(B.begin());
-            if (awins == 2){
-                print(-1); break;
-            }
+    int n, q; cin >> n >> q;
+    map<int, int> pigeonsFreq;
+    map<int, int> pigeonsNest;
+    fnr(i, n) {
+        pigeonsFreq[i+1] = 1;
+        pigeonsNest[i+1] = i+1;
+    }
+    int res = 0;
+    fnr(i, q) {
+        int type;
+        cin >> type;
+        if (type == 1) {
+            int p, h;
+            cin >> p >> h;
+            pigeonsFreq[pigeonsNest[p]]--;
+            pigeonsFreq[h]++;
+            if (pigeonsFreq[pigeonsNest[p]] == 1) --res;
+            if (pigeonsFreq[h] == 2) ++res;
+            pigeonsNest[p] = h;
+        } else {
+            print(res);
         }
     }
     return 0;
