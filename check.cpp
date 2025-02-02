@@ -1,66 +1,48 @@
-#include <iostream>
-#include <vector>
+#include <cstdio>
 #include <algorithm>
 
 using namespace std;
 
 int main()
 {
-    vector<int> her(3), his(2);
-    vector<bool> available;
+    int king, queen, queenTo, diff;
 
-    int card;
 
-    while (cin >> her[0] >> her[1] >> her[2] >> his[0] >> his[1], her[0])
+    while (scanf("%d %d %d", &king, &queen, &queenTo) == 3)
     {
-        available.clear();
-        available.resize(53, true);
-
-        for (int i = 0; i < 3; ++i)
+        if (king == queen)
         {
-            available[her[i]] = false;
-
-            if (i < 2)
-                available[his[i]] = false;
+            printf("Illegal state\n");
+            continue;
         }
 
-        sort(her.begin(), her.end());
-        sort(his.begin(), his.end());
-
-        card = 53;
-
-        // Both are higher
-        if (his[0] > her[2])
+        if (((queenTo - queen) % 8 != 0 && queenTo / 8 != queen / 8) || queen == queenTo)
         {
-            for (int i = 1; i <= 52 && i < card; ++i)
-                if (available[i])
-                    card = i;
+            printf("Illegal move\n");
+            continue;
         }
 
-        // One is higher than all
-        if (his[1] > her[2])
+        if (((king - queen) % 8 == 0 && (king - queenTo) % 8 == 0) || (king / 8 == queen / 8 && king  / 8 == queenTo / 8))
         {
-            //printf("Here %d\n", her[2]);
-            for (int i = her[2] + 1; i <= 52 && i < card; ++i)
+            if (king <= max(queen, queenTo) && king >= min(queen, queenTo))
             {
-
-                if (available[i])
-                    card = i;
+                printf("Illegal move\n");
+                continue;
             }
         }
 
-        // Both higher than two of her cards
-        if (his[0] > her[1])
+        diff = max(king, queenTo) - min(king, queenTo);
+
+        if (diff == 8 || (diff == 1 && king / 8 == queenTo / 8))
         {
-             for (int i = her[1] + 1; i <= 52 && i < card; ++i)
-                if (available[i])
-                    card = i;
+            printf("Move not allowed\n");
+            continue;
         }
 
-        if (card == 53)
-            card = -1;
+        if ((king == 0 && queenTo == 9) || (king == 7 && queenTo == 14) || (king == 56 && queenTo == 49) || (king == 63 && queenTo == 54))
+            printf("Stop\n");
 
-        cout << card << '\n';
+        else
+            printf("Continue\n");
     }
-
 }
