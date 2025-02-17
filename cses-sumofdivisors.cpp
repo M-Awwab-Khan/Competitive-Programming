@@ -2,15 +2,14 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace std;
-using namespace __gnu_pbds;
 #define f first
 #define s second
 #define ll long long
 #define pii pair<int, int>
 #define pll pair<long long, long long>
 #define vi vector<int>
-#define vvi vector<vector<int>>
 #define vll vector<long long>
+#define vvi vector<vector<int>>
 #define vpii vector<pair<int, int>>
 #define vpll vector<pair<long long, long long>>
 #define vvll vector<vector<long long>>
@@ -31,15 +30,13 @@ using namespace __gnu_pbds;
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
-
 #define isOn(S, j) (S & (1<<j))
 #define setBit(S, j) (S |= (1<<j))
 #define clearBit(S, j) (S &= ~(1<<j))
 #define toggleBit(S, j) (S ^= (1<<j))
 #define lowBit(S) (S & (-S))
 #define setAll(S, n) (S = (1<<n)-1)
-
-#define modulo(S, N) ((S) & (N-1))   // returns S % N, where N is a power of 2
+#define modulo(S, N) ((S) & (N-1))
 #define isPowerOfTwo(S) (!(S & (S-1)))
 #define nearestPowerOfTwo(S) (1<<lround(log2(S)))
 #define turnOffLastBit(S) ((S) & (S-1))
@@ -75,6 +72,11 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-
+    int n; cin >> n;
+    ll ans = 0;
+    fise(i, 1, n+1) {
+        ans += ((n/i)*i) % MOD;
+    }
+    print(ans % MOD);
     return 0;
 }
