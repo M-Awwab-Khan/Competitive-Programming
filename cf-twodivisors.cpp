@@ -55,16 +55,9 @@ int main() {
     int t; cin >> t;
     while(t--){
         ll a, b; cin >> a >> b;
-        ll large = max(a, b);
-        ll x = large;
-        ll small = min(a, b);
-        while (1) {
-            large += x;
-            if (large % small == 0) {
-                print(large);
-                break;
-            }
-        }
+        if (b % a == 0) print(b * (b / a));
+        else print(lcm(a, b));
+
     }
     return 0;
 }

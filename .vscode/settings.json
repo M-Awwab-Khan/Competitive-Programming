@@ -9,6 +9,7 @@
     "xtree": "cpp",
     "xutility": "cpp",
     "ios": "cpp",
-    "xiosbase": "cpp"
+    "xiosbase": "cpp",
+    "tuple": "cpp"
   }
 }

@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
 using namespace std;
 #define f first
 #define s second
@@ -7,21 +9,40 @@ using namespace std;
 #define pll pair<long long, long long>
 #define vi vector<int>
 #define vll vector<long long>
+#define vvi vector<vector<int>>
+#define vpii vector<pair<int, int>>
+#define vpll vector<pair<long long, long long>>
+#define vvll vector<vector<long long>>
 #define vc vector<char>
 #define vs vector<string>
+#define vb vector<bool>
 #define mii map<int, int>
 #define si set<int>
 #define sc set<char>
 #define mll map<long long, long long>
+#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
-#define fies(i, e, s) for (long long int i = e - 1; i >= s; i--)
+#define fies(i, e, s) for (long long int i = e; i > s; i--)
 #define sort(a) sort(a.begin(), a.end())
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
+#define isOn(S, j) (S & (1<<j))
+#define setBit(S, j) (S |= (1<<j))
+#define clearBit(S, j) (S &= ~(1<<j))
+#define toggleBit(S, j) (S ^= (1<<j))
+#define lowBit(S) (S & (-S))
+#define setAll(S, n) (S = (1<<n)-1)
+#define modulo(S, N) ((S) & (N-1))
+#define isPowerOfTwo(S) (!(S & (S-1)))
+#define nearestPowerOfTwo(S) (1<<lround(log2(S)))
+#define turnOffLastBit(S) ((S) & (S-1))
+#define turnOnLastZero(S) ((S) | (S+1))
+#define turnOffLastConsecutiveBits(S) ((S) & (S+1))
+#define turnOnLastConsecutiveZeroes(S) ((S) | (S-1))
 /* PRINTS */
 template <class T> void print_v(vector<T> &v) { cout << "{"; for (auto x : v) cout << x << ","; cout << "\b}"; }
 template <class T> void print(T str) { cout << str << endl; }
@@ -43,21 +64,32 @@ bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a
 ll modexp(ll a,ll b,ll m) { ll res=1; while (b>0) { if (b&1) res=(res*a)%m; a=(a*a)%m; b>>=1; } return res; }
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
-void readint(ll &n) {     cin >> n; }
 /* All Required define Pre-Processors and typedef Constants */
 typedef long int int32;
 typedef unsigned long int uint32;
 typedef long long int int64;
 typedef unsigned long long int  uint64;
+int sumOfDigits(int n) {
+    int sum = 0;
+    while (n > 0) {
+        sum += n % 10;
+        n /= 10;
+    }
+    return sum;
+}
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
+    vll dp(2e5 + 1, 0);
+    dp[0] = 0;
+    cf(i, 1, 2e5) {
+        dp[i] = dp[i-1] + sumOfDigits(i);
+    }
+
     int t; cin >> t;
     while(t--) {
-        int a, b;
-        cin >> a >> b;
-        print(lcm(a, b));
-
+        int n; cin >> n;
+        print(dp[n]);
     }
     return 0;
 }

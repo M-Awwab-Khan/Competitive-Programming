@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
 using namespace std;
 #define f first
 #define s second
@@ -7,21 +9,40 @@ using namespace std;
 #define pll pair<long long, long long>
 #define vi vector<int>
 #define vll vector<long long>
+#define vvi vector<vector<int>>
+#define vpii vector<pair<int, int>>
+#define vpll vector<pair<long long, long long>>
+#define vvll vector<vector<long long>>
 #define vc vector<char>
 #define vs vector<string>
+#define vb vector<bool>
 #define mii map<int, int>
 #define si set<int>
 #define sc set<char>
 #define mll map<long long, long long>
+#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
-#define fies(i, e, s) for (long long int i = e - 1; i >= s; i--)
+#define fies(i, e, s) for (long long int i = e; i > s; i--)
 #define sort(a) sort(a.begin(), a.end())
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
+#define isOn(S, j) (S & (1<<j))
+#define setBit(S, j) (S |= (1<<j))
+#define clearBit(S, j) (S &= ~(1<<j))
+#define toggleBit(S, j) (S ^= (1<<j))
+#define lowBit(S) (S & (-S))
+#define setAll(S, n) (S = (1<<n)-1)
+#define modulo(S, N) ((S) & (N-1))
+#define isPowerOfTwo(S) (!(S & (S-1)))
+#define nearestPowerOfTwo(S) (1<<lround(log2(S)))
+#define turnOffLastBit(S) ((S) & (S-1))
+#define turnOnLastZero(S) ((S) | (S+1))
+#define turnOffLastConsecutiveBits(S) ((S) & (S+1))
+#define turnOnLastConsecutiveZeroes(S) ((S) | (S-1))
 /* PRINTS */
 template <class T> void print_v(vector<T> &v) { cout << "{"; for (auto x : v) cout << x << ","; cout << "\b}"; }
 template <class T> void print(T str) { cout << str << endl; }
@@ -43,21 +64,52 @@ bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a
 ll modexp(ll a,ll b,ll m) { ll res=1; while (b>0) { if (b&1) res=(res*a)%m; a=(a*a)%m; b>>=1; } return res; }
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
-void readint(ll &n) {     cin >> n; }
 /* All Required define Pre-Processors and typedef Constants */
 typedef long int int32;
 typedef unsigned long int uint32;
 typedef long long int int64;
 typedef unsigned long long int  uint64;
+int cnttrailingzeros(ll x) {
+    if (x == 0) return 1;
+    int c = 0;
+    while (x % 5 == 0) {
+        x /= 5;
+        c++;
+    }
+    return c;
+}
+
+pair<int, string> explore(vvi &a, vector<vector<pair<int,string>>> &dp, int i, int j, int n) {
+    if (i >= n || j >= n) return {INT_MAX, ""};
+    if (i == n-1 && j == n-1) {
+        return {cnttrailingzeros(a[i][j]), ""};
+    }
+    if (dp[i][j].f != INT_MAX) return dp[i][j];
+    pair<int, string> right = explore(a, dp, i, j+1, n);
+    pair<int, string> down = explore(a, dp, i+1, j, n);
+    int curr = cnttrailingzeros(a[i][j]);
+    if (right.f < down.f) {
+        dp[i][j] = {(a[i][j] == 0 ? 1 : curr + right.f), "R" + right.s};
+    } else {
+        dp[i][j] = {(a[i][j] == 0 ? 1 : curr + down.f), "D" + down.s};
+    }
+
+    return dp[i][j];
+}
+
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int t; cin >> t;
-    while(t--) {
-        int a, b;
-        cin >> a >> b;
-        print(lcm(a, b));
-
+    int n; cin >> n;
+    vvi a(n, vi(n));
+    fnr(i, n) {
+        fnr(j, n) {
+            cin >> a[i][j];
+        }
     }
+    vector<vector<pair<int,string>>> dp(n, vector<pair<int,string>>(n, {INT_MAX, ""}));
+    pair<int, string> ans = explore(a, dp, 0, 0, n);
+    print(ans.f);
+    print(ans.s);
     return 0;
 }

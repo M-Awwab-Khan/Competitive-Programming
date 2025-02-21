@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
 using namespace std;
 #define f first
 #define s second
@@ -7,21 +9,40 @@ using namespace std;
 #define pll pair<long long, long long>
 #define vi vector<int>
 #define vll vector<long long>
+#define vvi vector<vector<int>>
+#define vpii vector<pair<int, int>>
+#define vpll vector<pair<long long, long long>>
+#define vvll vector<vector<long long>>
 #define vc vector<char>
 #define vs vector<string>
+#define vb vector<bool>
 #define mii map<int, int>
 #define si set<int>
 #define sc set<char>
 #define mll map<long long, long long>
+#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
-#define fies(i, e, s) for (long long int i = e - 1; i >= s; i--)
+#define fies(i, e, s) for (long long int i = e; i > s; i--)
 #define sort(a) sort(a.begin(), a.end())
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
+#define isOn(S, j) (S & (1<<j))
+#define setBit(S, j) (S |= (1<<j))
+#define clearBit(S, j) (S &= ~(1<<j))
+#define toggleBit(S, j) (S ^= (1<<j))
+#define lowBit(S) (S & (-S))
+#define setAll(S, n) (S = (1<<n)-1)
+#define modulo(S, N) ((S) & (N-1))
+#define isPowerOfTwo(S) (!(S & (S-1)))
+#define nearestPowerOfTwo(S) (1<<lround(log2(S)))
+#define turnOffLastBit(S) ((S) & (S-1))
+#define turnOnLastZero(S) ((S) | (S+1))
+#define turnOffLastConsecutiveBits(S) ((S) & (S+1))
+#define turnOnLastConsecutiveZeroes(S) ((S) | (S-1))
 /* PRINTS */
 template <class T> void print_v(vector<T> &v) { cout << "{"; for (auto x : v) cout << x << ","; cout << "\b}"; }
 template <class T> void print(T str) { cout << str << endl; }
@@ -43,7 +64,6 @@ bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a
 ll modexp(ll a,ll b,ll m) { ll res=1; while (b>0) { if (b&1) res=(res*a)%m; a=(a*a)%m; b>>=1; } return res; }
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
-void readint(ll &n) {     cin >> n; }
 /* All Required define Pre-Processors and typedef Constants */
 typedef long int int32;
 typedef unsigned long int uint32;
@@ -54,10 +74,34 @@ int main() {
     cin.tie(0); cout.tie(0);
     int t; cin >> t;
     while(t--) {
-        int a, b;
-        cin >> a >> b;
-        print(lcm(a, b));
-
+        int n; cin >> n;
+        vi weights(n);
+        fnr(i, n) cin >> weights[i];
+        vi pre(n, 0), suf(n, 0);
+        pre[0] = weights[0];
+        fnr(i, n-1) {
+            pre[i+1] = pre[i] + weights[i+1];
+        }
+        suf[n-1] = weights[n-1];
+        for(int i = n-1; i > 0; --i) {
+            suf[i-1] = suf[i] + weights[i-1];
+        }
+        int l = 0, r = n-1;
+        bool found = false;
+        int i = 0, j = 0;
+        while(l < r) {
+            if (pre[l] == suf[r]) {
+                found = true;
+                i = l; j = r;
+                ++l; --r;
+            }
+            else if (pre[l] > suf[r]) --r;
+            else ++l;
+        }
+        if (found) {
+            int ans = (i + 1) + (n - j);
+            print(ans);
+        } else print(0);
     }
     return 0;
 }
