@@ -1,21 +1,15 @@
-// meri khwaahish tuu
-// meri hasrat tuu
-// dont' u see i wd die for u - why wont u hear me?
-// with each day my longing for u grows
-// each day, your beauty leaves me more undone
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace std;
-using namespace __gnu_pbds;
 #define f first
 #define s second
 #define ll long long
 #define pii pair<int, int>
 #define pll pair<long long, long long>
 #define vi vector<int>
-#define vvi vector<vector<int>>
 #define vll vector<long long>
+#define vvi vector<vector<int>>
 #define vpii vector<pair<int, int>>
 #define vpll vector<pair<long long, long long>>
 #define vvll vector<vector<long long>>
@@ -36,15 +30,13 @@ using namespace __gnu_pbds;
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
-
 #define isOn(S, j) (S & (1<<j))
 #define setBit(S, j) (S |= (1<<j))
 #define clearBit(S, j) (S &= ~(1<<j))
 #define toggleBit(S, j) (S ^= (1<<j))
 #define lowBit(S) (S & (-S))
 #define setAll(S, n) (S = (1<<n)-1)
-
-#define modulo(S, N) ((S) & (N-1))   // returns S % N, where N is a power of 2
+#define modulo(S, N) ((S) & (N-1))
 #define isPowerOfTwo(S) (!(S & (S-1)))
 #define nearestPowerOfTwo(S) (1<<lround(log2(S)))
 #define turnOffLastBit(S) ((S) & (S-1))
@@ -80,6 +72,55 @@ typedef unsigned long long int  uint64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
+
+    int t; cin >> t;
+    while(t--) {
+
+        ll n, x; cin >> n >> x;
+        if (n == 1){
+            print(x);
+            continue;
+        }
+        if (n == 2) {
+            cout << 0 << " " << x << endl;
+            continue;
+        }
+        // int cor = 0;
+
+        ll y = x;
+        int cnt = 0;
+        int bit = 0;
+        int ons = __builtin_popcount(x);
+        if (ons >= n) {
+            fnr(i, n - ons) {
+                ++cnt;
+                prints(0);
+            }
+        }
+        unordered_set<int> st;
+        while (y > 0 && cnt < n) {
+            if ( y & 1) {
+                ++cnt;
+                int z = pow(2, bit);
+                st.insert(z);
+                prints(z);
+            }
+            y >>= 1;
+            bit += 1;
+        }
+
+        int cor = x;
+
+        cf(i, 0, x) {
+            if ((cor | i) <= x && !st.count(i) && cnt < n) {
+                ++cnt;
+                prints(i);
+            }
+        }
+
+        fnr(i, n - cnt) prints(0);
+        cout << endl;
+    }
 
     return 0;
 }
