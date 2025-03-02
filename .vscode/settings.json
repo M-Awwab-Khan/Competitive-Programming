@@ -10,6 +10,9 @@
     "xutility": "cpp",
     "ios": "cpp",
     "xiosbase": "cpp",
-    "tuple": "cpp"
+    "tuple": "cpp",
+    "algorithm": "cpp",
+    "limits": "cpp",
+    "utility": "cpp"
   }
 }
