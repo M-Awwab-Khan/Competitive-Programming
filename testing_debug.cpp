@@ -2,6 +2,8 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
+#include "debugging.h"
+
 using namespace std;
 using namespace __gnu_pbds;
 
@@ -81,8 +83,16 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
 
+    map<int, vi> adj;
+
+    adj[0].pb(1);
+    adj[0].pb(2);
+    adj[0].pb(3);
+    adj[1].pb(0);
+
+    print(adj);
     return 0;
 }

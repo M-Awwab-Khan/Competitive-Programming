@@ -81,8 +81,17 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    ll n, x; cin >> n >> x;
+    vll c(n); fnr(i,n ) cin >> c[i];
+
+    sort(all(c));
+
+    ll time = 0;
+    fnr(i, n) {
+        time += c[i] * x;
+        x = max(1LL, x -1);
+    }
+    print(time);
 
     return 0;
 }

@@ -81,8 +81,32 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    int n; cin >> n;
+    vpii kits(n);
+    fnr(i, n) {
+        cin >> kits[i].ff >> kits[i].ss;
+    }
+
+    vi home(n,n-1);
+    vi away(n, n-1);
+
+    // teams with j as their home color
+    vi cnt(1e5 + 2, 0);
+
+    fnr(i, n) {
+        cnt[kits[i].ff]++;
+    }
+
+    fnr(i, n) {
+        home[i] += cnt[kits[i].ss];
+
+        away[i] -= cnt[kits[i].ss];
+    }
+
+    fnr(i, n) {
+        cout << home[i] << ' ' << away[i] << endl;
+    }
+
 
     return 0;
 }
