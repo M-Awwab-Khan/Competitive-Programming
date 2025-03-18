@@ -83,51 +83,25 @@ int main() {
 
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
-    string s; cin >> s;
-    string t; cin >> t;
-
-    unordered_set<int> ds;
-    vi differs;
-
-    fnr(i, s.size()) {
-        if (s[i] != t[i]) {
-            differs.pb(i);
-            ds.insert(i);
-        }
+    int n; cin >> n;
+    ll sum = 0;
+    vi a(n);
+    fnr(i, n) {
+        cin >> a[i];
+        sum += a[i];
     }
 
-    vc ans(s.size());
+    ll a1 = ceil((double)sum / n);
+    ll a2 = floor((double)sum / n);
 
-    if (differs.size() % 2) {
-        print("impossible");
-        return 0;
+    ll ans1 = 0;
+    ll ans2 = 0;
+
+    fnr(i, n) {
+        ans1 += pow(a[i] - a1, 2);
+        ans2 += pow(a[i] - a2, 2);
     }
-    else if (differs.size() == 0) {
-        fnr(i, s.size()) {
-            ans[i] = s[i] == '1' ? '0' : '1';
-        }
-    }
-    else {
-        fnr(i, differs.size() / 2) {
-            ans[differs[i]] = s[differs[i]];
-        }
-        cf(i, differs.size() / 2, differs.size() - 1) {
-            ans[differs[i]] = t[differs[i]];
-        }
-
-        fnr(i, ans.size()) {
-            if (!ds.count(i)) {
-                ans[i] = s[i];
-            }
-        }
-    }
-
-    fnr(i, ans.size()) {
-        cout << ans[i];
-    }
-    cout << endl;
-
-
+    print((ll)min(ans1, ans2));
 
     return 0;
 }

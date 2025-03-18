@@ -83,49 +83,38 @@ int main() {
 
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
-    string s; cin >> s;
-    string t; cin >> t;
+    int n; cin >> n;
+    vpll a(n); fnr(i, n) cin >> a[i].ff >> a[i].ss;
 
-    unordered_set<int> ds;
-    vi differs;
+    ll mnx = LLONG_MAX;
+    ll mny = LLONG_MAX;
+    ll mxx = LLONG_MIN;
+    ll mxy = LLONG_MIN;
 
-    fnr(i, s.size()) {
-        if (s[i] != t[i]) {
-            differs.pb(i);
-            ds.insert(i);
-        }
+    fnr(i, n) {
+        mnx = min(a[i].ff, mnx);
+        mxx = max(a[i].ff, mxx);
+
+        mny = min(a[i].ss, mny);
+        mxy = max(a[i].ss, mxy);
+
     }
 
-    vc ans(s.size());
+    ll w = mxx - mnx;
+    ll h = mxy - mny;
 
-    if (differs.size() % 2) {
-        print("impossible");
-        return 0;
-    }
-    else if (differs.size() == 0) {
-        fnr(i, s.size()) {
-            ans[i] = s[i] == '1' ? '0' : '1';
+    if (w == 0) {
+        print(h*h);
+    }else if(h== 0) {
+        print(w*w);
+    } else {
+        if (w != h) {
+            print((ll)max(w, h) * max(w, h));
+        }
+        else {
+            print(w * h);
         }
     }
-    else {
-        fnr(i, differs.size() / 2) {
-            ans[differs[i]] = s[differs[i]];
-        }
-        cf(i, differs.size() / 2, differs.size() - 1) {
-            ans[differs[i]] = t[differs[i]];
-        }
-
-        fnr(i, ans.size()) {
-            if (!ds.count(i)) {
-                ans[i] = s[i];
-            }
-        }
-    }
-
-    fnr(i, ans.size()) {
-        cout << ans[i];
-    }
-    cout << endl;
 
 
 

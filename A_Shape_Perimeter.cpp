@@ -23,12 +23,15 @@ using namespace __gnu_pbds;
 #define si set<int>
 #define sc set<char>
 #define mll map<long long, long long>
+#define umap unordered_map
+#define uset unordered_set
 #define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
 #define fies(i, e, s) for (long long int i = e; i > s; i--)
+#define len(s) (ll)s.size()
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
@@ -76,58 +79,43 @@ typedef long long int int64;
 typedef unsigned long long int  uint64;
 typedef __int128 lll;
 
+void solve() {
+    int n, m; cin >> n >> m;
+    vi x(n); vi y(n);
+    fnr(i, n) {
+        cin >> x[i] >> y[i];
+    }
+
+    int ans = 0;
+    int startX = x[0];
+    int startY = y[0];
+    int endX = x[0] + m;
+    int endY = y[0] + m;
+    fnr(i, n) {
+        if (i == 0) ans += 4*m;
+        else {
+            ans += 4*m;
+            int cx = startX + x[i];
+            int cy = startY + y[i];
+            int woverlp = endX - cx;
+            int hoverlp = endY - cy;
+            ans -= 2 * (woverlp + hoverlp);
+            startX = cx;
+            startY = cy;
+            endX = startX + m;
+            endY = startY + m;
+        }
+    }
+    print(ans);
+}
 
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    string s; cin >> s;
-    string t; cin >> t;
-
-    unordered_set<int> ds;
-    vi differs;
-
-    fnr(i, s.size()) {
-        if (s[i] != t[i]) {
-            differs.pb(i);
-            ds.insert(i);
-        }
-    }
-
-    vc ans(s.size());
-
-    if (differs.size() % 2) {
-        print("impossible");
-        return 0;
-    }
-    else if (differs.size() == 0) {
-        fnr(i, s.size()) {
-            ans[i] = s[i] == '1' ? '0' : '1';
-        }
-    }
-    else {
-        fnr(i, differs.size() / 2) {
-            ans[differs[i]] = s[differs[i]];
-        }
-        cf(i, differs.size() / 2, differs.size() - 1) {
-            ans[differs[i]] = t[differs[i]];
-        }
-
-        fnr(i, ans.size()) {
-            if (!ds.count(i)) {
-                ans[i] = s[i];
-            }
-        }
-    }
-
-    fnr(i, ans.size()) {
-        cout << ans[i];
-    }
-    cout << endl;
-
-
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+    int t; cin >> t; while(t--) solve();
 
     return 0;
 }

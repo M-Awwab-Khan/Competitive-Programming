@@ -8,6 +8,7 @@ using namespace __gnu_pbds;
 #define ff first
 #define ss second
 #define ll long long
+#define ld long double
 #define pii pair<int, int>
 #define pll pair<long long, long long>
 #define vi vector<int>
@@ -23,12 +24,15 @@ using namespace __gnu_pbds;
 #define si set<int>
 #define sc set<char>
 #define mll map<long long, long long>
+#define umap unordered_map
+#define uset unordered_set
 #define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
 #define fies(i, e, s) for (long long int i = e; i > s; i--)
+#define len(s) (ll)s.size()
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
@@ -76,13 +80,18 @@ typedef long long int int64;
 typedef unsigned long long int  uint64;
 typedef __int128 lll;
 
+void solve() {
+
+}
 
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+    int t; cin >> t; while(t--)
+    solve();
 
     return 0;
 }

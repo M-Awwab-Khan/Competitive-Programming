@@ -86,7 +86,7 @@ void recurse(string &s1, string &s2, int pluses, int minuses, int pos) {
         recurse(s1, s2, pluses, minuses, pos + 1);
         s2[pos] = '-';
         recurse(s1, s2, pluses, minuses, pos + 1);
-        s2[pos] = '?';  // restore for backtracking
+        s2[pos] = '?';
     } else {
         recurse(s1, s2, pluses, minuses, pos + 1);
     }

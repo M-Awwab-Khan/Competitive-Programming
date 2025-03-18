@@ -76,6 +76,15 @@ typedef long long int int64;
 typedef unsigned long long int  uint64;
 typedef __int128 lll;
 
+void solve() {
+    int x, y; cin >> x >> y;
+
+    if (x == y) no();
+    else if (y - x == 1) yes();
+    else if (y - x >= 2) no();
+    else if ((x + 1 - y) % 9 == 0) yes();
+    else no();
+}
 
 int main() {
     ios::sync_with_stdio(0);
@@ -83,51 +92,8 @@ int main() {
 
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
-    string s; cin >> s;
-    string t; cin >> t;
-
-    unordered_set<int> ds;
-    vi differs;
-
-    fnr(i, s.size()) {
-        if (s[i] != t[i]) {
-            differs.pb(i);
-            ds.insert(i);
-        }
-    }
-
-    vc ans(s.size());
-
-    if (differs.size() % 2) {
-        print("impossible");
-        return 0;
-    }
-    else if (differs.size() == 0) {
-        fnr(i, s.size()) {
-            ans[i] = s[i] == '1' ? '0' : '1';
-        }
-    }
-    else {
-        fnr(i, differs.size() / 2) {
-            ans[differs[i]] = s[differs[i]];
-        }
-        cf(i, differs.size() / 2, differs.size() - 1) {
-            ans[differs[i]] = t[differs[i]];
-        }
-
-        fnr(i, ans.size()) {
-            if (!ds.count(i)) {
-                ans[i] = s[i];
-            }
-        }
-    }
-
-    fnr(i, ans.size()) {
-        cout << ans[i];
-    }
-    cout << endl;
-
-
+    int t; cin >> t;
+    while(t--) solve();
 
     return 0;
 }

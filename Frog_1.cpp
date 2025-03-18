@@ -23,12 +23,15 @@ using namespace __gnu_pbds;
 #define si set<int>
 #define sc set<char>
 #define mll map<long long, long long>
+#define umap unordered_map
+#define uset unordered_set
 #define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
 #define fies(i, e, s) for (long long int i = e; i > s; i--)
+#define len(s) (ll)s.size()
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
@@ -81,53 +84,19 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    string s; cin >> s;
-    string t; cin >> t;
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+    int n; cin >> n;
+    vll h(n); fnr(i, n) cin >> h[i];
 
-    unordered_set<int> ds;
-    vi differs;
+    vll dp(n + 1, LLONG_MAX);
+    dp[0] = 0;
 
-    fnr(i, s.size()) {
-        if (s[i] != t[i]) {
-            differs.pb(i);
-            ds.insert(i);
-        }
+    cf(i, 1, n-1) {
+        dp[i] = min(dp[i], dp[i-1] + abs(h[i-1] - h[i]));
+        if (i - 2 >= 0) dp[i] = min(dp[i], dp[i-2] + abs(h[i-2] - h[i]));
     }
 
-    vc ans(s.size());
-
-    if (differs.size() % 2) {
-        print("impossible");
-        return 0;
-    }
-    else if (differs.size() == 0) {
-        fnr(i, s.size()) {
-            ans[i] = s[i] == '1' ? '0' : '1';
-        }
-    }
-    else {
-        fnr(i, differs.size() / 2) {
-            ans[differs[i]] = s[differs[i]];
-        }
-        cf(i, differs.size() / 2, differs.size() - 1) {
-            ans[differs[i]] = t[differs[i]];
-        }
-
-        fnr(i, ans.size()) {
-            if (!ds.count(i)) {
-                ans[i] = s[i];
-            }
-        }
-    }
-
-    fnr(i, ans.size()) {
-        cout << ans[i];
-    }
-    cout << endl;
-
-
-
+    print(dp[n-1]);
     return 0;
 }

@@ -23,12 +23,15 @@ using namespace __gnu_pbds;
 #define si set<int>
 #define sc set<char>
 #define mll map<long long, long long>
+#define umap unordered_map
+#define uset unordered_set
 #define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
 #define fies(i, e, s) for (long long int i = e; i > s; i--)
+#define len(s) (ll)s.size()
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
@@ -81,52 +84,49 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    string s; cin >> s;
-    string t; cin >> t;
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
 
-    unordered_set<int> ds;
-    vi differs;
+    // i am given n matchsticks (budget), and some digits, each digit has a cost.
+    // now i am supposed to make the largest number from those digits without exceeding the budget
 
-    fnr(i, s.size()) {
-        if (s[i] != t[i]) {
-            differs.pb(i);
-            ds.insert(i);
-        }
-    }
+    int n; cin >> n;
+    int m; cin >> m;
 
-    vc ans(s.size());
+    vi digits(m); fnr(i, m) cin >> digits[i];
+    umap<int, int> cost = {{1, 2}, {2, 5}, {3, 5}, {4, 4}, {5, 5}, {6, 6}, {7, 3}, {8, 7}, {9, 6}};
 
-    if (differs.size() % 2) {
-        print("impossible");
-        return 0;
-    }
-    else if (differs.size() == 0) {
-        fnr(i, s.size()) {
-            ans[i] = s[i] == '1' ? '0' : '1';
-        }
-    }
-    else {
-        fnr(i, differs.size() / 2) {
-            ans[differs[i]] = s[differs[i]];
-        }
-        cf(i, differs.size() / 2, differs.size() - 1) {
-            ans[differs[i]] = t[differs[i]];
-        }
+    sort(rall(digits));
+    // dp[b] is what maximum number of digits that can be formed using only b budget
+    vi dp(n + 1, -1);
+    dp[0] = 0;
 
-        fnr(i, ans.size()) {
-            if (!ds.count(i)) {
-                ans[i] = s[i];
+    cf(b, 1, n) {
+        for(auto d: digits) {
+            if (b - cost[d] >= 0 && dp[b-cost[d]] != -1) {
+                dp[b] = max(dp[b], dp[b-cost[d]] + 1);
             }
         }
     }
 
-    fnr(i, ans.size()) {
-        cout << ans[i];
-    }
-    cout << endl;
+    string res = "";
+    int budget = n;
+    int digits_to_use = dp[n];
 
+    while (digits_to_use > 0) {
+        for (auto d : digits) {
+            // If using this digit leaves enough budget to form the remaining digits
+            if (budget >= cost[d] && dp[budget - cost[d]] == digits_to_use - 1) {
+                res += to_string(d);
+                budget -= cost[d];
+                digits_to_use--;
+                break;
+            }
+        }
+    }
+
+    if (res.empty()) res = "0";
+    print(res);
 
 
     return 0;

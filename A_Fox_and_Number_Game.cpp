@@ -83,51 +83,33 @@ int main() {
 
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
-    string s; cin >> s;
-    string t; cin >> t;
+    int n; cin >> n;
+    vi a(n); fnr(i, n) cin >> a[i];
 
-    unordered_set<int> ds;
-    vi differs;
+    // AC 1
+    // sort(rall(a));
 
-    fnr(i, s.size()) {
-        if (s[i] != t[i]) {
-            differs.pb(i);
-            ds.insert(i);
-        }
+    // bool operations = true;
+    // while (operations) {
+    //     operations = false;
+    //     fnr(i, n-1) {
+    //         if (a[i] > a[i+1]) {
+    //             a[i] -= a[i+1];
+    //             operations = true;
+    //         }
+    //     }
+    //     sort(rall(a));
+    // }
+
+    // print(accumulate(all(a), 0));
+
+
+    // AC 2
+    int g = a[0];
+    fnr(i, n) {
+        g = gcd(g, a[i]);
     }
-
-    vc ans(s.size());
-
-    if (differs.size() % 2) {
-        print("impossible");
-        return 0;
-    }
-    else if (differs.size() == 0) {
-        fnr(i, s.size()) {
-            ans[i] = s[i] == '1' ? '0' : '1';
-        }
-    }
-    else {
-        fnr(i, differs.size() / 2) {
-            ans[differs[i]] = s[differs[i]];
-        }
-        cf(i, differs.size() / 2, differs.size() - 1) {
-            ans[differs[i]] = t[differs[i]];
-        }
-
-        fnr(i, ans.size()) {
-            if (!ds.count(i)) {
-                ans[i] = s[i];
-            }
-        }
-    }
-
-    fnr(i, ans.size()) {
-        cout << ans[i];
-    }
-    cout << endl;
-
-
+    print(g * n);
 
     return 0;
 }
