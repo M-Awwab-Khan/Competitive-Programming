@@ -5,7 +5,7 @@
 #include <unordered_map>
 #include <set>
 #include <unordered_set>
-
+#define debug(x) cout << #x << " = " << (x) << endl; // Debug macro to print variable name and value
 
 template <typename T1, typename T2>
 std::ostream& operator<<(std::ostream& out, const std::pair<T1, T2>& pair) {

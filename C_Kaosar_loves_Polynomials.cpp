@@ -2,12 +2,6 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
-#ifndef ONLINE_JUDGE
-#include "debugging.h"
-#else
-#define debug(x) 0
-#endif
-
 using namespace std;
 using namespace __gnu_pbds;
 
@@ -79,8 +73,6 @@ ll modexp(ll a,ll b,ll m) { ll res=1; while (b>0) { if (b&1) res=(res*a)%m; a=(a
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
 
-mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
-
 /* All Required define Pre-Processors and typedef Constants */
 typedef long int int32;
 typedef unsigned long int uint32;
@@ -89,11 +81,18 @@ typedef unsigned long long int  uint64;
 typedef __int128 lll;
 
 void solve() {
-    print("hello");
+    ll k, n; cin >> k >> n;
+    ll s = 0;
+    ll x;
+    fnr(i, n+1) {
+        cin >> x;
+        s = (s + x + MOD) % MOD;
+    }
+    print(modexp(s, k, MOD));
+
 }
 
 int main() {
-    auto st = std::chrono::high_resolution_clock::now();
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
@@ -101,8 +100,6 @@ int main() {
     //freopen("output.txt", "w", stdout);
     int t; cin >> t; while(t--)
     solve();
-
-    cerr << "Time measured: " << (ld)(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - st)).count() / 1000.0 << " seconds.\n";
 
     return 0;
 }

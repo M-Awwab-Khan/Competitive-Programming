@@ -60,7 +60,7 @@ using namespace __gnu_pbds;
 
 /* PRINTS */
 template <class T> void print_v(vector<T> &v) { cout << "{"; for (auto x : v) cout << x << ","; cout << "\b}"; }
-template <class T> void print(T str) { cout << str << '\n'; }
+template <class T> void print(T str) { cout << str << endl; }
 template <class T> void prints(T str) { cout << str << " "; }
 void printInt128(__int128 x) { if (x == 0) { cout << "0"; return; } string res = ""; while (x) { res += (char)('0' + (x % 10)); x /= 10; } reverse(res.begin(), res.end()); cout << res; }
 
@@ -79,8 +79,6 @@ ll modexp(ll a,ll b,ll m) { ll res=1; while (b>0) { if (b&1) res=(res*a)%m; a=(a
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
 
-mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
-
 /* All Required define Pre-Processors and typedef Constants */
 typedef long int int32;
 typedef unsigned long int uint32;
@@ -89,20 +87,31 @@ typedef unsigned long long int  uint64;
 typedef __int128 lll;
 
 void solve() {
-    print("hello");
+    int n; cin >> n;
+    int a[n]; fnr(i, n) cin >> a[i];
+
+    vi b;
+    b.pb(1);
+    cf(i, 1, n-1) {
+        if (a[i] != a[i-1]) b.pb(1);
+        else b.back()++;
+    }
+    debug(b);
+    int ans = -1;
+    fnr(i, len(b) -1 ) {
+        ans = max(ans, min(b[i], b[i+1]) * 2);
+    }
+    print(ans);
 }
 
 int main() {
-    auto st = std::chrono::high_resolution_clock::now();
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
-    int t; cin >> t; while(t--)
+    // int t; cin >> t; while(t--)
     solve();
-
-    cerr << "Time measured: " << (ld)(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - st)).count() / 1000.0 << " seconds.\n";
 
     return 0;
 }
