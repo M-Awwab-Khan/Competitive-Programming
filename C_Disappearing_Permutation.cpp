@@ -32,17 +32,16 @@ using namespace __gnu_pbds;
 #define mll map<long long, long long>
 #define umap unordered_map
 #define uset unordered_set
-#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
+#define ordered_set tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update>
 #define fise(i, s, e) for (long long int i = s; i < e; i++)
 #define fnr(i, n) for (long long int i = 0; i < n; i++)
 #define fora(a) for(auto u:a)
 #define cf(i, s, e) for (long long int i = s; i <= e; i++)
-#define rcf(i, e, s) for (long long int i = e; i >= s; i--)
 #define fies(i, e, s) for (long long int i = e; i > s; i--)
 #define len(s) (ll)s.size()
 #define pb push_back
 #define eb emplace_back
-#define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
+#define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed, ios::floatfield);
 
 #define isOn(S, j) (S & (1<<j))
 #define setBit(S, j) (S |= (1<<j))
@@ -68,18 +67,17 @@ void printInt128(__int128 x) { if (x == 0) { cout << "0"; return; } string res =
 /* UTILS */
 #define MOD 1000000007
 #define PI 3.1415926535897932384626433832795
-#define all(a) (a).begin(),(a).end()
-#define rall(a) (a).rbegin(),(a).rend()
+#define all(a) (a).begin(), (a).end()
+#define rall(a) (a).rbegin(), (a).rend()
 
-ll gcd(ll a,ll b) { return __gcd(a, b); }
-ll lcm(ll a,ll b) { return a/gcd(a,b)*b; }
-string to_upper(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='a' && a[i]<='z') a[i]-='a'-'A'; return a; }
-string to_lower(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a[i]<='Z') a[i]+='a'-'A'; return a; }
-bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a%i==0) return 0; return 1; }
-ll modexp(ll a,ll b,ll m) { ll res=1; while (b>0) { if (b&1) res=(res*a)%m; a=(a*a)%m; b>>=1; } return res; }
-void yes() { cout<<"YES\n"; }
-void no() { cout<<"NO\n"; }
-void Case(int &x) {cout << "Case " << x++ << ": ";}
+ll gcd(ll a, ll b) { return __gcd(a, b); }
+ll lcm(ll a, ll b) { return a / gcd(a, b) * b; }
+string to_upper(string a) { for (int i = 0; i < (int)a.size(); ++i) if (a[i] >= 'a' && a[i] <= 'z') a[i] -= 'a' - 'A'; return a; }
+string to_lower(string a) { for (int i = 0; i < (int)a.size(); ++i) if (a[i] >= 'A' && a[i] <= 'Z') a[i] += 'a' - 'A'; return a; }
+bool prime(ll a) { if (a == 1) return 0; for (int i = 2; i <= round(sqrt(a)); ++i) if (a % i == 0) return 0; return 1; }
+ll modexp(ll a, ll b, ll m) { ll res = 1; while (b > 0) { if (b & 1) res = (res * a) % m; a = (a * a) % m; b >>= 1; } return res; }
+void yes() { cout << "YES\n"; }
+void no() { cout << "NO\n"; }
 
 mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
 
@@ -90,14 +88,40 @@ typedef long long int int64;
 typedef unsigned long long int uint64;
 typedef __int128 lll;
 
-int tc = 1;
-
 void solve() {
-    // cursor here
+    int n; cin >> n;
+    vi p(n); fnr(i, n) cin >> p[i];
+    vi d(n); fnr(i, n) cin >> d[i];
+
+    mii mp;
+    fnr(i, n) {
+        mp[p[i]] = i;
+    }
+    // wrong
+    int ans = 0;
+
+    fnr(i, n) {
+        // process d[i]
+        // 7
+        // 4 3 1 2 7 5 6
+        // 1 2 3 4 5 6 7
+        int t = d[i];
+        bool f = false;
+       while (p[t-1] != t) {
+        f = true;
+            int x = p[t-1];
+           p[t - 1] = t;
+           t = x;
+           ++ans;
+       }
+       if (!f) ++ans;
+       prints(ans);
+    }
+    cout << endl;
 }
 
 int main() {
-    // auto st = std::chrono::high_resolution_clock::now();
+    //auto st = std::chrono::high_resolution_clock::now();
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
@@ -106,7 +130,7 @@ int main() {
     int t; cin >> t; while(t--)
     solve();
 
-    // cerr << "Time measured: " << (ld)(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - st)).count() / 1000.0 << " seconds.\n";
+    //cerr << "Time measured: " << (ld)(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - st)).count() / 1000.0 << " seconds.\n";
 
     return 0;
 }
