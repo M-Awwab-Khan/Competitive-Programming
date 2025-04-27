@@ -2,11 +2,11 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
-#ifndef ONLINE_JUDGE
-#include "debugging.h"
-#else
-#define debug(x) 0
-#endif
+// #ifndef ONLINE_JUDGE
+// #include "debugging.h"
+// #else
+// #define debug(x) 0
+// #endif
 
 using namespace std;
 using namespace __gnu_pbds;
@@ -60,7 +60,6 @@ using namespace __gnu_pbds;
 #define turnOnLastConsecutiveZeroes(S) ((S) | (S-1))
 
 /* PRINTS */
-template <class T> void print_v(vector<T> &v) { for (auto x : v) cout << x << " "; cout << "\n"; }
 template<char sep=' ', char end='\n', class T, class... U>
 void print( const T& first, const U&... rest)
 {
@@ -68,7 +67,7 @@ void print( const T& first, const U&... rest)
     ((std::cout << sep << rest ), ...);
     std::cout << end;
 }
-void print() {cout << '\n';}
+
 void printInt128(__int128 x) { if (x == 0) { cout << "0"; return; } string res = ""; while (x) { res += (char)('0' + (x % 10)); x /= 10; } reverse(res.begin(), res.end()); cout << res; }
 
 /* UTILS */
@@ -99,7 +98,28 @@ typedef __int128 lll;
 int tc = 1;
 
 void solve() {
+    int n;
+    cin >> n;
+    string code, guess;
+    cin >> code >> guess;
 
+    int r = 0, s = 0;
+    vi codeFreq(26, 0), guessFreq(26, 0);
+
+    fnr(i, n) {
+        if (code[i] == guess[i]) {
+            r++;
+        } else {
+            codeFreq[code[i] - 'A']++;
+            guessFreq[guess[i] - 'A']++;
+        }
+    }
+
+    fnr(i, 26) {
+        s += min(codeFreq[i], guessFreq[i]);
+    }
+
+    print(r, s);
 }
 
 int main() {
@@ -109,7 +129,7 @@ int main() {
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
-    int t; cin >> t; while(t--)
+    // int t; cin >> t; while(t--)
     solve();
 
     // cerr << "Time measured: " << (ld)(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - st)).count() / 1000.0 << " seconds.\n";

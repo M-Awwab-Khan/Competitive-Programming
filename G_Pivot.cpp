@@ -2,11 +2,11 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
-#ifndef ONLINE_JUDGE
-#include "debugging.h"
-#else
-#define debug(x) 0
-#endif
+// #ifndef ONLINE_JUDGE
+// #include "debugging.h"
+// #else
+// #define debug(x) 0
+// #endif
 
 using namespace std;
 using namespace __gnu_pbds;
@@ -99,7 +99,32 @@ typedef __int128 lll;
 int tc = 1;
 
 void solve() {
+    int n; cin >> n;
+    vi a(n); fnr(i, n) cin >> a[i];
 
+    vi largest(n), smallest(n);
+    largest[0] = a[0];
+
+    cf(i, 1, n-1) {
+        largest[i] = max(a[i], largest[i-1]);
+    }
+
+    smallest[n-1] = a[n-1];
+    rcf(i, n-2, 0) {
+        smallest[i] = min(a[i], smallest[i + 1]);
+    }
+
+    int ans = 0;
+    fnr(i, n) {
+        if (i == 0) {
+            ans += smallest[i + 1] > a[i];
+        } else if (i == n-1) {
+            ans += largest[i - 1] <= a[i];
+        } else {
+            ans += (largest[i - 1] <= a[i]) && (smallest[i + 1] > a[i]);
+        }
+    }
+    print(ans);
 }
 
 int main() {
@@ -109,7 +134,7 @@ int main() {
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
-    int t; cin >> t; while(t--)
+    // int t; cin >> t; while(t--)
     solve();
 
     // cerr << "Time measured: " << (ld)(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - st)).count() / 1000.0 << " seconds.\n";
