@@ -2,7 +2,7 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
-#include "debugging.h"
+#include "debugging.cpp"
 
 using namespace std;
 using namespace __gnu_pbds;
@@ -93,6 +93,6 @@ int main() {
     adj[0].pb(3);
     adj[1].pb(0);
 
-    print(adj);
+    debug(adj);
     return 0;
 }
