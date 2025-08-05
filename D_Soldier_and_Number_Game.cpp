@@ -67,9 +67,6 @@ void print( const T& first, const U&... rest)
 }
 void print() {cout << '\n';}
 void printInt128(__int128 x) { if (x == 0) { cout << "0"; return; } string res = ""; while (x) { res += (char)('0' + (x % 10)); x /= 10; } reverse(res.begin(), res.end()); cout << res; }
-void err(istream_iterator<string> it) {}
-template<typename T, typename... Args>
-void err(istream_iterator<string> it, T a, Args... args) {cerr << *it << " = " << a << endl; err(++it, args...);}
 
 /* UTILS */
 #define MOD 1000000007
@@ -97,7 +94,7 @@ typedef unsigned long long int uint64;
 typedef __int128 lll;
 
 int tc = 1;
-const int MAX = 5 + 1;
+const int MAX = 5e6 + 1;
 
 vi spf(MAX);
 vi pfs(MAX);
@@ -116,10 +113,8 @@ void sieve() {
 void solve() {
     ll a, b; cin >> a >> b;
     // factorize a! / b!
-    sieve();
-
+    
     print(pref[a] - pref[b]);
-    print(pref);
     
 }
 
@@ -127,9 +122,10 @@ int main() {
     // auto st = std::chrono::high_resolution_clock::now();
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-
+    
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
+    sieve();
     int t; cin >> t; while(t--)
     solve();
 
