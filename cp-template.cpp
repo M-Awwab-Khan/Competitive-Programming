@@ -33,16 +33,12 @@ using namespace __gnu_pbds;
 #define umap unordered_map
 #define uset unordered_set
 #define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
-#define fise(i, s, e) for (long long int i = s; i < e; i++)
-#define fnr(i, n) for (long long int i = 0; i < n; i++)
-#define fora(a) for(auto u:a)
-#define cf(i, s, e) for (long long int i = s; i <= e; i++)
-#define rcf(i, e, s) for (long long int i = e; i >= s; i--)
-#define fies(i, e, s) for (long long int i = e; i > s; i--)
+#define rep(i, begin, end) for (__typeof(end) i = (begin) - ((begin) > (end)); i != (end) - ((begin) > (end)); i += 1 - 2 * ((begin) > (end)))
 #define len(s) (ll)s.size()
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
+#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
 
 #define isOn(S, j) (S & (1<<j))
 #define setBit(S, j) (S |= (1<<j))
@@ -70,6 +66,9 @@ void print( const T& first, const U&... rest)
 }
 void print() {cout << '\n';}
 void printInt128(__int128 x) { if (x == 0) { cout << "0"; return; } string res = ""; while (x) { res += (char)('0' + (x % 10)); x /= 10; } reverse(res.begin(), res.end()); cout << res; }
+void err(istream_iterator<string> it) {}
+template<typename T, typename... Args>
+void err(istream_iterator<string> it, T a, Args... args) {cerr << *it << " = " << a << endl; err(++it, args...);}
 
 /* UTILS */
 #define MOD 1000000007
@@ -99,7 +98,7 @@ typedef __int128 lll;
 int tc = 1;
 
 void solve() {
-
+    
 }
 
 int main() {
