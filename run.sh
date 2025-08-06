@@ -17,8 +17,8 @@ if [ -z "$SOURCE" ]; then
     exit 1
 fi
 
-g++ -std=c++23 -O2 -Wall -Wextra -Wshadow -Wconversion \
-    -DLOCAL -o "$OUTPUT" "$SOURCE"
+g++ -std=c++23 -O2 \
+    -o "$OUTPUT" "$SOURCE"
 
 if [ $? -eq 0 ]; then
     echo -e "\n--- Running $OUTPUT ---\n"

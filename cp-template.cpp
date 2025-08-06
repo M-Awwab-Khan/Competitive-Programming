@@ -1,6 +1,4 @@
-#include <bits/stdc++.h>
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
+#include "bits/stdc++.h"
 
 #ifndef ONLINE_JUDGE
 #include "debugging.cpp"
@@ -39,7 +37,6 @@ using namespace __gnu_pbds;
 #define pb push_back
 #define eb emplace_back
 #define fraction(a) cout.unsetf(ios::floatfield); cout.precision(a); cout.setf(ios::fixed,ios::floatfield);
-#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
 
 #define isOn(S, j) (S & (1<<j))
 #define setBit(S, j) (S |= (1<<j))
@@ -96,6 +93,8 @@ typedef __int128 lll;
 int tc = 1;
 
 void solve() {
+    int x = 2;
+    debug(x);
     
 }
 
@@ -106,7 +105,7 @@ int main() {
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
-    int t; cin >> t; while(t--)
+    // int t; cin >> t; while(t--)
     solve();
 
     // cerr << "Time measured: " << (ld)(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - st)).count() / 1000.0 << " seconds.\n";
