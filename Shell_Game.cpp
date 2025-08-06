@@ -95,9 +95,17 @@ typedef __int128 lll;
 int tc = 1;
 
 void solve() {
-    int x = 2;
-    debug(x);
-    
+    vi x(3, 0);
+    int n; cin >> n;
+
+    rep(i, 0, n) {
+        int a, b, g; cin >> a >> b >> g;
+        --a; --b;--g;
+        swap(x[a], x[b]);
+        x[g]++;
+    }
+    int score = max(x[0], max(x[1], x[2]));
+    print(score);
 }
 
 int main() {

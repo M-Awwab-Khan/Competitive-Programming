@@ -58,8 +58,6 @@
 #include <numeric>
 #include <typeinfo>
 #include <utility>
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
 
 #if __cplusplus >= 201103L
 #include <array>
