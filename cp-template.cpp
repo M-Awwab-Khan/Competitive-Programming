@@ -75,8 +75,8 @@ void printInt128(__int128 x) { if (x == 0) { cout << "0"; return; } string res =
 
 ll gcd(ll a,ll b) { return __gcd(a, b); }
 ll lcm(ll a,ll b) { return a/gcd(a,b)*b; }
-string to_upper(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='a' && a[i]<='z') a[i]-='a'-'A'; return a; }
-string to_lower(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a[i]<='Z') a[i]+='a'-'A'; return a; }
+template <typename... A> constexpr auto max(const A&... a){using T=std::common_type_t<A...>;return (std::max)({T(a)...});}
+template <typename... A> constexpr auto min(const A&... a){using T=std::common_type_t<A...>;return (std::min)({T(a)...});}
 bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a%i==0) return 0; return 1; }
 ll modexp(ll a,ll b,ll m) { ll res=1; while (b>0) { if (b&1) res=(res*a)%m; a=(a*a)%m; b>>=1; } return res; }
 void yes() { cout<<"YES\n"; }
@@ -97,7 +97,18 @@ int tc = 1;
 void solve() {
     int x = 2;
     debug(x);
+
+    vi a = {1, 2, 3};
+
+    // rep(i, 0, 5) cout << i << " ";         // forward
+    // rep(i, 5, 0) cout << i << " ";         // backward
+    // rep(it, a.begin(), a.end()) cout << *it << " ";    // vector forward
+    // rep(it, begin(a), end(a)) cout << *it << " "; // vector reverse
     
+    cout << max(5, 10000000000LL, 100000000000LL) << "\n";       // 10000000000
+    cout << min(5, 10000000000LL) << "\n";       // 5
+    cout << max(1, 2LL, 3.5) << "\n";            // 3.5
+    cout << min(string("z"), string("a")) << "\n"; // a
 }
 
 int main() {
