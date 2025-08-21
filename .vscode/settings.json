@@ -13,7 +13,8 @@
     "tuple": "cpp",
     "algorithm": "cpp",
     "limits": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "random": "cpp"
   },
   "github.copilot.enable": {
     "*": false,
