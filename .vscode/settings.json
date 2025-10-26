@@ -14,13 +14,15 @@
     "algorithm": "cpp",
     "limits": "cpp",
     "utility": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "iosfwd": "cpp"
   },
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false,
+    "go": true,
     "cpp": false
   }
 }
