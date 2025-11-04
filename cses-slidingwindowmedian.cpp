@@ -55,6 +55,7 @@ typedef unsigned long long int  uint64;
 typedef tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag,
              tree_order_statistics_node_update>
     ordered_set;
+    
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);

@@ -15,7 +15,9 @@
     "limits": "cpp",
     "utility": "cpp",
     "random": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "deque": "cpp",
+    "string": "cpp"
   },
   "github.copilot.enable": {
     "*": false,

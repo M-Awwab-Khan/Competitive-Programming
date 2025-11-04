@@ -1,16 +1,11 @@
-t = 1
-
-
-def solve():
-    n = int(input())
-    lst = list(map(int, input().split()))
-
-    lst.sort()
-    for i in lst:
-        print(i, end=" ")
-
+t = int(input())
 
 while t:
-    solve()
+    n = int(input())
+    a = []
+    for _ in range(n):
+        a.append(input())
+    a.reverse()
+    print(" ".join(a))
 
     t -= 1
