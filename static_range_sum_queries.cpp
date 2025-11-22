@@ -62,6 +62,7 @@ int main() {
     fnr(i, q) {
         ll l, r;
         cin >> l >> r;
+        l -= 1;
         r -= 1;
         if (l == 0) print(prefix[r]);
         else print(prefix[r] - prefix[l-1]);
