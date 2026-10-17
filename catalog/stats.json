@@ -1,0 +1,57 @@
+{
+  "total_entries": 1033,
+  "roles": {
+    "solution": 1028,
+    "reference": 1,
+    "algorithm": 4
+  },
+  "categories": {
+    "binary-search": 73,
+    "simulation": 88,
+    "sorting-and-searching": 107,
+    "bit-manipulation": 31,
+    "math/arithmetic": 103,
+    "math/combinatorics": 16,
+    "prefix-sums": 43,
+    "arrays-and-counting": 89,
+    "constructive": 45,
+    "two-pointers-and-sliding-window": 39,
+    "strings": 70,
+    "math/number-theory": 45,
+    "greedy": 83,
+    "dynamic-programming/knapsack": 16,
+    "geometry": 32,
+    "dynamic-programming/kadane": 4,
+    "intervals": 1,
+    "brute-force-and-backtracking": 36,
+    "dynamic-programming/general": 26,
+    "data-structures/disjoint-set": 5,
+    "graphs/traversal": 13,
+    "data-structures/ordered-sets": 9,
+    "trees": 7,
+    "games": 3,
+    "graphs/spanning-trees": 1,
+    "recursion-and-divide-and-conquer": 6,
+    "data-structures/stacks-and-queues": 8,
+    "needs-review": 10,
+    "data-structures/range-queries": 3,
+    "graphs/shortest-paths": 6,
+    "dynamic-programming/bitmask": 1,
+    "ternary-search": 5,
+    "meet-in-the-middle": 1,
+    "dynamic-programming/sequences": 2,
+    "dynamic-programming/intervals": 3,
+    "graphs/topological-sort": 2,
+    "data-structures/heaps": 1
+  },
+  "classifications": {
+    "suggested": 958,
+    "reviewed": 65,
+    "needs-review": 10
+  },
+  "implementations": {
+    "not-verified": 1023,
+    "empty-or-template": 10
+  },
+  "sources_changed_since_classification": 0
+}

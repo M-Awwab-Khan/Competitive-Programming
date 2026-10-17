@@ -1,5 +1,19 @@
+# Build output and Python caches
+/build/
 *.exe
-.cph/
-# .vscode/
 *.out
 *.gch
+__pycache__/
+*.py[cod]
+
+# Local CPH records, samples, and original metadata backups
+.cph/
+/archive/cph-original/
+
+# Local scratch input/output (source files remain visible)
+/practice/*.txt
+
+# Transient local organization state
+/catalog/.organize.lock
+/catalog/.organize-journal.json
+*.organize-tmp

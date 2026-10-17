@@ -1,0 +1,31 @@
+{
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "cmath": "cpp",
+    "list": "cpp",
+    "vector": "cpp",
+    "xstring": "cpp",
+    "xtree": "cpp",
+    "xutility": "cpp",
+    "ios": "cpp",
+    "xiosbase": "cpp",
+    "tuple": "cpp",
+    "algorithm": "cpp",
+    "limits": "cpp",
+    "utility": "cpp",
+    "random": "cpp",
+    "iosfwd": "cpp",
+    "deque": "cpp",
+    "string": "cpp"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "go": true,
+    "cpp": false,
+    "python": false
+  }
+}

@@ -27,5 +27,16 @@
     "go": true,
     "cpp": false,
     "python": false
+  },
+  "search.exclude": {
+    "build/**": true,
+    "**/.cph/**": true,
+    "archive/**": true,
+    "catalog/migration.json": true
+  },
+  "files.exclude": {
+    "**/.cph": true,
+    "build": true,
+    "archive/cph-original": true
   }
 }
