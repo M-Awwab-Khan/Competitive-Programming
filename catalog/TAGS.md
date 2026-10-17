@@ -6,7 +6,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## arrays-and-counting
 
-90 files
+93 files
 
 - [A Elections (cpp)](../solutions/arrays-and-counting/A_Elections.cpp)
 - [A Free Cash (cpp)](../solutions/arrays-and-counting/A_Free_Cash.cpp)
@@ -14,6 +14,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [A Hello Recursion (cpp)](../solutions/arrays-and-counting/A_Hello_Recursion.cpp)
 - [A Milya and Two Arrays (cpp)](../solutions/arrays-and-counting/A_Milya_and_Two_Arrays.cpp)
 - [A Nutrients (cpp)](../solutions/arrays-and-counting/A_Nutrients.cpp)
+- [A OR what (cpp)](../solutions/arrays-and-counting/A_OR_what.cpp)
 - [A Penchick and Modern Monument (cpp)](../solutions/arrays-and-counting/A_Penchick_and_Modern_Monument.cpp)
 - [A Sakurako s Exam (cpp)](../solutions/arrays-and-counting/A_Sakurako_s_Exam.cpp)
 - [A Shooshuns and Sequence (cpp)](../solutions/arrays-and-counting/A_Shooshuns_and_Sequence.cpp)
@@ -59,9 +60,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [cta (cpp)](../solutions/arrays-and-counting/cta.cpp)
 - [D - Mix Plate (cpp)](../solutions/arrays-and-counting/D_Mix_Plate.cpp)
 - [D - Repetitions (python)](../solutions/arrays-and-counting/D_Repetitions.py)
+- [D Daydream (cpp)](../solutions/arrays-and-counting/D_Daydream.cpp)
 - [distinct colors (python)](../solutions/arrays-and-counting/distinct-colors.py)
 - [E - Sum of Subarrays (cpp)](../solutions/arrays-and-counting/E_Sum_of_Subarrays.cpp)
 - [E Man of the Match (cpp)](../solutions/arrays-and-counting/E_Man_of_the_Match.cpp)
+- [E Snowfake (cpp)](../solutions/geometry/E_Snowfake.cpp)
 - [emoogle balance (cpp)](../solutions/arrays-and-counting/emoogle_balance.cpp)
 - [eww (python)](../solutions/arrays-and-counting/eww.py)
 - [G Stamina (cpp)](../solutions/arrays-and-counting/G_Stamina.cpp)
@@ -101,7 +104,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## binary-search
 
-96 files
+102 files
 
 - [1 (python)](../solutions/binary-search/1.py)
 - [A Drink Accordingly (cpp)](../solutions/binary-search/A_Drink_Accordingly.cpp)
@@ -111,6 +114,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [B - Maximum Median (cpp)](../solutions/binary-search/B_Maximum_Median.cpp)
 - [B Burning Midnight Oil (cpp)](../solutions/binary-search/B_Burning_Midnight_Oil.cpp)
 - [B Chat Online (cpp)](../solutions/binary-search/B_Chat_Online.cpp)
+- [B Cubes Sum (cpp)](../solutions/math/arithmetic/B_Cubes_Sum.cpp)
+- [B Cubes Sum (python)](../solutions/math/arithmetic/B_Cubes_Sum.py)
 - [B George and Round (cpp)](../solutions/binary-search/B_George_and_Round.cpp)
 - [B. Bessie And Rounding (cpp)](../solutions/binary-search/B_Bessie_And_Rounding.cpp)
 - [B. Fear of the Dark (cpp)](../solutions/geometry/B_Fear_of_the_Dark.cpp)
@@ -154,6 +159,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [E - Laser Takahashi (cpp)](../solutions/binary-search/E_Laser_Takahashi.cpp)
 - [E - Laser Takahashi (python)](../solutions/binary-search/E_Laser_Takahashi.py)
 - [E - Robin Hood in Town (cpp)](../solutions/binary-search/E_Robin_Hood_in_Town.cpp)
+- [E Feed the Beast (cpp)](../solutions/binary-search/E_Feed_the_Beast.cpp)
 - [E. Baby Baraa playing with LEGO (cpp)](../solutions/binary-search/E_Baby_Baraa_playing_with_LEGO.cpp)
 - [E. Building an Aquarium (cpp)](../solutions/binary-search/E_Building_an_Aquarium.cpp)
 - [E. Cardboard for Pictures (cpp)](../solutions/binary-search/E_Cardboard_for_Pictures.cpp)
@@ -163,6 +169,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [E. Scuza (cpp)](../solutions/binary-search/E_Scuza.cpp)
 - [Eko (cpp)](../solutions/binary-search/Eko.cpp)
 - [F - Brightness Begins (cpp)](../solutions/binary-search/F_Brightness_Begins.cpp)
+- [F Divisors Count (cpp)](../solutions/math/number-theory/F_Divisors_Count.cpp)
+- [F Frosted Highway Hard (cpp)](../solutions/math/number-theory/F_Frosted_Highway_Hard.cpp)
 - [F. Ant colony (cpp)](../solutions/data-structures/range-queries/F_Ant_colony.cpp)
 - [F. Yet Another Problem About Pairs Satisfying an Inequality (cpp)](../solutions/binary-search/F_Yet_Another_Problem_About_Pairs_Satisfying_an_Inequality.cpp)
 - [F1. Guess the K-th Zero (Easy version) (cpp)](../solutions/binary-search/F_1_Guess_the_K_th_Zero_Easy_version.cpp)
@@ -171,6 +179,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [G - Queries about less or equal elements (cpp)](../solutions/binary-search/G_Queries_about_less_or_equal_elements.cpp)
 - [G - Souvenirs (cpp)](../solutions/binary-search/G_Souvenirs.cpp)
 - [G Cryptogram (cpp)](../solutions/strings/G_Cryptogram.cpp)
+- [G The Veneto Relay (cpp)](../solutions/binary-search/G_The_Veneto_Relay.cpp)
 - [H - Maximum Subsequence (cpp)](../solutions/strings/H_Maximum_Subsequence.cpp)
 - [H - Number of Pairs (cpp)](../solutions/binary-search/H_Number_of_Pairs.cpp)
 - [H Leftover Recipes (cpp)](../solutions/binary-search/H_Leftover_Recipes.cpp)
@@ -202,9 +211,10 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## bit-manipulation
 
-53 files
+58 files
 
 - [A - Flipping bits (cpp)](../solutions/bit-manipulation/A_Flipping_bits.cpp)
+- [A And Zero (cpp)](../solutions/bit-manipulation/A_And_Zero.cpp)
 - [A Not Greater (cpp)](../solutions/bit-manipulation/A_Not_Greater.cpp)
 - [A Sereja and Dima (cpp)](../solutions/greedy/A_Sereja_and_Dima.cpp)
 - [A. Bits (cpp)](../solutions/bit-manipulation/A_Bits.cpp)
@@ -217,6 +227,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B - B (cpp)](../solutions/brute-force-and-backtracking/B_B.cpp)
 - [B - Check bit (cpp)](../solutions/bit-manipulation/B_Check_bit.cpp)
 - [B Fedor and New Game (cpp)](../solutions/bit-manipulation/B_Fedor_and_New_Game.cpp)
+- [B XOR Array (cpp)](../solutions/bit-manipulation/B_XOR_Array.cpp)
 - [B XOR Sequences (cpp)](../solutions/bit-manipulation/B_XOR_Sequences.cpp)
 - [B. AND Sorting (cpp)](../solutions/bit-manipulation/B_AND_Sorting.cpp)
 - [B. Make Almost Equal With Mod (cpp)](../solutions/bit-manipulation/B_Make_Almost_Equal_With_Mod.cpp)
@@ -226,8 +237,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [C - Bipartize (cpp)](../solutions/brute-force-and-backtracking/C_Bipartize.cpp)
 - [C - Maximizing XOR (cpp)](../solutions/bit-manipulation/C_Maximizing_XOR.cpp)
 - [C Creating Keys for StORages Has Become My Main Skill (cpp)](../solutions/constructive/C_Creating_Keys_for_StORages_Has_Become_My_Main_Skill.cpp)
+- [C Olympic Haircut (cpp)](../solutions/brute-force-and-backtracking/C_Olympic_Haircut.cpp)
 - [C XOR and Triangle (cpp)](../solutions/bit-manipulation/C_XOR_and_Triangle.cpp)
+- [C Yet another XOR problem (cpp)](../solutions/prefix-sums/C_Yet_another_XOR_problem.cpp)
 - [C. Game with Multiset (cpp)](../solutions/bit-manipulation/C_Game_with_Multiset.cpp)
+- [D All AND (cpp)](../solutions/bit-manipulation/D_All_AND.cpp)
 - [D Product Subsequences (cpp)](../solutions/strings/D_Product_Subsequences.cpp)
 - [D. Three Logos (cpp)](../solutions/brute-force-and-backtracking/D_Three_Logos.cpp)
 - [D. Xenia and Bit Operations (cpp)](../solutions/data-structures/range-queries/D_Xenia_and_Bit_Operations.cpp)
@@ -260,7 +274,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## brute-force-and-backtracking
 
-40 files
+42 files
 
 - [A IQ Test (cpp)](../solutions/brute-force-and-backtracking/A_IQ_Test.cpp)
 - [apple division (cpp)](../solutions/brute-force-and-backtracking/apple_division.cpp)
@@ -270,6 +284,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B Economy Game (cpp)](../solutions/brute-force-and-backtracking/B_Economy_Game.cpp)
 - [B Pleasant Pairs (cpp)](../solutions/brute-force-and-backtracking/B_Pleasant_Pairs.cpp)
 - [B Shower Line (cpp)](../solutions/brute-force-and-backtracking/B_Shower_Line.cpp)
+- [B Ski Buddy (cpp)](../solutions/brute-force-and-backtracking/B_Ski_Buddy.cpp)
 - [B Strictly Superior (cpp)](../solutions/brute-force-and-backtracking/B_Strictly_Superior.cpp)
 - [B Strictly Superior (python)](../solutions/brute-force-and-backtracking/B_Strictly_Superior.py)
 - [B. Fibonaccharsis (cpp)](../solutions/brute-force-and-backtracking/B_Fibonaccharsis.cpp)
@@ -277,6 +292,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. New Year's Number (cpp)](../solutions/brute-force-and-backtracking/B_New_Year_s_Number.cpp)
 - [C - Bipartize (cpp)](../solutions/brute-force-and-backtracking/C_Bipartize.cpp)
 - [C - Mixtures (cpp)](../solutions/brute-force-and-backtracking/C_Mixtures.cpp)
+- [C Olympic Haircut (cpp)](../solutions/brute-force-and-backtracking/C_Olympic_Haircut.cpp)
 - [C. Sum of Cubes (cpp)](../solutions/brute-force-and-backtracking/C_Sum_of_Cubes.cpp)
 - [creating strings (cpp)](../solutions/brute-force-and-backtracking/creating-strings.cpp)
 - [D 753 (cpp)](../solutions/needs-review/D_753.cpp)
@@ -305,7 +321,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## constructive
 
-47 files
+48 files
 
 - [A Array Divisibility (cpp)](../solutions/constructive/A_Array_Divisibility.cpp)
 - [A Boys and Girls (cpp)](../solutions/constructive/A_Boys_and_Girls.cpp)
@@ -326,6 +342,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B OR in Matrix (cpp)](../solutions/constructive/B_OR_in_Matrix.cpp)
 - [B Sasha and the Drawing (cpp)](../solutions/constructive/B_Sasha_and_the_Drawing.cpp)
 - [B Unnatural Conditions (cpp)](../solutions/constructive/B_Unnatural_Conditions.cpp)
+- [B Weird Function (cpp)](../solutions/constructive/B_Weird_Function.cpp)
 - [B. Sequence Game (cpp)](../solutions/constructive/B_Sequence_Game.cpp)
 - [B. Vera And LCS (python)](../solutions/constructive/B_Vera_And_LCS.py)
 - [C 1 Skibidus and Fanum Tax easy version (cpp)](../solutions/constructive/C_1_Skibidus_and_Fanum_Tax_easy_version.cpp)
@@ -357,7 +374,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/disjoint-set
 
-6 files
+7 files
 
 - [A. Knight Tournament (cpp)](../solutions/data-structures/disjoint-set/A_Knight_Tournament.cpp)
 - [B DZY Loves Chemistry (cpp)](../solutions/data-structures/disjoint-set/B_DZY_Loves_Chemistry.cpp)
@@ -365,6 +382,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [D Districts Connection (cpp)](../solutions/data-structures/disjoint-set/D_Districts_Connection.cpp)
 - [D. Roads not only in Berland (cpp)](../solutions/data-structures/disjoint-set/D_Roads_not_only_in_Berland.cpp)
 - [E Join States (cpp)](../solutions/data-structures/disjoint-set/E_Join_States.cpp)
+- [G The Veneto Relay (cpp)](../solutions/binary-search/G_The_Veneto_Relay.cpp)
 
 ## data-structures/heaps
 
@@ -407,11 +425,12 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/stacks-and-queues
 
-15 files
+16 files
 
 - [B Two Brackets (cpp)](../solutions/data-structures/stacks-and-queues/B_Two_Brackets.cpp)
 - [cses nearestsmallervalues (cpp)](../solutions/data-structures/stacks-and-queues/cses-nearestsmallervalues.cpp)
 - [D - Deque-STL (cpp)](../solutions/data-structures/stacks-and-queues/D_Deque_STL.cpp)
+- [D String Game (cpp)](../solutions/data-structures/stacks-and-queues/D_String_Game.cpp)
 - [D. Good Sets (cpp)](../solutions/two-pointers-and-sliding-window/D_Good_Sets.cpp)
 - [graph subchain (python)](../solutions/graphs/traversal/graph-subchain.py)
 - [K. Wahban and brackets (cpp)](../solutions/data-structures/stacks-and-queues/K_Wahban_and_brackets.cpp)
@@ -433,7 +452,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## dynamic-programming/general
 
-54 files
+56 files
 
 - [A Cut Ribbon (cpp)](../solutions/dynamic-programming/knapsack/A_Cut_Ribbon.cpp)
 - [A Subset sum dp (cpp)](../solutions/dynamic-programming/knapsack/A_Subset_sum_dp.cpp)
@@ -466,6 +485,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [cses removingdigits (cpp)](../solutions/dynamic-programming/general/cses-removingdigits.cpp)
 - [E - Crested Ibis vs Monster (cpp)](../solutions/dynamic-programming/knapsack/E_Crested_Ibis_vs_Monster.cpp)
 - [E - Frog 1 (cpp)](../solutions/dynamic-programming/general/E_Frog_1.cpp)
+- [E Minimum Score (cpp)](../solutions/dynamic-programming/general/E_Minimum_Score.cpp)
+- [E Screenmaxxing (cpp)](../solutions/trees/E_Screenmaxxing.cpp)
 - [E. Tribonacci numbers (cpp)](../solutions/dynamic-programming/general/E_Tribonacci_numbers.cpp)
 - [Frog 1 (cpp)](../solutions/dynamic-programming/general/Frog_1.cpp)
 - [Frog 2 (cpp)](../solutions/dynamic-programming/general/Frog_2.cpp)
@@ -501,17 +522,18 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## dynamic-programming/kadane
 
-5 files
+6 files
 
 - [A Flipping Game (cpp)](../solutions/dynamic-programming/kadane/A_Flipping_Game.cpp)
 - [B. Chaiwalay (cpp)](../solutions/dynamic-programming/kadane/B_Chaiwalay.cpp)
 - [B. Just Eat It! (cpp)](../solutions/dynamic-programming/kadane/B_Just_Eat_It.cpp)
 - [C Yarik and Array (cpp)](../solutions/dynamic-programming/kadane/C_Yarik_and_Array.cpp)
 - [cses maximumsubarraysum (cpp)](../solutions/arrays-and-counting/cses-maximumsubarraysum.cpp)
+- [E Max Subarray Sum (cpp)](../solutions/dynamic-programming/kadane/E_Max_Subarray_Sum.cpp)
 
 ## dynamic-programming/knapsack
 
-16 files
+17 files
 
 - [A Cut Ribbon (cpp)](../solutions/dynamic-programming/knapsack/A_Cut_Ribbon.cpp)
 - [A Subset sum dp (cpp)](../solutions/dynamic-programming/knapsack/A_Subset_sum_dp.cpp)
@@ -522,6 +544,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cses minimizingcoins (cpp)](../solutions/dynamic-programming/knapsack/cses-minimizingcoins.cpp)
 - [cses moneysums (cpp)](../solutions/dynamic-programming/knapsack/cses-moneysums.cpp)
 - [cses twosets (cpp)](../solutions/dynamic-programming/knapsack/cses-twosets.cpp)
+- [D Clock Strikes Twelve (cpp)](../solutions/dynamic-programming/knapsack/D_Clock_Strikes_Twelve.cpp)
 - [E - Crested Ibis vs Monster (cpp)](../solutions/dynamic-programming/knapsack/E_Crested_Ibis_vs_Monster.cpp)
 - [fours and fives (cpp)](../solutions/dynamic-programming/knapsack/fours-and-fives.cpp)
 - [G Match Matching (cpp)](../solutions/dynamic-programming/knapsack/G_Match_Matching.cpp)
@@ -532,28 +555,31 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## dynamic-programming/sequences
 
-4 files
+5 files
 
 - [B. Vera And LCS (python)](../solutions/constructive/B_Vera_And_LCS.py)
 - [cses lis (cpp)](../solutions/dynamic-programming/sequences/cses-lis.cpp)
 - [E - Increasing Subsequence (cpp)](../solutions/strings/E_Increasing_Subsequence.cpp)
+- [E Traffic Light (cpp)](../solutions/dynamic-programming/sequences/E_Traffic_Light.cpp)
 - [LCS (cpp)](../solutions/dynamic-programming/sequences/LCS.cpp)
 
 ## games
 
-3 files
+4 files
 
 - [B Little Girl and Game (cpp)](../solutions/games/B_Little_Girl_and_Game.cpp)
 - [B Simple Game (cpp)](../solutions/games/B_Simple_Game.cpp)
+- [D String Game (cpp)](../solutions/data-structures/stacks-and-queues/D_String_Game.cpp)
 - [gameOfDivision (python)](../solutions/games/gameOfDivision.py)
 
 ## geometry
 
-35 files
+37 files
 
 - [A - Isosceles (cpp)](../solutions/geometry/A_Isosceles.cpp)
 - [A - Point Location Test (cpp)](../solutions/geometry/A_Point_Location_Test.cpp)
 - [A Draw a Square (cpp)](../solutions/geometry/A_Draw_a_Square.cpp)
+- [A Opening Ceremony (cpp)](../solutions/geometry/A_Opening_Ceremony.cpp)
 - [A. Maximum Distance (cpp)](../solutions/geometry/A_Maximum_Distance.cpp)
 - [B - Line Segment Intersection (cpp)](../solutions/geometry/B_Line_Segment_Intersection.cpp)
 - [B Amr and Pins (cpp)](../solutions/geometry/B_Amr_and_Pins.cpp)
@@ -575,6 +601,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [E - Integer Moves (python)](../solutions/geometry/E_Integer_Moves.py)
 - [E - Integer Moves (cpp)](../solutions/needs-review/E_Integer_Moves.cpp)
 - [E Orthogonality (cpp)](../solutions/geometry/E_Orthogonality.cpp)
+- [E Snowfake (cpp)](../solutions/geometry/E_Snowfake.cpp)
 - [hackerrank lowest triangle (cpp)](../solutions/geometry/hackerrank-lowest-triangle.cpp)
 - [J - Counting Rectangles (cpp)](../solutions/arrays-and-counting/J_Counting_Rectangles.cpp)
 - [Load Balancing (cpp)](../solutions/geometry/Load_Balancing.cpp)
@@ -641,11 +668,12 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## greedy
 
-85 files
+86 files
 
 - [A Business trip (cpp)](../solutions/greedy/A_Business_trip.cpp)
 - [A Chewbaсca and Number (cpp)](../solutions/greedy/A_Chewba%D1%81ca_and_Number.cpp)
 - [A Cinema Line (cpp)](../solutions/greedy/A_Cinema_Line.cpp)
+- [A Cups of Cocoa (cpp)](../solutions/greedy/A_Cups_of_Cocoa.cpp)
 - [A Dragons (python)](../solutions/greedy/A_Dragons.py)
 - [A Guest From the Past (cpp)](../solutions/greedy/A_Guest_From_the_Past.cpp)
 - [A insert digit (cpp)](../solutions/greedy/A_insert_digit.cpp)
@@ -737,7 +765,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/arithmetic
 
-106 files
+112 files
 
 - [A - Between a and b ... (cpp)](../solutions/math/arithmetic/A_Between_a_and_b.cpp)
 - [A - Keep the Apples (cpp)](../solutions/math/arithmetic/A_Keep_the_Apples.cpp)
@@ -749,9 +777,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [A Distanced Coloring (cpp)](../solutions/math/arithmetic/A_Distanced_Coloring.cpp)
 - [A Divisibility Problem (cpp)](../solutions/math/arithmetic/A_Divisibility_Problem.cpp)
 - [A Domino (cpp)](../solutions/math/arithmetic/A_Domino.cpp)
+- [A Einstein s Calculator (python)](../solutions/math/arithmetic/A_Einstein_s_Calculator.py)
 - [A Even Odds (cpp)](../solutions/math/arithmetic/A_Even_Odds.cpp)
 - [A Final Verdict (cpp)](../solutions/math/arithmetic/A_Final_Verdict.cpp)
 - [A MEX Table (cpp)](../solutions/math/arithmetic/A_MEX_Table.cpp)
+- [A Race (cpp)](../solutions/math/arithmetic/A_Race.cpp)
 - [A Shape Perimeter (cpp)](../solutions/math/arithmetic/A_Shape_Perimeter.cpp)
 - [A Shohag Loves Mod (cpp)](../solutions/math/arithmetic/A_Shohag_Loves_Mod.cpp)
 - [A Soldier and Bananas (cpp)](../solutions/math/arithmetic/A_Soldier_and_Bananas.cpp)
@@ -774,11 +804,15 @@ A source may appear under several tags. Its primary category determines its fold
 - [automatic answer (cpp)](../solutions/math/arithmetic/automatic_answer.cpp)
 - [B - Sum of Digits Sequence (cpp)](../solutions/math/arithmetic/B_Sum_of_Digits_Sequence.cpp)
 - [B Core Programmer 39 s Job (cpp)](../solutions/math/arithmetic/B_Core_Programmer_39_s_Job.cpp)
+- [B Cubes Sum (cpp)](../solutions/math/arithmetic/B_Cubes_Sum.cpp)
+- [B Cubes Sum (python)](../solutions/math/arithmetic/B_Cubes_Sum.py)
 - [B Divergent Series (cpp)](../solutions/math/arithmetic/B_Divergent_Series.cpp)
 - [B Drinks (cpp)](../solutions/math/arithmetic/B_Drinks.cpp)
 - [B Increase and Decrease (cpp)](../solutions/math/arithmetic/B_Increase_and_Decrease.cpp)
 - [B Laura and Operations (cpp)](../solutions/math/arithmetic/B_Laura_and_Operations.cpp)
 - [B Subtractonacci (cpp)](../solutions/math/arithmetic/B_Subtractonacci.cpp)
+- [B Supply Chain (cpp)](../solutions/math/arithmetic/B_Supply_Chain.cpp)
+- [B Tab Closing (cpp)](../solutions/math/arithmetic/B_Tab_Closing.cpp)
 - [B. Lasers (cpp)](../solutions/math/arithmetic/B_Lasers.cpp)
 - [B. Paint a Strip (cpp)](../solutions/math/arithmetic/B_Paint_a_Strip.cpp)
 - [back to school (cpp)](../solutions/math/arithmetic/back_to_school.cpp)
@@ -848,7 +882,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/combinatorics
 
-20 files
+21 files
 
 - [AA - Satyam and Counting (cpp)](../solutions/math/combinatorics/AA_Satyam_and_Counting.cpp)
 - [AE - AND Sequences (cpp)](../solutions/math/combinatorics/AE_AND_Sequences.cpp)
@@ -864,6 +898,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf B Jzzhu and Sequences (cpp)](../solutions/math/combinatorics/cf-B_Jzzhu_and_Sequences.cpp)
 - [cses twosets (cpp)](../solutions/dynamic-programming/knapsack/cses-twosets.cpp)
 - [D Product Subsequences (cpp)](../solutions/strings/D_Product_Subsequences.cpp)
+- [D Revenge of the C K or e ys (cpp)](../solutions/math/combinatorics/D_Revenge_of_the_C_K_or_e_ys.cpp)
 - [G. Permutation Rank (cpp)](../solutions/constructive/G_Permutation_Rank.cpp)
 - [H - ABCD quadruplets (cpp)](../solutions/needs-review/H_ABCD_quadruplets.cpp)
 - [R - AND 0, Sum Big (python)](../solutions/math/combinatorics/R_AND_0_Sum_Big.py)
@@ -873,7 +908,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/number-theory
 
-55 files
+62 files
 
 - [A Cifera (cpp)](../solutions/math/number-theory/A_Cifera.cpp)
 - [A Fox and Number Game (cpp)](../solutions/math/number-theory/A_Fox_and_Number_Game.cpp)
@@ -895,8 +930,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Multiply by 2, divide by 6 (cpp)](../solutions/math/number-theory/B_Multiply_by_2_divide_by_6.cpp)
 - [bit strings (cpp)](../solutions/strings/bit_strings.cpp)
 - [C Earning on Bets (cpp)](../solutions/math/number-theory/C_Earning_on_Bets.cpp)
+- [C Equality (cpp)](../solutions/math/number-theory/C_Equality.cpp)
+- [C Frosted Highway (cpp)](../solutions/prefix-sums/C_Frosted_Highway.cpp)
 - [C How Many Strings (cpp)](../solutions/math/combinatorics/C_How_Many_Strings.cpp)
 - [C Kaosar loves Polynomials (cpp)](../solutions/simulation/C_Kaosar_loves_Polynomials.cpp)
+- [C Rare Function (cpp)](../solutions/math/number-theory/C_Rare_Function.cpp)
 - [C. Another GCD (cpp)](../solutions/math/number-theory/C_Another_GCD.cpp)
 - [C. Common Divisors (cpp)](../solutions/math/number-theory/C_Common_Divisors.cpp)
 - [cf ehabandgcd (cpp)](../solutions/math/number-theory/cf-ehabandgcd.cpp)
@@ -912,11 +950,15 @@ A source may appear under several tags. Its primary category determines its fold
 - [D Dima and Lisa (cpp)](../solutions/math/number-theory/D_Dima_and_Lisa.cpp)
 - [D Divide And Equalize (cpp)](../solutions/math/number-theory/D_Divide_And_Equalize.cpp)
 - [D Divisble Pairs (cpp)](../solutions/math/number-theory/D_Divisble_Pairs.cpp)
+- [D Revenge of the C K or e ys (cpp)](../solutions/math/combinatorics/D_Revenge_of_the_C_K_or_e_ys.cpp)
 - [D Taxes (cpp)](../solutions/math/number-theory/D_Taxes.cpp)
 - [D. A Linear Problem (cpp)](../solutions/geometry/D_A_Linear_Problem.cpp)
 - [D. Plus Minus Permutation (cpp)](../solutions/constructive/D_Plus_Minus_Permutation.cpp)
 - [D. Soldier and Number Game (cpp)](../solutions/math/number-theory/D_Soldier_and_Number_Game.cpp)
 - [E FizzBuzz Sum Hard (cpp)](../solutions/simulation/E_FizzBuzz_Sum_Hard.cpp)
+- [E Minimum Score (cpp)](../solutions/dynamic-programming/general/E_Minimum_Score.cpp)
+- [F Divisors Count (cpp)](../solutions/math/number-theory/F_Divisors_Count.cpp)
+- [F Frosted Highway Hard (cpp)](../solutions/math/number-theory/F_Frosted_Highway_Hard.cpp)
 - [F. Ant colony (cpp)](../solutions/data-structures/range-queries/F_Ant_colony.cpp)
 - [G Difference Operations (cpp)](../solutions/math/number-theory/G_Difference_Operations.cpp)
 - [GCD on Blackboard (cpp)](../solutions/math/number-theory/GCD_on_Blackboard.cpp)
@@ -939,7 +981,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## prefix-sums
 
-59 files
+63 files
 
 - [A Appleman and Toastman (cpp)](../solutions/prefix-sums/A_Appleman_and_Toastman.cpp)
 - [A Dividing Candies (cpp)](../solutions/prefix-sums/A_Dividing_Candies.cpp)
@@ -956,6 +998,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Two Squares (cpp)](../solutions/prefix-sums/B_Two_Squares.cpp)
 - [breed counting (cpp)](../solutions/prefix-sums/breed_counting.cpp)
 - [C - Odd Queries (cpp)](../solutions/prefix-sums/C_Odd_Queries.cpp)
+- [C Frosted Highway (cpp)](../solutions/prefix-sums/C_Frosted_Highway.cpp)
+- [C Yet another XOR problem (cpp)](../solutions/prefix-sums/C_Yet_another_XOR_problem.cpp)
 - [C. Another GCD (cpp)](../solutions/math/number-theory/C_Another_GCD.cpp)
 - [C. Jury Marks (cpp)](../solutions/prefix-sums/C_Jury_Marks.cpp)
 - [C. Prefix Min and Suffix Max (cpp)](../solutions/prefix-sums/C_Prefix_Min_and_Suffix_Max.cpp)
@@ -964,11 +1008,13 @@ A source may appear under several tags. Its primary category determines its fold
 - [counting haybales (python)](../solutions/prefix-sums/counting-haybales.py)
 - [cses forestqueries (cpp)](../solutions/prefix-sums/cses-forestqueries.cpp)
 - [D - Swap and Range Sum (cpp)](../solutions/prefix-sums/D_Swap_and_Range_Sum.cpp)
+- [D Snowball (cpp)](../solutions/prefix-sums/D_Snowball.cpp)
 - [D Sum Neq (cpp)](../solutions/prefix-sums/D_Sum_Neq.cpp)
 - [D. Find the Different Ones! (cpp)](../solutions/prefix-sums/D_Find_the_Different_Ones.cpp)
 - [D. Soldier and Number Game (cpp)](../solutions/math/number-theory/D_Soldier_and_Number_Game.cpp)
 - [D1. Remove the Substring (easy version) (cpp)](../solutions/strings/D_1_Remove_the_Substring_easy_version.cpp)
 - [E. Scuza (cpp)](../solutions/binary-search/E_Scuza.cpp)
+- [F Divisors Count (cpp)](../solutions/math/number-theory/F_Divisors_Count.cpp)
 - [F. Money Trees (cpp)](../solutions/two-pointers-and-sliding-window/F_Money_Trees.cpp)
 - [G - DMOPC '14 Contest 2 P4 - Deforestation (cpp)](../solutions/prefix-sums/G_DMOPC_14_Contest_2_P_4_Deforestation.cpp)
 - [G Pivot (cpp)](../solutions/prefix-sums/G_Pivot.cpp)
@@ -1014,7 +1060,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## simulation
 
-91 files
+92 files
 
 - [10978 - Let's Play Magic! (python)](../solutions/simulation/10978_Let_s_Play_Magic.py)
 - [A - Gift Exchange (cpp)](../solutions/simulation/A_Gift_Exchange.cpp)
@@ -1029,6 +1075,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B Chris and Magic Square (cpp)](../solutions/simulation/B_Chris_and_Magic_Square.cpp)
 - [B Robot Program (cpp)](../solutions/simulation/B_Robot_Program.cpp)
 - [B Sail (cpp)](../solutions/greedy/B_Sail.cpp)
+- [B Ski Buddy (cpp)](../solutions/brute-force-and-backtracking/B_Ski_Buddy.cpp)
 - [B Vasya and Wrestling (cpp)](../solutions/simulation/B_Vasya_and_Wrestling.cpp)
 - [beautiful matrix (python)](../solutions/simulation/beautiful_matrix.py)
 - [Bridge Renovation (cpp)](../solutions/simulation/Bridge_Renovation.cpp)
@@ -1110,7 +1157,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-193 files
+197 files
 
 - [1 (python)](../solutions/binary-search/1.py)
 - [11222 Only I did it (python)](../solutions/sorting-and-searching/11222_Only_I_did_it.py)
@@ -1119,6 +1166,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [A Appleman and Toastman (cpp)](../solutions/prefix-sums/A_Appleman_and_Toastman.cpp)
 - [A Business trip (cpp)](../solutions/greedy/A_Business_trip.cpp)
 - [A Cards with Numbers (cpp)](../solutions/sorting-and-searching/A_Cards_with_Numbers.cpp)
+- [A Cups of Cocoa (cpp)](../solutions/greedy/A_Cups_of_Cocoa.cpp)
 - [A Dragons (python)](../solutions/greedy/A_Dragons.py)
 - [A Drink Accordingly (cpp)](../solutions/binary-search/A_Drink_Accordingly.cpp)
 - [A Mex (cpp)](../solutions/sorting-and-searching/A_Mex.cpp)
@@ -1171,6 +1219,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [building reconstruction (cpp)](../solutions/ternary-search/building_reconstruction.cpp)
 - [C - AtCoder Riko (cpp)](../solutions/sorting-and-searching/C_AtCoder_Riko.cpp)
 - [C 2 Skibidus and Fanum Tax hard version (cpp)](../solutions/binary-search/C_2_Skibidus_and_Fanum_Tax_hard_version.cpp)
+- [C Ancient History Easy (cpp)](../solutions/two-pointers-and-sliding-window/C_Ancient_History_Easy.cpp)
 - [C Building Permutation (cpp)](../solutions/constructive/C_Building_Permutation.cpp)
 - [C Differential Sorting (cpp)](../solutions/constructive/C_Differential_Sorting.cpp)
 - [C Dolce Vita (cpp)](../solutions/sorting-and-searching/C_Dolce_Vita.cpp)
@@ -1216,9 +1265,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [cses sumofthreevalues (cpp)](../solutions/sorting-and-searching/cses-sumofthreevalues.cpp)
 - [cses tasksanddeadline (cpp)](../solutions/greedy/cses-tasksanddeadline.cpp)
 - [D Counting Points (cpp)](../solutions/binary-search/D_Counting_Points.cpp)
+- [D Daydream (cpp)](../solutions/arrays-and-counting/D_Daydream.cpp)
 - [D Districts Connection (cpp)](../solutions/data-structures/disjoint-set/D_Districts_Connection.cpp)
 - [D Queue (cpp)](../solutions/sorting-and-searching/D_Queue.cpp)
 - [D Skibidus and Sigma (cpp)](../solutions/sorting-and-searching/D_Skibidus_and_Sigma.cpp)
+- [D Snowball (cpp)](../solutions/prefix-sums/D_Snowball.cpp)
 - [D. Absolute Sorting (cpp)](../solutions/sorting-and-searching/D_Absolute_Sorting.cpp)
 - [D. Destruction of the Dandelion Fields (cpp)](../solutions/greedy/D_Destruction_of_the_Dandelion_Fields.cpp)
 - [D. Good Sets (cpp)](../solutions/two-pointers-and-sliding-window/D_Good_Sets.cpp)
@@ -1308,10 +1359,11 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## strings
 
-82 files
+84 files
 
 - [A - ABC -> AC (python)](../solutions/strings/A_ABC_AC.py)
 - [A Comparing Strings (cpp)](../solutions/strings/A_Comparing_Strings.cpp)
+- [A Einstein s Calculator (python)](../solutions/math/arithmetic/A_Einstein_s_Calculator.py)
 - [A Good Number (python)](../solutions/strings/A_Good_Number.py)
 - [A k String (cpp)](../solutions/strings/A_k_String.cpp)
 - [A Petya and Strings (cpp)](../solutions/strings/A_Petya_and_Strings.cpp)
@@ -1351,6 +1403,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf translation (cpp)](../solutions/strings/cf-translation.cpp)
 - [creating strings (cpp)](../solutions/brute-force-and-backtracking/creating-strings.cpp)
 - [D Product Subsequences (cpp)](../solutions/strings/D_Product_Subsequences.cpp)
+- [D String Game (cpp)](../solutions/data-structures/stacks-and-queues/D_String_Game.cpp)
 - [D. Palindromes Coloring (cpp)](../solutions/strings/D_Palindromes_Coloring.cpp)
 - [D1. Remove the Substring (easy version) (cpp)](../solutions/strings/D_1_Remove_the_Substring_easy_version.cpp)
 - [decrypt (python)](../solutions/strings/decrypt.py)
@@ -1405,19 +1458,20 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## trees
 
-7 files
+8 files
 
 - [B. Heapify 1 (cpp)](../solutions/trees/B_Heapify_1.cpp)
 - [C Kefa and Park (cpp)](../solutions/trees/C_Kefa_and_Park.cpp)
 - [cses subtreequeries (cpp)](../solutions/trees/cses-subtreequeries.cpp)
 - [D - Subordinates (cpp)](../solutions/trees/D_Subordinates.cpp)
 - [D. Arboris Contractio (cpp)](../solutions/trees/D_Arboris_Contractio.cpp)
+- [E Screenmaxxing (cpp)](../solutions/trees/E_Screenmaxxing.cpp)
 - [E. Danil and a Part-time Job (cpp)](../solutions/trees/E_Danil_and_a_Part_time_Job.cpp)
 - [tree (cpp)](../solutions/trees/tree.cpp)
 
 ## two-pointers-and-sliding-window
 
-41 files
+42 files
 
 - [A - A (cpp)](../solutions/two-pointers-and-sliding-window/A_A.cpp)
 - [A - Very Different Array (cpp)](../solutions/two-pointers-and-sliding-window/A_Very_Different_Array.cpp)
@@ -1430,6 +1484,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Deck of Cards (cpp)](../solutions/two-pointers-and-sliding-window/B_Deck_of_Cards.cpp)
 - [B. Variety is Discouraged (cpp)](../solutions/two-pointers-and-sliding-window/B_Variety_is_Discouraged.cpp)
 - [black and white stripe (python)](../solutions/two-pointers-and-sliding-window/black_and_white_stripe.py)
+- [C Ancient History Easy (cpp)](../solutions/two-pointers-and-sliding-window/C_Ancient_History_Easy.cpp)
 - [C Grandma Capa Knits A Scarf (cpp)](../solutions/two-pointers-and-sliding-window/C_Grandma_Capa_Knits_A_Scarf.cpp)
 - [C They Are Everywhere (cpp)](../solutions/two-pointers-and-sliding-window/C_They_Are_Everywhere.cpp)
 - [C Vasya and String (cpp)](../solutions/two-pointers-and-sliding-window/C_Vasya_and_String.cpp)

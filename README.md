@@ -148,7 +148,7 @@ python3 scripts/install_hooks.py
 
 It checks a temporary copy of the **staged files**, so unstaged fixes cannot hide a broken commit. The hook never stages, rewrites, or commits anything. Structural failures block a commit. Pending inbox work and stale classifications are warnings; shared IDs and identical attempts are information. Use `python3 scripts/lint_repo.py --strict` to make warnings fail too.
 
-Lint checks schema, source coverage, category locations, hashes, duplicate IDs/content, local Markdown links/anchors, pattern-note reachability, event records, and generated navigation. It does not execute historical submissions or infer judge verdicts. The initial organization is still uncommitted, so the first commit should include its source moves, catalog, scripts, and navigation together.
+Lint checks schema, source coverage, category locations, hashes, duplicate IDs/content, local Markdown links/anchors, pattern-note reachability, event records, and generated navigation. It does not execute historical submissions or infer judge verdicts. Commit source moves, catalog, scripts, and navigation together so staged checks see a consistent layout.
 
 Tooling integration checks run with `python3 -m unittest discover -s tests -v`. They use temporary repositories and cover preservation, rollback, collisions, locked decisions, repeated ingestion, CPH samples, and staged checks.
 
