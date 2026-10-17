@@ -4,6 +4,12 @@ My competitive programming solutions, organized by the patterns used to solve th
 
 **[Browse every problem](catalog/INDEX.md)** · **[Browse by tag](catalog/TAGS.md)** · **[Categories](solutions/README.md)** · **[Classification review](catalog/REVIEW.md)** · **[Pattern notes](notes/patterns/INDEX.md)** · **[Organization log](ORGANIZATION_LOG.md)**
 
+## Speed programming preparation
+
+**[Div. 3 contest cheat sheet](notes/contest-prep/quick-reference.md)** · **[Full preparation reference](notes/contest-prep/div3-speed-programming.md)** · **[C++17 snippets](templates/cpp/sp-reference.hpp)**
+
+Pattern recognition, arithmetic and number theory, combinatorics, geometry formulas, graph/DP/data-structure templates, contest pitfalls, and practice links to this archive. External references are cited in the full guide. Marked snippets generate the header with `python3 scripts/build_sp_reference.py`; their boundary and small-instance checks are part of the test suite.
+
 ## Find a solution
 
 All commands below run from the repository root and use Python 3.10 or newer. No Python packages are required.

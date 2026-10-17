@@ -15,6 +15,10 @@ Keep this repository searchable by the patterns used in its actual implementatio
 
 Generated navigation: `catalog/INDEX.md`, `catalog/TAGS.md`, `catalog/REVIEW.md`, `catalog/stats.json`, `solutions/README.md`, `notes/INDEX.md`, `notes/patterns/INDEX.md`, `ORGANIZATION_LOG.md`, and marked example sections inside pattern notes. Regenerate them rather than editing generated content.
 
+## Contest reference artifacts
+
+`notes/contest-prep/div3-speed-programming.md` is the full reference; `quick-reference.md` is its compact companion. Reuse canonical pattern notes for detailed explanations. Marked C++ blocks in the full guide generate `templates/cpp/sp-reference.hpp` via `python3 scripts/build_sp_reference.py`. Edit the marked blocks, regenerate the header, and check with `--check`; do not edit the generated header directly. Lint checks header synchronization. New reference snippets have boundary/oracle checks under `tests/test_sp_reference.py` and `tests/sp_reference_checks.cpp`.
+
 ## INGEST
 
 Triggered by “organize my new solutions,” “ingest the inbox,” or an equivalent request.

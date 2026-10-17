@@ -4,6 +4,11 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-10-17T01:08:49+00:00 — REFERENCE
+
+Created a Div. 3 speed-programming preparation guide and compact contest sheet, with external references, math/geometry formulas, and 19 marked GNU C++17 snippets. Added synchronized header generation and boundary/oracle checks; preserved all historical implementations.
+
+
 ## 2026-10-17T00:35:20+00:00 — REVIEW
 
 - solutions/prefix-sums/I_Swap_Mohamed_Mohamed.cpp → solutions/prefix-sums/I_Swap_Mohamed_Mohamed.cpp: Reviewed implementation imported from origin/main at 5391667: Combines prefix and suffix counts and cumulative costs; retains the newer remote include change. Category: prefix-sums; status: reviewed.

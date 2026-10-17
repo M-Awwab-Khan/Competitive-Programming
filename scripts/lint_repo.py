@@ -161,6 +161,16 @@ def lint(root=ROOT):
             add('errors', 'stale-navigation', 'Regenerate with python3 scripts/build_catalog.py', stale_outputs)
     except (OSError, ValueError, KeyError, TypeError) as exc:
         add('errors', 'navigation-generation', str(exc))
+    guide = root / 'notes/contest-prep/div3-speed-programming.md'
+    header = root / 'templates/cpp/sp-reference.hpp'
+    if guide.exists() or header.exists():
+        try:
+            from build_sp_reference import render as render_reference
+            expected, _ = render_reference(root)
+            if not header.is_file() or header.read_text() != expected:
+                add('errors', 'stale-sp-reference', 'Regenerate with python3 scripts/build_sp_reference.py', ['templates/cpp/sp-reference.hpp'])
+        except (OSError, ValueError) as exc:
+            add('errors', 'sp-reference-generation', str(exc))
     event_ids = set()
     try:
         for line in (root / 'catalog/events.jsonl').read_text().splitlines():
