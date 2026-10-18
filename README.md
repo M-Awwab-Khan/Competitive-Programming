@@ -10,6 +10,44 @@ My competitive programming solutions, organized by the patterns used to solve th
 
 Pattern recognition, arithmetic and number theory, combinatorics, geometry formulas, graph/DP/data-structure templates, contest pitfalls, and practice links to this archive. External references are cited in the full guide. Marked snippets generate the header with `python3 scripts/build_sp_reference.py`; their boundary and small-instance checks are part of the test suite.
 
+## Create and run a problem with Make
+
+Requires Make, Python 3.10+, and GCC with C++23 support for C++ problems. CPH is not required.
+
+```bash
+make new NAME=A_Line_Trip LANG=cpp
+make new NAME=B LANG=python
+# Edit the source and input.txt in practice/inbox/A_Line_Trip/.
+make run NAME=A_Line_Trip
+# Paste the expected answer into expected.txt, then:
+make check NAME=A_Line_Trip
+```
+
+Each problem gets a folder containing `NAME.cpp` or `NAME.py`, `input.txt`, `output.txt`, and `expected.txt`. C++ is the default language; pass `LANG=python` when running a Python problem. Creation refuses to overwrite an existing folder. Inputs and expected answers can be committed; generated `output.txt` is ignored. Starters handle one test case; uncomment the test-count read for problems that supply `t`.
+
+`make run` reads `input.txt`, writes and displays `output.txt`, and keeps stderr visible. `make check` compares whitespace-separated tokens exactly; it does not implement floating-point tolerances or special judges. Use the existing interactive runner for interactive problems. New problems stay in the inbox until you explicitly file them:
+
+```bash
+make ingest          # Preview proposed classifications/moves
+make ingest-apply    # Apply suggestions; samples stay in the problem folder
+make lint
+```
+
+After filing, `make run NAME=A_Line_Trip` still finds the source through its catalog entry and uses the original sample folder. `make build` only compiles; `make help` lists commands. For an existing source, `make run SOURCE=solutions/strings/A_Petya_and_Strings.cpp` uses input/output files alongside that source. The [workflow guide](notes/tooling/problem-workflow.md) covers header caching, flags, and archiving.
+
+### Fast C++ headers
+
+The new starter keeps `#include "bits/stdc++.h"`. Quoted includes search the source directory and configured include paths; they do not scan directories recursively. Make adds the repository include path and automatically builds/reuses a GCC precompiled header in ignored `build/pch/`. The first build costs extra; subsequent compilations can reuse the parsed standard headers. Unchanged programs also reuse their executable.
+
+```bash
+make pch                         # Optional: prepare the header before a contest
+make run NAME=A_Line_Trip PCH=0   # Disable precompiled headers
+make run NAME=A_Line_Trip CXX=clang++ PCH=0
+make build NAME=A_Line_Trip CXXFLAGS='-std=c++23 -O0 -g -Wall -Wextra'
+```
+
+Compiler, flags, header contents, and dependency timestamps control cache reuse. Incompatible macros defined before the include can make GCC fall back to parsing the header; `-Winvalid-pch` reports this. Keep the include first, as in the starter. See GCC's [include search rules](https://gcc.gnu.org/onlinedocs/gcc/Directory-Options.html) and [precompiled-header requirements](https://gcc.gnu.org/onlinedocs/gcc/Precompiled-Headers.html).
+
 ## Find a solution
 
 All commands below run from the repository root and use Python 3.10 or newer. No Python packages are required.

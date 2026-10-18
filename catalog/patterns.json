@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "patterns": [
+    {"id": "pair-counting-inclusion-exclusion", "title": "Pair counting with inclusion-exclusion", "path": "notes/patterns/pair-counting-inclusion-exclusion.md"},
+    {"id": "binomial-counting", "title": "Counting selections with binomial coefficients", "path": "notes/patterns/binomial-counting.md"},
     {"id": "binary-search-on-answer", "title": "Binary search on the answer", "path": "notes/patterns/binary-search-on-answer.md"},
     {"id": "prefix-sum-frequency-map", "title": "Prefix sums with a frequency map", "path": "notes/patterns/prefix-sum-frequency-map.md"},
     {"id": "monotonic-deque", "title": "Monotonic deque", "path": "notes/patterns/monotonic-deque.md"},

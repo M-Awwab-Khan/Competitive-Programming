@@ -4,7 +4,7 @@
 
 | Category | Solutions |
 | --- | ---: |
-| [arrays-and-counting](arrays-and-counting/) | 91 |
+| [arrays-and-counting](arrays-and-counting/) | 92 |
 | [binary-search](binary-search/) | 75 |
 | [bit-manipulation](bit-manipulation/) | 34 |
 | [brute-force-and-backtracking](brute-force-and-backtracking/) | 38 |
@@ -29,7 +29,7 @@
 | [greedy](greedy/) | 84 |
 | [intervals](intervals/) | 1 |
 | [math/arithmetic](math/arithmetic/) | 108 |
-| [math/combinatorics](math/combinatorics/) | 17 |
+| [math/combinatorics](math/combinatorics/) | 18 |
 | [math/number-theory](math/number-theory/) | 49 |
 | [meet-in-the-middle](meet-in-the-middle/) | 1 |
 | [needs-review](needs-review/) | 10 |

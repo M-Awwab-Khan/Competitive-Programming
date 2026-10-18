@@ -29479,6 +29479,65 @@
       "patterns": [
         "binary-search-on-answer"
       ]
+    },
+    {
+      "key": "e931d015bf314a40",
+      "title": "cf ballinberland",
+      "path": "solutions/arrays-and-counting/cf-ballinberland.cpp",
+      "original_path": "practice/inbox/cf-ballinberland/cf-ballinberland.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "e38ff71485747518a140c5993adf9331dad7437387556332583ca5fc24544b5f",
+      "category": "arrays-and-counting",
+      "tags": [
+        "arrays-and-counting",
+        "math/combinatorics"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Builds endpoint frequency arrays, sums k - boysfreq[u] - girlsfreq[v] + 1 for each paired item, and divides by two; inclusion-exclusion assumes distinct endpoint pairs.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e38ff71485747518a140c5993adf9331dad7437387556332583ca5fc24544b5f",
+      "observed_sha256": "e38ff71485747518a140c5993adf9331dad7437387556332583ca5fc24544b5f",
+      "review_required": false,
+      "patterns": [
+        "pair-counting-inclusion-exclusion"
+      ]
+    },
+    {
+      "key": "87ec33a0c7a847cb",
+      "title": "cf expectedmedian",
+      "path": "solutions/math/combinatorics/cf-expectedmedian.cpp",
+      "original_path": "practice/inbox/cf-expectedmedian/cf-expectedmedian.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "a0e828375034f51e065986458f76c5c2080ab2be7dae6c0236c124e851c0ae8c",
+      "category": "math/combinatorics",
+      "tags": [
+        "arrays-and-counting",
+        "math/combinatorics",
+        "math/number-theory"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Precomputes factorials and inverse factorials modulo 1000000007 using binary exponentiation, then sums C(count1,i)*C(count0,k-i) for i from (k+1)/2 to min(k,count1); interprets the median threshold for odd k and binary input, with factorial indices bounded by 200001.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "a0e828375034f51e065986458f76c5c2080ab2be7dae6c0236c124e851c0ae8c",
+      "observed_sha256": "a0e828375034f51e065986458f76c5c2080ab2be7dae6c0236c124e851c0ae8c",
+      "review_required": false,
+      "patterns": [
+        "binomial-counting"
+      ]
     }
   ]
 }

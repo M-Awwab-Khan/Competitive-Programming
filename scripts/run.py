@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Compile/run a catalog source or a scratch file, keeping generated output in build/."""
 import argparse
-import hashlib
 import json
 import os
-import shlex
 import subprocess
 from pathlib import Path
+
+from cpp_build import build
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -39,16 +39,10 @@ def main():
     if not cwd.is_dir():
         parser.error('Runtime directory does not exist: ' + str(cwd))
     if source.suffix == '.cpp':
-        build = ROOT / 'build'
-        build.mkdir(exist_ok=True)
-        suffix = '.exe' if os.name == 'nt' else ''
-        key = hashlib.sha256(str(source).encode()).hexdigest()[:10]
-        binary = build / (source.stem + '-' + key + suffix)
-        command = shlex.split(os.environ.get('CXX', 'g++'))
-        command += ['-std=c++23', '-O2', '-I', str(ROOT), str(source), '-o', str(binary)]
-        result = subprocess.run(command, cwd=ROOT)
-        if result.returncode:
-            raise SystemExit(result.returncode)
+        try:
+            binary = build(source, use_pch=os.environ.get('CP_PCH', '0') != '0')
+        except (ValueError, OSError, subprocess.CalledProcessError) as exc:
+            parser.error(str(exc))
         command = [str(binary)]
     elif source.suffix == '.py':
         import sys

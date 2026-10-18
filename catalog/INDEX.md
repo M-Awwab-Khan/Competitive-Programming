@@ -1,6 +1,6 @@
 # Problem index
 
-1067 source files across 37 primary categories.
+1069 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -8,7 +8,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 
 | Category | Files | Description |
 | --- | ---: | --- |
-| [arrays-and-counting](#arrays-and-counting) | 91 | Arrays, frequency counting, sets, and direct scans |
+| [arrays-and-counting](#arrays-and-counting) | 92 | Arrays, frequency counting, sets, and direct scans |
 | [binary-search](#binary-search) | 75 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 34 | Bitwise operations, XOR identities, and bit counting |
 | [brute-force-and-backtracking](#brute-force-and-backtracking) | 38 | Enumeration, subset search, and backtracking |
@@ -33,7 +33,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [greedy](#greedy) | 84 | Local choices, scheduling, and exchange arguments |
 | [intervals](#intervals) | 1 | Interval overlap, coverage, and endpoint constraints |
 | [math/arithmetic](#matharithmetic) | 109 | Formulas, parity, digit arithmetic, and algebra |
-| [math/combinatorics](#mathcombinatorics) | 17 | Combinatorial counting, factorials, and binomial coefficients |
+| [math/combinatorics](#mathcombinatorics) | 18 | Combinatorial counting, factorials, and binomial coefficients |
 | [math/number-theory](#mathnumber-theory) | 49 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 1 | Enumerate two halves and combine their results |
 | [needs-review](#needs-review) | 10 | Insufficient evidence for a specific pattern |
@@ -93,6 +93,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [cf A Sereja and Bottles — cf-A_Sereja_and_Bottles.cpp](../solutions/arrays-and-counting/cf-A_Sereja_and_Bottles.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
 | [cf A Winner — cf-A_Winner.cpp](../solutions/arrays-and-counting/cf-A_Winner.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
 | [cf A Young Physicist — cf-A_Young_Physicist.cpp](../solutions/arrays-and-counting/cf-A_Young_Physicist.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
+| [cf ballinberland — cf-ballinberland.cpp](../solutions/arrays-and-counting/cf-ballinberland.cpp) | cpp | unknown | arrays-and-counting, math/combinatorics | reviewed | [Pair counting with inclusion-exclusion](../notes/patterns/pair-counting-inclusion-exclusion.md) |
 | [cf evenarray — cf-evenarray.cpp](../solutions/arrays-and-counting/cf-evenarray.cpp) | cpp | codeforces | arrays-and-counting | reviewed |  |
 | [cf youngphysicist — cf-youngphysicist.cpp](../solutions/arrays-and-counting/cf-youngphysicist.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
 | [cses collectingnumbers — cses-collectingnumbers.cpp](../solutions/arrays-and-counting/cses-collectingnumbers.cpp) | cpp | cses | arrays-and-counting | suggested |  |
@@ -807,6 +808,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C How Many Strings — C_How_Many_Strings.cpp](../solutions/math/combinatorics/C_How_Many_Strings.cpp) | cpp | unknown | math/combinatorics, math/number-theory, strings | suggested |  |
 | [C Pythagorean Triples — C_Pythagorean_Triples.cpp](../solutions/math/combinatorics/C_Pythagorean_Triples.cpp) | cpp | unknown | math/combinatorics | suggested |  |
 | [cf B Jzzhu and Sequences — cf-B_Jzzhu_and_Sequences.cpp](../solutions/math/combinatorics/cf-B_Jzzhu_and_Sequences.cpp) | cpp | codeforces | math/combinatorics | suggested |  |
+| [cf expectedmedian — cf-expectedmedian.cpp](../solutions/math/combinatorics/cf-expectedmedian.cpp) | cpp | unknown | arrays-and-counting, math/combinatorics, math/number-theory | reviewed | [Counting selections with binomial coefficients](../notes/patterns/binomial-counting.md) |
 | [D Revenge of the C K or e ys — D_Revenge_of_the_C_K_or_e_ys.cpp](../solutions/math/combinatorics/D_Revenge_of_the_C_K_or_e_ys.cpp) | cpp | unknown | math/combinatorics, math/number-theory | reviewed |  |
 | [R - AND 0, Sum Big — R_AND_0_Sum_Big.py](../solutions/math/combinatorics/R_AND_0_Sum_Big.py) | python | vjudge / contest-688791-R | math/combinatorics | suggested |  |
 | [two knights — two-knights.cpp](../solutions/math/combinatorics/two-knights.cpp) | cpp | unknown | math/combinatorics | suggested |  |

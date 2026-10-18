@@ -4,6 +4,19 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-10-18T15:24:09+00:00 — REVIEW
+
+- solutions/math/combinatorics/cf-expectedmedian.cpp → solutions/math/combinatorics/cf-expectedmedian.cpp: Precomputes factorials and inverse factorials modulo 1000000007 using binary exponentiation, then sums C(count1,i)*C(count0,k-i) for i from (k+1)/2 to min(k,count1); interprets the median threshold for odd k and binary input, with factorial indices bounded by 200001.. Category: math/combinatorics; status: reviewed.
+
+## 2026-10-18T15:24:07+00:00 — REVIEW
+
+- solutions/needs-review/cf-ballinberland.cpp → solutions/arrays-and-counting/cf-ballinberland.cpp: Builds endpoint frequency arrays, sums k - boysfreq[u] - girlsfreq[v] + 1 for each paired item, and divides by two; inclusion-exclusion assumes distinct endpoint pairs.. Category: arrays-and-counting; status: reviewed.
+
+## 2026-10-18T15:24:05+00:00 — INGEST
+
+- practice/inbox/cf-ballinberland/cf-ballinberland.cpp → solutions/needs-review/cf-ballinberland.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/cf-expectedmedian/cf-expectedmedian.cpp → solutions/math/combinatorics/cf-expectedmedian.cpp: Filed new source; classification remains a suggestion. Category: math/combinatorics; status: suggested.
+
 ## 2026-10-17T01:08:49+00:00 — REFERENCE
 
 Created a Div. 3 speed-programming preparation guide and compact contest sheet, with external references, math/geometry formulas, and 19 marked GNU C++17 snippets. Added synchronized header generation and boundary/oracle checks; preserved all historical implementations.

@@ -6,7 +6,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## arrays-and-counting
 
-93 files
+95 files
 
 - [A Elections (cpp)](../solutions/arrays-and-counting/A_Elections.cpp)
 - [A Free Cash (cpp)](../solutions/arrays-and-counting/A_Free_Cash.cpp)
@@ -51,7 +51,9 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf A Sereja and Bottles (cpp)](../solutions/arrays-and-counting/cf-A_Sereja_and_Bottles.cpp)
 - [cf A Winner (cpp)](../solutions/arrays-and-counting/cf-A_Winner.cpp)
 - [cf A Young Physicist (cpp)](../solutions/arrays-and-counting/cf-A_Young_Physicist.cpp)
+- [cf ballinberland (cpp)](../solutions/arrays-and-counting/cf-ballinberland.cpp)
 - [cf evenarray (cpp)](../solutions/arrays-and-counting/cf-evenarray.cpp)
+- [cf expectedmedian (cpp)](../solutions/math/combinatorics/cf-expectedmedian.cpp)
 - [cf youngphysicist (cpp)](../solutions/arrays-and-counting/cf-youngphysicist.cpp)
 - [cses collectingnumbers (cpp)](../solutions/arrays-and-counting/cses-collectingnumbers.cpp)
 - [cses distinctnumbers (cpp)](../solutions/arrays-and-counting/cses-distinctnumbers.cpp)
@@ -882,7 +884,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/combinatorics
 
-21 files
+23 files
 
 - [AA - Satyam and Counting (cpp)](../solutions/math/combinatorics/AA_Satyam_and_Counting.cpp)
 - [AE - AND Sequences (cpp)](../solutions/math/combinatorics/AE_AND_Sequences.cpp)
@@ -896,6 +898,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [C How Many Strings (cpp)](../solutions/math/combinatorics/C_How_Many_Strings.cpp)
 - [C Pythagorean Triples (cpp)](../solutions/math/combinatorics/C_Pythagorean_Triples.cpp)
 - [cf B Jzzhu and Sequences (cpp)](../solutions/math/combinatorics/cf-B_Jzzhu_and_Sequences.cpp)
+- [cf ballinberland (cpp)](../solutions/arrays-and-counting/cf-ballinberland.cpp)
+- [cf expectedmedian (cpp)](../solutions/math/combinatorics/cf-expectedmedian.cpp)
 - [cses twosets (cpp)](../solutions/dynamic-programming/knapsack/cses-twosets.cpp)
 - [D Product Subsequences (cpp)](../solutions/strings/D_Product_Subsequences.cpp)
 - [D Revenge of the C K or e ys (cpp)](../solutions/math/combinatorics/D_Revenge_of_the_C_K_or_e_ys.cpp)
@@ -908,7 +912,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/number-theory
 
-62 files
+63 files
 
 - [A Cifera (cpp)](../solutions/math/number-theory/A_Cifera.cpp)
 - [A Fox and Number Game (cpp)](../solutions/math/number-theory/A_Fox_and_Number_Game.cpp)
@@ -938,6 +942,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [C. Another GCD (cpp)](../solutions/math/number-theory/C_Another_GCD.cpp)
 - [C. Common Divisors (cpp)](../solutions/math/number-theory/C_Common_Divisors.cpp)
 - [cf ehabandgcd (cpp)](../solutions/math/number-theory/cf-ehabandgcd.cpp)
+- [cf expectedmedian (cpp)](../solutions/math/combinatorics/cf-expectedmedian.cpp)
 - [cf kingkeymystery (cpp)](../solutions/math/number-theory/cf-kingkeymystery.cpp)
 - [cf twodivisors (cpp)](../solutions/math/number-theory/cf-twodivisors.cpp)
 - [chinese remainder theorem (cpp)](../solutions/math/number-theory/chinese_remainder_theorem.cpp)

@@ -1,7 +1,7 @@
 {
-  "total_entries": 1067,
+  "total_entries": 1069,
   "roles": {
-    "solution": 1062,
+    "solution": 1064,
     "reference": 1,
     "algorithm": 4
   },
@@ -11,9 +11,9 @@
     "sorting-and-searching": 107,
     "bit-manipulation": 34,
     "math/arithmetic": 109,
-    "math/combinatorics": 17,
+    "math/combinatorics": 18,
     "prefix-sums": 46,
-    "arrays-and-counting": 91,
+    "arrays-and-counting": 92,
     "constructive": 46,
     "two-pointers-and-sliding-window": 40,
     "strings": 70,
@@ -46,11 +46,11 @@
   },
   "classifications": {
     "suggested": 957,
-    "reviewed": 100,
+    "reviewed": 102,
     "needs-review": 10
   },
   "implementations": {
-    "not-verified": 1057,
+    "not-verified": 1059,
     "empty-or-template": 10
   },
   "sources_changed_since_classification": 0
