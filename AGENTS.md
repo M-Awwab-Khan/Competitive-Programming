@@ -21,7 +21,7 @@ Generated navigation: `catalog/INDEX.md`, `catalog/TAGS.md`, `catalog/REVIEW.md`
 
 ## INGEST
 
-New problems can be created with `make new NAME=... LANG=cpp` (or `python`). Each `practice/inbox/NAME/` folder holds a named source and sample files. Preserve input/expected files when filing; Make resolves moved sources through `original_path`. Minimal starters live under `templates/`; generated binaries and GCC precompiled headers belong only in ignored `build/`. CPH is not required for this workflow.
+New problems can be created with `make new problem.cpp` (or `problem.py`); the extension selects the language. Use the same filename with `make run`, `make check`, and `make build`. Each `practice/inbox/NAME/` folder holds a named source and sample files. Preserve input/expected files when filing; Make resolves moved sources through `original_path`. Minimal starters live under `templates/`; generated binaries and GCC precompiled headers belong only in ignored `build/`. CPH is not required for this workflow.
 
 Triggered by “organize my new solutions,” “ingest the inbox,” or an equivalent request.
 

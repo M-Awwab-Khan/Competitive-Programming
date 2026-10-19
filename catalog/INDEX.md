@@ -1,6 +1,6 @@
 # Problem index
 
-1069 source files across 37 primary categories.
+1073 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -11,7 +11,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [arrays-and-counting](#arrays-and-counting) | 92 | Arrays, frequency counting, sets, and direct scans |
 | [binary-search](#binary-search) | 75 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 34 | Bitwise operations, XOR identities, and bit counting |
-| [brute-force-and-backtracking](#brute-force-and-backtracking) | 38 | Enumeration, subset search, and backtracking |
+| [brute-force-and-backtracking](#brute-force-and-backtracking) | 39 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 46 | Constructing a valid array, permutation, or arrangement |
 | [data-structures/disjoint-set](#data-structuresdisjoint-set) | 5 | Disjoint set union and component merging |
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
@@ -29,10 +29,10 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [graphs/shortest-paths](#graphsshortest-paths) | 6 | Shortest path and breadth first distance problems |
 | [graphs/spanning-trees](#graphsspanning-trees) | 1 | Minimum or maximum spanning trees |
 | [graphs/topological-sort](#graphstopological-sort) | 2 | Dependency ordering and DAG algorithms |
-| [graphs/traversal](#graphstraversal) | 13 | Graph search, components, grids, and reachability |
+| [graphs/traversal](#graphstraversal) | 14 | Graph search, components, grids, and reachability |
 | [greedy](#greedy) | 84 | Local choices, scheduling, and exchange arguments |
 | [intervals](#intervals) | 1 | Interval overlap, coverage, and endpoint constraints |
-| [math/arithmetic](#matharithmetic) | 109 | Formulas, parity, digit arithmetic, and algebra |
+| [math/arithmetic](#matharithmetic) | 110 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 18 | Combinatorial counting, factorials, and binomial coefficients |
 | [math/number-theory](#mathnumber-theory) | 49 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 1 | Enumerate two halves and combine their results |
@@ -41,7 +41,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [recursion-and-divide-and-conquer](#recursion-and-divide-and-conquer) | 6 | Recursive decomposition and divide and conquer |
 | [simulation](#simulation) | 88 | Direct simulation of rules, grids, and processes |
 | [sorting-and-searching](#sorting-and-searching) | 107 | Sorting, rank queries, and sorted order reasoning |
-| [strings](#strings) | 70 | String matching, parsing, and character transformations |
+| [strings](#strings) | 71 | String matching, parsing, and character transformations |
 | [ternary-search](#ternary-search) | 5 | Searching a unimodal function |
 | [trees](#trees) | 8 | Tree traversal, subtree queries, and tree properties |
 | [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 40 | Moving boundaries, fixed/variable windows, and merging |
@@ -284,6 +284,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C - Mixtures — C_Mixtures.cpp](../solutions/brute-force-and-backtracking/C_Mixtures.cpp) | cpp | vjudge / contest-768159-C | brute-force-and-backtracking | reviewed |  |
 | [C Olympic Haircut — C_Olympic_Haircut.cpp](../solutions/brute-force-and-backtracking/C_Olympic_Haircut.cpp) | cpp | unknown | bit-manipulation, brute-force-and-backtracking | reviewed |  |
 | [C. Sum of Cubes — C_Sum_of_Cubes.cpp](../solutions/brute-force-and-backtracking/C_Sum_of_Cubes.cpp) | cpp | codeforces / 1490C | brute-force-and-backtracking | suggested |  |
+| [cf cheaptravel — cf-cheaptravel.cpp](../solutions/brute-force-and-backtracking/cf-cheaptravel.cpp) | cpp | unknown | brute-force-and-backtracking, math/arithmetic | reviewed |  |
 | [creating strings — creating-strings.cpp](../solutions/brute-force-and-backtracking/creating-strings.cpp) | cpp | unknown | brute-force-and-backtracking, sorting-and-searching, strings | suggested |  |
 | [D. Three Logos — D_Three_Logos.cpp](../solutions/brute-force-and-backtracking/D_Three_Logos.cpp) | cpp | codeforces / 581D | bit-manipulation, brute-force-and-backtracking | suggested |  |
 | [DMOJ 24 — DMOJ_24.py](../solutions/brute-force-and-backtracking/DMOJ_24.py) | python | unknown | brute-force-and-backtracking | reviewed |  |
@@ -574,6 +575,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C - New Skill Acquired — C_New_Skill_Acquired.cpp](../solutions/graphs/traversal/C_New_Skill_Acquired.cpp) | cpp | atcoder / abc424_c | graphs/traversal | suggested |  |
 | [C Adjacency Matrix — C_Adjacency_Matrix.cpp](../solutions/graphs/traversal/C_Adjacency_Matrix.cpp) | cpp | unknown | graphs/traversal | suggested |  |
 | [C. Group Movie Night — C_Group_Movie_Night.cpp](../solutions/graphs/traversal/C_Group_Movie_Night.cpp) | cpp | codeforces / gym-106383-C | graphs/traversal | suggested |  |
+| [cf iceskating — cf-iceskating.cpp](../solutions/graphs/traversal/cf-iceskating.cpp) | cpp | unknown | geometry, graphs/traversal | reviewed |  |
 | [F Milk Factory — F_Milk_Factory.cpp](../solutions/graphs/traversal/F_Milk_Factory.cpp) | cpp | unknown | graphs/traversal | suggested |  |
 | [graph subchain — graph-subchain.py](../solutions/graphs/traversal/graph-subchain.py) | python | unknown | data-structures/stacks-and-queues, graphs/traversal | suggested |  |
 | [graphcycles — graphcycles.cpp](../solutions/graphs/traversal/graphcycles.cpp) | cpp | unknown | graphs/traversal | suggested |  |
@@ -743,6 +745,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [cf A Adding Digits — cf-A_Adding_Digits.cpp](../solutions/math/arithmetic/cf-A_Adding_Digits.cpp) | cpp | codeforces | math/arithmetic | suggested |  |
 | [cf adding digits — cf-adding-digits.py](../solutions/math/arithmetic/cf-adding-digits.py) | python | codeforces | math/arithmetic | suggested |  |
 | [cf again25 — cf-again25.cpp](../solutions/math/arithmetic/cf-again25.cpp) | cpp | codeforces | math/arithmetic | suggested |  |
+| [cf fancyfence — cf-fancyfence.cpp](../solutions/math/arithmetic/cf-fancyfence.cpp) | cpp | unknown | geometry, math/arithmetic | reviewed |  |
 | [cf fizzbuzzremixed — cf-fizzbuzzremixed.cpp](../solutions/math/arithmetic/cf-fizzbuzzremixed.cpp) | cpp | codeforces | math/arithmetic, simulation | suggested |  |
 | [cf iambored — cf-iambored.cpp](../solutions/math/arithmetic/cf-iambored.cpp) | cpp | codeforces | math/arithmetic | suggested |  |
 | [cf kthnondivisible — cf-kthnondivisible.cpp](../solutions/math/arithmetic/cf-kthnondivisible.cpp) | cpp | codeforces | math/arithmetic | suggested |  |
@@ -1195,6 +1198,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [cf numeric strings template  — cf-numeric-strings-template-.cpp](../solutions/strings/cf-numeric-strings-template-.cpp) | cpp | codeforces | strings | suggested |  |
 | [cf skibidus — cf-skibidus.cpp](../solutions/strings/cf-skibidus.cpp) | cpp | codeforces | strings | suggested |  |
 | [cf skibidusnohio — cf-skibidusnohio.cpp](../solutions/strings/cf-skibidusnohio.cpp) | cpp | codeforces | strings | suggested |  |
+| [cf stringtask — cf-stringtask.cpp](../solutions/strings/cf-stringtask.cpp) | cpp | unknown | strings | reviewed |  |
 | [cf translation — cf-translation.cpp](../solutions/strings/cf-translation.cpp) | cpp | codeforces | strings | suggested |  |
 | [D Product Subsequences — D_Product_Subsequences.cpp](../solutions/strings/D_Product_Subsequences.cpp) | cpp | unknown | bit-manipulation, math/combinatorics, strings | suggested |  |
 | [D. Palindromes Coloring — D_Palindromes_Coloring.cpp](../solutions/strings/D_Palindromes_Coloring.cpp) | cpp | codeforces / 1624D | sorting-and-searching, strings | suggested |  |

@@ -5,11 +5,13 @@
 From the repository root:
 
 ```bash
-make new NAME=A_Line_Trip LANG=cpp
-make new NAME=B LANG=python
+make new A_Line_Trip.cpp
+make new B.py
 ```
 
-Names use letters, digits, underscores and hyphens; paths and spaces are rejected. Supported language aliases are `cpp`, `c++`, `cc`, `py`, `python`, and `python3`. The default is C++. Make treats the shell's inherited `LANG` as a locale and uses C++ unless you explicitly pass a language on the command line.
+Use `.cpp` for C++ and `.py` for Python. Names before the extension use letters, digits, underscores and hyphens. `new` takes a filename, not a path, and creates the workspace itself. Pass one command and one filename per invocation. Make consumes the filename as an argument without requiring it to exist in the root directory.
+
+The previous `make new NAME=A LANG=cpp`, `make run NAME=A`, and `SOURCE=...` forms still work. Do not mix a positional filename with `NAME=` or `SOURCE=`. With positional filenames, the extension selects the language regardless of `LANG`.
 
 Creation refuses existing folders and never ingests sources automatically. It copies a minimal starter into:
 
@@ -26,15 +28,17 @@ Edit the [C++ starter](../../templates/cpp/problem.cpp) or [Python starter](../.
 ## Run and compare
 
 ```bash
-make run NAME=A_Line_Trip
-make check NAME=A_Line_Trip
-make run NAME=B LANG=python
-make build NAME=A_Line_Trip
+make run A_Line_Trip.cpp
+make check A_Line_Trip.cpp
+make run B.py
+make build A_Line_Trip.cpp
 ```
 
-`run` reads the whole `input.txt` through stdin, writes stdout to `output.txt`, and displays the result. Stderr stays on the terminal. The working directory is the sample folder, so relative file opens work there too. `check` runs the program and compares its output to `expected.txt`, ignoring whitespace differences. Nonzero program exits and mismatches fail the command. Fill `expected.txt` first: an empty expected file means you expect empty output. Floating-point answers require your own tolerance comparison; special judges need their own checker. There is no execution timeout.
+`run` reads the whole `input.txt` through stdin, writes stdout to `output.txt`, and displays the result. Stderr stays on the terminal. The working directory is the sample folder, so relative file opens work there too. `check` runs the program and compares its output to `expected.txt`, ignoring whitespace differences. Nonzero program exits and mismatches fail the command. Fill `expected.txt` first: an empty expected file means you expect empty output. Floating-point answers require your own tolerance comparison; special judges need their own checker.
 
-`build` only compiles C++; Python has no compilation step. `SOURCE=path/to/file.cpp` can replace `NAME` for existing sources; its source folder supplies the input/output files. For interactive stdin, use `./run.sh path/to/file.cpp`; that existing runner still defaults to the top-level practice directory and supports `--cwd`.
+Program execution has a five-second timeout. For a slower solution, use `make run A_Line_Trip.cpp RUN_TIMEOUT=10` (also supported by `check`). The limit must be a finite positive number of seconds; it does not apply to compilation or PCH creation. On timeout the runner stops the program, reports the limit, retains any partial output, and exits with status 124 (Make reports the failed recipe).
+
+`build` only compiles C++; Python has no compilation step. Bare filenames first select the corresponding inbox workspace, including its cataloged source after filing; otherwise they resolve an existing file or a unique catalog filename. Ambiguous catalog filenames require a path. Explicit paths also work, for example `make run solutions/strings/cf-stringtask.cpp`. Cataloged sources originally created in the inbox use their retained sample folder when available; other sources use their source folder. The older explicit `SOURCE=...` form continues to use the source folder directly. For interactive stdin, use `./run.sh path/to/file.cpp`; that existing runner still defaults to the top-level practice directory and supports `--cwd`.
 
 ## Header lookup and compilation speed
 
@@ -44,9 +48,9 @@ With GCC, Make copies the repository header into `build/pch/<configuration>/bits
 
 ```bash
 make pch
-make build NAME=A_Line_Trip CXXFLAGS='-std=c++23 -O0 -g -Wall -Wextra'
-make run NAME=A_Line_Trip PCH=0
-make run NAME=A_Line_Trip CXX=clang++ PCH=0
+make build A_Line_Trip.cpp CXXFLAGS='-std=c++23 -O0 -g -Wall -Wextra'
+make run A_Line_Trip.cpp PCH=0
+make run A_Line_Trip.cpp CXX=clang++ PCH=0
 ```
 
 Defaults are `CXX=g++`, `CXXFLAGS='-std=c++23 -O2 -pipe'`, and `PCH=1`. Custom `CXXFLAGS` replace the entire default list; include your desired `-std=`. `CPPFLAGS` supplies extra preprocessing flags. Compiler identity, flags, repository header content, and dependency timestamps determine cache reuse. Executables are reused when their dependencies and configuration are unchanged. Failed compilations invalidate their saved build state. Delete the relevant ignored cache directory to force a rebuild; do not copy old `.gch` files into the source tree.
@@ -61,6 +65,6 @@ make ingest-apply
 make lint
 ```
 
-Ingestion uses the existing organizer. Automated categories remain suggestions; an agent can read the implementation and record a reviewed decision. The source moves to its category, while the input and expected-output files remain in the workspace. `make run NAME=... LANG=...` resolves the moved source through its original path in the catalog, retaining those samples. Do not rename or reuse that workspace name after filing. Alternate attempts need distinct names. A manually moved uncataloged source requires an explicit `SOURCE` path.
+Ingestion uses the existing organizer. Automated categories remain suggestions; an agent can read the implementation and record a reviewed decision. The source moves to its category, while the input and expected-output files remain in the workspace. `make run problem.cpp` resolves the moved source through its original path in the catalog, retaining those samples. Do not rename or reuse that workspace name after filing. Alternate attempts need distinct names. A manually moved uncataloged source requires an explicit path. `make ingest`, `make ingest-apply`, `make lint`, and `make pch` continue to operate without a filename.
 
 For an explicitly known category, use [the existing filing command](../../README.md#file-a-solution-with-a-known-category). No Make target stages, commits, pushes, or installs hooks.

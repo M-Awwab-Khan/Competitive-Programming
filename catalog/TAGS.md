@@ -276,7 +276,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## brute-force-and-backtracking
 
-42 files
+43 files
 
 - [A IQ Test (cpp)](../solutions/brute-force-and-backtracking/A_IQ_Test.cpp)
 - [apple division (cpp)](../solutions/brute-force-and-backtracking/apple_division.cpp)
@@ -296,6 +296,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [C - Mixtures (cpp)](../solutions/brute-force-and-backtracking/C_Mixtures.cpp)
 - [C Olympic Haircut (cpp)](../solutions/brute-force-and-backtracking/C_Olympic_Haircut.cpp)
 - [C. Sum of Cubes (cpp)](../solutions/brute-force-and-backtracking/C_Sum_of_Cubes.cpp)
+- [cf cheaptravel (cpp)](../solutions/brute-force-and-backtracking/cf-cheaptravel.cpp)
 - [creating strings (cpp)](../solutions/brute-force-and-backtracking/creating-strings.cpp)
 - [D 753 (cpp)](../solutions/needs-review/D_753.cpp)
 - [D. Three Logos (cpp)](../solutions/brute-force-and-backtracking/D_Three_Logos.cpp)
@@ -576,7 +577,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## geometry
 
-37 files
+39 files
 
 - [A - Isosceles (cpp)](../solutions/geometry/A_Isosceles.cpp)
 - [A - Point Location Test (cpp)](../solutions/geometry/A_Point_Location_Test.cpp)
@@ -593,6 +594,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Two Tables (cpp)](../solutions/geometry/B_Two_Tables.cpp)
 - [Blocked Billboard II (cpp)](../solutions/geometry/Blocked_Billboard_II.cpp)
 - [C. White Sheet (cpp)](../solutions/geometry/C_White_Sheet.cpp)
+- [cf fancyfence (cpp)](../solutions/math/arithmetic/cf-fancyfence.cpp)
+- [cf iceskating (cpp)](../solutions/graphs/traversal/cf-iceskating.cpp)
 - [Closest Pair (cpp)](../solutions/geometry/Closest_Pair.cpp)
 - [Closest Pair Uniform (cpp)](../solutions/geometry/Closest_Pair_Uniform.cpp)
 - [D - Circle Lattice Points (python)](../solutions/geometry/D_Circle_Lattice_Points.py)
@@ -642,7 +645,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## graphs/traversal
 
-23 files
+24 files
 
 - [A Two Friends (cpp)](../solutions/graphs/traversal/A_Two_Friends.cpp)
 - [B DZY Loves Chemistry (cpp)](../solutions/data-structures/disjoint-set/B_DZY_Loves_Chemistry.cpp)
@@ -651,6 +654,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [C Adjacency Matrix (cpp)](../solutions/graphs/traversal/C_Adjacency_Matrix.cpp)
 - [C Kefa and Park (cpp)](../solutions/trees/C_Kefa_and_Park.cpp)
 - [C. Group Movie Night (cpp)](../solutions/graphs/traversal/C_Group_Movie_Night.cpp)
+- [cf iceskating (cpp)](../solutions/graphs/traversal/cf-iceskating.cpp)
 - [cses gameroutes (cpp)](../solutions/graphs/topological-sort/cses-gameroutes.cpp)
 - [cses subtreequeries (cpp)](../solutions/trees/cses-subtreequeries.cpp)
 - [D - Subordinates (cpp)](../solutions/trees/D_Subordinates.cpp)
@@ -767,7 +771,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/arithmetic
 
-112 files
+114 files
 
 - [A - Between a and b ... (cpp)](../solutions/math/arithmetic/A_Between_a_and_b.cpp)
 - [A - Keep the Apples (cpp)](../solutions/math/arithmetic/A_Keep_the_Apples.cpp)
@@ -830,6 +834,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf A Adding Digits (cpp)](../solutions/math/arithmetic/cf-A_Adding_Digits.cpp)
 - [cf adding digits (python)](../solutions/math/arithmetic/cf-adding-digits.py)
 - [cf again25 (cpp)](../solutions/math/arithmetic/cf-again25.cpp)
+- [cf cheaptravel (cpp)](../solutions/brute-force-and-backtracking/cf-cheaptravel.cpp)
+- [cf fancyfence (cpp)](../solutions/math/arithmetic/cf-fancyfence.cpp)
 - [cf fizzbuzzremixed (cpp)](../solutions/math/arithmetic/cf-fizzbuzzremixed.cpp)
 - [cf iambored (cpp)](../solutions/math/arithmetic/cf-iambored.cpp)
 - [cf kthnondivisible (cpp)](../solutions/math/arithmetic/cf-kthnondivisible.cpp)
@@ -1364,7 +1370,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## strings
 
-84 files
+85 files
 
 - [A - ABC -> AC (python)](../solutions/strings/A_ABC_AC.py)
 - [A Comparing Strings (cpp)](../solutions/strings/A_Comparing_Strings.cpp)
@@ -1405,6 +1411,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf numeric strings template  (cpp)](../solutions/strings/cf-numeric-strings-template-.cpp)
 - [cf skibidus (cpp)](../solutions/strings/cf-skibidus.cpp)
 - [cf skibidusnohio (cpp)](../solutions/strings/cf-skibidusnohio.cpp)
+- [cf stringtask (cpp)](../solutions/strings/cf-stringtask.cpp)
 - [cf translation (cpp)](../solutions/strings/cf-translation.cpp)
 - [creating strings (cpp)](../solutions/brute-force-and-backtracking/creating-strings.cpp)
 - [D Product Subsequences (cpp)](../solutions/strings/D_Product_Subsequences.cpp)

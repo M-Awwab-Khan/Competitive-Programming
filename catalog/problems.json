@@ -29538,6 +29538,113 @@
       "patterns": [
         "binomial-counting"
       ]
+    },
+    {
+      "key": "b7be738a8b3a4f37",
+      "title": "cf fancyfence",
+      "path": "solutions/math/arithmetic/cf-fancyfence.cpp",
+      "original_path": "practice/inbox/cf-fancyfence/cf-fancyfence.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "b84e11d67a85db1e4fb1eb918e74550949e6768beb91f2f0ea5d2de6335dc064",
+      "category": "math/arithmetic",
+      "tags": [
+        "geometry",
+        "math/arithmetic"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Checks divisibility of 360 by the exterior angle 180-n to determine whether an integer number of equal turns closes a regular polygon; assumes the input angle is strictly between 0 and 180 degrees.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "b84e11d67a85db1e4fb1eb918e74550949e6768beb91f2f0ea5d2de6335dc064",
+      "observed_sha256": "b84e11d67a85db1e4fb1eb918e74550949e6768beb91f2f0ea5d2de6335dc064",
+      "review_required": false,
+      "patterns": []
+    },
+    {
+      "key": "18f518df62554e0f",
+      "title": "cf iceskating",
+      "path": "solutions/graphs/traversal/cf-iceskating.cpp",
+      "original_path": "practice/inbox/cf-iceskating/cf-iceskating.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "480eb08ddb51da60639354c5309de4332e964fdc2347b43ab536aaf69a71e01f",
+      "category": "graphs/traversal",
+      "tags": [
+        "geometry",
+        "graphs/traversal"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Compares every pair of points, adds undirected edges for equal x or y coordinates, recursively visits each component with DFS, and prints component count minus one; explicit map/set adjacency has quadratic possible storage and insertion costs.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "480eb08ddb51da60639354c5309de4332e964fdc2347b43ab536aaf69a71e01f",
+      "observed_sha256": "480eb08ddb51da60639354c5309de4332e964fdc2347b43ab536aaf69a71e01f",
+      "review_required": false,
+      "patterns": []
+    },
+    {
+      "key": "61ba334b01cd4ea8",
+      "title": "cf stringtask",
+      "path": "solutions/strings/cf-stringtask.cpp",
+      "original_path": "practice/inbox/cf-stringtask/cf-stringtask.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "5bf37559a23b731add736b3b8df968a5ba750d5f10c1633fb2e9f49de66ae191",
+      "category": "strings",
+      "tags": [
+        "strings"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Erases vowels in both cases, inserts a dot before remaining characters while advancing past each insertion, then converts ASCII uppercase letters to lowercase. Repeated middle insertions can take quadratic time.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "5bf37559a23b731add736b3b8df968a5ba750d5f10c1633fb2e9f49de66ae191",
+      "observed_sha256": "5bf37559a23b731add736b3b8df968a5ba750d5f10c1633fb2e9f49de66ae191",
+      "review_required": false,
+      "patterns": []
+    },
+    {
+      "key": "3433b92b016d4416",
+      "title": "cf cheaptravel",
+      "path": "solutions/brute-force-and-backtracking/cf-cheaptravel.cpp",
+      "original_path": "practice/inbox/cf-cheaptravel/cf-cheaptravel.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "ad78c9d26f14ff7bfbd83cc0be93cf84e8b7c29b347fd48785abfc280e680f73",
+      "category": "brute-force-and-backtracking",
+      "tags": [
+        "brute-force-and-backtracking",
+        "math/arithmetic"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Enumerates every single-ticket count xx from 0 through n, computes the remaining bundle count with ceiling division (n-xx+m-1)/m, and minimizes xx*a plus bundle_count*b. This is O(n) enumeration with O(1) extra space; assumes m is positive and integer cost arithmetic fits int.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "ad78c9d26f14ff7bfbd83cc0be93cf84e8b7c29b347fd48785abfc280e680f73",
+      "observed_sha256": "ad78c9d26f14ff7bfbd83cc0be93cf84e8b7c29b347fd48785abfc280e680f73",
+      "review_required": false,
+      "patterns": []
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Practice workspace
 
-Create an attempt from the repository root with `make new NAME=A LANG=cpp` (or `LANG=python`). This creates `inbox/A/A.cpp`, `input.txt`, `output.txt`, and `expected.txt`. Edit the source and input, then use `make run NAME=A`; use `make check NAME=A` after filling the expected answer. Pass the same language for Python runs. No CPH setup is needed.
+Create an attempt from the repository root with `make new A.cpp` (or `make new A.py` for Python). This creates `inbox/A/A.cpp`, `input.txt`, `output.txt`, and `expected.txt`. Edit the source and input, then use `make run A.cpp`; use `make check A.cpp` after filling the expected answer. The extension selects the language for each command. No CPH setup is needed.
 
 Preview filing with `make ingest`; apply with `make ingest-apply`, or ask the agent to organize new solutions. Filing moves the source but leaves samples here; Make resolves the filed source using its original path in the catalog. Keep the sample folder name stable. See the [workflow guide](../notes/tooling/problem-workflow.md).
 

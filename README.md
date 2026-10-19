@@ -15,17 +15,17 @@ Pattern recognition, arithmetic and number theory, combinatorics, geometry formu
 Requires Make, Python 3.10+, and GCC with C++23 support for C++ problems. CPH is not required.
 
 ```bash
-make new NAME=A_Line_Trip LANG=cpp
-make new NAME=B LANG=python
+make new A_Line_Trip.cpp
+make new B.py
 # Edit the source and input.txt in practice/inbox/A_Line_Trip/.
-make run NAME=A_Line_Trip
+make run A_Line_Trip.cpp
 # Paste the expected answer into expected.txt, then:
-make check NAME=A_Line_Trip
+make check A_Line_Trip.cpp
 ```
 
-Each problem gets a folder containing `NAME.cpp` or `NAME.py`, `input.txt`, `output.txt`, and `expected.txt`. C++ is the default language; pass `LANG=python` when running a Python problem. Creation refuses to overwrite an existing folder. Inputs and expected answers can be committed; generated `output.txt` is ignored. Starters handle one test case; uncomment the test-count read for problems that supply `t`.
+Each problem gets a folder containing its source, `input.txt`, `output.txt`, and `expected.txt`. The extension selects the language: `.cpp` for C++, `.py` for Python. Pass one filename per invocation. Creation refuses to overwrite an existing folder. Inputs and expected answers can be committed; generated `output.txt` is ignored. Starters handle one test case; uncomment the test-count read for problems that supply `t`. The previous `NAME=... LANG=...` syntax also works.
 
-`make run` reads `input.txt`, writes and displays `output.txt`, and keeps stderr visible. `make check` compares whitespace-separated tokens exactly; it does not implement floating-point tolerances or special judges. Use the existing interactive runner for interactive problems. New problems stay in the inbox until you explicitly file them:
+`make run` reads `input.txt`, writes and displays `output.txt`, and keeps stderr visible. Program execution has a five-second timeout; override it with `RUN_TIMEOUT=10` on `run` or `check`. Compilation is not timed. `make check` compares whitespace-separated tokens exactly; it does not implement floating-point tolerances or special judges. Use the existing interactive runner for interactive problems. New problems stay in the inbox until you explicitly file them:
 
 ```bash
 make ingest          # Preview proposed classifications/moves
@@ -33,7 +33,7 @@ make ingest-apply    # Apply suggestions; samples stay in the problem folder
 make lint
 ```
 
-After filing, `make run NAME=A_Line_Trip` still finds the source through its catalog entry and uses the original sample folder. `make build` only compiles; `make help` lists commands. For an existing source, `make run SOURCE=solutions/strings/A_Petya_and_Strings.cpp` uses input/output files alongside that source. The [workflow guide](notes/tooling/problem-workflow.md) covers header caching, flags, and archiving.
+After filing, `make run A_Line_Trip.cpp` still finds the source through its catalog entry and uses the original sample folder. `make build A_Line_Trip.cpp` only compiles; `make help` lists commands. An explicit path also works, such as `make run solutions/strings/cf-stringtask.cpp`; cataloged inbox sources retain their original sample workspace. Other sources use input/output files alongside the source. The [workflow guide](notes/tooling/problem-workflow.md) covers header caching, flags, and archiving.
 
 ### Fast C++ headers
 
@@ -41,9 +41,9 @@ The new starter keeps `#include "bits/stdc++.h"`. Quoted includes search the sou
 
 ```bash
 make pch                         # Optional: prepare the header before a contest
-make run NAME=A_Line_Trip PCH=0   # Disable precompiled headers
-make run NAME=A_Line_Trip CXX=clang++ PCH=0
-make build NAME=A_Line_Trip CXXFLAGS='-std=c++23 -O0 -g -Wall -Wextra'
+make run A_Line_Trip.cpp PCH=0   # Disable precompiled headers
+make run A_Line_Trip.cpp CXX=clang++ PCH=0
+make build A_Line_Trip.cpp CXXFLAGS='-std=c++23 -O0 -g -Wall -Wextra'
 ```
 
 Compiler, flags, header contents, and dependency timestamps control cache reuse. Incompatible macros defined before the include can make GCC fall back to parsing the header; `-Winvalid-pch` reports this. Keep the include first, as in the starter. See GCC's [include search rules](https://gcc.gnu.org/onlinedocs/gcc/Directory-Options.html) and [precompiled-header requirements](https://gcc.gnu.org/onlinedocs/gcc/Precompiled-Headers.html).

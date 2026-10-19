@@ -7,7 +7,7 @@
 | [arrays-and-counting](arrays-and-counting/) | 92 |
 | [binary-search](binary-search/) | 75 |
 | [bit-manipulation](bit-manipulation/) | 34 |
-| [brute-force-and-backtracking](brute-force-and-backtracking/) | 38 |
+| [brute-force-and-backtracking](brute-force-and-backtracking/) | 39 |
 | [constructive](constructive/) | 46 |
 | [data-structures/disjoint-set](data-structures/disjoint-set/) | 5 |
 | [data-structures/heaps](data-structures/heaps/) | 1 |
@@ -25,10 +25,10 @@
 | [graphs/shortest-paths](graphs/shortest-paths/) | 6 |
 | [graphs/spanning-trees](graphs/spanning-trees/) | 1 |
 | [graphs/topological-sort](graphs/topological-sort/) | 2 |
-| [graphs/traversal](graphs/traversal/) | 13 |
+| [graphs/traversal](graphs/traversal/) | 14 |
 | [greedy](greedy/) | 84 |
 | [intervals](intervals/) | 1 |
-| [math/arithmetic](math/arithmetic/) | 108 |
+| [math/arithmetic](math/arithmetic/) | 109 |
 | [math/combinatorics](math/combinatorics/) | 18 |
 | [math/number-theory](math/number-theory/) | 49 |
 | [meet-in-the-middle](meet-in-the-middle/) | 1 |
@@ -37,7 +37,7 @@
 | [recursion-and-divide-and-conquer](recursion-and-divide-and-conquer/) | 6 |
 | [simulation](simulation/) | 88 |
 | [sorting-and-searching](sorting-and-searching/) | 107 |
-| [strings](strings/) | 70 |
+| [strings](strings/) | 71 |
 | [ternary-search](ternary-search/) | 5 |
 | [trees](trees/) | 8 |
 | [two-pointers-and-sliding-window](two-pointers-and-sliding-window/) | 38 |

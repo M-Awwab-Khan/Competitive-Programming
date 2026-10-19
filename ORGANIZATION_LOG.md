@@ -4,6 +4,32 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-10-19T07:27:23+00:00 — REVIEW
+
+- solutions/needs-review/cf-cheaptravel.cpp → solutions/brute-force-and-backtracking/cf-cheaptravel.cpp: Enumerates every single-ticket count xx from 0 through n, computes the remaining bundle count with ceiling division (n-xx+m-1)/m, and minimizes xx*a plus bundle_count*b. This is O(n) enumeration with O(1) extra space; assumes m is positive and integer cost arithmetic fits int.. Category: brute-force-and-backtracking; status: reviewed.
+
+## 2026-10-19T07:27:22+00:00 — INGEST
+
+- practice/inbox/cf-cheaptravel/cf-cheaptravel.cpp → solutions/needs-review/cf-cheaptravel.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+
+## 2026-10-19T06:45:03+00:00 — REVIEW
+
+- solutions/strings/cf-stringtask.cpp → solutions/strings/cf-stringtask.cpp: Erases vowels in both cases, inserts a dot before remaining characters while advancing past each insertion, then converts ASCII uppercase letters to lowercase. Repeated middle insertions can take quadratic time.. Category: strings; status: reviewed.
+
+## 2026-10-19T06:45:02+00:00 — REVIEW
+
+- solutions/graphs/traversal/cf-iceskating.cpp → solutions/graphs/traversal/cf-iceskating.cpp: Compares every pair of points, adds undirected edges for equal x or y coordinates, recursively visits each component with DFS, and prints component count minus one; explicit map/set adjacency has quadratic possible storage and insertion costs.. Category: graphs/traversal; status: reviewed.
+
+## 2026-10-19T06:45:01+00:00 — REVIEW
+
+- solutions/needs-review/cf-fancyfence.cpp → solutions/math/arithmetic/cf-fancyfence.cpp: Checks divisibility of 360 by the exterior angle 180-n to determine whether an integer number of equal turns closes a regular polygon; assumes the input angle is strictly between 0 and 180 degrees.. Category: math/arithmetic; status: reviewed.
+
+## 2026-10-19T06:45:00+00:00 — INGEST
+
+- practice/inbox/cf-fancyfence/cf-fancyfence.cpp → solutions/needs-review/cf-fancyfence.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/cf-iceskating/cf-iceskating.cpp → solutions/graphs/traversal/cf-iceskating.cpp: Filed new source; classification remains a suggestion. Category: graphs/traversal; status: suggested.
+- practice/inbox/cf-stringtask/cf-stringtask.cpp → solutions/strings/cf-stringtask.cpp: Filed new source; classification remains a suggestion. Category: strings; status: suggested.
+
 ## 2026-10-18T15:24:09+00:00 — REVIEW
 
 - solutions/math/combinatorics/cf-expectedmedian.cpp → solutions/math/combinatorics/cf-expectedmedian.cpp: Precomputes factorials and inverse factorials modulo 1000000007 using binary exponentiation, then sums C(count1,i)*C(count0,k-i) for i from (k+1)/2 to min(k,count1); interprets the median threshold for odd k and binary input, with factorial indices bounded by 200001.. Category: math/combinatorics; status: reviewed.
