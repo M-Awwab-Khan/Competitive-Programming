@@ -40,5 +40,6 @@ Links are generated from catalog associations; classifications do not establish 
 | [E. Building an Aquarium (cpp)](../../solutions/binary-search/E_Building_an_Aquarium.cpp) | binary-search | suggested |
 | [factory machines (cpp)](../../solutions/binary-search/factory_machines.cpp) | binary-search | suggested |
 | [G The Veneto Relay (cpp)](../../solutions/binary-search/G_The_Veneto_Relay.cpp) | binary-search | reviewed |
+| [Rameez And The Missing Numbers (cpp)](../../solutions/binary-search/Rameez_And_The_Missing_Numbers.cpp) | binary-search | reviewed |
 
 <!-- examples:end -->
