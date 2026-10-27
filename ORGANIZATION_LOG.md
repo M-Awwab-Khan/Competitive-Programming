@@ -4,6 +4,39 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-10-27T13:35:22+00:00 — REVIEW
+
+- solutions/sorting-and-searching/test2.cpp → solutions/math/number-theory/test2.cpp: Trial-divides M into prime factors, sorts factors by ascending decimal length then descending value, and accumulates M times factor digit length while dividing M. The comparator narrows long long factors to int; zero input would not terminate.. Category: math/number-theory; status: reviewed.
+
+## 2026-10-27T13:35:19+00:00 — REVIEW
+
+- solutions/needs-review/test.py → solutions/math/number-theory/test.py: Multiplies the input integers while reducing the running product modulo 1000000007; n is read but not used to validate the number of values.. Category: math/number-theory; status: reviewed.
+
+## 2026-10-27T13:35:17+00:00 — REVIEW
+
+- solutions/bit-manipulation/test.cpp → solutions/data-structures/stacks-and-queues/test.cpp: A monotonic stack finds each previous greater-or-equal index; a 19-level binary-lifting table counts predecessor-chain links inside query bounds. Debug level tables remain in output; fixed N and level count bound supported sizes.. Category: data-structures/stacks-and-queues; status: reviewed.
+
+## 2026-10-27T13:35:15+00:00 — REVIEW
+
+- solutions/needs-review/cf-wewerebothchildren.cpp → solutions/math/number-theory/cf-wewerebothchildren.cpp: Counts input values, adds each frequency to all multiples up to n, and takes the maximum accumulated count; ignores values outside 1..n.. Category: math/number-theory; status: reviewed.
+
+## 2026-10-27T13:35:13+00:00 — REVIEW
+
+- solutions/needs-review/cf-fun.cpp → solutions/brute-force-and-backtracking/cf-fun.cpp: Enumerates positive a and b under feasibility bounds, then counts valid positive c with min((n-a*b)/(a+b), x-a-b). Accumulator and products use int, so overflow depends on input bounds.. Category: brute-force-and-backtracking; status: reviewed.
+
+## 2026-10-27T13:35:11+00:00 — REVIEW
+
+- solutions/needs-review/cf-bakery.cpp → solutions/arrays-and-counting/cf-bakery.cpp: Stores selected vertices in a set and scans every edge, minimizing weight exactly when one endpoint belongs to the selected set; no graph traversal or shortest-path computation.. Category: arrays-and-counting; status: reviewed.
+
+## 2026-10-27T13:34:52+00:00 — INGEST
+
+- practice/inbox/cf-bakery/cf-bakery.cpp → solutions/needs-review/cf-bakery.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/cf-fun/cf-fun.cpp → solutions/needs-review/cf-fun.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/cf-wewerebothchildren/cf-wewerebothchildren.cpp → solutions/needs-review/cf-wewerebothchildren.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- test.cpp → solutions/bit-manipulation/test.cpp: Filed new source; classification remains a suggestion. Category: bit-manipulation; status: suggested.
+- test.py → solutions/needs-review/test.py: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- test2.cpp → solutions/sorting-and-searching/test2.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+
 ## 2026-10-19T07:27:23+00:00 — REVIEW
 
 - solutions/needs-review/cf-cheaptravel.cpp → solutions/brute-force-and-backtracking/cf-cheaptravel.cpp: Enumerates every single-ticket count xx from 0 through n, computes the remaining bundle count with ceiling division (n-xx+m-1)/m, and minimizes xx*a plus bundle_count*b. This is O(n) enumeration with O(1) extra space; assumes m is positive and integer cost arithmetic fits int.. Category: brute-force-and-backtracking; status: reviewed.

@@ -6,7 +6,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## arrays-and-counting
 
-95 files
+97 files
 
 - [A Elections (cpp)](../solutions/arrays-and-counting/A_Elections.cpp)
 - [A Free Cash (cpp)](../solutions/arrays-and-counting/A_Free_Cash.cpp)
@@ -51,9 +51,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf A Sereja and Bottles (cpp)](../solutions/arrays-and-counting/cf-A_Sereja_and_Bottles.cpp)
 - [cf A Winner (cpp)](../solutions/arrays-and-counting/cf-A_Winner.cpp)
 - [cf A Young Physicist (cpp)](../solutions/arrays-and-counting/cf-A_Young_Physicist.cpp)
+- [cf bakery (cpp)](../solutions/arrays-and-counting/cf-bakery.cpp)
 - [cf ballinberland (cpp)](../solutions/arrays-and-counting/cf-ballinberland.cpp)
 - [cf evenarray (cpp)](../solutions/arrays-and-counting/cf-evenarray.cpp)
 - [cf expectedmedian (cpp)](../solutions/math/combinatorics/cf-expectedmedian.cpp)
+- [cf wewerebothchildren (cpp)](../solutions/math/number-theory/cf-wewerebothchildren.cpp)
 - [cf youngphysicist (cpp)](../solutions/arrays-and-counting/cf-youngphysicist.cpp)
 - [cses collectingnumbers (cpp)](../solutions/arrays-and-counting/cses-collectingnumbers.cpp)
 - [cses distinctnumbers (cpp)](../solutions/arrays-and-counting/cses-distinctnumbers.cpp)
@@ -276,7 +278,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## brute-force-and-backtracking
 
-43 files
+44 files
 
 - [A IQ Test (cpp)](../solutions/brute-force-and-backtracking/A_IQ_Test.cpp)
 - [apple division (cpp)](../solutions/brute-force-and-backtracking/apple_division.cpp)
@@ -297,6 +299,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [C Olympic Haircut (cpp)](../solutions/brute-force-and-backtracking/C_Olympic_Haircut.cpp)
 - [C. Sum of Cubes (cpp)](../solutions/brute-force-and-backtracking/C_Sum_of_Cubes.cpp)
 - [cf cheaptravel (cpp)](../solutions/brute-force-and-backtracking/cf-cheaptravel.cpp)
+- [cf fun (cpp)](../solutions/brute-force-and-backtracking/cf-fun.cpp)
 - [creating strings (cpp)](../solutions/brute-force-and-backtracking/creating-strings.cpp)
 - [D 753 (cpp)](../solutions/needs-review/D_753.cpp)
 - [D. Three Logos (cpp)](../solutions/brute-force-and-backtracking/D_Three_Logos.cpp)
@@ -396,7 +399,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/ordered-sets
 
-17 files
+18 files
 
 - [AG - Powers Of Two (cpp)](../solutions/bit-manipulation/AG_Powers_Of_Two.cpp)
 - [Associative Array (cpp)](../solutions/data-structures/ordered-sets/Associative_Array.cpp)
@@ -405,6 +408,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B George and Round (cpp)](../solutions/binary-search/B_George_and_Round.cpp)
 - [B. Baby Baraa in ALBAIK (cpp)](../solutions/data-structures/ordered-sets/B_Baby_Baraa_in_ALBAIK.cpp)
 - [B. Intercepted Inputs (cpp)](../solutions/data-structures/ordered-sets/B_Intercepted_Inputs.cpp)
+- [cf bakery (cpp)](../solutions/arrays-and-counting/cf-bakery.cpp)
 - [concert tickets (cpp)](../solutions/data-structures/ordered-sets/concert_tickets.cpp)
 - [cses josephus2 (cpp)](../solutions/data-structures/ordered-sets/cses-josephus2.cpp)
 - [cses moviefestival2 (cpp)](../solutions/greedy/cses-moviefestival2.cpp)
@@ -418,17 +422,18 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/range-queries
 
-5 files
+6 files
 
 - [cses subtreequeries (cpp)](../solutions/trees/cses-subtreequeries.cpp)
 - [D. Distinct Characters Queries (cpp)](../solutions/data-structures/range-queries/D_Distinct_Characters_Queries.cpp)
 - [D. Xenia and Bit Operations (cpp)](../solutions/data-structures/range-queries/D_Xenia_and_Bit_Operations.cpp)
 - [F. Ant colony (cpp)](../solutions/data-structures/range-queries/F_Ant_colony.cpp)
 - [G. Permutation Rank (cpp)](../solutions/constructive/G_Permutation_Rank.cpp)
+- [test (cpp)](../solutions/data-structures/stacks-and-queues/test.cpp)
 
 ## data-structures/stacks-and-queues
 
-16 files
+17 files
 
 - [B Two Brackets (cpp)](../solutions/data-structures/stacks-and-queues/B_Two_Brackets.cpp)
 - [cses nearestsmallervalues (cpp)](../solutions/data-structures/stacks-and-queues/cses-nearestsmallervalues.cpp)
@@ -442,6 +447,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [O - Chat Order (cpp)](../solutions/data-structures/stacks-and-queues/O_Chat_Order.cpp)
 - [q6 (python)](../solutions/graphs/shortest-paths/q6.py)
 - [sliding window max (cpp)](../algorithms/two-pointers-and-sliding-window/sliding_window_max.cpp)
+- [test (cpp)](../solutions/data-structures/stacks-and-queues/test.cpp)
 - [the sound of silence (python)](../solutions/two-pointers-and-sliding-window/the-sound-of-silence.py)
 - [uva armybuddies (cpp)](../solutions/data-structures/stacks-and-queues/uva-armybuddies.cpp)
 - [uva globalraining (cpp)](../solutions/data-structures/stacks-and-queues/uva-globalraining.cpp)
@@ -771,7 +777,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/arithmetic
 
-114 files
+116 files
 
 - [A - Between a and b ... (cpp)](../solutions/math/arithmetic/A_Between_a_and_b.cpp)
 - [A - Keep the Apples (cpp)](../solutions/math/arithmetic/A_Keep_the_Apples.cpp)
@@ -837,6 +843,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf cheaptravel (cpp)](../solutions/brute-force-and-backtracking/cf-cheaptravel.cpp)
 - [cf fancyfence (cpp)](../solutions/math/arithmetic/cf-fancyfence.cpp)
 - [cf fizzbuzzremixed (cpp)](../solutions/math/arithmetic/cf-fizzbuzzremixed.cpp)
+- [cf fun (cpp)](../solutions/brute-force-and-backtracking/cf-fun.cpp)
 - [cf iambored (cpp)](../solutions/math/arithmetic/cf-iambored.cpp)
 - [cf kthnondivisible (cpp)](../solutions/math/arithmetic/cf-kthnondivisible.cpp)
 - [cf pythagoreanii (cpp)](../solutions/math/arithmetic/cf-pythagoreanii.cpp)
@@ -878,6 +885,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [searching for nessy (cpp)](../solutions/math/arithmetic/searching_for_nessy.cpp)
 - [summing digits (cpp)](../solutions/math/arithmetic/summing-digits.cpp)
 - [T Savings (cpp)](../solutions/math/arithmetic/T_Savings.cpp)
+- [test (python)](../solutions/math/number-theory/test.py)
 - [time travelling temperatures (cpp)](../solutions/math/arithmetic/time-travelling-temperatures.cpp)
 - [tlx tilinggame (cpp)](../solutions/math/arithmetic/tlx-tilinggame.cpp)
 - [traffic lights (cpp)](../references/model-solutions/math/arithmetic/traffic-lights.cpp)
@@ -918,7 +926,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/number-theory
 
-63 files
+66 files
 
 - [A Cifera (cpp)](../solutions/math/number-theory/A_Cifera.cpp)
 - [A Fox and Number Game (cpp)](../solutions/math/number-theory/A_Fox_and_Number_Game.cpp)
@@ -951,6 +959,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf expectedmedian (cpp)](../solutions/math/combinatorics/cf-expectedmedian.cpp)
 - [cf kingkeymystery (cpp)](../solutions/math/number-theory/cf-kingkeymystery.cpp)
 - [cf twodivisors (cpp)](../solutions/math/number-theory/cf-twodivisors.cpp)
+- [cf wewerebothchildren (cpp)](../solutions/math/number-theory/cf-wewerebothchildren.cpp)
 - [chinese remainder theorem (cpp)](../solutions/math/number-theory/chinese_remainder_theorem.cpp)
 - [csa gcd (cpp)](../solutions/math/number-theory/csa-gcd.cpp)
 - [cses commondivisors (cpp)](../solutions/math/number-theory/cses-commondivisors.cpp)
@@ -980,6 +989,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [next prime (python)](../solutions/math/number-theory/next-prime.py)
 - [next prime (cpp)](../solutions/math/number-theory/next_prime.cpp)
 - [sumofdivisors (cpp)](../solutions/math/number-theory/sumofdivisors.cpp)
+- [test (python)](../solutions/math/number-theory/test.py)
+- [test2 (cpp)](../solutions/math/number-theory/test2.cpp)
 - [uva subprime (cpp)](../solutions/math/number-theory/uva-subprime.cpp)
 - [yuki countmultiples (cpp)](../solutions/math/combinatorics/yuki-countmultiples.cpp)
 - [yuki primefactorization (cpp)](../solutions/math/number-theory/yuki-primefactorization.cpp)
@@ -1168,7 +1179,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-197 files
+198 files
 
 - [1 (python)](../solutions/binary-search/1.py)
 - [11222 Only I did it (python)](../solutions/sorting-and-searching/11222_Only_I_did_it.py)
@@ -1350,6 +1361,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [sum of two values (cpp)](../solutions/sorting-and-searching/sum_of_two_values.cpp)
 - [sum of two values (python)](../solutions/sorting-and-searching/sum_of_two_values.py)
 - [team tic tac toe (python)](../solutions/sorting-and-searching/team-tic-tac-toe.py)
+- [test2 (cpp)](../solutions/math/number-theory/test2.cpp)
 - [The Third Side (cpp)](../solutions/sorting-and-searching/The_Third_Side.cpp)
 - [The Wave (cpp)](../solutions/binary-search/The_Wave.cpp)
 - [tournament (cpp)](../solutions/sorting-and-searching/tournament.cpp)

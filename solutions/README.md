@@ -4,16 +4,16 @@
 
 | Category | Solutions |
 | --- | ---: |
-| [arrays-and-counting](arrays-and-counting/) | 92 |
+| [arrays-and-counting](arrays-and-counting/) | 93 |
 | [binary-search](binary-search/) | 75 |
 | [bit-manipulation](bit-manipulation/) | 34 |
-| [brute-force-and-backtracking](brute-force-and-backtracking/) | 39 |
+| [brute-force-and-backtracking](brute-force-and-backtracking/) | 40 |
 | [constructive](constructive/) | 46 |
 | [data-structures/disjoint-set](data-structures/disjoint-set/) | 5 |
 | [data-structures/heaps](data-structures/heaps/) | 1 |
 | [data-structures/ordered-sets](data-structures/ordered-sets/) | 9 |
 | [data-structures/range-queries](data-structures/range-queries/) | 3 |
-| [data-structures/stacks-and-queues](data-structures/stacks-and-queues/) | 9 |
+| [data-structures/stacks-and-queues](data-structures/stacks-and-queues/) | 10 |
 | [dynamic-programming/bitmask](dynamic-programming/bitmask/) | 1 |
 | [dynamic-programming/general](dynamic-programming/general/) | 27 |
 | [dynamic-programming/intervals](dynamic-programming/intervals/) | 3 |
@@ -30,7 +30,7 @@
 | [intervals](intervals/) | 1 |
 | [math/arithmetic](math/arithmetic/) | 109 |
 | [math/combinatorics](math/combinatorics/) | 18 |
-| [math/number-theory](math/number-theory/) | 49 |
+| [math/number-theory](math/number-theory/) | 52 |
 | [meet-in-the-middle](meet-in-the-middle/) | 1 |
 | [needs-review](needs-review/) | 10 |
 | [prefix-sums](prefix-sums/) | 44 |

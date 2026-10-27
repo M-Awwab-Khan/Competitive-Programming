@@ -1,6 +1,6 @@
 # Problem index
 
-1073 source files across 37 primary categories.
+1079 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -8,16 +8,16 @@ Categories describe local implementations. Suggested labels are inferred; review
 
 | Category | Files | Description |
 | --- | ---: | --- |
-| [arrays-and-counting](#arrays-and-counting) | 92 | Arrays, frequency counting, sets, and direct scans |
+| [arrays-and-counting](#arrays-and-counting) | 93 | Arrays, frequency counting, sets, and direct scans |
 | [binary-search](#binary-search) | 75 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 34 | Bitwise operations, XOR identities, and bit counting |
-| [brute-force-and-backtracking](#brute-force-and-backtracking) | 39 | Enumeration, subset search, and backtracking |
+| [brute-force-and-backtracking](#brute-force-and-backtracking) | 40 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 46 | Constructing a valid array, permutation, or arrangement |
 | [data-structures/disjoint-set](#data-structuresdisjoint-set) | 5 | Disjoint set union and component merging |
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
 | [data-structures/ordered-sets](#data-structuresordered-sets) | 9 | Ordered sets, multisets, and order statistics |
 | [data-structures/range-queries](#data-structuresrange-queries) | 3 | Segment trees, Fenwick trees, and sparse tables |
-| [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 9 | Stacks, deques, and monotonic structures |
+| [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 10 | Stacks, deques, and monotonic structures |
 | [dynamic-programming/bitmask](#dynamic-programmingbitmask) | 1 | Dynamic programming over subsets |
 | [dynamic-programming/general](#dynamic-programminggeneral) | 27 | Other dynamic programming recurrences |
 | [dynamic-programming/intervals](#dynamic-programmingintervals) | 3 | Dynamic programming over intervals |
@@ -34,7 +34,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [intervals](#intervals) | 1 | Interval overlap, coverage, and endpoint constraints |
 | [math/arithmetic](#matharithmetic) | 110 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 18 | Combinatorial counting, factorials, and binomial coefficients |
-| [math/number-theory](#mathnumber-theory) | 49 | GCD, primes, factorization, divisibility, and modular arithmetic |
+| [math/number-theory](#mathnumber-theory) | 52 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 1 | Enumerate two halves and combine their results |
 | [needs-review](#needs-review) | 10 | Insufficient evidence for a specific pattern |
 | [prefix-sums](#prefix-sums) | 46 | Prefix/suffix aggregates, differences, and prefix sum hashing |
@@ -93,6 +93,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [cf A Sereja and Bottles — cf-A_Sereja_and_Bottles.cpp](../solutions/arrays-and-counting/cf-A_Sereja_and_Bottles.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
 | [cf A Winner — cf-A_Winner.cpp](../solutions/arrays-and-counting/cf-A_Winner.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
 | [cf A Young Physicist — cf-A_Young_Physicist.cpp](../solutions/arrays-and-counting/cf-A_Young_Physicist.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
+| [cf bakery — cf-bakery.cpp](../solutions/arrays-and-counting/cf-bakery.cpp) | cpp | unknown | arrays-and-counting, data-structures/ordered-sets | reviewed |  |
 | [cf ballinberland — cf-ballinberland.cpp](../solutions/arrays-and-counting/cf-ballinberland.cpp) | cpp | unknown | arrays-and-counting, math/combinatorics | reviewed | [Pair counting with inclusion-exclusion](../notes/patterns/pair-counting-inclusion-exclusion.md) |
 | [cf evenarray — cf-evenarray.cpp](../solutions/arrays-and-counting/cf-evenarray.cpp) | cpp | codeforces | arrays-and-counting | reviewed |  |
 | [cf youngphysicist — cf-youngphysicist.cpp](../solutions/arrays-and-counting/cf-youngphysicist.cpp) | cpp | codeforces | arrays-and-counting | suggested |  |
@@ -285,6 +286,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C Olympic Haircut — C_Olympic_Haircut.cpp](../solutions/brute-force-and-backtracking/C_Olympic_Haircut.cpp) | cpp | unknown | bit-manipulation, brute-force-and-backtracking | reviewed |  |
 | [C. Sum of Cubes — C_Sum_of_Cubes.cpp](../solutions/brute-force-and-backtracking/C_Sum_of_Cubes.cpp) | cpp | codeforces / 1490C | brute-force-and-backtracking | suggested |  |
 | [cf cheaptravel — cf-cheaptravel.cpp](../solutions/brute-force-and-backtracking/cf-cheaptravel.cpp) | cpp | unknown | brute-force-and-backtracking, math/arithmetic | reviewed |  |
+| [cf fun — cf-fun.cpp](../solutions/brute-force-and-backtracking/cf-fun.cpp) | cpp | unknown | brute-force-and-backtracking, math/arithmetic | reviewed |  |
 | [creating strings — creating-strings.cpp](../solutions/brute-force-and-backtracking/creating-strings.cpp) | cpp | unknown | brute-force-and-backtracking, sorting-and-searching, strings | suggested |  |
 | [D. Three Logos — D_Three_Logos.cpp](../solutions/brute-force-and-backtracking/D_Three_Logos.cpp) | cpp | codeforces / 581D | bit-manipulation, brute-force-and-backtracking | suggested |  |
 | [DMOJ 24 — DMOJ_24.py](../solutions/brute-force-and-backtracking/DMOJ_24.py) | python | unknown | brute-force-and-backtracking | reviewed |  |
@@ -406,6 +408,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [K. Wahban and brackets — K_Wahban_and_brackets.cpp](../solutions/data-structures/stacks-and-queues/K_Wahban_and_brackets.cpp) | cpp | codeforces / gym-106350-K | data-structures/stacks-and-queues | suggested |  |
 | [M Notebook — M_Notebook.cpp](../solutions/data-structures/stacks-and-queues/M_Notebook.cpp) | cpp | unknown | data-structures/stacks-and-queues | reviewed |  |
 | [O - Chat Order — O_Chat_Order.cpp](../solutions/data-structures/stacks-and-queues/O_Chat_Order.cpp) | cpp | vjudge / contest-709907-O | data-structures/stacks-and-queues | reviewed |  |
+| [test — test.cpp](../solutions/data-structures/stacks-and-queues/test.cpp) | cpp | unknown | data-structures/range-queries, data-structures/stacks-and-queues | reviewed |  |
 | [uva armybuddies — uva-armybuddies.cpp](../solutions/data-structures/stacks-and-queues/uva-armybuddies.cpp) | cpp | uva | data-structures/stacks-and-queues | suggested |  |
 | [uva globalraining — uva-globalraining.cpp](../solutions/data-structures/stacks-and-queues/uva-globalraining.cpp) | cpp | uva | data-structures/stacks-and-queues | suggested |  |
 
@@ -846,6 +849,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [cf ehabandgcd — cf-ehabandgcd.cpp](../solutions/math/number-theory/cf-ehabandgcd.cpp) | cpp | codeforces | math/number-theory | suggested |  |
 | [cf kingkeymystery — cf-kingkeymystery.cpp](../solutions/math/number-theory/cf-kingkeymystery.cpp) | cpp | codeforces | math/number-theory | suggested |  |
 | [cf twodivisors — cf-twodivisors.cpp](../solutions/math/number-theory/cf-twodivisors.cpp) | cpp | codeforces | math/number-theory | suggested |  |
+| [cf wewerebothchildren — cf-wewerebothchildren.cpp](../solutions/math/number-theory/cf-wewerebothchildren.cpp) | cpp | unknown | arrays-and-counting, math/number-theory | reviewed |  |
 | [chinese remainder theorem — chinese_remainder_theorem.cpp](../solutions/math/number-theory/chinese_remainder_theorem.cpp) | cpp | unknown | math/number-theory | reviewed |  |
 | [csa gcd — csa-gcd.cpp](../solutions/math/number-theory/csa-gcd.cpp) | cpp | unknown | math/number-theory | suggested |  |
 | [cses commondivisors — cses-commondivisors.cpp](../solutions/math/number-theory/cses-commondivisors.cpp) | cpp | cses | math/number-theory | suggested |  |
@@ -869,6 +873,8 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [next prime — next-prime.py](../solutions/math/number-theory/next-prime.py) | python | unknown | math/number-theory | suggested |  |
 | [next prime — next_prime.cpp](../solutions/math/number-theory/next_prime.cpp) | cpp | unknown | bit-manipulation, math/number-theory | suggested |  |
 | [sumofdivisors — sumofdivisors.cpp](../solutions/math/number-theory/sumofdivisors.cpp) | cpp | unknown | math/number-theory | suggested |  |
+| [test — test.py](../solutions/math/number-theory/test.py) | python | unknown | math/arithmetic, math/number-theory | reviewed |  |
+| [test2 — test2.cpp](../solutions/math/number-theory/test2.cpp) | cpp | unknown | math/number-theory, sorting-and-searching | reviewed |  |
 | [uva subprime — uva-subprime.cpp](../solutions/math/number-theory/uva-subprime.cpp) | cpp | uva | math/number-theory | suggested |  |
 | [yuki primefactorization — yuki-primefactorization.cpp](../solutions/math/number-theory/yuki-primefactorization.cpp) | cpp | yukicoder | math/number-theory | suggested |  |
 
