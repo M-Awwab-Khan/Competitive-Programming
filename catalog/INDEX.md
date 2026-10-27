@@ -1,6 +1,6 @@
 # Problem index
 
-1079 source files across 37 primary categories.
+1122 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -8,43 +8,43 @@ Categories describe local implementations. Suggested labels are inferred; review
 
 | Category | Files | Description |
 | --- | ---: | --- |
-| [arrays-and-counting](#arrays-and-counting) | 93 | Arrays, frequency counting, sets, and direct scans |
-| [binary-search](#binary-search) | 75 | Binary search on sorted data or a monotone answer |
+| [arrays-and-counting](#arrays-and-counting) | 96 | Arrays, frequency counting, sets, and direct scans |
+| [binary-search](#binary-search) | 76 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 34 | Bitwise operations, XOR identities, and bit counting |
-| [brute-force-and-backtracking](#brute-force-and-backtracking) | 40 | Enumeration, subset search, and backtracking |
+| [brute-force-and-backtracking](#brute-force-and-backtracking) | 41 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 46 | Constructing a valid array, permutation, or arrangement |
 | [data-structures/disjoint-set](#data-structuresdisjoint-set) | 5 | Disjoint set union and component merging |
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
 | [data-structures/ordered-sets](#data-structuresordered-sets) | 9 | Ordered sets, multisets, and order statistics |
 | [data-structures/range-queries](#data-structuresrange-queries) | 3 | Segment trees, Fenwick trees, and sparse tables |
 | [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 10 | Stacks, deques, and monotonic structures |
-| [dynamic-programming/bitmask](#dynamic-programmingbitmask) | 1 | Dynamic programming over subsets |
-| [dynamic-programming/general](#dynamic-programminggeneral) | 27 | Other dynamic programming recurrences |
+| [dynamic-programming/bitmask](#dynamic-programmingbitmask) | 2 | Dynamic programming over subsets |
+| [dynamic-programming/general](#dynamic-programminggeneral) | 29 | Other dynamic programming recurrences |
 | [dynamic-programming/intervals](#dynamic-programmingintervals) | 3 | Dynamic programming over intervals |
 | [dynamic-programming/kadane](#dynamic-programmingkadane) | 5 | Maximum subarray sums and Kadane style recurrences |
-| [dynamic-programming/knapsack](#dynamic-programmingknapsack) | 17 | Subset sum, coin change, and knapsack states |
-| [dynamic-programming/sequences](#dynamic-programmingsequences) | 3 | Subsequence and string dynamic programming |
-| [games](#games) | 3 | Winning states, parity games, and strategy |
+| [dynamic-programming/knapsack](#dynamic-programmingknapsack) | 18 | Subset sum, coin change, and knapsack states |
+| [dynamic-programming/sequences](#dynamic-programmingsequences) | 6 | Subsequence and string dynamic programming |
+| [games](#games) | 4 | Winning states, parity games, and strategy |
 | [geometry](#geometry) | 34 | Coordinates, distances, intersections, and areas |
 | [graphs/shortest-paths](#graphsshortest-paths) | 6 | Shortest path and breadth first distance problems |
-| [graphs/spanning-trees](#graphsspanning-trees) | 1 | Minimum or maximum spanning trees |
+| [graphs/spanning-trees](#graphsspanning-trees) | 2 | Minimum or maximum spanning trees |
 | [graphs/topological-sort](#graphstopological-sort) | 2 | Dependency ordering and DAG algorithms |
-| [graphs/traversal](#graphstraversal) | 14 | Graph search, components, grids, and reachability |
-| [greedy](#greedy) | 84 | Local choices, scheduling, and exchange arguments |
+| [graphs/traversal](#graphstraversal) | 15 | Graph search, components, grids, and reachability |
+| [greedy](#greedy) | 95 | Local choices, scheduling, and exchange arguments |
 | [intervals](#intervals) | 1 | Interval overlap, coverage, and endpoint constraints |
-| [math/arithmetic](#matharithmetic) | 110 | Formulas, parity, digit arithmetic, and algebra |
+| [math/arithmetic](#matharithmetic) | 114 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 18 | Combinatorial counting, factorials, and binomial coefficients |
-| [math/number-theory](#mathnumber-theory) | 52 | GCD, primes, factorization, divisibility, and modular arithmetic |
-| [meet-in-the-middle](#meet-in-the-middle) | 1 | Enumerate two halves and combine their results |
-| [needs-review](#needs-review) | 10 | Insufficient evidence for a specific pattern |
-| [prefix-sums](#prefix-sums) | 46 | Prefix/suffix aggregates, differences, and prefix sum hashing |
+| [math/number-theory](#mathnumber-theory) | 57 | GCD, primes, factorization, divisibility, and modular arithmetic |
+| [meet-in-the-middle](#meet-in-the-middle) | 2 | Enumerate two halves and combine their results |
+| [needs-review](#needs-review) | 11 | Insufficient evidence for a specific pattern |
+| [prefix-sums](#prefix-sums) | 48 | Prefix/suffix aggregates, differences, and prefix sum hashing |
 | [recursion-and-divide-and-conquer](#recursion-and-divide-and-conquer) | 6 | Recursive decomposition and divide and conquer |
-| [simulation](#simulation) | 88 | Direct simulation of rules, grids, and processes |
-| [sorting-and-searching](#sorting-and-searching) | 107 | Sorting, rank queries, and sorted order reasoning |
+| [simulation](#simulation) | 90 | Direct simulation of rules, grids, and processes |
+| [sorting-and-searching](#sorting-and-searching) | 108 | Sorting, rank queries, and sorted order reasoning |
 | [strings](#strings) | 71 | String matching, parsing, and character transformations |
 | [ternary-search](#ternary-search) | 5 | Searching a unimodal function |
 | [trees](#trees) | 8 | Tree traversal, subtree queries, and tree properties |
-| [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 40 | Moving boundaries, fixed/variable windows, and merging |
+| [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 41 | Moving boundaries, fixed/variable windows, and merging |
 
 ## arrays-and-counting
 
@@ -119,6 +119,8 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [I Remove It — I_Remove_It.cpp](../solutions/arrays-and-counting/I_Remove_It.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
 | [J - Counting Rectangles — J_Counting_Rectangles.cpp](../solutions/arrays-and-counting/J_Counting_Rectangles.cpp) | cpp | vjudge / contest-688779-J | arrays-and-counting, geometry, prefix-sums | suggested |  |
 | [k distinct subarrays — k_distinct_subarrays.py](../solutions/arrays-and-counting/k_distinct_subarrays.py) | python | unknown | arrays-and-counting, two-pointers-and-sliding-window | suggested |  |
+| [K Equal subsequence — K_Equal_subsequence.py](../solutions/arrays-and-counting/K_Equal_subsequence.py) | python | unknown | arrays-and-counting | reviewed; source changed |  |
+| [K Equal subsequence — K_Equal_subsequence.cpp](../solutions/arrays-and-counting/K_Equal_subsequence__5fbda7ad.cpp) | cpp | unknown | arrays-and-counting | reviewed; source changed |  |
 | [kattis batterup — kattis-batterup.cpp](../solutions/arrays-and-counting/kattis-batterup.cpp) | cpp | kattis | arrays-and-counting | suggested |  |
 | [kattis fastfoodprizes — kattis-fastfoodprizes.cpp](../solutions/arrays-and-counting/kattis-fastfoodprizes.cpp) | cpp | kattis | arrays-and-counting | suggested |  |
 | [kattis jollyjumpers — kattis-jollyjumpers.cpp](../solutions/arrays-and-counting/kattis-jollyjumpers.cpp) | cpp | kattis | arrays-and-counting | suggested |  |
@@ -128,6 +130,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [kattis vote — kattis-vote.cpp](../solutions/arrays-and-counting/kattis-vote.cpp) | cpp | kattis | arrays-and-counting | suggested |  |
 | [licensetolaunch — licensetolaunch.cpp](../solutions/arrays-and-counting/licensetolaunch.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
 | [Lurak Gya — Lurak Gya.cpp](../solutions/arrays-and-counting/Lurak%20Gya.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
+| [maximum nondecreasing — maximum_nondecreasing.cpp](../solutions/arrays-and-counting/maximum_nondecreasing.cpp) | cpp | unknown | arrays-and-counting | reviewed; source changed |  |
 | [missing number — missing-number.cpp](../solutions/arrays-and-counting/missing-number.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
 | [oddgnome — oddgnome.cpp](../solutions/arrays-and-counting/oddgnome.cpp) | cpp | unknown | arrays-and-counting | reviewed |  |
 | [open credit system — open-credit-system.cpp](../solutions/arrays-and-counting/open-credit-system.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
@@ -214,6 +217,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [moobuzz — moobuzz.cpp](../solutions/binary-search/moobuzz.cpp) | cpp | unknown | binary-search | suggested |  |
 | [O - Trinity — O_Trinity.cpp](../solutions/binary-search/O_Trinity.cpp) | cpp | vjudge / contest-688796-O | binary-search, sorting-and-searching | suggested |  |
 | [poinsnoned dagger — poinsnoned_dagger.py](../solutions/binary-search/poinsnoned_dagger.py) | python | unknown | binary-search | suggested |  |
+| [Rameez And The Missing Numbers — Rameez_And_The_Missing_Numbers.cpp](../solutions/binary-search/Rameez_And_The_Missing_Numbers.cpp) | cpp | unknown | binary-search, math/number-theory | reviewed; source changed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [roots — roots.py](../solutions/binary-search/roots.py) | python | unknown | binary-search, sorting-and-searching | suggested |  |
 | [T - Set — T_Set.cpp](../solutions/binary-search/T_Set.cpp) | cpp | vjudge / contest-688794-T | binary-search | suggested |  |
 | [The Wave — The_Wave.cpp](../solutions/binary-search/The_Wave.cpp) | cpp | unknown | binary-search, sorting-and-searching | suggested |  |
@@ -293,6 +297,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [F Mastering Mastermind — F_Mastering_Mastermind.cpp](../solutions/brute-force-and-backtracking/F_Mastering_Mastermind.cpp) | cpp | unknown | brute-force-and-backtracking | suggested |  |
 | [F. 3SUM — F_3_SUM.cpp](../solutions/brute-force-and-backtracking/F_3_SUM.cpp) | cpp | codeforces / 1692F | brute-force-and-backtracking | suggested |  |
 | [G - Preparing Olympiad — G_Preparing_Olympiad.cpp](../solutions/brute-force-and-backtracking/G_Preparing_Olympiad.cpp) | cpp | vjudge / contest-688791-G | bit-manipulation, brute-force-and-backtracking | suggested |  |
+| [Grid Sums Backtracking — Grid_Sums_Backtracking.cpp](../solutions/brute-force-and-backtracking/Grid_Sums_Backtracking.cpp) | cpp | unknown | bit-manipulation, brute-force-and-backtracking | reviewed; source changed |  |
 | [I How many — I_How_many.cpp](../solutions/brute-force-and-backtracking/I_How_many.cpp) | cpp | unknown | brute-force-and-backtracking | suggested |  |
 | [J - Meet in the Middle — J_Meet_in_the_Middle.cpp](../solutions/brute-force-and-backtracking/J_Meet_in_the_Middle.cpp) | cpp | vjudge / contest-688780-J | binary-search, bit-manipulation, brute-force-and-backtracking, sorting-and-searching | suggested |  |
 | [kattis bubbletea — kattis-bubbletea.cpp](../solutions/brute-force-and-backtracking/kattis-bubbletea.cpp) | cpp | kattis | brute-force-and-backtracking | suggested |  |
@@ -417,6 +422,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
 | [G - Elevator Rides — G_Elevator_Rides.cpp](../solutions/dynamic-programming/bitmask/G_Elevator_Rides.cpp) | cpp | vjudge / contest-734291-G | bit-manipulation, dynamic-programming/bitmask, dynamic-programming/general | suggested |  |
+| [Sprinkler Piping — Sprinkler_Piping.cpp](../solutions/dynamic-programming/bitmask/Sprinkler_Piping.cpp) | cpp | unknown | dynamic-programming/bitmask | reviewed; source changed |  |
 
 ## dynamic-programming/general
 
@@ -440,6 +446,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [E. Tribonacci numbers — E_Tribonacci_numbers.cpp](../solutions/dynamic-programming/general/E_Tribonacci_numbers.cpp) | cpp | codeforces / 130E | dynamic-programming/general | suggested |  |
 | [Frog 1 — Frog_1.cpp](../solutions/dynamic-programming/general/Frog_1.cpp) | cpp | unknown | dynamic-programming/general | suggested |  |
 | [Frog 2 — Frog_2.cpp](../solutions/dynamic-programming/general/Frog_2.cpp) | cpp | unknown | dynamic-programming/general | suggested |  |
+| [G Subway Surfers — G_Subway_Surfers.cpp](../solutions/dynamic-programming/general/G_Subway_Surfers.cpp) | cpp | unknown | dynamic-programming/general | reviewed; source changed |  |
 | [Grid 1 — Grid_1.cpp](../solutions/dynamic-programming/general/Grid_1.cpp) | cpp | atcoder / dp_h | dynamic-programming/general | suggested |  |
 | [J Bernard — J_Bernard.cpp](../solutions/dynamic-programming/general/J_Bernard.cpp) | cpp | unknown | dynamic-programming/general | suggested |  |
 | [K - Stones — K_Stones.cpp](../solutions/dynamic-programming/general/K_Stones.cpp) | cpp | atcoder / dp_k | dynamic-programming/general | suggested |  |
@@ -449,6 +456,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [matrix path — matrix-path.cpp](../solutions/dynamic-programming/general/matrix-path.cpp) | cpp | unknown | dynamic-programming/general | suggested |  |
 | [Pie Rules — Pie_Rules.cpp](../solutions/dynamic-programming/general/Pie_Rules.cpp) | cpp | codeforces / 859C | dynamic-programming/general | suggested |  |
 | [softwarehouse — softwarehouse.py](../solutions/dynamic-programming/general/softwarehouse.py) | python | unknown | dynamic-programming/general | suggested |  |
+| [test — test.py](../solutions/dynamic-programming/general/test.py) | python | unknown | dynamic-programming/general, games | reviewed; source changed |  |
 
 ## dynamic-programming/intervals
 
@@ -475,6 +483,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [A Cut Ribbon — A_Cut_Ribbon.cpp](../solutions/dynamic-programming/knapsack/A_Cut_Ribbon.cpp) | cpp | unknown | dynamic-programming/general, dynamic-programming/knapsack | suggested |  |
 | [A Subset sum dp — A_Subset_sum_dp.cpp](../solutions/dynamic-programming/knapsack/A_Subset_sum_dp.cpp) | cpp | unknown | dynamic-programming/general, dynamic-programming/knapsack | suggested |  |
 | [B Modulo Sum — B_Modulo_Sum.cpp](../solutions/dynamic-programming/knapsack/B_Modulo_Sum.cpp) | cpp | unknown | dynamic-programming/general, dynamic-programming/knapsack | suggested |  |
+| [Coin Change 1 — Coin_Change_1.cpp](../solutions/dynamic-programming/knapsack/Coin_Change_1.cpp) | cpp | unknown | dynamic-programming/knapsack | reviewed; source changed |  |
 | [cses bookshop — cses-bookshop.cpp](../solutions/dynamic-programming/knapsack/cses-bookshop.cpp) | cpp | cses | dynamic-programming/general, dynamic-programming/knapsack | suggested |  |
 | [cses coincombinations — cses-coincombinations.cpp](../solutions/dynamic-programming/knapsack/cses-coincombinations.cpp) | cpp | cses | dynamic-programming/general, dynamic-programming/knapsack | suggested |  |
 | [cses coincombinations1 — cses-coincombinations1.cpp](../solutions/dynamic-programming/knapsack/cses-coincombinations1.cpp) | cpp | cses | dynamic-programming/general, dynamic-programming/knapsack | suggested |  |
@@ -494,14 +503,18 @@ Categories describe local implementations. Suggested labels are inferred; review
 
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
+| [boredom — boredom.cpp](../solutions/dynamic-programming/sequences/boredom.cpp) | cpp | unknown | arrays-and-counting, dynamic-programming/sequences | reviewed; source changed |  |
+| [Coin Change 2 — Coin_Change_2.cpp](../solutions/dynamic-programming/sequences/Coin_Change_2.cpp) | cpp | unknown | dynamic-programming/sequences | reviewed; source changed |  |
 | [cses lis — cses-lis.cpp](../solutions/dynamic-programming/sequences/cses-lis.cpp) | cpp | cses | binary-search, dynamic-programming/sequences | reviewed |  |
 | [E Traffic Light — E_Traffic_Light.cpp](../solutions/dynamic-programming/sequences/E_Traffic_Light.cpp) | cpp | unknown | dynamic-programming/sequences | reviewed |  |
 | [LCS — LCS.cpp](../solutions/dynamic-programming/sequences/LCS.cpp) | cpp | atcoder / dp_f | dynamic-programming/general, dynamic-programming/sequences | reviewed |  |
+| [Pegs DP — Pegs_DP.cpp](../solutions/dynamic-programming/sequences/Pegs_DP.cpp) | cpp | unknown | dynamic-programming/sequences, geometry | reviewed; source changed |  |
 
 ## games
 
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
+| [A Game of chocolates — A_Game_of_chocolates.py](../solutions/games/A_Game_of_chocolates.py) | python | unknown | games, math/number-theory | reviewed; source changed |  |
 | [B Little Girl and Game — B_Little_Girl_and_Game.cpp](../solutions/games/B_Little_Girl_and_Game.cpp) | cpp | unknown | games | suggested |  |
 | [B Simple Game — B_Simple_Game.cpp](../solutions/games/B_Simple_Game.cpp) | cpp | unknown | games | suggested |  |
 | [gameOfDivision — gameOfDivision.py](../solutions/games/gameOfDivision.py) | python | unknown | games | suggested |  |
@@ -561,6 +574,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
 | [B Max Spanning Tree — B_Max_Spanning_Tree.cpp](../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp) | cpp | unknown | data-structures/disjoint-set, graphs/spanning-trees, sorting-and-searching | reviewed |  |
+| [kruskal — kruskal.cpp](../solutions/graphs/spanning-trees/kruskal.cpp) | cpp | unknown | data-structures/disjoint-set, graphs/spanning-trees, greedy | reviewed; source changed |  |
 
 ## graphs/topological-sort
 
@@ -585,6 +599,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [H. Mad City — H_Mad_City.cpp](../solutions/graphs/traversal/H_Mad_City.cpp) | cpp | codeforces / 1873H | graphs/traversal | suggested |  |
 | [I Count Simple Paths — I_Count_Simple_Paths.cpp](../solutions/graphs/traversal/I_Count_Simple_Paths.cpp) | cpp | unknown | graphs/traversal | suggested |  |
 | [I Maze — I_Maze.cpp](../solutions/graphs/traversal/I_Maze.cpp) | cpp | unknown | graphs/traversal | suggested |  |
+| [longest path — longest_path.cpp](../solutions/graphs/traversal/longest_path.cpp) | cpp | unknown | graphs/traversal, recursion-and-divide-and-conquer | reviewed; source changed |  |
 | [Problem 2. Milk Factory — Problem_2_Milk_Factory.cpp](../solutions/graphs/traversal/Problem_2_Milk_Factory.cpp) | cpp | usaco / cpid-940 | graphs/traversal | suggested |  |
 | [Problem 2. The Great Revegetation — Problem_2_The_Great_Revegetation.cpp](../solutions/graphs/traversal/Problem_2_The_Great_Revegetation.cpp) | cpp | usaco / cpid-916 | graphs/traversal | suggested |  |
 
@@ -611,6 +626,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [apartments — apartments.py](../solutions/greedy/apartments.py) | python | unknown | greedy, sorting-and-searching | suggested |  |
 | [at resale — at-resale.cpp](../solutions/greedy/at-resale.cpp) | cpp | atcoder | greedy | suggested |  |
 | [B - Boxes and Candies — B_Boxes_and_Candies.cpp](../solutions/greedy/B_Boxes_and_Candies.cpp) | cpp | vjudge / contest-708940-B | greedy | suggested |  |
+| [B M Arrays — B_M_Arrays.cpp](../solutions/greedy/B_M_Arrays__0a29afd8.cpp) | cpp | unknown | data-structures/ordered-sets, greedy, math/number-theory | reviewed; source changed |  |
 | [B More Cowbell — B_More_Cowbell.cpp](../solutions/greedy/B_More_Cowbell.cpp) | cpp | unknown | greedy | suggested |  |
 | [B Pasha Maximizes — B_Pasha_Maximizes.cpp](../solutions/greedy/B_Pasha_Maximizes.cpp) | cpp | unknown | greedy | suggested |  |
 | [B Sail — B_Sail.cpp](../solutions/greedy/B_Sail.cpp) | cpp | unknown | greedy, simulation | suggested |  |
@@ -625,10 +641,13 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [B. Merge it! — B_Merge_it.cpp](../solutions/greedy/B_Merge_it.cpp) | cpp | codeforces / 1176B | greedy | suggested |  |
 | [B. Minimise Sum — B_Minimise_Sum.cpp](../solutions/greedy/B_Minimise_Sum.cpp) | cpp | codeforces / 2124B | greedy | suggested |  |
 | [B. Vika and the Bridge — B_Vika_and_the_Bridge.cpp](../solutions/greedy/B_Vika_and_the_Bridge.cpp) | cpp | codeforces / 1848B | greedy | suggested |  |
+| [Balatro — Balatro.cpp](../solutions/greedy/Balatro.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed; source changed |  |
 | [baloni — baloni.cpp](../solutions/greedy/baloni.cpp) | cpp | unknown | greedy | suggested |  |
+| [bottles and gems — bottles_and_gems.cpp](../solutions/greedy/bottles_and_gems.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed; source changed |  |
 | [C Make Them Equal — C_Make_Them_Equal.cpp](../solutions/greedy/C_Make_Them_Equal.cpp) | cpp | unknown | greedy | reviewed |  |
 | [C Omkar and Waterslide — C_Omkar_and_Waterslide.cpp](../solutions/greedy/C_Omkar_and_Waterslide.cpp) | cpp | unknown | greedy | suggested |  |
 | [C Raspberries — C_Raspberries.cpp](../solutions/greedy/C_Raspberries.cpp) | cpp | unknown | greedy | suggested |  |
+| [C Rearrange — C_Rearrange.cpp](../solutions/greedy/C_Rearrange.cpp) | cpp | unknown | data-structures/ordered-sets, greedy | reviewed; source changed |  |
 | [C Woodcutters — C_Woodcutters.cpp](../solutions/greedy/C_Woodcutters.cpp) | cpp | unknown | greedy | suggested |  |
 | [C. Assembly via Minimums — C_Assembly_via_Minimums.cpp](../solutions/greedy/C_Assembly_via_Minimums.cpp) | cpp | codeforces / 1857C | greedy | suggested |  |
 | [C. Exams — C_Exams.cpp](../solutions/greedy/C_Exams.cpp) | cpp | codeforces / 479C | greedy, sorting-and-searching | suggested |  |
@@ -648,13 +667,19 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [D - Pawn Line — D_Pawn_Line.cpp](../solutions/greedy/D_Pawn_Line.cpp) | cpp | atcoder / abc443_d | greedy | suggested |  |
 | [D Cancel the Array — D_Cancel_the_Array.cpp](../solutions/greedy/D_Cancel_the_Array.cpp) | cpp | unknown | greedy | suggested |  |
 | [D Decorating Christmas Tree — D_Decorating_Christmas_Tree.cpp](../solutions/greedy/D_Decorating_Christmas_Tree.cpp) | cpp | unknown | greedy, math/arithmetic | reviewed |  |
+| [D Matryoshkas — D_Matryoshkas.cpp](../solutions/greedy/D_Matryoshkas.cpp) | cpp | unknown | data-structures/ordered-sets, greedy | reviewed; source changed |  |
+| [D Max Product — D_Max_Product.cpp](../solutions/greedy/D_Max_Product.cpp) | cpp | unknown | greedy, math/arithmetic | reviewed; source changed |  |
+| [D Max Product — D_Max_Product.py](../solutions/greedy/D_Max_Product.py) | python | unknown | greedy, math/arithmetic | reviewed; source changed |  |
 | [D. Destruction of the Dandelion Fields — D_Destruction_of_the_Dandelion_Fields.cpp](../solutions/greedy/D_Destruction_of_the_Dandelion_Fields.cpp) | cpp | codeforces / 2148D | greedy, sorting-and-searching | reviewed |  |
 | [E Generosity — E_Generosity.cpp](../solutions/greedy/E_Generosity.cpp) | cpp | unknown | greedy | suggested |  |
 | [E Job Fair — E_Job_Fair.cpp](../solutions/greedy/E_Job_Fair.cpp) | cpp | unknown | greedy | suggested |  |
+| [E khba loves to sleep — E_khba_loves_to_sleep.cpp](../solutions/greedy/E_khba_loves_to_sleep.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed; source changed |  |
+| [E Make Empty — E_Make_Empty.cpp](../solutions/greedy/E_Make_Empty.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed; source changed |  |
 | [E. Boxers — E_Boxers.cpp](../solutions/greedy/E_Boxers.cpp) | cpp | codeforces / 1203E | greedy, sorting-and-searching | suggested |  |
 | [E. Negatives and Positives — E_Negatives_and_Positives.cpp](../solutions/greedy/E_Negatives_and_Positives.cpp) | cpp | codeforces / 1791E | greedy | suggested |  |
 | [ezzat — ezzat.py](../solutions/greedy/ezzat.py) | python | unknown | greedy | suggested |  |
 | [F1. Complete the Projects (easy version) — F_1_Complete_the_Projects_easy_version.cpp](../solutions/greedy/F_1_Complete_the_Projects_easy_version.cpp) | cpp | codeforces / 1203F1 | greedy, sorting-and-searching | suggested |  |
+| [Faking Data — Faking_Data.cpp](../solutions/greedy/Faking_Data.cpp) | cpp | unknown | arrays-and-counting, greedy | reviewed; source changed |  |
 | [ferris wheel — ferris_wheel.cpp](../solutions/greedy/ferris_wheel.cpp) | cpp | unknown | greedy, sorting-and-searching | suggested |  |
 | [flipping the matrix — flipping-the-matrix.py](../solutions/greedy/flipping-the-matrix.py) | python | unknown | greedy | suggested |  |
 | [friends and the restaurant — friends_and_the_restaurant.py](../solutions/greedy/friends_and_the_restaurant.py) | python | unknown | greedy, sorting-and-searching | suggested |  |
@@ -676,6 +701,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [USACO Watching Mooloo — USACO_Watching_Mooloo.cpp](../solutions/greedy/USACO_Watching_Mooloo.cpp) | cpp | usaco | greedy | suggested |  |
 | [validsplit — validsplit.py](../solutions/greedy/validsplit.py) | python | unknown | greedy | suggested |  |
 | [wooden ladder — wooden_ladder.py](../solutions/greedy/wooden_ladder.py) | python | unknown | greedy, sorting-and-searching | suggested |  |
+| [Young Explorers — Young_Explorers.cpp](../solutions/greedy/Young_Explorers.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed; source changed |  |
 
 ## intervals
 
@@ -693,6 +719,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [A - Scary Fee — A_Scary_Fee.cpp](../solutions/math/arithmetic/A_Scary_Fee.cpp) | cpp | atcoder / abc423_a | math/arithmetic | suggested |  |
 | [A - Transfusion — A_Transfusion.cpp](../solutions/math/arithmetic/A_Transfusion.cpp) | cpp | vjudge / contest-688796-A | math/arithmetic | suggested |  |
 | [A Adjacent Digit Sums — A_Adjacent_Digit_Sums.cpp](../solutions/math/arithmetic/A_Adjacent_Digit_Sums.cpp) | cpp | unknown | math/arithmetic | suggested |  |
+| [A AND Pairs — A_AND_Pairs.cpp](../solutions/math/arithmetic/A_AND_Pairs.cpp) | cpp | unknown | math/arithmetic | reviewed; source changed |  |
 | [A Dima and Friends — A_Dima_and_Friends.cpp](../solutions/math/arithmetic/A_Dima_and_Friends.cpp) | cpp | unknown | math/arithmetic | suggested |  |
 | [A Distanced Coloring — A_Distanced_Coloring.cpp](../solutions/math/arithmetic/A_Distanced_Coloring.cpp) | cpp | unknown | math/arithmetic | suggested |  |
 | [A Divisibility Problem — A_Divisibility_Problem.cpp](../solutions/math/arithmetic/A_Divisibility_Problem.cpp) | cpp | unknown | math/arithmetic | suggested |  |
@@ -767,7 +794,9 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [G - G — G_G.cpp](../solutions/math/arithmetic/G_G.cpp) | cpp | vjudge / contest-762603-G | math/arithmetic | reviewed |  |
 | [G Even Odds — G_Even_Odds.cpp](../solutions/math/arithmetic/G_Even_Odds.cpp) | cpp | unknown | math/arithmetic | suggested |  |
 | [H - Petr and a Combination Lock — H_Petr_and_a_Combination_Lock.cpp](../solutions/math/arithmetic/H_Petr_and_a_Combination_Lock.cpp) | cpp | vjudge / contest-688791-H | bit-manipulation, brute-force-and-backtracking, math/arithmetic | suggested |  |
+| [H Make Equal — H_Make_Equal.py](../solutions/math/arithmetic/H_Make_Equal.py) | python | unknown | math/arithmetic | reviewed; source changed |  |
 | [helpaphd — helpaphd.py](../solutions/math/arithmetic/helpaphd.py) | python | unknown | math/arithmetic | suggested |  |
+| [horner algo — horner_algo.cpp](../solutions/math/arithmetic/horner_algo.cpp) | cpp | unknown | math/arithmetic | reviewed; source changed |  |
 | [I - Maximize Sum of Digits — I_Maximize_Sum_of_Digits.cpp](../solutions/math/arithmetic/I_Maximize_Sum_of_Digits.cpp) | cpp | vjudge / contest-677789-I | math/arithmetic | suggested |  |
 | [J Domino piling — J_Domino_piling.cpp](../solutions/math/arithmetic/J_Domino_piling.cpp) | cpp | unknown | math/arithmetic | suggested |  |
 | [J Round Down — J_Round_Down.py](../solutions/math/arithmetic/J_Round_Down.py) | python | unknown | math/arithmetic | suggested |  |
@@ -776,6 +805,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [L - Interesting Function — L_Interesting_Function.cpp](../solutions/math/arithmetic/L_Interesting_Function.cpp) | cpp | vjudge / contest-688768-L | math/arithmetic | suggested |  |
 | [M Floor Number — M_Floor_Number.cpp](../solutions/math/arithmetic/M_Floor_Number.cpp) | cpp | unknown | math/arithmetic | suggested |  |
 | [N Square Counting — N_Square_Counting.cpp](../solutions/math/arithmetic/N_Square_Counting.cpp) | cpp | unknown | math/arithmetic | suggested |  |
+| [newtons method — newtons_method.cpp](../solutions/math/arithmetic/newtons_method.cpp) | cpp | unknown | math/arithmetic | reviewed; source changed |  |
 | [number spiral — number_spiral.cpp](../solutions/math/arithmetic/number_spiral.cpp) | cpp | unknown | math/arithmetic | reviewed |  |
 | [O Vasya and Coins — O_Vasya_and_Coins.cpp](../solutions/math/arithmetic/O_Vasya_and_Coins.cpp) | cpp | unknown | math/arithmetic | suggested |  |
 | [oddities — oddities.py](../solutions/math/arithmetic/oddities.py) | python | unknown | math/arithmetic | suggested |  |
@@ -844,6 +874,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C Earning on Bets — C_Earning_on_Bets.cpp](../solutions/math/number-theory/C_Earning_on_Bets.cpp) | cpp | unknown | math/number-theory | suggested |  |
 | [C Equality — C_Equality.cpp](../solutions/math/number-theory/C_Equality.cpp) | cpp | unknown | math/number-theory | reviewed |  |
 | [C Rare Function — C_Rare_Function.cpp](../solutions/math/number-theory/C_Rare_Function.cpp) | cpp | unknown | math/number-theory | reviewed |  |
+| [C Removing Smallest Multiples — C_Removing_Smallest_Multiples.cpp](../solutions/math/number-theory/C_Removing_Smallest_Multiples.cpp) | cpp | unknown | greedy, math/number-theory | reviewed; source changed |  |
 | [C. Another GCD — C_Another_GCD.cpp](../solutions/math/number-theory/C_Another_GCD.cpp) | cpp | codeforces / 422264C | math/number-theory, prefix-sums | suggested |  |
 | [C. Common Divisors — C_Common_Divisors.cpp](../solutions/math/number-theory/C_Common_Divisors.cpp) | cpp | codeforces / 1203C | math/number-theory | suggested |  |
 | [cf ehabandgcd — cf-ehabandgcd.cpp](../solutions/math/number-theory/cf-ehabandgcd.cpp) | cpp | codeforces | math/number-theory | suggested |  |
@@ -862,13 +893,16 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [D Divisble Pairs — D_Divisble_Pairs.cpp](../solutions/math/number-theory/D_Divisble_Pairs.cpp) | cpp | unknown | math/number-theory | reviewed |  |
 | [D Taxes — D_Taxes.cpp](../solutions/math/number-theory/D_Taxes.cpp) | cpp | unknown | math/number-theory | suggested |  |
 | [D. Soldier and Number Game — D_Soldier_and_Number_Game.cpp](../solutions/math/number-theory/D_Soldier_and_Number_Game.cpp) | cpp | codeforces / 546D | math/number-theory, prefix-sums | suggested |  |
+| [E Again Divisors — E_Again_Divisors.cpp](../solutions/math/number-theory/E_Again_Divisors.cpp) | cpp | unknown | bit-manipulation, math/combinatorics, math/number-theory | reviewed; source changed |  |
 | [F Divisors Count — F_Divisors_Count.cpp](../solutions/math/number-theory/F_Divisors_Count.cpp) | cpp | unknown | binary-search, math/number-theory, prefix-sums | reviewed |  |
 | [F Frosted Highway Hard — F_Frosted_Highway_Hard.cpp](../solutions/math/number-theory/F_Frosted_Highway_Hard.cpp) | cpp | unknown | binary-search, math/number-theory | reviewed |  |
 | [G Difference Operations — G_Difference_Operations.cpp](../solutions/math/number-theory/G_Difference_Operations.cpp) | cpp | unknown | math/number-theory | suggested |  |
 | [GCD on Blackboard — GCD_on_Blackboard.cpp](../solutions/math/number-theory/GCD_on_Blackboard.cpp) | cpp | atcoder / abc125_c | math/number-theory, prefix-sums | suggested |  |
 | [H - Insert and Equalize — H_Insert_and_Equalize.cpp](../solutions/math/number-theory/H_Insert_and_Equalize.cpp) | cpp | vjudge / contest-711002-H | math/number-theory, sorting-and-searching | suggested |  |
 | [H. Fady mesh fady — H_Fady_mesh_fady.cpp](../solutions/math/number-theory/H_Fady_mesh_fady.cpp) | cpp | codeforces / gym-106351-H | math/number-theory | suggested |  |
+| [Journey For Grapes — Journey_For_Grapes.cpp](../solutions/math/number-theory/Journey_For_Grapes.cpp) | cpp | unknown | math/number-theory | reviewed; source changed |  |
 | [kattis pascal — kattis-pascal.cpp](../solutions/math/number-theory/kattis-pascal.cpp) | cpp | kattis | math/number-theory | reviewed |  |
+| [largest partition — largest_partition.cpp](../solutions/math/number-theory/largest_partition.cpp) | cpp | unknown | arrays-and-counting, math/number-theory | reviewed; source changed |  |
 | [Little Elephant and Divisors — Little_Elephant_and_Divisors.cpp](../solutions/math/number-theory/Little_Elephant_and_Divisors.cpp) | cpp | unknown | math/number-theory | suggested |  |
 | [next prime — next-prime.py](../solutions/math/number-theory/next-prime.py) | python | unknown | math/number-theory | suggested |  |
 | [next prime — next_prime.cpp](../solutions/math/number-theory/next_prime.cpp) | cpp | unknown | bit-manipulation, math/number-theory | suggested |  |
@@ -876,12 +910,14 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [test — test.py](../solutions/math/number-theory/test.py) | python | unknown | math/arithmetic, math/number-theory | reviewed |  |
 | [test2 — test2.cpp](../solutions/math/number-theory/test2.cpp) | cpp | unknown | math/number-theory, sorting-and-searching | reviewed |  |
 | [uva subprime — uva-subprime.cpp](../solutions/math/number-theory/uva-subprime.cpp) | cpp | uva | math/number-theory | suggested |  |
+| [x = int(input()) — x = int(input()).py](../solutions/math/number-theory/x%20%3D%20int%28input%28%29%29.py) | python | unknown | math/number-theory | reviewed; source changed |  |
 | [yuki primefactorization — yuki-primefactorization.cpp](../solutions/math/number-theory/yuki-primefactorization.cpp) | cpp | yukicoder | math/number-theory | suggested |  |
 
 ## meet-in-the-middle
 
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
+| [J Apple s Farm — J_Apple_s_Farm.cpp](../solutions/meet-in-the-middle/J_Apple_s_Farm.cpp) | cpp | unknown | graphs/traversal, meet-in-the-middle | reviewed; source changed |  |
 | [K - Subset Sums — K_Subset_Sums.cpp](../solutions/meet-in-the-middle/K_Subset_Sums.cpp) | cpp | vjudge / contest-688780-K | binary-search, bit-manipulation, meet-in-the-middle | reviewed |  |
 
 ## needs-review
@@ -893,6 +929,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [cyber security expert — cyber_security_expert.cpp](../solutions/needs-review/cyber_security_expert.cpp) | cpp | unknown |  | needs-review |  |
 | [D 753 — D_753.cpp](../solutions/needs-review/D_753.cpp) | cpp | unknown | brute-force-and-backtracking | needs-review |  |
 | [D Hello World — D_Hello_World.cpp](../solutions/needs-review/D_Hello_World.cpp) | cpp | unknown |  | needs-review |  |
+| [Digits Duel — Digits_Duel.cpp](../solutions/needs-review/Digits_Duel.cpp) | cpp | unknown |  | needs-review; source changed |  |
 | [E - Integer Moves — E_Integer_Moves.cpp](../solutions/needs-review/E_Integer_Moves.cpp) | cpp | vjudge / contest-765781-E | geometry | needs-review |  |
 | [G Even Odds — G_Even_Odds.py](../solutions/needs-review/G_Even_Odds.py) | python | unknown | math/arithmetic | needs-review |  |
 | [H - ABCD quadruplets — H_ABCD_quadruplets.cpp](../solutions/needs-review/H_ABCD_quadruplets.cpp) | cpp | vjudge / contest-788184-H | math/combinatorics | needs-review |  |
@@ -910,6 +947,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [B Flip The Bits — B_Flip_The_Bits.cpp](../solutions/prefix-sums/B_Flip_The_Bits.cpp) | cpp | unknown | prefix-sums | suggested |  |
 | [B Kuriyama Mirai s Stones — B_Kuriyama_Mirai_s_Stones.cpp](../solutions/prefix-sums/B_Kuriyama_Mirai_s_Stones.cpp) | cpp | unknown | prefix-sums, sorting-and-searching | suggested |  |
 | [B Sereja and Suffixes — B_Sereja_and_Suffixes.cpp](../solutions/prefix-sums/B_Sereja_and_Suffixes.cpp) | cpp | unknown | dynamic-programming/general, prefix-sums | suggested |  |
+| [B Short and Hard — B_Short_and_Hard.cpp](../solutions/prefix-sums/B_Short_and_Hard.cpp) | cpp | unknown | brute-force-and-backtracking, prefix-sums | reviewed; source changed |  |
 | [B. Ilya and Queries — B_Ilya_and_Queries.cpp](../solutions/prefix-sums/B_Ilya_and_Queries.cpp) | cpp | codeforces / 313B | dynamic-programming/general, prefix-sums | suggested |  |
 | [B. Move to the End — B_Move_to_the_End.cpp](../solutions/prefix-sums/B_Move_to_the_End.cpp) | cpp | codeforces / 2104B | prefix-sums | suggested |  |
 | [B. Prefix Max — B_Prefix_Max.cpp](../solutions/prefix-sums/B_Prefix_Max.cpp) | cpp | codeforces / 2185B | prefix-sums | suggested |  |
@@ -928,6 +966,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [D Snowball — D_Snowball.cpp](../solutions/prefix-sums/D_Snowball.cpp) | cpp | unknown | prefix-sums, sorting-and-searching | reviewed |  |
 | [D Sum Neq — D_Sum_Neq.cpp](../solutions/prefix-sums/D_Sum_Neq.cpp) | cpp | unknown | prefix-sums | suggested |  |
 | [D. Find the Different Ones! — D_Find_the_Different_Ones.cpp](../solutions/prefix-sums/D_Find_the_Different_Ones.cpp) | cpp | codeforces / 1927D | prefix-sums | reviewed |  |
+| [E Romantic Glasses — E_Romantic_Glasses.cpp](../solutions/prefix-sums/E_Romantic_Glasses.cpp) | cpp | unknown | arrays-and-counting, prefix-sums | reviewed; source changed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [G - DMOPC '14 Contest 2 P4 - Deforestation — G_DMOPC_14_Contest_2_P_4_Deforestation.cpp](../solutions/prefix-sums/G_DMOPC_14_Contest_2_P_4_Deforestation.cpp) | cpp | vjudge / contest-788184-G | prefix-sums | suggested |  |
 | [G Pivot — G_Pivot.cpp](../solutions/prefix-sums/G_Pivot.cpp) | cpp | unknown | prefix-sums | suggested |  |
 | [H - Hits Different — H_Hits_Different.cpp](../solutions/prefix-sums/H_Hits_Different.cpp) | cpp | vjudge / contest-768159-H | dynamic-programming/general, prefix-sums | suggested |  |
@@ -994,6 +1033,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [E A New Technique — E_A_New_Technique.cpp](../solutions/simulation/E_A_New_Technique.cpp) | cpp | unknown | simulation | suggested |  |
 | [E FizzBuzz Sum Hard — E_FizzBuzz_Sum_Hard.cpp](../solutions/simulation/E_FizzBuzz_Sum_Hard.cpp) | cpp | unknown | math/number-theory, simulation | suggested |  |
 | [E. Mirror Grid — E_Mirror_Grid.cpp](../solutions/simulation/E_Mirror_Grid.cpp) | cpp | codeforces / 1703E | simulation | suggested |  |
+| [erase tab submissions — erase_tab_submissions.cpp](../solutions/simulation/erase_tab_submissions.cpp) | cpp | unknown | bit-manipulation, simulation | reviewed; source changed |  |
 | [F Library Fine — F_Library_Fine.py](../solutions/simulation/F_Library_Fine.py) | python | unknown | simulation | suggested |  |
 | [fizzbuzz — fizzbuzz.cpp](../solutions/simulation/fizzbuzz.cpp) | cpp | unknown | simulation | suggested |  |
 | [flip the matrix — flip-the-matrix.py](../solutions/simulation/flip-the-matrix.py) | python | unknown | simulation | suggested |  |
@@ -1016,6 +1056,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [kattis memorymatch — kattis-memorymatch.cpp](../solutions/simulation/kattis-memorymatch.cpp) | cpp | kattis | simulation | suggested |  |
 | [kattis shuffling — kattis-shuffling.cpp](../solutions/simulation/kattis-shuffling.cpp) | cpp | kattis | simulation | suggested |  |
 | [left beehind — left-beehind.py](../solutions/simulation/left-beehind.py) | python | unknown | simulation | suggested |  |
+| [Little Fairy Painting — Little_Fairy_Painting.cpp](../solutions/simulation/Little_Fairy_Painting.cpp) | cpp | unknown | data-structures/ordered-sets, simulation | reviewed; source changed |  |
 | [magnets — magnets.py](../solutions/simulation/magnets.py) | python | unknown | simulation | suggested |  |
 | [matrix rotations — matrix-rotations.py](../solutions/simulation/matrix-rotations.py) | python | unknown | simulation | suggested |  |
 | [mia — mia.cpp](../solutions/simulation/mia.cpp) | cpp | unknown | simulation | suggested |  |
@@ -1127,6 +1168,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [dont be last — dont-be-last.py](../solutions/sorting-and-searching/dont-be-last.py) | python | unknown | sorting-and-searching | suggested |  |
 | [download more ram — download_more_ram.py](../solutions/sorting-and-searching/download_more_ram.py) | python | unknown | sorting-and-searching | suggested |  |
 | [E - Maximize Colours — E_Maximize_Colours.cpp](../solutions/sorting-and-searching/E_Maximize_Colours.cpp) | cpp | vjudge / contest-788688-E | sorting-and-searching | suggested |  |
+| [E Burns Road — E_Burns_Road.cpp](../solutions/sorting-and-searching/E_Burns_Road.cpp) | cpp | unknown | intervals, sorting-and-searching | reviewed; source changed |  |
 | [F. Franco Haters Club — F_Franco_Haters_Club.cpp](../solutions/sorting-and-searching/F_Franco_Haters_Club.cpp) | cpp | codeforces / gym-106350-F | sorting-and-searching | suggested |  |
 | [G Gravity Flip — G_Gravity_Flip.cpp](../solutions/sorting-and-searching/G_Gravity_Flip.cpp) | cpp | unknown | sorting-and-searching | suggested |  |
 | [G. 2^Sort — G_2_Sort.cpp](../solutions/sorting-and-searching/G_2_Sort.cpp) | cpp | codeforces / 1692G | sorting-and-searching | suggested |  |
@@ -1273,6 +1315,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [A - Very Different Array — A_Very_Different_Array.cpp](../solutions/two-pointers-and-sliding-window/A_Very_Different_Array.cpp) | cpp | vjudge / contest-768159-A | sorting-and-searching, two-pointers-and-sliding-window | suggested |  |
 | [atcoder enougharray — atcoder-enougharray.cpp](../solutions/two-pointers-and-sliding-window/atcoder-enougharray.cpp) | cpp | atcoder | two-pointers-and-sliding-window | suggested |  |
 | [B - Sliding Window Cost — B_Sliding_Window_Cost.cpp](../solutions/two-pointers-and-sliding-window/B_Sliding_Window_Cost.cpp) | cpp | vjudge / contest-688780-B | data-structures/ordered-sets, two-pointers-and-sliding-window | suggested |  |
+| [B 7485 Unlimited Easy version — B_7485_Unlimited_Easy_version.cpp](../solutions/two-pointers-and-sliding-window/B_7485_Unlimited_Easy_version.cpp) | cpp | unknown | data-structures/stacks-and-queues, dynamic-programming/sequences, two-pointers-and-sliding-window | reviewed; source changed |  |
 | [B Approximating a Constant Range — B_Approximating_a_Constant_Range.cpp](../solutions/two-pointers-and-sliding-window/B_Approximating_a_Constant_Range.cpp) | cpp | unknown | two-pointers-and-sliding-window | suggested |  |
 | [B Equalize — B_Equalize.cpp](../solutions/two-pointers-and-sliding-window/B_Equalize.cpp) | cpp | unknown | greedy, two-pointers-and-sliding-window | suggested |  |
 | [B Kefa and Company — B_Kefa_and_Company.cpp](../solutions/two-pointers-and-sliding-window/B_Kefa_and_Company.cpp) | cpp | unknown | sorting-and-searching, two-pointers-and-sliding-window | suggested |  |

@@ -25,6 +25,8 @@ The map contains earlier prefixes when the answer is counted. Inserting the curr
 
 For the longest matching subarray, store the first occurrence of each prefix, not its frequency. The standalone examples in this repo illustrate both variants. For counting equal-state pairs after building a frequency table, each group of size `c` contributes `c * (c - 1) / 2`.
 
+For equal sums on alternating positions, negate every other element before accumulating prefixes. Equal transformed prefixes identify a nonempty subarray with alternating sum zero; reversing its starting parity only changes the sign, so the zero condition is unchanged. `E_Romantic_Glasses.cpp` uses this transformation and stops at the first repeated prefix, with the empty prefix seeded before scanning.
+
 Hash maps give expected `O(n)` time and `O(n)` space; ordered maps give `O(n log n)` time. Use a wide type for sums and counts. In C++, normalize a possibly negative remainder with `(x % m + m) % m` for positive `m`.
 
 ## Common mistakes
@@ -46,6 +48,7 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [E Romantic Glasses (cpp)](../../solutions/prefix-sums/E_Romantic_Glasses.cpp) | prefix-sums | reviewed |
 | [good subarrays (cpp)](../../solutions/arrays-and-counting/good_subarrays.cpp) | arrays-and-counting | suggested |
 | [longest subarray with sum k (cpp)](../../algorithms/prefix-sums/longest_subarray_with_sum_k.cpp) | prefix-sums | reviewed |
 | [subarray divisibility (cpp)](../../solutions/prefix-sums/subarray-divisibility.cpp) | prefix-sums | suggested |
