@@ -33,6 +33,21 @@ make ingest-apply    # Apply suggestions; samples stay in the problem folder
 make lint
 ```
 
+Import samples from Chrome with [Competitive Companion](https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl): run `make companion` in a terminal, open a Codeforces or VJudge problem, and click the extension icon. Choose `cpp` or `py` in the terminal for each received problem (`s` skips). Then edit the created source and use the printed `make run` / `make check` commands in another terminal. The receiver must stay running for imports; Ctrl-C stops it. No CPH or Python packages are required.
+
+One imported sample uses the existing `input.txt`, `expected.txt`, and generated `output.txt`. Multiple samples use `1.in`, `1.expected.txt`, `1.output.txt`, then `2.in`, etc. Both `run` and `check` process every numbered sample separately; `check` reports each result and fails if any sample fails. Inputs containing a test count stay intact. Imported metadata and original samples are retained in `problem.json`. Existing attempts are preserved by creating a new `-attempt-2` (etc.) workspace on repeat imports. See [browser setup and troubleshooting](notes/tooling/problem-workflow.md#browser-imports-with-competitive-companion).
+
+More workflow commands:
+
+```bash
+make debug A_Line_Trip.cpp              # Sanitizers, warnings, colored stderr debug helpers
+make samples A_Line_Trip.cpp            # List inputs and expected answers
+make check A_Line_Trip.cpp SAMPLE=2      # Check one sample
+make sample-add A_Line_Trip.cpp INPUT=/tmp/case.in EXPECTED=/tmp/case.txt
+```
+
+New C++ starters support `debug(x, values)` and `debugArr(array, length)`: enabled by `make debug`, discarded in normal builds. `DEBUG=1` also works with `run`, `check`, and `build`. Ingestion now reads Companion's `problem.json` to preserve titles, URLs, platform IDs, groups, and constraints. See [sample management](notes/tooling/problem-workflow.md#manage-and-select-samples) and [debug builds](notes/tooling/problem-workflow.md#debug-builds-and-colored-stderr).
+
 After filing, `make run A_Line_Trip.cpp` still finds the source through its catalog entry and uses the original sample folder. `make build A_Line_Trip.cpp` only compiles; `make help` lists commands. An explicit path also works, such as `make run solutions/strings/cf-stringtask.cpp`; cataloged inbox sources retain their original sample workspace. Other sources use input/output files alongside the source. The [workflow guide](notes/tooling/problem-workflow.md) covers header caching, flags, and archiving.
 
 ### Fast C++ headers

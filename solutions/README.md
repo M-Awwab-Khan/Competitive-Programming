@@ -15,7 +15,7 @@
 | [data-structures/range-queries](data-structures/range-queries/) | 3 |
 | [data-structures/stacks-and-queues](data-structures/stacks-and-queues/) | 10 |
 | [dynamic-programming/bitmask](dynamic-programming/bitmask/) | 2 |
-| [dynamic-programming/general](dynamic-programming/general/) | 29 |
+| [dynamic-programming/general](dynamic-programming/general/) | 30 |
 | [dynamic-programming/intervals](dynamic-programming/intervals/) | 3 |
 | [dynamic-programming/kadane](dynamic-programming/kadane/) | 5 |
 | [dynamic-programming/knapsack](dynamic-programming/knapsack/) | 18 |
@@ -30,7 +30,7 @@
 | [intervals](intervals/) | 1 |
 | [math/arithmetic](math/arithmetic/) | 113 |
 | [math/combinatorics](math/combinatorics/) | 18 |
-| [math/number-theory](math/number-theory/) | 57 |
+| [math/number-theory](math/number-theory/) | 58 |
 | [meet-in-the-middle](meet-in-the-middle/) | 2 |
 | [needs-review](needs-review/) | 11 |
 | [prefix-sums](prefix-sums/) | 46 |

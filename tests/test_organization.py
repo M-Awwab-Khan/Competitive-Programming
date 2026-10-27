@@ -27,6 +27,16 @@ class OrganizationTests(unittest.TestCase):
             (self.root / 'scripts' / source.name).write_bytes(source.read_bytes())
         for source in (REPO / 'notes/patterns').glob('*.md'):
             (self.root / 'notes/patterns' / source.name).write_bytes(source.read_bytes())
+        # Keep the linked reference self-contained instead of copying archive examples.
+        guide_dir = self.root / 'notes/contest-prep'
+        guide_dir.mkdir()
+        (guide_dir / 'div3-speed-programming.md').write_text(
+            '# Contest reference\n\n<!-- snippet:fixture -->\n```cpp\n'
+            'inline int fixture() { return 1; }\n```\n')
+        from build_sp_reference import render as render_reference
+        header = self.root / 'templates/cpp/sp-reference.hpp'
+        header.parent.mkdir(parents=True)
+        header.write_text(render_reference(self.root)[0])
         original = organization.read_catalog()
         self.write_catalog(dict(schema_version=2, categories=original['categories'], problems=[]))
         (self.root / 'catalog/patterns.json').write_bytes((REPO / 'catalog/patterns.json').read_bytes())
@@ -183,6 +193,60 @@ class OrganizationTests(unittest.TestCase):
         (self.root/'README.md').write_text('# Test repository\n')
         (self.root/'catalog/INDEX.md').write_text('stale\n')
         self.assertIn('stale-navigation',[e['code'] for e in lint(self.root)['errors']])
+
+    def test_companion_metadata_ingestion_and_explicit_overrides(self):
+        workspace = self.root / 'practice/inbox/Number_of_Ways'
+        workspace.mkdir()
+        source = workspace / 'Number_of_Ways.cpp'
+        source.write_text('int main() {return 0;}\n')
+        payload = dict(name='Y. Number of Ways', group='Codeforces - Sheet 7',
+                       url='https://codeforces.com/group/example/contest/223339/problem/Y',
+                       timeLimit=1000, memoryLimit=256, interactive=False, tests=[])
+        (workspace / 'problem.json').write_text(json.dumps(payload))
+        self.tool('ingest.py', str(source), '--apply')
+        record = self.catalog()['problems'][0]
+        self.assertEqual(record['title'], 'Number of Ways')
+        self.assertEqual((record['platform'], record['problem_id']), ('codeforces', '223339Y'))
+        self.assertEqual(record['urls'], [payload['url']])
+        self.assertEqual(record['collections'], ['Codeforces - Sheet 7'])
+        self.assertEqual(record['time_limit_ms'], 1000)
+        self.assertEqual(record['memory_limit_mb'], 256)
+        self.assertFalse(record['interactive'])
+        self.assertEqual(record['implementation_status'], 'not-verified')
+        self.assertEqual((workspace / 'problem.json').read_text(), json.dumps(payload))
+        source = workspace / 'another.cpp'
+        source.write_text('int main() {}\n')
+        self.tool('add_solution.py', str(source), '--category', 'simulation',
+                  '--title', 'Explicit title', '--platform', 'custom', '--id', 'explicit')
+        record = self.catalog()['problems'][1]
+        self.assertEqual(record['title'], 'Explicit title')
+        self.assertEqual((record['platform'], record['problem_id']), ('custom', 'explicit'))
+
+    def test_companion_vjudge_unknown_identity_and_bad_metadata(self):
+        workspace = self.root / 'practice/inbox/divisor'
+        workspace.mkdir()
+        source = workspace / 'divisor.py'
+        source.write_text('print(1)\n')
+        metadata = workspace / 'problem.json'
+        metadata.write_text(json.dumps(dict(name='k-th divisor',
+                                            url='https://vjudge.net/problem/CodeForces-762A')))
+        self.tool('ingest.py', str(source), '--apply')
+        record = self.catalog()['problems'][0]
+        self.assertEqual((record['platform'], record['problem_id']), ('vjudge', 'CodeForces-762A'))
+        source = workspace / 'unknown.py'
+        source.write_text('print(2)\n')
+        metadata.write_text(json.dumps(dict(name='Unknown', url='https://example.org/task/12')))
+        self.tool('ingest.py', str(source), '--apply')
+        record = self.catalog()['problems'][1]
+        self.assertIsNone(record['platform'])
+        self.assertIsNone(record['problem_id'])
+        source = workspace / 'bad.py'
+        source.write_text('print(3)\n')
+        before = (self.root / 'catalog/problems.json').read_bytes()
+        metadata.write_text('{broken')
+        self.tool('ingest.py', str(source), '--apply', success=False)
+        self.assertTrue(source.is_file())
+        self.assertEqual(before, (self.root / 'catalog/problems.json').read_bytes())
 
     def test_shared_problem_ids_are_information_and_not_deleted(self):
         for name in ['a.py','b.py']:

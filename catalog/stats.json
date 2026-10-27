@@ -1,7 +1,7 @@
 {
-  "total_entries": 1122,
+  "total_entries": 1124,
   "roles": {
-    "solution": 1117,
+    "solution": 1119,
     "reference": 1,
     "algorithm": 4
   },
@@ -17,14 +17,14 @@
     "constructive": 46,
     "two-pointers-and-sliding-window": 41,
     "strings": 71,
-    "math/number-theory": 57,
+    "math/number-theory": 58,
     "greedy": 95,
     "dynamic-programming/knapsack": 18,
     "geometry": 34,
     "dynamic-programming/kadane": 5,
     "intervals": 1,
     "brute-force-and-backtracking": 41,
-    "dynamic-programming/general": 29,
+    "dynamic-programming/general": 30,
     "data-structures/disjoint-set": 5,
     "graphs/traversal": 15,
     "data-structures/ordered-sets": 9,
@@ -46,11 +46,11 @@
   },
   "classifications": {
     "suggested": 957,
-    "reviewed": 154,
+    "reviewed": 156,
     "needs-review": 11
   },
   "implementations": {
-    "not-verified": 1112,
+    "not-verified": 1114,
     "empty-or-template": 10
   },
   "sources_changed_since_classification": 43

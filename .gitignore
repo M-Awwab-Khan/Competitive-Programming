@@ -14,6 +14,7 @@ __pycache__/
 /practice/*.txt
 # Keep sample inputs/expected answers; actual program output is disposable.
 /practice/inbox/**/output.txt
+/practice/inbox/**/*.output.txt
 
 # Transient local organization state
 /catalog/.organize.lock

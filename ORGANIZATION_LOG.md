@@ -4,6 +4,22 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-10-27T14:37:30+00:00 — REVIEW
+
+- solutions/math/number-theory/k-th_divisor.cpp → solutions/math/number-theory/k-th_divisor.cpp: Enumerates i while i*i<=n; for each divisor adds i and its paired divisor n/i, avoiding a duplicate for perfect squares. Sorts the collected divisors and returns index k-1, or -1 when fewer than k divisors exist.. Category: math/number-theory; status: reviewed.
+
+## 2026-10-27T14:37:28+00:00 — INGEST
+
+- practice/inbox/k-th_divisor/k-th_divisor.cpp → solutions/math/number-theory/k-th_divisor.cpp: Filed with an explicitly chosen category. Category: math/number-theory; status: reviewed.
+
+## 2026-10-27T14:37:26+00:00 — REVIEW
+
+- solutions/dynamic-programming/general/Number_of_Ways.cpp → solutions/dynamic-programming/general/Number_of_Ways.cpp: Bottom-up position DP: initialize dp[s]=1, scan i from s to e, and add dp[i-j] for steps j in {1,2,3}; dp[i] counts paths reaching position i. The implementation is iterative, not recursive.. Category: dynamic-programming/general; status: reviewed.
+
+## 2026-10-27T14:37:25+00:00 — INGEST
+
+- practice/inbox/Number_of_Ways/Number_of_Ways.cpp → solutions/dynamic-programming/general/Number_of_Ways.cpp: Filed with an explicitly chosen category. Category: dynamic-programming/general; status: reviewed.
+
 ## 2026-10-23T18:08:04+00:00 — REVIEW
 
 - solutions/needs-review/x = int(input()).py → solutions/math/number-theory/x = int(input()).py: Prints YES exactly for even integers other than two using a parity test and one special case.. Category: math/number-theory; status: reviewed.

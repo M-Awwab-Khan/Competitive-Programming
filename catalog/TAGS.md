@@ -481,7 +481,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## dynamic-programming/general
 
-58 files
+59 files
 
 - [A Cut Ribbon (cpp)](../solutions/dynamic-programming/knapsack/A_Cut_Ribbon.cpp)
 - [A Subset sum dp (cpp)](../solutions/dynamic-programming/knapsack/A_Subset_sum_dp.cpp)
@@ -538,6 +538,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [M Truckloads (cpp)](../solutions/recursion-and-divide-and-conquer/M_Truckloads.cpp)
 - [matrix path (cpp)](../solutions/dynamic-programming/general/matrix-path.cpp)
 - [N - Slimes (cpp)](../solutions/dynamic-programming/intervals/N_Slimes.cpp)
+- [Number of Ways (cpp)](../solutions/dynamic-programming/general/Number_of_Ways.cpp)
 - [Pie Rules (cpp)](../solutions/dynamic-programming/general/Pie_Rules.cpp)
 - [softwarehouse (python)](../solutions/dynamic-programming/general/softwarehouse.py)
 - [test (python)](../solutions/dynamic-programming/general/test.py)
@@ -980,7 +981,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/number-theory
 
-74 files
+75 files
 
 - [A Cifera (cpp)](../solutions/math/number-theory/A_Cifera.cpp)
 - [A Fox and Number Game (cpp)](../solutions/math/number-theory/A_Fox_and_Number_Game.cpp)
@@ -1043,6 +1044,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [H - Insert and Equalize (cpp)](../solutions/math/number-theory/H_Insert_and_Equalize.cpp)
 - [H. Fady mesh fady (cpp)](../solutions/math/number-theory/H_Fady_mesh_fady.cpp)
 - [Journey For Grapes (cpp)](../solutions/math/number-theory/Journey_For_Grapes.cpp)
+- [k-th divisor (cpp)](../solutions/math/number-theory/k-th_divisor.cpp)
 - [kattis pascal (cpp)](../solutions/math/number-theory/kattis-pascal.cpp)
 - [largest partition (cpp)](../solutions/math/number-theory/largest_partition.cpp)
 - [Little Elephant and Divisors (cpp)](../solutions/math/number-theory/Little_Elephant_and_Divisors.cpp)
@@ -1247,7 +1249,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-204 files
+205 files
 
 - [1 (python)](../solutions/binary-search/1.py)
 - [11222 Only I did it (python)](../solutions/sorting-and-searching/11222_Only_I_did_it.py)
@@ -1404,6 +1406,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [hr bigsorting (cpp)](../solutions/sorting-and-searching/hr-bigsorting.cpp)
 - [I Chores (cpp)](../solutions/sorting-and-searching/I_Chores.cpp)
 - [J - Meet in the Middle (cpp)](../solutions/brute-force-and-backtracking/J_Meet_in_the_Middle.cpp)
+- [k-th divisor (cpp)](../solutions/math/number-theory/k-th_divisor.cpp)
 - [kattis basicprogramming1 (cpp)](../solutions/sorting-and-searching/kattis-basicprogramming1.cpp)
 - [kattis cetiri (cpp)](../solutions/sorting-and-searching/kattis-cetiri.cpp)
 - [kattis closestsum (cpp)](../solutions/sorting-and-searching/kattis-closestsum.cpp)

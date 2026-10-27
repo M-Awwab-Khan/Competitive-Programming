@@ -30960,6 +30960,63 @@
       "observed_sha256": "80466062291a0d1cccaea71abb72139ff9687f3dafb70336d8134f1d3dfd09bc",
       "review_required": false,
       "patterns": []
+    },
+    {
+      "key": "34ac9b16ba274e74",
+      "title": "Number of Ways",
+      "path": "solutions/dynamic-programming/general/Number_of_Ways.cpp",
+      "original_path": "practice/inbox/Number_of_Ways/Number_of_Ways.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "223339Y",
+      "urls": [
+        "https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/Y"
+      ],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "6bf7c63a5b5a8e60c703bedefc8d2b72a6226bdcb81700e5a6447336855b5dde",
+      "category": "dynamic-programming/general",
+      "tags": [
+        "dynamic-programming/general"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Bottom-up position DP: initialize dp[s]=1, scan i from s to e, and add dp[i-j] for steps j in {1,2,3}; dp[i] counts paths reaching position i. The implementation is iterative, not recursive.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "6bf7c63a5b5a8e60c703bedefc8d2b72a6226bdcb81700e5a6447336855b5dde",
+      "observed_sha256": "6bf7c63a5b5a8e60c703bedefc8d2b72a6226bdcb81700e5a6447336855b5dde",
+      "review_required": false,
+      "patterns": []
+    },
+    {
+      "key": "7299dd9434634731",
+      "title": "k-th divisor",
+      "path": "solutions/math/number-theory/k-th_divisor.cpp",
+      "original_path": "practice/inbox/k-th_divisor/k-th_divisor.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "vjudge",
+      "problem_id": "CodeForces-762A",
+      "urls": [
+        "https://vjudge.net/problem/CodeForces-762A"
+      ],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "b898bf245d2bd7c815cfe69a2f44924d44ab6a1089cf55a8af002c8c4d9963cf",
+      "category": "math/number-theory",
+      "tags": [
+        "math/number-theory",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Enumerates i while i*i<=n; for each divisor adds i and its paired divisor n/i, avoiding a duplicate for perfect squares. Sorts the collected divisors and returns index k-1, or -1 when fewer than k divisors exist.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "b898bf245d2bd7c815cfe69a2f44924d44ab6a1089cf55a8af002c8c4d9963cf",
+      "observed_sha256": "b898bf245d2bd7c815cfe69a2f44924d44ab6a1089cf55a8af002c8c4d9963cf",
+      "review_required": false,
+      "patterns": []
     }
   ]
 }

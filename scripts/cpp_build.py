@@ -10,10 +10,16 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def compiler_config():
+def compiler_config(debug=False):
     compiler = shlex.split(os.environ.get('CXX') or 'g++')
     flags = shlex.split(os.environ.get('CPPFLAGS', ''))
     flags += shlex.split(os.environ.get('CXXFLAGS') or '-std=c++23 -O2 -pipe')
+    if debug:
+        flags += ['-O0', '-g3', '-Wall', '-Wextra', '-Wshadow',
+                  '-fsanitize=address,undefined', '-fno-sanitize-recover=all',
+                  '-fno-omit-frame-pointer', '-D_GLIBCXX_ASSERTIONS',
+                  '-DCP_DEBUG', '-DLOCAL', '-UONLINE_JUDGE',
+                  '-include', str(ROOT / 'templates/cpp/debugging.hpp')]
     version = subprocess.check_output(compiler + ['--version'], text=True)
     executable = shutil.which(compiler[0])
     identity = [compiler, flags, version, executable]
@@ -82,9 +88,10 @@ def prepare_pch(config=None):
     return directory
 
 
-def build(source, use_pch=False):
+def build(source, use_pch=False, debug=False):
     source = Path(source).resolve()
-    compiler, flags, identity = compiler_config()
+    compiler, flags, identity = compiler_config(debug=debug)
+    use_pch = use_pch and not debug
     includes = []
     pch_stamp = None
     if use_pch:
@@ -96,5 +103,6 @@ def build(source, use_pch=False):
     # Warn if a source defines incompatible macros before including the PCH.
     command = compiler + flags + includes + ['-Winvalid-pch', str(source)]
     suffix = '.exe' if os.name == 'nt' else ''
-    output = ROOT / 'build/problems' / (source.stem + '-' + fingerprint(str(source)) + suffix)
+    directory = ROOT / ('build/problems/debug' if debug else 'build/problems')
+    output = directory / (source.stem + '-' + fingerprint(str(source)) + suffix)
     return compile_cached(command, output, fingerprint([identity, includes, str(source), pch_stamp]))

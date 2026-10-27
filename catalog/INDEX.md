@@ -1,6 +1,6 @@
 # Problem index
 
-1122 source files across 37 primary categories.
+1124 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -19,7 +19,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [data-structures/range-queries](#data-structuresrange-queries) | 3 | Segment trees, Fenwick trees, and sparse tables |
 | [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 10 | Stacks, deques, and monotonic structures |
 | [dynamic-programming/bitmask](#dynamic-programmingbitmask) | 2 | Dynamic programming over subsets |
-| [dynamic-programming/general](#dynamic-programminggeneral) | 29 | Other dynamic programming recurrences |
+| [dynamic-programming/general](#dynamic-programminggeneral) | 30 | Other dynamic programming recurrences |
 | [dynamic-programming/intervals](#dynamic-programmingintervals) | 3 | Dynamic programming over intervals |
 | [dynamic-programming/kadane](#dynamic-programmingkadane) | 5 | Maximum subarray sums and Kadane style recurrences |
 | [dynamic-programming/knapsack](#dynamic-programmingknapsack) | 18 | Subset sum, coin change, and knapsack states |
@@ -34,7 +34,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [intervals](#intervals) | 1 | Interval overlap, coverage, and endpoint constraints |
 | [math/arithmetic](#matharithmetic) | 114 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 18 | Combinatorial counting, factorials, and binomial coefficients |
-| [math/number-theory](#mathnumber-theory) | 57 | GCD, primes, factorization, divisibility, and modular arithmetic |
+| [math/number-theory](#mathnumber-theory) | 58 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 2 | Enumerate two halves and combine their results |
 | [needs-review](#needs-review) | 11 | Insufficient evidence for a specific pattern |
 | [prefix-sums](#prefix-sums) | 48 | Prefix/suffix aggregates, differences, and prefix sum hashing |
@@ -454,6 +454,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [L JUMP — L_JUMP.py](../solutions/dynamic-programming/general/L_JUMP.py) | python | unknown | dynamic-programming/general | suggested |  |
 | [M - Candies — M_Candies.cpp](../solutions/dynamic-programming/general/M_Candies.cpp) | cpp | atcoder / dp_m | dynamic-programming/general, prefix-sums | suggested |  |
 | [matrix path — matrix-path.cpp](../solutions/dynamic-programming/general/matrix-path.cpp) | cpp | unknown | dynamic-programming/general | suggested |  |
+| [Number of Ways — Number_of_Ways.cpp](../solutions/dynamic-programming/general/Number_of_Ways.cpp) | cpp | codeforces / 223339Y | dynamic-programming/general | reviewed |  |
 | [Pie Rules — Pie_Rules.cpp](../solutions/dynamic-programming/general/Pie_Rules.cpp) | cpp | codeforces / 859C | dynamic-programming/general | suggested |  |
 | [softwarehouse — softwarehouse.py](../solutions/dynamic-programming/general/softwarehouse.py) | python | unknown | dynamic-programming/general | suggested |  |
 | [test — test.py](../solutions/dynamic-programming/general/test.py) | python | unknown | dynamic-programming/general, games | reviewed; source changed |  |
@@ -901,6 +902,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [H - Insert and Equalize — H_Insert_and_Equalize.cpp](../solutions/math/number-theory/H_Insert_and_Equalize.cpp) | cpp | vjudge / contest-711002-H | math/number-theory, sorting-and-searching | suggested |  |
 | [H. Fady mesh fady — H_Fady_mesh_fady.cpp](../solutions/math/number-theory/H_Fady_mesh_fady.cpp) | cpp | codeforces / gym-106351-H | math/number-theory | suggested |  |
 | [Journey For Grapes — Journey_For_Grapes.cpp](../solutions/math/number-theory/Journey_For_Grapes.cpp) | cpp | unknown | math/number-theory | reviewed; source changed |  |
+| [k-th divisor — k-th_divisor.cpp](../solutions/math/number-theory/k-th_divisor.cpp) | cpp | vjudge / CodeForces-762A | math/number-theory, sorting-and-searching | reviewed |  |
 | [kattis pascal — kattis-pascal.cpp](../solutions/math/number-theory/kattis-pascal.cpp) | cpp | kattis | math/number-theory | reviewed |  |
 | [largest partition — largest_partition.cpp](../solutions/math/number-theory/largest_partition.cpp) | cpp | unknown | arrays-and-counting, math/number-theory | reviewed; source changed |  |
 | [Little Elephant and Divisors — Little_Elephant_and_Divisors.cpp](../solutions/math/number-theory/Little_Elephant_and_Divisors.cpp) | cpp | unknown | math/number-theory | suggested |  |

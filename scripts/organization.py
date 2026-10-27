@@ -116,12 +116,20 @@ def new_problem(source, catalog, root=ROOT, **metadata):
     rel = source.relative_to(root).as_posix()
     if any(p['path'] == rel for p in catalog['problems']):
         raise ValueError('Already cataloged; use review_solution.py to correct a classification')
+    from problem_metadata import companion_metadata
+    imported = companion_metadata(source, root)
+    # Explicit filing arguments override imported fields; omitted CLI defaults do not.
+    imported.update({k: v for k, v in metadata.items() if v is not None and v != []})
+    metadata = imported
     role = metadata.get('role') or ('algorithm' if rel.startswith('algorithms/') else 'reference' if rel.startswith('references/') else 'solution')
     problem = dict(key=uuid.uuid4().hex[:16], title=metadata.get('title') or source.stem.replace('_', ' ').replace('-', ' '),
                    path=rel, original_path=rel, language='cpp' if source.suffix == '.cpp' else 'python',
                    role=role, platform=metadata.get('platform'), problem_id=metadata.get('problem_id'),
-                   urls=metadata.get('urls', []), collections=[], implementation_status='not-verified',
+                   urls=metadata.get('urls', []), collections=metadata.get('collections', []), implementation_status='not-verified',
                    original_sha256=sha256(source), **suggest(source, root, catalog['categories']))
+    for field in ('time_limit_ms', 'memory_limit_mb', 'interactive'):
+        if field in metadata:
+            problem[field] = metadata[field]
     if not source.read_text(errors='replace').strip():
         problem['implementation_status'] = 'empty-or-template'
     if metadata.get('category'):

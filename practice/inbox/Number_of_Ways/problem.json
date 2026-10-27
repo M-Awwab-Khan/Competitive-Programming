@@ -1,0 +1,31 @@
+{
+  "name": "Y. Number of Ways",
+  "group": "Codeforces - Sheet #7 (Recursion)",
+  "url": "https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/Y",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "2 5\n",
+      "output": "4\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "YNumberOfWays"
+    }
+  },
+  "batch": {
+    "id": "dc820aef-16cc-4f2e-bc31-c674f4377b73",
+    "size": 1
+  }
+}

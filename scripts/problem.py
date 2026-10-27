@@ -12,6 +12,7 @@ import subprocess
 import sys
 
 from cpp_build import build, prepare_pch
+from samples import add_sample, selected_samples
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = {'cpp': 'cpp', 'c++': 'cpp', 'cc': 'cpp', 'py': 'py', 'python': 'py', 'python3': 'py'}
@@ -21,6 +22,12 @@ HELP = """Problem workflow (run from the repository root):
   make run A_Line_Trip.cpp            Read input.txt; write and show output.txt
   make check A_Line_Trip.cpp          Run and compare with expected.txt (ignores whitespace)
   make build A_Line_Trip.cpp          Compile C++; Python needs no build
+  make debug A_Line_Trip.cpp          Check with sanitizers and colored stderr debug helpers
+  make samples A_Line_Trip.cpp        List sample inputs and expected answers
+  make sample-add B.py INPUT=in.txt EXPECTED=answer.txt
+                                     Append a custom sample without overwriting existing ones
+  make check B.py SAMPLE=2            Check just sample 2 (run/debug also support SAMPLE)
+  make companion                     Import browser samples; choose C++ or Python
   make pch                           Precompile bits/stdc++.h for GCC
   make ingest                        Preview filing all new/changed solutions
   make ingest-apply                  Apply filing; keep samples in their workspace
@@ -121,8 +128,8 @@ def configure_filename(action):
     filename = os.environ.get('CP_FILE', '')
     if not filename:
         return
-    if action not in {'new', 'build', 'run', 'check'}:
-        raise ValueError('Filenames are supported with new, build, run and check.')
+    if action not in {'new', 'build', 'run', 'check', 'debug', 'samples', 'sample-add'}:
+        raise ValueError('This command does not accept a source filename.')
     if os.environ.get('CP_NAME') or os.environ.get('CP_SOURCE'):
         raise ValueError('Use either a positional filename or NAME=/SOURCE=, not both.')
     path = Path(filename)
@@ -140,10 +147,14 @@ def configure_filename(action):
 
 def run(action):
     source, workspace = select()
+    debug = action == 'debug' or os.environ.get('CP_DEBUG', '0') != '0'
+    if action == 'debug':
+        action = 'check'
+    samples = selected_samples(workspace, os.environ.get('CP_SAMPLE', '')) if action != 'build' else []
     if source.suffix == '.cpp':
-        command = [str(build(source, use_pch=os.environ.get('CP_PCH', '1') != '0'))]
+        command = [str(build(source, use_pch=os.environ.get('CP_PCH', '1') != '0', debug=debug))]
     elif source.suffix == '.py':
-        command = [sys.executable, str(source)]
+        command = [sys.executable] + (['-X', 'dev'] if debug else []) + [str(source)]
     else:
         raise ValueError('Expected a .cpp or .py source.')
     if action == 'build':
@@ -152,42 +163,47 @@ def run(action):
     timeout = float(os.environ.get('CP_RUN_TIMEOUT', '5'))
     if not math.isfinite(timeout) or timeout <= 0:
         raise ValueError('RUN_TIMEOUT must be a finite positive number of seconds.')
-    expected = workspace / 'expected.txt'
-    if action == 'check' and not expected.is_file():
-        raise ValueError('Create expected.txt in ' + str(workspace))
-    # Open input first, so a missing input never truncates previous output.
-    with (workspace / 'input.txt').open('rb') as stdin:
-        with (workspace / 'output.txt').open('wb') as stdout:
+    status = 0
+    for input_path, expected, output_path in samples:
+        if len(samples) > 1 or os.environ.get('CP_SAMPLE'):
+            print('\nSample ' + input_path.name, flush=True)
+        if action == 'check' and not expected.is_file():
+            raise ValueError('Create ' + str(expected))
+        # Open input first so a missing input never truncates previous output.
+        with input_path.open('rb') as stdin, output_path.open('wb') as stdout:
             try:
                 result = subprocess.run(command, stdin=stdin, stdout=stdout, cwd=workspace,
                                         timeout=timeout)
             except subprocess.TimeoutExpired:
                 print(f'Error: program exceeded RUN_TIMEOUT={timeout:g} seconds. '
-                      'Check for an infinite loop, or increase RUN_TIMEOUT. '
-                      'Partial output remains in output.txt.', file=sys.stderr)
-                return 124
-    actual = (workspace / 'output.txt').read_bytes()
-    sys.stdout.flush()
-    sys.stdout.buffer.write(actual)
-    sys.stdout.buffer.flush()
-    if result.returncode:
-        print('\nProgram exited with code ' + str(result.returncode), file=sys.stderr)
-        return result.returncode if result.returncode > 0 else 1
-    if action == 'check':
-        wanted = expected.read_bytes()
-        if actual.split() != wanted.split():
-            print('\nOutput differs from expected.txt:', file=sys.stderr)
-            print(''.join(difflib.unified_diff(wanted.decode(errors='replace').splitlines(True),
-                                             actual.decode(errors='replace').splitlines(True),
-                                             fromfile='expected.txt', tofile='output.txt')), file=sys.stderr)
-            return 1
-        print('\nPASS (whitespace-separated tokens match; no floating-point tolerance)')
-    return 0
+                      f'Partial output remains in {output_path.name}.', file=sys.stderr)
+                status = 124
+                continue
+        actual = output_path.read_bytes()
+        sys.stdout.flush()
+        sys.stdout.buffer.write(actual)
+        sys.stdout.buffer.flush()
+        if result.returncode:
+            print('\nProgram exited with code ' + str(result.returncode), file=sys.stderr)
+            status = status or (result.returncode if result.returncode > 0 else 1)
+            continue
+        if action == 'check':
+            wanted = expected.read_bytes()
+            if actual.split() != wanted.split():
+                print('\nOutput differs from ' + expected.name + ':', file=sys.stderr)
+                print(''.join(difflib.unified_diff(
+                    wanted.decode(errors='replace').splitlines(True),
+                    actual.decode(errors='replace').splitlines(True),
+                    fromfile=expected.name, tofile=output_path.name)), file=sys.stderr)
+                status = status or 1
+            else:
+                print('\nPASS (whitespace-separated tokens match; no floating-point tolerance)')
+    return status
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['help', 'new', 'build', 'run', 'check', 'pch'])
+    parser.add_argument('action', choices=['help', 'new', 'build', 'run', 'check', 'debug', 'samples', 'sample-add', 'pch'])
     args = parser.parse_args()
     try:
         configure_filename(args.action)
@@ -195,6 +211,19 @@ def main():
             print(HELP)
         elif args.action == 'new':
             create()
+        elif args.action == 'samples':
+            _, workspace = select()
+            for input_path, expected, _ in selected_samples(workspace, os.environ.get('CP_SAMPLE', '')):
+                index = input_path.stem if input_path.suffix == '.in' else '1'
+                state = 'ready' if input_path.is_file() and expected.is_file() else 'missing input/expected'
+                print(f'Sample {index}: {input_path.name} -> {expected.name} ({state})')
+        elif args.action == 'sample-add':
+            if os.environ.get('CP_SAMPLE'):
+                raise ValueError('sample-add appends automatically; omit SAMPLE=.')
+            _, workspace = select()
+            index = add_sample(workspace, os.environ.get('CP_INPUT'), os.environ.get('CP_EXPECTED'))
+            print(f'Added sample {index}: {workspace.relative_to(ROOT)}/{index}.in '
+                  f'and {index}.expected.txt')
         elif args.action == 'pch':
             print('Ready: ' + str(prepare_pch().relative_to(ROOT)))
         else:
