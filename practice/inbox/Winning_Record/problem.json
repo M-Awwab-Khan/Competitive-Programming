@@ -1,0 +1,31 @@
+{
+  "name": "B. Winning Record",
+  "group": "Codeforces - UT 104c Midterm #1",
+  "url": "https://codeforces.com/gym/106104/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "11 5\nWWLWLWLLLWW\n1 1\n1 3\n6 11\n2 6\n1 11\n",
+      "output": "YYNYY\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BWinningRecord"
+    }
+  },
+  "batch": {
+    "id": "2db74b8e-7cbd-49ca-92da-6e6480452028",
+    "size": 1
+  }
+}

@@ -17,9 +17,9 @@
 | [dynamic-programming/bitmask](dynamic-programming/bitmask/) | 2 |
 | [dynamic-programming/general](dynamic-programming/general/) | 30 |
 | [dynamic-programming/intervals](dynamic-programming/intervals/) | 3 |
-| [dynamic-programming/kadane](dynamic-programming/kadane/) | 5 |
+| [dynamic-programming/kadane](dynamic-programming/kadane/) | 6 |
 | [dynamic-programming/knapsack](dynamic-programming/knapsack/) | 18 |
-| [dynamic-programming/sequences](dynamic-programming/sequences/) | 6 |
+| [dynamic-programming/sequences](dynamic-programming/sequences/) | 7 |
 | [games](games/) | 4 |
 | [geometry](geometry/) | 34 |
 | [graphs/shortest-paths](graphs/shortest-paths/) | 6 |
@@ -33,11 +33,11 @@
 | [math/number-theory](math/number-theory/) | 58 |
 | [meet-in-the-middle](meet-in-the-middle/) | 2 |
 | [needs-review](needs-review/) | 11 |
-| [prefix-sums](prefix-sums/) | 46 |
+| [prefix-sums](prefix-sums/) | 49 |
 | [recursion-and-divide-and-conquer](recursion-and-divide-and-conquer/) | 6 |
 | [simulation](simulation/) | 90 |
 | [sorting-and-searching](sorting-and-searching/) | 108 |
 | [strings](strings/) | 71 |
 | [ternary-search](ternary-search/) | 5 |
 | [trees](trees/) | 8 |
-| [two-pointers-and-sliding-window](two-pointers-and-sliding-window/) | 39 |
+| [two-pointers-and-sliding-window](two-pointers-and-sliding-window/) | 40 |

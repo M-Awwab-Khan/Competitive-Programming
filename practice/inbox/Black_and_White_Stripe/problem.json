@@ -1,0 +1,31 @@
+{
+  "name": "D. Black and White Stripe",
+  "group": "Codeforces - Codeforces Round 797 (Div. 3)",
+  "url": "https://codeforces.com/contest/1690/problem/D",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "4\n5 3\nBBWBW\n5 5\nBBWBW\n5 1\nBBWBW\n1 1\nW\n",
+      "output": "1\n2\n0\n1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DBlackAndWhiteStripe"
+    }
+  },
+  "batch": {
+    "id": "987a4c5f-2262-471e-ba5f-061c748af680",
+    "size": 1
+  }
+}
