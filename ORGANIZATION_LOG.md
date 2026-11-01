@@ -4,6 +4,19 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-01T07:05:23+00:00 — REVIEW
+
+- solutions/prefix-sums/Prefix_Sum_Addicts.cpp → solutions/prefix-sums/Prefix_Sum_Addicts.cpp: Reconstructs the known suffix elements by adjacent prefix differences, checks those differences are nondecreasing, and requires the earliest known prefix sum to be at most the first known suffix element times the unknown-prefix length. Handles k=1 directly; assumes 1 <= k <= n and the product fits signed 64-bit arithmetic.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-01T07:05:21+00:00 — REVIEW
+
+- solutions/binary-search/Monster_Game.cpp → solutions/binary-search/Monster_Game.cpp: Sorts a, forms cumulative sums of b, and uses upper_bound on those sums for each remaining count n-i; maximizes the resulting count times a[i]. This is a sorted-array bound query, not binary search on the answer. Requires nondecreasing cumulative sums, n >= 1, and sums/products fitting signed 64-bit arithmetic.. Category: binary-search; status: reviewed.
+
+## 2026-11-01T07:05:19+00:00 — INGEST
+
+- practice/inbox/Monster_Game/Monster_Game.cpp → solutions/binary-search/Monster_Game.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Prefix_Sum_Addicts/Prefix_Sum_Addicts.cpp → solutions/prefix-sums/Prefix_Sum_Addicts.cpp: Filed new source; classification remains a suggestion. Category: prefix-sums; status: suggested.
+
 ## 2026-10-31T08:10:48+00:00 — REVIEW
 
 - solutions/math/arithmetic/A_AND_Pairs.cpp → solutions/math/arithmetic/A_AND_Pairs.cpp: Evaluates (n+1)(n+2)/2 modulo 998244353 using a 128-bit intermediate; no bitwise pair enumeration. Reconfirmed after verifying the previous classified bytes differ only by CRLF-to-LF line endings.. Category: math/arithmetic; status: reviewed.

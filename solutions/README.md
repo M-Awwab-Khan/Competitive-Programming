@@ -5,7 +5,7 @@
 | Category | Solutions |
 | --- | ---: |
 | [arrays-and-counting](arrays-and-counting/) | 96 |
-| [binary-search](binary-search/) | 76 |
+| [binary-search](binary-search/) | 77 |
 | [bit-manipulation](bit-manipulation/) | 34 |
 | [brute-force-and-backtracking](brute-force-and-backtracking/) | 41 |
 | [constructive](constructive/) | 46 |
@@ -33,7 +33,7 @@
 | [math/number-theory](math/number-theory/) | 58 |
 | [meet-in-the-middle](meet-in-the-middle/) | 2 |
 | [needs-review](needs-review/) | 11 |
-| [prefix-sums](prefix-sums/) | 49 |
+| [prefix-sums](prefix-sums/) | 50 |
 | [recursion-and-divide-and-conquer](recursion-and-divide-and-conquer/) | 6 |
 | [simulation](simulation/) | 90 |
 | [sorting-and-searching](sorting-and-searching/) | 108 |

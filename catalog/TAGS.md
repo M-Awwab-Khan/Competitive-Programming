@@ -6,7 +6,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## arrays-and-counting
 
-106 files
+107 files
 
 - [A Elections (cpp)](../solutions/arrays-and-counting/A_Elections.cpp)
 - [A Free Cash (cpp)](../solutions/arrays-and-counting/A_Free_Cash.cpp)
@@ -101,6 +101,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [missing number (cpp)](../solutions/arrays-and-counting/missing-number.cpp)
 - [oddgnome (cpp)](../solutions/arrays-and-counting/oddgnome.cpp)
 - [open credit system (cpp)](../solutions/arrays-and-counting/open-credit-system.cpp)
+- [Prefix Sum Addicts (cpp)](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp)
 - [Q Food for Animals (cpp)](../solutions/arrays-and-counting/Q_Food_for_Animals.cpp)
 - [Range Operation (cpp)](../solutions/dynamic-programming/kadane/Range_Operation.cpp)
 - [registration system (python)](../solutions/arrays-and-counting/registration_system.py)
@@ -117,7 +118,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## binary-search
 
-103 files
+104 files
 
 - [1 (python)](../solutions/binary-search/1.py)
 - [A Drink Accordingly (cpp)](../solutions/binary-search/A_Drink_Accordingly.cpp)
@@ -208,6 +209,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [M - Mafia (cpp)](../solutions/binary-search/M_Mafia.cpp)
 - [magic powder ii (cpp)](../solutions/binary-search/magic_powder_ii.cpp)
 - [maximum median (cpp)](../solutions/binary-search/maximum_median.cpp)
+- [Monster Game (cpp)](../solutions/binary-search/Monster_Game.cpp)
 - [moobuzz (cpp)](../solutions/binary-search/moobuzz.cpp)
 - [O - Cat, Fox and the Lonely Array (cpp)](../solutions/bit-manipulation/O_Cat_Fox_and_the_Lonely_Array.cpp)
 - [O - Trinity (cpp)](../solutions/binary-search/O_Trinity.cpp)
@@ -830,7 +832,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/arithmetic
 
-122 files
+123 files
 
 - [A - Between a and b ... (cpp)](../solutions/math/arithmetic/A_Between_a_and_b.cpp)
 - [A - Keep the Apples (cpp)](../solutions/math/arithmetic/A_Keep_the_Apples.cpp)
@@ -937,6 +939,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [oddities (python)](../solutions/math/arithmetic/oddities.py)
 - [onechickenperperson (cpp)](../solutions/math/arithmetic/onechickenperperson.cpp)
 - [only plusses (python)](../solutions/math/arithmetic/only_plusses.py)
+- [Prefix Sum Addicts (cpp)](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp)
 - [provinces and gold (cpp)](../solutions/math/arithmetic/provinces_and_gold.cpp)
 - [q8 (python)](../solutions/math/arithmetic/q8.py)
 - [qaly (python)](../solutions/math/arithmetic/qaly.py)
@@ -1073,7 +1076,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## prefix-sums
 
-68 files
+70 files
 
 - [A Appleman and Toastman (cpp)](../solutions/prefix-sums/A_Appleman_and_Toastman.cpp)
 - [A Dividing Candies (cpp)](../solutions/prefix-sums/A_Dividing_Candies.cpp)
@@ -1132,7 +1135,9 @@ A source may appear under several tags. Its primary category determines its fold
 - [M - Candies (cpp)](../solutions/dynamic-programming/general/M_Candies.cpp)
 - [maximum subarray sum ii (python)](../solutions/two-pointers-and-sliding-window/maximum_subarray_sum_ii.py)
 - [maximum sum (python)](../solutions/prefix-sums/maximum_sum.py)
+- [Monster Game (cpp)](../solutions/binary-search/Monster_Game.cpp)
 - [N - Slimes (cpp)](../solutions/dynamic-programming/intervals/N_Slimes.cpp)
+- [Prefix Sum Addicts (cpp)](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp)
 - [same differences (python)](../solutions/prefix-sums/same-differences.py)
 - [sequence pair weight (python)](../solutions/prefix-sums/sequence_pair_weight.py)
 - [static range sum queries (python)](../solutions/prefix-sums/static-range-sum-queries.py)
@@ -1257,7 +1262,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-205 files
+206 files
 
 - [1 (python)](../solutions/binary-search/1.py)
 - [11222 Only I did it (python)](../solutions/sorting-and-searching/11222_Only_I_did_it.py)
@@ -1430,6 +1435,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [maximum nonoverlapping segments (cpp)](../solutions/sorting-and-searching/maximum-nonoverlapping-segments.cpp)
 - [maximum sum (python)](../solutions/prefix-sums/maximum_sum.py)
 - [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum.cpp)
+- [Monster Game (cpp)](../solutions/binary-search/Monster_Game.cpp)
 - [movie festival (cpp)](../solutions/greedy/movie_festival.cpp)
 - [O - Trinity (cpp)](../solutions/binary-search/O_Trinity.cpp)
 - [P - Devu and his Brother (cpp)](../solutions/ternary-search/P_Devu_and_his_Brother.cpp)

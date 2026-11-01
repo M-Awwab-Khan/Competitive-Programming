@@ -31221,6 +31221,76 @@
       "time_limit_ms": 1000,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "e64cb57c3c824687",
+      "title": "Monster Game",
+      "path": "solutions/binary-search/Monster_Game.cpp",
+      "original_path": "practice/inbox/Monster_Game/Monster_Game.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2193D",
+      "urls": [
+        "https://codeforces.com/contest/2193/problem/D"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1076 (Div. 3)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "7029a0eaa9a1c9617a978e47625f3c2c9b80da28eec613f81f74cce2d303ae3e",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "prefix-sums",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts a, forms cumulative sums of b, and uses upper_bound on those sums for each remaining count n-i; maximizes the resulting count times a[i]. This is a sorted-array bound query, not binary search on the answer. Requires nondecreasing cumulative sums, n >= 1, and sums/products fitting signed 64-bit arithmetic.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "7029a0eaa9a1c9617a978e47625f3c2c9b80da28eec613f81f74cce2d303ae3e",
+      "observed_sha256": "7029a0eaa9a1c9617a978e47625f3c2c9b80da28eec613f81f74cce2d303ae3e",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "4422eaf8802346c3",
+      "title": "Prefix Sum Addicts",
+      "path": "solutions/prefix-sums/Prefix_Sum_Addicts.cpp",
+      "original_path": "practice/inbox/Prefix_Sum_Addicts/Prefix_Sum_Addicts.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "1738B",
+      "urls": [
+        "https://codeforces.com/problemset/problem/1738/B"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Global Round 22"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "f49e247f8a1c60efce7af082c444fc3dacabedd227560eee847d9c60a110c636",
+      "category": "prefix-sums",
+      "tags": [
+        "arrays-and-counting",
+        "math/arithmetic",
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Reconstructs the known suffix elements by adjacent prefix differences, checks those differences are nondecreasing, and requires the earliest known prefix sum to be at most the first known suffix element times the unknown-prefix length. Handles k=1 directly; assumes 1 <= k <= n and the product fits signed 64-bit arithmetic.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "f49e247f8a1c60efce7af082c444fc3dacabedd227560eee847d9c60a110c636",
+      "observed_sha256": "f49e247f8a1c60efce7af082c444fc3dacabedd227560eee847d9c60a110c636",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
     }
   ]
 }

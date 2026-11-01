@@ -1,6 +1,6 @@
 # Problem index
 
-1130 source files across 37 primary categories.
+1132 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -9,7 +9,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Category | Files | Description |
 | --- | ---: | --- |
 | [arrays-and-counting](#arrays-and-counting) | 96 | Arrays, frequency counting, sets, and direct scans |
-| [binary-search](#binary-search) | 76 | Binary search on sorted data or a monotone answer |
+| [binary-search](#binary-search) | 77 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 34 | Bitwise operations, XOR identities, and bit counting |
 | [brute-force-and-backtracking](#brute-force-and-backtracking) | 41 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 46 | Constructing a valid array, permutation, or arrangement |
@@ -37,7 +37,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [math/number-theory](#mathnumber-theory) | 58 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 2 | Enumerate two halves and combine their results |
 | [needs-review](#needs-review) | 11 | Insufficient evidence for a specific pattern |
-| [prefix-sums](#prefix-sums) | 51 | Prefix/suffix aggregates, differences, and prefix sum hashing |
+| [prefix-sums](#prefix-sums) | 52 | Prefix/suffix aggregates, differences, and prefix sum hashing |
 | [recursion-and-divide-and-conquer](#recursion-and-divide-and-conquer) | 6 | Recursive decomposition and divide and conquer |
 | [simulation](#simulation) | 90 | Direct simulation of rules, grids, and processes |
 | [sorting-and-searching](#sorting-and-searching) | 108 | Sorting, rank queries, and sorted order reasoning |
@@ -214,6 +214,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [M - Mafia — M_Mafia.cpp](../solutions/binary-search/M_Mafia.cpp) | cpp | vjudge / contest-688768-M | binary-search, sorting-and-searching | suggested |  |
 | [magic powder ii — magic_powder_ii.cpp](../solutions/binary-search/magic_powder_ii.cpp) | cpp | unknown | binary-search | suggested |  |
 | [maximum median — maximum_median.cpp](../solutions/binary-search/maximum_median.cpp) | cpp | unknown | binary-search, sorting-and-searching | suggested |  |
+| [Monster Game — Monster_Game.cpp](../solutions/binary-search/Monster_Game.cpp) | cpp | codeforces / 2193D | binary-search, prefix-sums, sorting-and-searching | reviewed |  |
 | [moobuzz — moobuzz.cpp](../solutions/binary-search/moobuzz.cpp) | cpp | unknown | binary-search | suggested |  |
 | [O - Trinity — O_Trinity.cpp](../solutions/binary-search/O_Trinity.cpp) | cpp | vjudge / contest-688796-O | binary-search, sorting-and-searching | suggested |  |
 | [poinsnoned dagger — poinsnoned_dagger.py](../solutions/binary-search/poinsnoned_dagger.py) | python | unknown | binary-search | suggested |  |
@@ -986,6 +987,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Kousuke Assignment — Kousuke_Assignment.cpp](../solutions/prefix-sums/Kousuke_Assignment.cpp) | cpp | unknown | prefix-sums | suggested |  |
 | [longest subarray with sum k — longest_subarray_with_sum_k.cpp](../algorithms/prefix-sums/longest_subarray_with_sum_k.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [maximum sum — maximum_sum.py](../solutions/prefix-sums/maximum_sum.py) | python | unknown | prefix-sums, sorting-and-searching | suggested |  |
+| [Prefix Sum Addicts — Prefix_Sum_Addicts.cpp](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp) | cpp | codeforces / 1738B | arrays-and-counting, math/arithmetic, prefix-sums | reviewed |  |
 | [same differences — same-differences.py](../solutions/prefix-sums/same-differences.py) | python | unknown | prefix-sums | suggested |  |
 | [sequence pair weight — sequence_pair_weight.py](../solutions/prefix-sums/sequence_pair_weight.py) | python | unknown | prefix-sums | suggested |  |
 | [static range sum queries — static-range-sum-queries.py](../solutions/prefix-sums/static-range-sum-queries.py) | python | unknown | prefix-sums | suggested |  |
