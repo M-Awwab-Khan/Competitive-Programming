@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := help
+ifeq ($(OS),Windows_NT)
+PYTHON ?= python
+else
 PYTHON ?= python3
+endif
 NAME ?=
 LANG ?= cpp
 # LANG is normally a locale inherited from the shell, not a language choice.

@@ -43,6 +43,39 @@ def fresh(state, signature, output):
         return False
 
 
+def make_words(entries):
+    """Split dependency-file words without treating Windows separators as escapes."""
+    words = []
+    word = []
+    i = 0
+    while i < len(entries):
+        char = entries[i]
+        if char == '\\' and i + 1 < len(entries):
+            next_char = entries[i + 1]
+            if next_char == '\n':
+                i += 2
+                continue
+            if next_char in (' ', '\t', '#', ':', '\\'):
+                word.append(next_char)
+                i += 2
+                continue
+        elif char == '$' and i + 1 < len(entries) and entries[i + 1] == '$':
+            word.append('$')
+            i += 2
+            continue
+        elif char.isspace():
+            if word:
+                words.append(''.join(word))
+                word.clear()
+            i += 1
+            continue
+        word.append(char)
+        i += 1
+    if word:
+        words.append(''.join(word))
+    return words
+
+
 def compile_cached(command, output, signature):
     state = output.with_name(output.name + '.json')
     if fresh(state, signature, output):
@@ -55,9 +88,9 @@ def compile_cached(command, output, signature):
     subprocess.run(command + ['-MD', '-MF', str(depfile), '-MT', 'artifact',
                               '-o', str(output)], cwd=ROOT, check=True)
     dependencies = {}
-    # GCC escapes spaces/backslashes in Make dependency files.
-    entries = depfile.read_text().replace('\\\n', '').split(':', 1)[1]
-    for name in shlex.split(entries):
+    # Preserve Windows path separators while unescaping Make's special characters.
+    entries = depfile.read_text().replace('\\\\\n', '').split(':', 1)[1]
+    for name in make_words(entries):
         path = Path(name.replace('$$', '$'))
         if not path.is_absolute():
             path = ROOT / path

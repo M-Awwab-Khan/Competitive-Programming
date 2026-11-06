@@ -12,7 +12,7 @@ Pattern recognition, arithmetic and number theory, combinatorics, geometry formu
 
 ## Create and run a problem with Make
 
-Requires Make, Python 3.10+, and GCC with C++23 support for C++ problems. CPH is not required.
+Requires Make, Python 3.10+, and GCC with C++23 support for C++ problems. Make uses `python3` on Unix and `python` on Windows; override with `make ... PYTHON=...` if your interpreter has a different command. CPH is not required.
 
 ```bash
 make new A_Line_Trip.cpp
