@@ -4,13 +4,13 @@ PYTHON ?= python
 else
 PYTHON ?= python3
 endif
-NAME ?=
+NAME :=
 LANG ?= cpp
 # LANG is normally a locale inherited from the shell, not a language choice.
 ifeq ($(origin LANG),environment)
 LANG := cpp
 endif
-SOURCE ?=
+SOURCE :=
 PCH ?= 1
 RUN_TIMEOUT ?= 5
 DEBUG ?= 0
