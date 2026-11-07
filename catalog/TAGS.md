@@ -6,7 +6,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## arrays-and-counting
 
-107 files
+110 files
 
 - [A Elections (cpp)](../solutions/arrays-and-counting/A_Elections.cpp)
 - [A Free Cash (cpp)](../solutions/arrays-and-counting/A_Free_Cash.cpp)
@@ -49,6 +49,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [C - Mex Min (cpp)](../solutions/arrays-and-counting/C_Mex_Min.cpp)
 - [C Fatima s Collection (cpp)](../solutions/arrays-and-counting/C_Fatima_s_Collection.cpp)
 - [C. Lose it! (cpp)](../solutions/arrays-and-counting/C_Lose_it.cpp)
+- [Card Substrings (cpp)](../solutions/two-pointers-and-sliding-window/Card_Substrings.cpp)
 - [cf A Sereja and Bottles (cpp)](../solutions/arrays-and-counting/cf-A_Sereja_and_Bottles.cpp)
 - [cf A Winner (cpp)](../solutions/arrays-and-counting/cf-A_Winner.cpp)
 - [cf A Young Physicist (cpp)](../solutions/arrays-and-counting/cf-A_Young_Physicist.cpp)
@@ -99,6 +100,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Lurak Gya (cpp)](../solutions/arrays-and-counting/Lurak%20Gya.cpp)
 - [maximum nondecreasing (cpp)](../solutions/arrays-and-counting/maximum_nondecreasing.cpp)
 - [missing number (cpp)](../solutions/arrays-and-counting/missing-number.cpp)
+- [Number of Equal (cpp)](../solutions/arrays-and-counting/Number_of_Equal.cpp)
 - [oddgnome (cpp)](../solutions/arrays-and-counting/oddgnome.cpp)
 - [open credit system (cpp)](../solutions/arrays-and-counting/open-credit-system.cpp)
 - [Prefix Sum Addicts (cpp)](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp)
@@ -106,6 +108,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Range Operation (cpp)](../solutions/dynamic-programming/kadane/Range_Operation.cpp)
 - [registration system (python)](../solutions/arrays-and-counting/registration_system.py)
 - [repetitions (cpp)](../solutions/arrays-and-counting/repetitions.cpp)
+- [Segments with Small Set (cpp)](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp)
 - [spoj intest (cpp)](../solutions/arrays-and-counting/spoj-intest.cpp)
 - [statistics (cpp)](../solutions/arrays-and-counting/statistics.cpp)
 - [trace of matrix (python)](../solutions/arrays-and-counting/trace_of_matrix.py)
@@ -455,12 +458,14 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/stacks-and-queues
 
-18 files
+21 files
 
 - [B 7485 Unlimited Easy version (cpp)](../solutions/two-pointers-and-sliding-window/B_7485_Unlimited_Easy_version.cpp)
 - [B Two Brackets (cpp)](../solutions/data-structures/stacks-and-queues/B_Two_Brackets.cpp)
+- [Coprime Segment (cpp)](../solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp)
 - [cses nearestsmallervalues (cpp)](../solutions/data-structures/stacks-and-queues/cses-nearestsmallervalues.cpp)
 - [D - Deque-STL (cpp)](../solutions/data-structures/stacks-and-queues/D_Deque_STL.cpp)
+- [D - Take ABC (cpp)](../solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp)
 - [D String Game (cpp)](../solutions/data-structures/stacks-and-queues/D_String_Game.cpp)
 - [D. Good Sets (cpp)](../solutions/two-pointers-and-sliding-window/D_Good_Sets.cpp)
 - [graph subchain (python)](../solutions/graphs/traversal/graph-subchain.py)
@@ -469,6 +474,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [maximum subarray sum ii (python)](../solutions/two-pointers-and-sliding-window/maximum_subarray_sum_ii.py)
 - [O - Chat Order (cpp)](../solutions/data-structures/stacks-and-queues/O_Chat_Order.cpp)
 - [q6 (python)](../solutions/graphs/shortest-paths/q6.py)
+- [Segments with Small Spread (cpp)](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Spread.cpp)
 - [sliding window max (cpp)](../algorithms/two-pointers-and-sliding-window/sliding_window_max.cpp)
 - [test (cpp)](../solutions/data-structures/stacks-and-queues/test.cpp)
 - [the sound of silence (python)](../solutions/two-pointers-and-sliding-window/the-sound-of-silence.py)
@@ -720,7 +726,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## greedy
 
-99 files
+100 files
 
 - [A Business trip (cpp)](../solutions/greedy/A_Business_trip.cpp)
 - [A Chewbaсca and Number (cpp)](../solutions/greedy/A_Chewba%D1%81ca_and_Number.cpp)
@@ -733,6 +739,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [A Little Elephant and Bits (python)](../solutions/greedy/A_Little_Elephant_and_Bits.py)
 - [A Regular Bracket Sequence (cpp)](../solutions/greedy/A_Regular_Bracket_Sequence.cpp)
 - [A Sereja and Dima (cpp)](../solutions/greedy/A_Sereja_and_Dima.cpp)
+- [A-B Knapsack (cpp)](../solutions/greedy/A-B_Knapsack.cpp)
 - [A. Hit the Lottery (cpp)](../solutions/greedy/A_Hit_the_Lottery.cpp)
 - [A. Knapsack (cpp)](../solutions/greedy/A_Knapsack.cpp)
 - [A. Line Breaks (cpp)](../solutions/greedy/A_Line_Breaks.cpp)
@@ -832,7 +839,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/arithmetic
 
-123 files
+124 files
 
 - [A - Between a and b ... (cpp)](../solutions/math/arithmetic/A_Between_a_and_b.cpp)
 - [A - Keep the Apples (cpp)](../solutions/math/arithmetic/A_Keep_the_Apples.cpp)
@@ -931,6 +938,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [judging moose (cpp)](../solutions/math/arithmetic/judging_moose.cpp)
 - [kattis averageshard (cpp)](../solutions/math/arithmetic/kattis-averageshard.cpp)
 - [L - Interesting Function (cpp)](../solutions/math/arithmetic/L_Interesting_Function.cpp)
+- [Looped Playlist (cpp)](../solutions/two-pointers-and-sliding-window/Looped_Playlist.cpp)
 - [M Floor Number (cpp)](../solutions/math/arithmetic/M_Floor_Number.cpp)
 - [N Square Counting (cpp)](../solutions/math/arithmetic/N_Square_Counting.cpp)
 - [newtons method (cpp)](../solutions/math/arithmetic/newtons_method.cpp)
@@ -989,7 +997,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/number-theory
 
-75 files
+76 files
 
 - [A Cifera (cpp)](../solutions/math/number-theory/A_Cifera.cpp)
 - [A Fox and Number Game (cpp)](../solutions/math/number-theory/A_Fox_and_Number_Game.cpp)
@@ -1027,6 +1035,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf twodivisors (cpp)](../solutions/math/number-theory/cf-twodivisors.cpp)
 - [cf wewerebothchildren (cpp)](../solutions/math/number-theory/cf-wewerebothchildren.cpp)
 - [chinese remainder theorem (cpp)](../solutions/math/number-theory/chinese_remainder_theorem.cpp)
+- [Coprime Segment (cpp)](../solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp)
 - [csa gcd (cpp)](../solutions/math/number-theory/csa-gcd.cpp)
 - [cses commondivisors (cpp)](../solutions/math/number-theory/cses-commondivisors.cpp)
 - [cses countdivisors (cpp)](../solutions/math/number-theory/cses-countdivisors.cpp)
@@ -1076,10 +1085,11 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## prefix-sums
 
-70 files
+71 files
 
 - [A Appleman and Toastman (cpp)](../solutions/prefix-sums/A_Appleman_and_Toastman.cpp)
 - [A Dividing Candies (cpp)](../solutions/prefix-sums/A_Dividing_Candies.cpp)
+- [A-B Knapsack (cpp)](../solutions/greedy/A-B_Knapsack.cpp)
 - [AH - And It's Non-Zero (cpp)](../solutions/bit-manipulation/AH_And_It_s_Non_Zero.cpp)
 - [AJ - Data Structures Fan (cpp)](../solutions/prefix-sums/AJ_Data_Structures_Fan.cpp)
 - [B Fence (cpp)](../solutions/prefix-sums/B_Fence.cpp)
@@ -1163,7 +1173,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## simulation
 
-94 files
+95 files
 
 - [10978 - Let's Play Magic! (python)](../solutions/simulation/10978_Let_s_Play_Magic.py)
 - [A - Gift Exchange (cpp)](../solutions/simulation/A_Gift_Exchange.cpp)
@@ -1192,6 +1202,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf fizzbuzzremixed (cpp)](../solutions/math/arithmetic/cf-fizzbuzzremixed.cpp)
 - [cf matrix rotations (cpp)](../solutions/simulation/cf-matrix-rotations.cpp)
 - [cses josephus1 (cpp)](../solutions/simulation/cses-josephus1.cpp)
+- [D - Take ABC (cpp)](../solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp)
 - [D Home Garden (cpp)](../solutions/simulation/D_Home_Garden.cpp)
 - [D. OutOfMemoryError (cpp)](../solutions/simulation/D_OutOfMemoryError.cpp)
 - [E A New Technique (cpp)](../solutions/simulation/E_A_New_Technique.cpp)
@@ -1262,7 +1273,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-206 files
+209 files
 
 - [1 (python)](../solutions/binary-search/1.py)
 - [11222 Only I did it (python)](../solutions/sorting-and-searching/11222_Only_I_did_it.py)
@@ -1281,6 +1292,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [A Three Cards (cpp)](../solutions/sorting-and-searching/A_Three_Cards.cpp)
 - [A Three Cards (python)](../solutions/sorting-and-searching/A_Three_Cards.py)
 - [A TL (cpp)](../solutions/sorting-and-searching/A_TL.cpp)
+- [A-B Knapsack (cpp)](../solutions/greedy/A-B_Knapsack.cpp)
 - [A. Knapsack (cpp)](../solutions/greedy/A_Knapsack.cpp)
 - [A. Red Bus (cpp)](../solutions/sorting-and-searching/A_Red_Bus.cpp)
 - [A. Square sorted (python)](../solutions/sorting-and-searching/A_Square_sorted.py)
@@ -1437,6 +1449,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum.cpp)
 - [Monster Game (cpp)](../solutions/binary-search/Monster_Game.cpp)
 - [movie festival (cpp)](../solutions/greedy/movie_festival.cpp)
+- [Number of Smaller (cpp)](../solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp)
 - [O - Trinity (cpp)](../solutions/binary-search/O_Trinity.cpp)
 - [P - Devu and his Brother (cpp)](../solutions/ternary-search/P_Devu_and_his_Brother.cpp)
 - [paint numbers (python)](../solutions/sorting-and-searching/paint_numbers.py)
@@ -1447,6 +1460,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [roots (python)](../solutions/binary-search/roots.py)
 - [sellstocks (python)](../solutions/sorting-and-searching/sellstocks.py)
 - [songs compression (python)](../solutions/sorting-and-searching/songs_compression.py)
+- [Stylish clothes (cpp)](../solutions/two-pointers-and-sliding-window/Stylish_clothes.cpp)
 - [sum of four values (python)](../solutions/sorting-and-searching/sum-of-four-values.py)
 - [sum of two values (cpp)](../solutions/sorting-and-searching/sum_of_two_values.cpp)
 - [sum of two values (python)](../solutions/sorting-and-searching/sum_of_two_values.py)
@@ -1473,7 +1487,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## strings
 
-88 files
+91 files
 
 - [A - ABC -> AC (python)](../solutions/strings/A_ABC_AC.py)
 - [A Comparing Strings (cpp)](../solutions/strings/A_Comparing_Strings.cpp)
@@ -1510,6 +1524,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [C Vasya and String (cpp)](../solutions/two-pointers-and-sliding-window/C_Vasya_and_String.cpp)
 - [C. K-th root (cpp)](../solutions/binary-search/C_K_th_root.cpp)
 - [C. Lucky Numbers (cpp)](../solutions/strings/C_Lucky_Numbers.cpp)
+- [Card Substrings (cpp)](../solutions/two-pointers-and-sliding-window/Card_Substrings.cpp)
 - [cf chatroom (cpp)](../solutions/strings/cf-chatroom.cpp)
 - [cf notquiteapalindromicstring (cpp)](../solutions/strings/cf_notquiteapalindromicstring.cpp)
 - [cf numeric strings template  (cpp)](../solutions/strings/cf-numeric-strings-template-.cpp)
@@ -1518,6 +1533,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf stringtask (cpp)](../solutions/strings/cf-stringtask.cpp)
 - [cf translation (cpp)](../solutions/strings/cf-translation.cpp)
 - [creating strings (cpp)](../solutions/brute-force-and-backtracking/creating-strings.cpp)
+- [D - Take ABC (cpp)](../solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp)
 - [D Product Subsequences (cpp)](../solutions/strings/D_Product_Subsequences.cpp)
 - [D String Game (cpp)](../solutions/data-structures/stacks-and-queues/D_String_Game.cpp)
 - [D. Palindromes Coloring (cpp)](../solutions/strings/D_Palindromes_Coloring.cpp)
@@ -1547,6 +1563,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [minesweeper (python)](../solutions/simulation/minesweeper.py)
 - [minesweeper 2 (python)](../solutions/simulation/minesweeper%202.py)
 - [Nikita and string (cpp)](../solutions/dynamic-programming/sequences/Nikita_and_string.cpp)
+- [Not Very Rude Substring (cpp)](../solutions/two-pointers-and-sliding-window/Not_Very_Rude_Substring.cpp)
 - [P Polycarp and the Day of Pi (cpp)](../solutions/strings/P_Polycarp_and_the_Day_of_Pi.cpp)
 - [palindrome reorder (cpp)](../solutions/strings/palindrome_reorder.cpp)
 - [q6 (cpp)](../solutions/graphs/shortest-paths/q6.cpp)
@@ -1589,7 +1606,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## two-pointers-and-sliding-window
 
-44 files
+59 files
 
 - [A - A (cpp)](../solutions/two-pointers-and-sliding-window/A_A.cpp)
 - [A - Very Different Array (cpp)](../solutions/two-pointers-and-sliding-window/A_Very_Different_Array.cpp)
@@ -1609,10 +1626,13 @@ A source may appear under several tags. Its primary category determines its fold
 - [C They Are Everywhere (cpp)](../solutions/two-pointers-and-sliding-window/C_They_Are_Everywhere.cpp)
 - [C Vasya and String (cpp)](../solutions/two-pointers-and-sliding-window/C_Vasya_and_String.cpp)
 - [C. Dora and Search (cpp)](../solutions/two-pointers-and-sliding-window/C_Dora_and_Search.cpp)
+- [Card Substrings (cpp)](../solutions/two-pointers-and-sliding-window/Card_Substrings.cpp)
 - [cf books (cpp)](../solutions/two-pointers-and-sliding-window/cf-books.cpp)
 - [cf eatingcandies (cpp)](../solutions/two-pointers-and-sliding-window/cf-eatingcandies.cpp)
 - [cf skibidifanumtax (cpp)](../solutions/two-pointers-and-sliding-window/cf-skibidifanumtax.cpp)
 - [challenging valley (python)](../solutions/two-pointers-and-sliding-window/challenging_valley.py)
+- [Che city (cpp)](../solutions/two-pointers-and-sliding-window/Che_city.cpp)
+- [Coprime Segment (cpp)](../solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp)
 - [cses playlist (cpp)](../solutions/two-pointers-and-sliding-window/cses-playlist.cpp)
 - [cses slidingwindowmedian (cpp)](../solutions/two-pointers-and-sliding-window/cses-slidingwindowmedian.cpp)
 - [D - Subarray Distinct Values (cpp)](../solutions/two-pointers-and-sliding-window/D_Subarray_Distinct_Values.cpp)
@@ -1623,13 +1643,25 @@ A source may appear under several tags. Its primary category determines its fold
 - [F. Money Trees (cpp)](../solutions/two-pointers-and-sliding-window/F_Money_Trees.cpp)
 - [G - Three Parts of the Array (cpp)](../solutions/two-pointers-and-sliding-window/G_Three_Parts_of_the_Array.cpp)
 - [k distinct subarrays (python)](../solutions/arrays-and-counting/k_distinct_subarrays.py)
+- [Knapsack on a Segment (cpp)](../solutions/two-pointers-and-sliding-window/Knapsack_on_a_Segment.cpp)
+- [Looped Playlist (cpp)](../solutions/two-pointers-and-sliding-window/Looped_Playlist.cpp)
 - [maximum subarray sum ii (python)](../solutions/two-pointers-and-sliding-window/maximum_subarray_sum_ii.py)
 - [maximum sum subarray size K (cpp)](../algorithms/two-pointers-and-sliding-window/maximum_sum_subarray_size_K.cpp)
+- [Not Very Rude Substring (cpp)](../solutions/two-pointers-and-sliding-window/Not_Very_Rude_Substring.cpp)
+- [Number of Segments with Big Sum (cpp)](../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Big_Sum.cpp)
+- [Number of Segments with Small Sum (cpp)](../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Small_Sum.cpp)
+- [Number of Smaller (cpp)](../solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp)
+- [Segment with Big Sum (cpp)](../solutions/two-pointers-and-sliding-window/Segment_with_Big_Sum.cpp)
+- [Segment with Small Sum (cpp)](../solutions/two-pointers-and-sliding-window/Segment_with_Small_Sum.cpp)
+- [Segments with Small Set (cpp)](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp)
+- [Segments with Small Spread (cpp)](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Spread.cpp)
 - [sliding window max (cpp)](../algorithms/two-pointers-and-sliding-window/sliding_window_max.cpp)
 - [smallest subarray (cpp)](../solutions/two-pointers-and-sliding-window/smallest_subarray.cpp)
+- [Stylish clothes (cpp)](../solutions/two-pointers-and-sliding-window/Stylish_clothes.cpp)
 - [subarray sum x (cpp)](../solutions/two-pointers-and-sliding-window/subarray-sum-x.cpp)
 - [subarray sum x (python)](../solutions/two-pointers-and-sliding-window/subarray-sum-x.py)
 - [the sound of silence (python)](../solutions/two-pointers-and-sliding-window/the-sound-of-silence.py)
+- [Total Length (cpp)](../solutions/two-pointers-and-sliding-window/Total_Length.cpp)
 - [USACO Diamond Collector (cpp)](../solutions/two-pointers-and-sliding-window/USACO_Diamond_Collector.cpp)
 - [USACO Diamond Collector Silver (cpp)](../solutions/two-pointers-and-sliding-window/USACO_Diamond_Collector_Silver.cpp)
 - [utpc merging sorted list (cpp)](../solutions/two-pointers-and-sliding-window/utpc-merging-sorted-list.cpp)

@@ -4,7 +4,7 @@
 
 | Category | Solutions |
 | --- | ---: |
-| [arrays-and-counting](arrays-and-counting/) | 96 |
+| [arrays-and-counting](arrays-and-counting/) | 97 |
 | [binary-search](binary-search/) | 77 |
 | [bit-manipulation](bit-manipulation/) | 34 |
 | [brute-force-and-backtracking](brute-force-and-backtracking/) | 41 |
@@ -13,7 +13,7 @@
 | [data-structures/heaps](data-structures/heaps/) | 1 |
 | [data-structures/ordered-sets](data-structures/ordered-sets/) | 9 |
 | [data-structures/range-queries](data-structures/range-queries/) | 3 |
-| [data-structures/stacks-and-queues](data-structures/stacks-and-queues/) | 10 |
+| [data-structures/stacks-and-queues](data-structures/stacks-and-queues/) | 11 |
 | [dynamic-programming/bitmask](dynamic-programming/bitmask/) | 2 |
 | [dynamic-programming/general](dynamic-programming/general/) | 30 |
 | [dynamic-programming/intervals](dynamic-programming/intervals/) | 3 |
@@ -26,7 +26,7 @@
 | [graphs/spanning-trees](graphs/spanning-trees/) | 2 |
 | [graphs/topological-sort](graphs/topological-sort/) | 2 |
 | [graphs/traversal](graphs/traversal/) | 15 |
-| [greedy](greedy/) | 95 |
+| [greedy](greedy/) | 96 |
 | [intervals](intervals/) | 1 |
 | [math/arithmetic](math/arithmetic/) | 113 |
 | [math/combinatorics](math/combinatorics/) | 18 |
@@ -40,4 +40,4 @@
 | [strings](strings/) | 71 |
 | [ternary-search](ternary-search/) | 5 |
 | [trees](trees/) | 8 |
-| [two-pointers-and-sliding-window](two-pointers-and-sliding-window/) | 40 |
+| [two-pointers-and-sliding-window](two-pointers-and-sliding-window/) | 55 |

@@ -1,0 +1,31 @@
+{
+  "name": "E. Segments with Small Set",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E",
+  "interactive": false,
+  "memoryLimit": 1024,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "7 3\n2 6 4 3 6 8 3\n",
+      "output": "20\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ESegmentsWithSmallSet"
+    }
+  },
+  "batch": {
+    "id": "a479be75-e692-4df8-9f03-bbf3379f7a36",
+    "size": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "F. Card Substrings",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/F",
+  "interactive": false,
+  "memoryLimit": 512,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "4 3\naaab\naba\n",
+      "output": "8\n"
+    },
+    {
+      "input": "7 3\nabacaba\nabc\n",
+      "output": "15\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FCardSubstrings"
+    }
+  },
+  "batch": {
+    "id": "200e7121-d0b1-4192-aa54-7b8db0303c95",
+    "size": 1
+  }
+}

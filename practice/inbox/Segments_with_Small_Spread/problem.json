@@ -1,0 +1,31 @@
+{
+  "name": "F. Segments with Small Spread",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/F",
+  "interactive": false,
+  "memoryLimit": 1024,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "7 3\n2 6 4 3 6 8 9\n",
+      "output": "16\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FSegmentsWithSmallSpread"
+    }
+  },
+  "batch": {
+    "id": "2be4b4c5-c4a1-42e4-b6f0-5884c2ab32e4",
+    "size": 1
+  }
+}

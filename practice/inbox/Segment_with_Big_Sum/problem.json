@@ -1,0 +1,31 @@
+{
+  "name": "B. Segment with Big Sum",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B",
+  "interactive": false,
+  "memoryLimit": 1024,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "7 20\n2 6 4 3 6 8 9\n",
+      "output": "3\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BSegmentWithBigSum"
+    }
+  },
+  "batch": {
+    "id": "f1b85e39-ddca-4d91-b5e0-cd9f0b6579a3",
+    "size": 1
+  }
+}

@@ -31291,6 +31291,646 @@
       "time_limit_ms": 2000,
       "memory_limit_mb": 512,
       "interactive": false
+    },
+    {
+      "key": "3001da14e6a94c0c",
+      "title": "A-B Knapsack",
+      "path": "solutions/greedy/A-B_Knapsack.cpp",
+      "original_path": "practice/inbox/A-B_Knapsack/A-B_Knapsack.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094H",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/H"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "4bfab1e7ee38f974a10ab616415f24f5bd1051b384eeda7717e6da51d28995d7",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "prefix-sums",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts both item lists descending, builds prefix sums, enumerates count x of A-items and takes y=min(m,(s-xA)/B) B-items greedily.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "4bfab1e7ee38f974a10ab616415f24f5bd1051b384eeda7717e6da51d28995d7",
+      "observed_sha256": "4bfab1e7ee38f974a10ab616415f24f5bd1051b384eeda7717e6da51d28995d7",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "0696137d81714bd3",
+      "title": "Card Substrings",
+      "path": "solutions/two-pointers-and-sliding-window/Card_Substrings.cpp",
+      "original_path": "practice/inbox/Card_Substrings/Card_Substrings.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094F",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/F"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "3d4f43b1883f1efdda2bc45165212e0370ed191ff1b0234711126c7ff22047bb",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "arrays-and-counting",
+        "strings",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sliding window over s with per-character counts capped by card multiset; shrinks left while current char exceeds cap and adds r-l+1 per right end.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "3d4f43b1883f1efdda2bc45165212e0370ed191ff1b0234711126c7ff22047bb",
+      "observed_sha256": "3d4f43b1883f1efdda2bc45165212e0370ed191ff1b0234711126c7ff22047bb",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "9d9aeccc9a924321",
+      "title": "Che city",
+      "path": "solutions/two-pointers-and-sliding-window/Che_city.cpp",
+      "original_path": "practice/inbox/Che_city/Che_city.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "b45ca62f5d75bc224706296eff5f550d4a462565e760b3807adf6db0bc729f52",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "For each l advances r while a[r]-a[l]<=rr on sorted positions and adds n-r pairs with distance above rr; note: reads a[r] when r==n.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "b45ca62f5d75bc224706296eff5f550d4a462565e760b3807adf6db0bc729f52",
+      "observed_sha256": "b45ca62f5d75bc224706296eff5f550d4a462565e760b3807adf6db0bc729f52",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "a8a84671b62e4822",
+      "title": "Coprime Segment",
+      "path": "solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp",
+      "original_path": "practice/inbox/Coprime_Segment/Coprime_Segment.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307093G",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/G"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "9e171071aad1b4fd9f8c4929f439a01b154747be56c91ddf2b9fe099214fc12e",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "data-structures/stacks-and-queues",
+        "math/number-theory",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Two-stack GCD queue maintains window gcd; shrinks while gcd==1 recording the shortest coprime segment.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "9e171071aad1b4fd9f8c4929f439a01b154747be56c91ddf2b9fe099214fc12e",
+      "observed_sha256": "9e171071aad1b4fd9f8c4929f439a01b154747be56c91ddf2b9fe099214fc12e",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window",
+        "two-stack-aggregate-queue"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "bd534ae3e0e6460a",
+      "title": "D - Take ABC",
+      "path": "solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp",
+      "original_path": "practice/inbox/D_-_Take_ABC/D_-_Take_ABC.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [
+        "https://atcoder.jp/contests/abc328/tasks/abc328_d"
+      ],
+      "collections": [
+        "AtCoder - Toyota Programming Contest 2023#7（AtCoder Beginner Contest 328）"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "502435e55987226ba507012a4a6d2ab3a237c232c4be5feb242751d55bda90f6",
+      "category": "data-structures/stacks-and-queues",
+      "tags": [
+        "data-structures/stacks-and-queues",
+        "simulation",
+        "strings"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Pushes characters on a stack and pops the top three whenever they spell ABC, then prints remaining stack contents.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "502435e55987226ba507012a4a6d2ab3a237c232c4be5feb242751d55bda90f6",
+      "observed_sha256": "502435e55987226ba507012a4a6d2ab3a237c232c4be5feb242751d55bda90f6",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "aa9bc0fb31a34410",
+      "title": "Knapsack on a Segment",
+      "path": "solutions/two-pointers-and-sliding-window/Knapsack_on_a_Segment.cpp",
+      "original_path": "practice/inbox/Knapsack_on_a_Segment/Knapsack_on_a_Segment.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094E",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/E"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "e025b58d082bba92cfb54f31ec9089a1f94fad293487d6b337cccb59d64d50ca",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sliding window keeping weight sum <= s by advancing l, maximising the cost sum of the current window.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e025b58d082bba92cfb54f31ec9089a1f94fad293487d6b337cccb59d64d50ca",
+      "observed_sha256": "e025b58d082bba92cfb54f31ec9089a1f94fad293487d6b337cccb59d64d50ca",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "bdc622de52d545d2",
+      "title": "Looped Playlist",
+      "path": "solutions/two-pointers-and-sliding-window/Looped_Playlist.cpp",
+      "original_path": "practice/inbox/Looped_Playlist/Looped_Playlist.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "372ab5460a09268087703060e357c5a20b0bde3463214a5b153c4438c47fbffa",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "math/arithmetic",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Removes full cycles with p/sum, then shortest window with sum >= remainder on the doubled array, reporting its start index.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "372ab5460a09268087703060e357c5a20b0bde3463214a5b153c4438c47fbffa",
+      "observed_sha256": "372ab5460a09268087703060e357c5a20b0bde3463214a5b153c4438c47fbffa",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "1fbed0517fc84f83",
+      "title": "Not Very Rude Substring",
+      "path": "solutions/two-pointers-and-sliding-window/Not_Very_Rude_Substring.cpp",
+      "original_path": "practice/inbox/Not_Very_Rude_Substring/Not_Very_Rude_Substring.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094G",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/G"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "937c9c73e54332be546f42cd9b6c15e54c3961b9148668e984970816a54f61b9",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "strings",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Maintains counts of a, b and ab-subsequence pairs in the window; adding b adds count(a), removing leading a subtracts count(b); longest window with pairs <= c.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "937c9c73e54332be546f42cd9b6c15e54c3961b9148668e984970816a54f61b9",
+      "observed_sha256": "937c9c73e54332be546f42cd9b6c15e54c3961b9148668e984970816a54f61b9",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "8b5d969140ba4a59",
+      "title": "Number of Equal",
+      "path": "solutions/arrays-and-counting/Number_of_Equal.cpp",
+      "original_path": "practice/inbox/Number_of_Equal/Number_of_Equal.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307092C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "6edc0108a596b139869d82130ba0127998bec50cd572fae081578345cc3c4b88",
+      "category": "arrays-and-counting",
+      "tags": [
+        "arrays-and-counting"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Counts equal pairs via an unordered_map frequency of b, summing frequency for each a element; no two-pointer merge is used.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "6edc0108a596b139869d82130ba0127998bec50cd572fae081578345cc3c4b88",
+      "observed_sha256": "6edc0108a596b139869d82130ba0127998bec50cd572fae081578345cc3c4b88",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "e2b959b9b5824d69",
+      "title": "Number of Segments with Big Sum",
+      "path": "solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Big_Sum.cpp",
+      "original_path": "practice/inbox/Number_of_Segments_with_Big_Sum/Number_of_Segments_with_Big_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307093D",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "507ddec8680c1c06039f8e9971cc69268379f48eacf720f8cc326eb8e95f8376",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "For each l extends r until sum >= s and adds n-r+1 good segments starting at l, then removes a[l].",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "507ddec8680c1c06039f8e9971cc69268379f48eacf720f8cc326eb8e95f8376",
+      "observed_sha256": "507ddec8680c1c06039f8e9971cc69268379f48eacf720f8cc326eb8e95f8376",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "578fdff45be4493e",
+      "title": "Number of Segments with Small Sum",
+      "path": "solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Small_Sum.cpp",
+      "original_path": "practice/inbox/Number_of_Segments_with_Small_Sum/Number_of_Segments_with_Small_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307093C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "de9b341a050ddc78613cd000241866973d101bccc91bc203e3d292af4f66f176",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sliding window with sum <= s; adds r-l+1 segments per right end.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "de9b341a050ddc78613cd000241866973d101bccc91bc203e3d292af4f66f176",
+      "observed_sha256": "de9b341a050ddc78613cd000241866973d101bccc91bc203e3d292af4f66f176",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "a1a125c8b8774e97",
+      "title": "Number of Smaller",
+      "path": "solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp",
+      "original_path": "practice/inbox/Number_of_Smaller/Number_of_Smaller.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307092B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "f1710339db972d0986cafe9d19f59999cca514640f256fe646f16abfb0d7b8c8",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "sorting-and-searching",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Merges two sorted arrays: for each b[j] advances i while a[i] < b[j] and outputs i.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "f1710339db972d0986cafe9d19f59999cca514640f256fe646f16abfb0d7b8c8",
+      "observed_sha256": "f1710339db972d0986cafe9d19f59999cca514640f256fe646f16abfb0d7b8c8",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "88b32712fdfd4397",
+      "title": "Segment with Big Sum",
+      "path": "solutions/two-pointers-and-sliding-window/Segment_with_Big_Sum.cpp",
+      "original_path": "practice/inbox/Segment_with_Big_Sum/Segment_with_Big_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307093B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "3ec3a1d06ab1c06da2f1cc7048c627ab34ee70c5420ea1eb3188386e63a4f2b1",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Shrinks window while sum >= s, recording the shortest length; -1 if none.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "3ec3a1d06ab1c06da2f1cc7048c627ab34ee70c5420ea1eb3188386e63a4f2b1",
+      "observed_sha256": "3ec3a1d06ab1c06da2f1cc7048c627ab34ee70c5420ea1eb3188386e63a4f2b1",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "4829991048684adb",
+      "title": "Segment with Small Sum",
+      "path": "solutions/two-pointers-and-sliding-window/Segment_with_Small_Sum.cpp",
+      "original_path": "practice/inbox/Segment_with_Small_Sum/Segment_with_Small_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307093A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "7a1ba1483cd5f93c907dc1933bba6c22127636bc2fa46bea9673a4b1bb81bdac",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sliding window with sum <= s; tracks maximum r-l+1.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "7a1ba1483cd5f93c907dc1933bba6c22127636bc2fa46bea9673a4b1bb81bdac",
+      "observed_sha256": "7a1ba1483cd5f93c907dc1933bba6c22127636bc2fa46bea9673a4b1bb81bdac",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "f96b8a0977494228",
+      "title": "Segments with Small Set",
+      "path": "solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp",
+      "original_path": "practice/inbox/Segments_with_Small_Set/Segments_with_Small_Set.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307093E",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "936c2c61b8e9618c8451269dbdd4a44b985ae07ed862c40fbfbf615431c39181",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "arrays-and-counting",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Hash-map counts distinct values in window; shrinks while distinct > k and adds r-l+1.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "936c2c61b8e9618c8451269dbdd4a44b985ae07ed862c40fbfbf615431c39181",
+      "observed_sha256": "936c2c61b8e9618c8451269dbdd4a44b985ae07ed862c40fbfbf615431c39181",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "52ba9137c5044b2f",
+      "title": "Segments with Small Spread",
+      "path": "solutions/two-pointers-and-sliding-window/Segments_with_Small_Spread.cpp",
+      "original_path": "practice/inbox/Segments_with_Small_Spread/Segments_with_Small_Spread.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307093F",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/F"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "3548d1f6fa988d81f5aa4a8ffc094a3ceb20870a33367672f782b144b4042084",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "data-structures/stacks-and-queues",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Active code uses a two-stack min/max queue; shrinks while max-min > k and adds r-l+1. Commented multiset version not used.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "3548d1f6fa988d81f5aa4a8ffc094a3ceb20870a33367672f782b144b4042084",
+      "observed_sha256": "3548d1f6fa988d81f5aa4a8ffc094a3ceb20870a33367672f782b144b4042084",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window",
+        "two-stack-aggregate-queue"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "f6879ea484304d51",
+      "title": "Stylish clothes",
+      "path": "solutions/two-pointers-and-sliding-window/Stylish_clothes.cpp",
+      "original_path": "practice/inbox/Stylish_clothes/Stylish_clothes.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094D",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/D"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "2a36d62c4fb284c682c7da52018febaca5316759588b9b037266b52212b8e0c9",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "sorting-and-searching",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts four lists and advances the pointer at the current minimum, tracking the tuple with smallest max-min.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "2a36d62c4fb284c682c7da52018febaca5316759588b9b037266b52212b8e0c9",
+      "observed_sha256": "2a36d62c4fb284c682c7da52018febaca5316759588b9b037266b52212b8e0c9",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "c504736836c64cbe",
+      "title": "Total Length",
+      "path": "solutions/two-pointers-and-sliding-window/Total_Length.cpp",
+      "original_path": "practice/inbox/Total_Length/Total_Length.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "307094B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "2620f25a49496f6a3d3a18d8e712cc87e87cc9ab1ef3ad5f781543859d8cd7c0",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sliding window with sum <= s; adds len*(len+1)/2 over each maximal window length r-l+1.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "2620f25a49496f6a3d3a18d8e712cc87e87cc9ab1ef3ad5f781543859d8cd7c0",
+      "observed_sha256": "2620f25a49496f6a3d3a18d8e712cc87e87cc9ab1ef3ad5f781543859d8cd7c0",
+      "review_required": false,
+      "patterns": [
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
     }
   ]
 }

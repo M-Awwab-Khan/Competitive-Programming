@@ -1,0 +1,35 @@
+{
+  "name": "G. Not Very Rude Substring",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/G",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3 1\naab\n",
+      "output": "2\n"
+    },
+    {
+      "input": "6 2\naabcbb\n",
+      "output": "4\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "GNotVeryRudeSubstring"
+    }
+  },
+  "batch": {
+    "id": "39593dea-9d33-493f-8936-f9a4d0f295af",
+    "size": 1
+  }
+}

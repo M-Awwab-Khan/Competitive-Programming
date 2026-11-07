@@ -4,6 +4,99 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-07T16:36:50+00:00 — REVIEW
+
+- solutions/needs-review/Total_Length.cpp → solutions/two-pointers-and-sliding-window/Total_Length.cpp: Sliding window with sum <= s; adds len*(len+1)/2 over each maximal window length r-l+1.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:49+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Stylish_clothes.cpp → solutions/two-pointers-and-sliding-window/Stylish_clothes.cpp: Sorts four lists and advances the pointer at the current minimum, tracking the tuple with smallest max-min.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:49+00:00 — REVIEW
+
+- solutions/data-structures/stacks-and-queues/Segments_with_Small_Spread.cpp → solutions/two-pointers-and-sliding-window/Segments_with_Small_Spread.cpp: Active code uses a two-stack min/max queue; shrinks while max-min > k and adds r-l+1. Commented multiset version not used.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:48+00:00 — REVIEW
+
+- solutions/needs-review/Segments_with_Small_Set.cpp → solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp: Hash-map counts distinct values in window; shrinks while distinct > k and adds r-l+1.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:48+00:00 — REVIEW
+
+- solutions/needs-review/Segment_with_Small_Sum.cpp → solutions/two-pointers-and-sliding-window/Segment_with_Small_Sum.cpp: Sliding window with sum <= s; tracks maximum r-l+1.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:48+00:00 — REVIEW
+
+- solutions/needs-review/Segment_with_Big_Sum.cpp → solutions/two-pointers-and-sliding-window/Segment_with_Big_Sum.cpp: Shrinks window while sum >= s, recording the shortest length; -1 if none.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:47+00:00 — REVIEW
+
+- solutions/needs-review/Number_of_Smaller.cpp → solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp: Merges two sorted arrays: for each b[j] advances i while a[i] < b[j] and outputs i.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:47+00:00 — REVIEW
+
+- solutions/needs-review/Number_of_Segments_with_Small_Sum.cpp → solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Small_Sum.cpp: Sliding window with sum <= s; adds r-l+1 segments per right end.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:46+00:00 — REVIEW
+
+- solutions/needs-review/Number_of_Segments_with_Big_Sum.cpp → solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Big_Sum.cpp: For each l extends r until sum >= s and adds n-r+1 good segments starting at l, then removes a[l].. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:46+00:00 — REVIEW
+
+- solutions/needs-review/Number_of_Equal.cpp → solutions/arrays-and-counting/Number_of_Equal.cpp: Counts equal pairs via an unordered_map frequency of b, summing frequency for each a element; no two-pointer merge is used.. Category: arrays-and-counting; status: reviewed.
+
+## 2026-11-07T16:36:46+00:00 — REVIEW
+
+- solutions/strings/Not_Very_Rude_Substring.cpp → solutions/two-pointers-and-sliding-window/Not_Very_Rude_Substring.cpp: Maintains counts of a, b and ab-subsequence pairs in the window; adding b adds count(a), removing leading a subtracts count(b); longest window with pairs <= c.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:45+00:00 — REVIEW
+
+- solutions/needs-review/Looped_Playlist.cpp → solutions/two-pointers-and-sliding-window/Looped_Playlist.cpp: Removes full cycles with p/sum, then shortest window with sum >= remainder on the doubled array, reporting its start index.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:45+00:00 — REVIEW
+
+- solutions/needs-review/Knapsack_on_a_Segment.cpp → solutions/two-pointers-and-sliding-window/Knapsack_on_a_Segment.cpp: Sliding window keeping weight sum <= s by advancing l, maximising the cost sum of the current window.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:45+00:00 — REVIEW
+
+- solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp → solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp: Pushes characters on a stack and pops the top three whenever they spell ABC, then prints remaining stack contents.. Category: data-structures/stacks-and-queues; status: reviewed.
+
+## 2026-11-07T16:36:44+00:00 — REVIEW
+
+- solutions/math/number-theory/Coprime_Segment.cpp → solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp: Two-stack GCD queue maintains window gcd; shrinks while gcd==1 recording the shortest coprime segment.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:44+00:00 — REVIEW
+
+- solutions/needs-review/Che_city.cpp → solutions/two-pointers-and-sliding-window/Che_city.cpp: For each l advances r while a[r]-a[l]<=rr on sorted positions and adds n-r pairs with distance above rr; note: reads a[r] when r==n.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:43+00:00 — REVIEW
+
+- solutions/strings/Card_Substrings.cpp → solutions/two-pointers-and-sliding-window/Card_Substrings.cpp: Sliding window over s with per-character counts capped by card multiset; shrinks left while current char exceeds cap and adds r-l+1 per right end.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-07T16:36:43+00:00 — REVIEW
+
+- solutions/sorting-and-searching/A-B_Knapsack.cpp → solutions/greedy/A-B_Knapsack.cpp: Sorts both item lists descending, builds prefix sums, enumerates count x of A-items and takes y=min(m,(s-xA)/B) B-items greedily.. Category: greedy; status: reviewed.
+
+## 2026-11-07T16:35:50+00:00 — INGEST
+
+- practice/inbox/A-B_Knapsack/A-B_Knapsack.cpp → solutions/sorting-and-searching/A-B_Knapsack.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Card_Substrings/Card_Substrings.cpp → solutions/strings/Card_Substrings.cpp: Filed new source; classification remains a suggestion. Category: strings; status: suggested.
+- practice/inbox/Che_city/Che_city.cpp → solutions/needs-review/Che_city.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Coprime_Segment/Coprime_Segment.cpp → solutions/math/number-theory/Coprime_Segment.cpp: Filed new source; classification remains a suggestion. Category: math/number-theory; status: suggested.
+- practice/inbox/D_-_Take_ABC/D_-_Take_ABC.cpp → solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp: Filed new source; classification remains a suggestion. Category: data-structures/stacks-and-queues; status: suggested.
+- practice/inbox/Knapsack_on_a_Segment/Knapsack_on_a_Segment.cpp → solutions/needs-review/Knapsack_on_a_Segment.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Looped_Playlist/Looped_Playlist.cpp → solutions/needs-review/Looped_Playlist.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Not_Very_Rude_Substring/Not_Very_Rude_Substring.cpp → solutions/strings/Not_Very_Rude_Substring.cpp: Filed new source; classification remains a suggestion. Category: strings; status: suggested.
+- practice/inbox/Number_of_Equal/Number_of_Equal.cpp → solutions/needs-review/Number_of_Equal.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Number_of_Segments_with_Big_Sum/Number_of_Segments_with_Big_Sum.cpp → solutions/needs-review/Number_of_Segments_with_Big_Sum.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Number_of_Segments_with_Small_Sum/Number_of_Segments_with_Small_Sum.cpp → solutions/needs-review/Number_of_Segments_with_Small_Sum.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Number_of_Smaller/Number_of_Smaller.cpp → solutions/needs-review/Number_of_Smaller.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Segment_with_Big_Sum/Segment_with_Big_Sum.cpp → solutions/needs-review/Segment_with_Big_Sum.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Segment_with_Small_Sum/Segment_with_Small_Sum.cpp → solutions/needs-review/Segment_with_Small_Sum.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Segments_with_Small_Set/Segments_with_Small_Set.cpp → solutions/needs-review/Segments_with_Small_Set.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Segments_with_Small_Spread/Segments_with_Small_Spread.cpp → solutions/data-structures/stacks-and-queues/Segments_with_Small_Spread.cpp: Filed new source; classification remains a suggestion. Category: data-structures/stacks-and-queues; status: suggested.
+- practice/inbox/Stylish_clothes/Stylish_clothes.cpp → solutions/sorting-and-searching/Stylish_clothes.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Total_Length/Total_Length.cpp → solutions/needs-review/Total_Length.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+
 ## 2026-11-01T07:05:23+00:00 — REVIEW
 
 - solutions/prefix-sums/Prefix_Sum_Addicts.cpp → solutions/prefix-sums/Prefix_Sum_Addicts.cpp: Reconstructs the known suffix elements by adjacent prefix differences, checks those differences are nondecreasing, and requires the earliest known prefix sum to be at most the first known suffix element times the unknown-prefix length. Handles k=1 directly; assumes 1 <= k <= n and the product fits signed 64-bit arithmetic.. Category: prefix-sums; status: reviewed.

@@ -1,0 +1,35 @@
+{
+  "name": "D. Stylish clothes",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/D",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3\n1 2 3\n2\n1 3\n2\n3 4\n2\n2 3\n",
+      "output": "3 3 3 3\n"
+    },
+    {
+      "input": "1\n5\n4\n3 6 7 10\n4\n18 3 9 11\n1\n20\n",
+      "output": "5 6 9 20\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DStylishClothes"
+    }
+  },
+  "batch": {
+    "id": "447abe21-2310-41dc-a672-9c0e1bc8c1e6",
+    "size": 1
+  }
+}

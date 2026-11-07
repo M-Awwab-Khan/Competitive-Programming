@@ -1,0 +1,31 @@
+{
+  "name": "E. Knapsack on a Segment",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/E",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "6 20\n9 7 6 5 8 4\n7 1 3 6 8 3\n",
+      "output": "17\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "EKnapsackOnASegment"
+    }
+  },
+  "batch": {
+    "id": "02cb8d13-7ae5-4ca1-ae6f-83f581130525",
+    "size": 1
+  }
+}

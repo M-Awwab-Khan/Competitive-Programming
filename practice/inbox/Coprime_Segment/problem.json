@@ -1,0 +1,31 @@
+{
+  "name": "G. Coprime Segment",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/G",
+  "interactive": false,
+  "memoryLimit": 1024,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "5\n4 6 9 3 6\n",
+      "output": "3\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "GCoprimeSegment"
+    }
+  },
+  "batch": {
+    "id": "47b95754-c336-4076-95d7-96f2d347a612",
+    "size": 1
+  }
+}

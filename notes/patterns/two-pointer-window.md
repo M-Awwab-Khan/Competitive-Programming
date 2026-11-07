@@ -1,0 +1,80 @@
+# Two-pointer window over a monotone condition
+
+Move a right endpoint forward and advance the left endpoint only as far as needed. Both pointers move at most `n` times, so the scan is linear apart from the cost of maintaining window state.
+
+## Recognition clues
+
+The technique applies when validity is monotone in the window:
+
+- **Shrink-safe ("small" conditions):** if `[l, r]` is good, every subsegment is good. Examples: sum `<= s` with non-negative elements, at most `k` distinct values, `max - min <= k`, per-letter counts bounded by an available multiset.
+- **Grow-safe ("big" conditions):** if `[l, r]` is good, every supersegment is good. Examples: sum `>= s` with non-negative elements, gcd equal to 1.
+
+Then the best left endpoint for each right endpoint is non-decreasing, which is what lets `l` move only forward.
+
+## Invariant and variants
+
+For a shrink-safe condition, after processing `r`, `l` is the smallest index such that `[l, r]` is good:
+
+```text
+l = 0
+for r in 0..n-1:
+    add(a[r])
+    while window [l, r] is bad:
+        remove(a[l]); l += 1
+    use [l, r]
+```
+
+| Question | Update after the inner loop |
+| --- | --- |
+| Longest good segment | `ans = max(ans, r - l + 1)` |
+| Number of good segments | `ans += r - l + 1` (every left endpoint in `[l, r]`) |
+| Total length of good segments | `ans += len * (len + 1) / 2` with `len = r - l + 1` |
+| Best value of a good segment (non-negative values) | `ans = max(ans, windowValue)` |
+
+For a grow-safe condition, shrink *while the window is still good*, recording the shortest length before each removal. To count good segments, fix `l`, extend `r` until the window first becomes good, and add `n - r + 1` where `r` is one past the last included element.
+
+The same pointer motion also merges sorted arrays: for each query in sorted order, advance a pointer in the other sorted array while its value is smaller. With several sorted lists, repeatedly advance the pointer holding the current minimum to minimise `max - min` over one element from each list.
+
+Pairwise counts of a quadratic quantity, such as `"ab"` subsequences in a window, can still be maintained: adding `b` contributes the current number of `a`s; removing a leading `a` removes the current number of `b`s.
+
+A cyclic array can be handled by doubling it and limiting answers to length at most `n`; reduce large targets first by whole cycles.
+
+Time is `O(n)` times the cost of `add`/`remove`/validity checks. Sums and counts usually need 64-bit integers: the number of segments is up to `n(n + 1) / 2`.
+
+## Common mistakes
+
+- Using the technique when negative values break monotonicity; use [prefix sums with a frequency map](prefix-sum-frequency-map.md) instead.
+- Reading `a[r]` after `r` reached `n` in the "fix `l`, extend `r`" form.
+- Off-by-one between "`r` is the last included index" and "`r` is one past it".
+- Storing segment counts in `int`.
+- A validity test that needs a non-invertible aggregate (gcd, min, max) cannot be undone by subtraction; use a [two-stack aggregate queue](two-stack-aggregate-queue.md), a [monotonic deque](monotonic-deque.md), or a multiset.
+
+## Related patterns
+
+[Binary search on the answer](binary-search-on-answer.md) solves many of the same questions in `O(n log n)` when the condition is monotone in length. Return to the [pattern hub](INDEX.md).
+
+<!-- examples:start -->
+
+## Examples from this repository
+
+Links are generated from catalog associations; classifications do not establish correctness.
+
+| Implementation | Category | Classification |
+| --- | --- | --- |
+| [Card Substrings (cpp)](../../solutions/two-pointers-and-sliding-window/Card_Substrings.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Che city (cpp)](../../solutions/two-pointers-and-sliding-window/Che_city.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Coprime Segment (cpp)](../../solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Knapsack on a Segment (cpp)](../../solutions/two-pointers-and-sliding-window/Knapsack_on_a_Segment.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Looped Playlist (cpp)](../../solutions/two-pointers-and-sliding-window/Looped_Playlist.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Not Very Rude Substring (cpp)](../../solutions/two-pointers-and-sliding-window/Not_Very_Rude_Substring.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Number of Segments with Big Sum (cpp)](../../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Big_Sum.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Number of Segments with Small Sum (cpp)](../../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Small_Sum.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Number of Smaller (cpp)](../../solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Segment with Big Sum (cpp)](../../solutions/two-pointers-and-sliding-window/Segment_with_Big_Sum.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Segment with Small Sum (cpp)](../../solutions/two-pointers-and-sliding-window/Segment_with_Small_Sum.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Segments with Small Set (cpp)](../../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Segments with Small Spread (cpp)](../../solutions/two-pointers-and-sliding-window/Segments_with_Small_Spread.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Stylish clothes (cpp)](../../solutions/two-pointers-and-sliding-window/Stylish_clothes.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Total Length (cpp)](../../solutions/two-pointers-and-sliding-window/Total_Length.cpp) | two-pointers-and-sliding-window | reviewed |
+
+<!-- examples:end -->

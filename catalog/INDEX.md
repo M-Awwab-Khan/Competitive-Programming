@@ -1,6 +1,6 @@
 # Problem index
 
-1132 source files across 37 primary categories.
+1150 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -8,7 +8,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 
 | Category | Files | Description |
 | --- | ---: | --- |
-| [arrays-and-counting](#arrays-and-counting) | 96 | Arrays, frequency counting, sets, and direct scans |
+| [arrays-and-counting](#arrays-and-counting) | 97 | Arrays, frequency counting, sets, and direct scans |
 | [binary-search](#binary-search) | 77 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 34 | Bitwise operations, XOR identities, and bit counting |
 | [brute-force-and-backtracking](#brute-force-and-backtracking) | 41 | Enumeration, subset search, and backtracking |
@@ -17,7 +17,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
 | [data-structures/ordered-sets](#data-structuresordered-sets) | 9 | Ordered sets, multisets, and order statistics |
 | [data-structures/range-queries](#data-structuresrange-queries) | 3 | Segment trees, Fenwick trees, and sparse tables |
-| [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 10 | Stacks, deques, and monotonic structures |
+| [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 11 | Stacks, deques, and monotonic structures |
 | [dynamic-programming/bitmask](#dynamic-programmingbitmask) | 2 | Dynamic programming over subsets |
 | [dynamic-programming/general](#dynamic-programminggeneral) | 30 | Other dynamic programming recurrences |
 | [dynamic-programming/intervals](#dynamic-programmingintervals) | 3 | Dynamic programming over intervals |
@@ -30,7 +30,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [graphs/spanning-trees](#graphsspanning-trees) | 2 | Minimum or maximum spanning trees |
 | [graphs/topological-sort](#graphstopological-sort) | 2 | Dependency ordering and DAG algorithms |
 | [graphs/traversal](#graphstraversal) | 15 | Graph search, components, grids, and reachability |
-| [greedy](#greedy) | 95 | Local choices, scheduling, and exchange arguments |
+| [greedy](#greedy) | 96 | Local choices, scheduling, and exchange arguments |
 | [intervals](#intervals) | 1 | Interval overlap, coverage, and endpoint constraints |
 | [math/arithmetic](#matharithmetic) | 114 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 18 | Combinatorial counting, factorials, and binomial coefficients |
@@ -44,7 +44,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [strings](#strings) | 71 | String matching, parsing, and character transformations |
 | [ternary-search](#ternary-search) | 5 | Searching a unimodal function |
 | [trees](#trees) | 8 | Tree traversal, subtree queries, and tree properties |
-| [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 42 | Moving boundaries, fixed/variable windows, and merging |
+| [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 57 | Moving boundaries, fixed/variable windows, and merging |
 
 ## arrays-and-counting
 
@@ -132,6 +132,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Lurak Gya — Lurak Gya.cpp](../solutions/arrays-and-counting/Lurak%20Gya.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
 | [maximum nondecreasing — maximum_nondecreasing.cpp](../solutions/arrays-and-counting/maximum_nondecreasing.cpp) | cpp | unknown | arrays-and-counting | reviewed |  |
 | [missing number — missing-number.cpp](../solutions/arrays-and-counting/missing-number.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
+| [Number of Equal — Number_of_Equal.cpp](../solutions/arrays-and-counting/Number_of_Equal.cpp) | cpp | codeforces / 307092C | arrays-and-counting | reviewed |  |
 | [oddgnome — oddgnome.cpp](../solutions/arrays-and-counting/oddgnome.cpp) | cpp | unknown | arrays-and-counting | reviewed |  |
 | [open credit system — open-credit-system.cpp](../solutions/arrays-and-counting/open-credit-system.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
 | [Q Food for Animals — Q_Food_for_Animals.cpp](../solutions/arrays-and-counting/Q_Food_for_Animals.cpp) | cpp | unknown | arrays-and-counting | suggested |  |
@@ -410,6 +411,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [B Two Brackets — B_Two_Brackets.cpp](../solutions/data-structures/stacks-and-queues/B_Two_Brackets.cpp) | cpp | unknown | data-structures/stacks-and-queues | suggested |  |
 | [cses nearestsmallervalues — cses-nearestsmallervalues.cpp](../solutions/data-structures/stacks-and-queues/cses-nearestsmallervalues.cpp) | cpp | cses | data-structures/stacks-and-queues | suggested |  |
 | [D - Deque-STL — D_Deque_STL.cpp](../solutions/data-structures/stacks-and-queues/D_Deque_STL.cpp) | cpp | vjudge / contest-688780-D | data-structures/stacks-and-queues | suggested |  |
+| [D - Take ABC — D_-_Take_ABC.cpp](../solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp) | cpp | unknown | data-structures/stacks-and-queues, simulation, strings | reviewed |  |
 | [D String Game — D_String_Game.cpp](../solutions/data-structures/stacks-and-queues/D_String_Game.cpp) | cpp | unknown | data-structures/stacks-and-queues, games, strings | reviewed |  |
 | [K. Wahban and brackets — K_Wahban_and_brackets.cpp](../solutions/data-structures/stacks-and-queues/K_Wahban_and_brackets.cpp) | cpp | codeforces / gym-106350-K | data-structures/stacks-and-queues | suggested |  |
 | [M Notebook — M_Notebook.cpp](../solutions/data-structures/stacks-and-queues/M_Notebook.cpp) | cpp | unknown | data-structures/stacks-and-queues | reviewed |  |
@@ -622,6 +624,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [A Little Elephant and Bits — A_Little_Elephant_and_Bits.py](../solutions/greedy/A_Little_Elephant_and_Bits.py) | python | unknown | greedy | suggested |  |
 | [A Regular Bracket Sequence — A_Regular_Bracket_Sequence.cpp](../solutions/greedy/A_Regular_Bracket_Sequence.cpp) | cpp | unknown | greedy | suggested |  |
 | [A Sereja and Dima — A_Sereja_and_Dima.cpp](../solutions/greedy/A_Sereja_and_Dima.cpp) | cpp | unknown | bit-manipulation, greedy | suggested |  |
+| [A-B Knapsack — A-B_Knapsack.cpp](../solutions/greedy/A-B_Knapsack.cpp) | cpp | codeforces / 307094H | greedy, prefix-sums, sorting-and-searching | reviewed |  |
 | [A. Hit the Lottery — A_Hit_the_Lottery.cpp](../solutions/greedy/A_Hit_the_Lottery.cpp) | cpp | codeforces / 996A | greedy | suggested |  |
 | [A. Knapsack — A_Knapsack.cpp](../solutions/greedy/A_Knapsack.cpp) | cpp | codeforces / 1446A | greedy, sorting-and-searching | suggested |  |
 | [A. Line Breaks — A_Line_Breaks.cpp](../solutions/greedy/A_Line_Breaks.cpp) | cpp | codeforces / 2050A | greedy | suggested |  |
@@ -1337,10 +1340,13 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C They Are Everywhere — C_They_Are_Everywhere.cpp](../solutions/two-pointers-and-sliding-window/C_They_Are_Everywhere.cpp) | cpp | unknown | two-pointers-and-sliding-window | suggested |  |
 | [C Vasya and String — C_Vasya_and_String.cpp](../solutions/two-pointers-and-sliding-window/C_Vasya_and_String.cpp) | cpp | unknown | strings, two-pointers-and-sliding-window | suggested |  |
 | [C. Dora and Search — C_Dora_and_Search.cpp](../solutions/two-pointers-and-sliding-window/C_Dora_and_Search.cpp) | cpp | codeforces / 1793C | two-pointers-and-sliding-window | reviewed |  |
+| [Card Substrings — Card_Substrings.cpp](../solutions/two-pointers-and-sliding-window/Card_Substrings.cpp) | cpp | codeforces / 307094F | arrays-and-counting, strings, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [cf books — cf-books.cpp](../solutions/two-pointers-and-sliding-window/cf-books.cpp) | cpp | codeforces | binary-search, two-pointers-and-sliding-window | suggested |  |
 | [cf eatingcandies — cf-eatingcandies.cpp](../solutions/two-pointers-and-sliding-window/cf-eatingcandies.cpp) | cpp | codeforces | two-pointers-and-sliding-window | suggested |  |
 | [cf skibidifanumtax — cf-skibidifanumtax.cpp](../solutions/two-pointers-and-sliding-window/cf-skibidifanumtax.cpp) | cpp | codeforces | two-pointers-and-sliding-window | suggested |  |
 | [challenging valley — challenging_valley.py](../solutions/two-pointers-and-sliding-window/challenging_valley.py) | python | unknown | two-pointers-and-sliding-window | suggested |  |
+| [Che city — Che_city.cpp](../solutions/two-pointers-and-sliding-window/Che_city.cpp) | cpp | codeforces / 307094C | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Coprime Segment — Coprime_Segment.cpp](../solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp) | cpp | codeforces / 307093G | data-structures/stacks-and-queues, math/number-theory, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md), [Queue with an aggregate built from two stacks](../notes/patterns/two-stack-aggregate-queue.md) |
 | [cses playlist — cses-playlist.cpp](../solutions/two-pointers-and-sliding-window/cses-playlist.cpp) | cpp | cses | two-pointers-and-sliding-window | suggested |  |
 | [cses slidingwindowmedian — cses-slidingwindowmedian.cpp](../solutions/two-pointers-and-sliding-window/cses-slidingwindowmedian.cpp) | cpp | cses | binary-search, data-structures/ordered-sets, two-pointers-and-sliding-window | suggested |  |
 | [D - Subarray Distinct Values — D_Subarray_Distinct_Values.cpp](../solutions/two-pointers-and-sliding-window/D_Subarray_Distinct_Values.cpp) | cpp | vjudge / contest-688775-D | two-pointers-and-sliding-window | suggested |  |
@@ -1350,13 +1356,25 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [E. Binary Deque — E_Binary_Deque.cpp](../solutions/two-pointers-and-sliding-window/E_Binary_Deque.cpp) | cpp | codeforces / 1692E | two-pointers-and-sliding-window | suggested |  |
 | [F. Money Trees — F_Money_Trees.cpp](../solutions/two-pointers-and-sliding-window/F_Money_Trees.cpp) | cpp | codeforces / 1873F | prefix-sums, two-pointers-and-sliding-window | suggested |  |
 | [G - Three Parts of the Array — G_Three_Parts_of_the_Array.cpp](../solutions/two-pointers-and-sliding-window/G_Three_Parts_of_the_Array.cpp) | cpp | vjudge / contest-688775-G | two-pointers-and-sliding-window | suggested |  |
+| [Knapsack on a Segment — Knapsack_on_a_Segment.cpp](../solutions/two-pointers-and-sliding-window/Knapsack_on_a_Segment.cpp) | cpp | codeforces / 307094E | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Looped Playlist — Looped_Playlist.cpp](../solutions/two-pointers-and-sliding-window/Looped_Playlist.cpp) | cpp | codeforces / 307094A | math/arithmetic, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [maximum subarray sum ii — maximum_subarray_sum_ii.py](../solutions/two-pointers-and-sliding-window/maximum_subarray_sum_ii.py) | python | unknown | data-structures/stacks-and-queues, prefix-sums, two-pointers-and-sliding-window | reviewed | [Monotonic deque](../notes/patterns/monotonic-deque.md) |
 | [maximum sum subarray size K — maximum_sum_subarray_size_K.cpp](../algorithms/two-pointers-and-sliding-window/maximum_sum_subarray_size_K.cpp) | cpp | unknown | two-pointers-and-sliding-window | suggested |  |
+| [Not Very Rude Substring — Not_Very_Rude_Substring.cpp](../solutions/two-pointers-and-sliding-window/Not_Very_Rude_Substring.cpp) | cpp | codeforces / 307094G | strings, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Number of Segments with Big Sum — Number_of_Segments_with_Big_Sum.cpp](../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Big_Sum.cpp) | cpp | codeforces / 307093D | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Number of Segments with Small Sum — Number_of_Segments_with_Small_Sum.cpp](../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Small_Sum.cpp) | cpp | codeforces / 307093C | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Number of Smaller — Number_of_Smaller.cpp](../solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp) | cpp | codeforces / 307092B | sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Segment with Big Sum — Segment_with_Big_Sum.cpp](../solutions/two-pointers-and-sliding-window/Segment_with_Big_Sum.cpp) | cpp | codeforces / 307093B | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Segment with Small Sum — Segment_with_Small_Sum.cpp](../solutions/two-pointers-and-sliding-window/Segment_with_Small_Sum.cpp) | cpp | codeforces / 307093A | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Segments with Small Set — Segments_with_Small_Set.cpp](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp) | cpp | codeforces / 307093E | arrays-and-counting, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Segments with Small Spread — Segments_with_Small_Spread.cpp](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Spread.cpp) | cpp | codeforces / 307093F | data-structures/stacks-and-queues, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md), [Queue with an aggregate built from two stacks](../notes/patterns/two-stack-aggregate-queue.md) |
 | [sliding window max — sliding_window_max.cpp](../algorithms/two-pointers-and-sliding-window/sliding_window_max.cpp) | cpp | unknown | data-structures/stacks-and-queues, two-pointers-and-sliding-window | suggested | [Monotonic deque](../notes/patterns/monotonic-deque.md) |
 | [smallest subarray — smallest_subarray.cpp](../solutions/two-pointers-and-sliding-window/smallest_subarray.cpp) | cpp | unknown | two-pointers-and-sliding-window | suggested |  |
+| [Stylish clothes — Stylish_clothes.cpp](../solutions/two-pointers-and-sliding-window/Stylish_clothes.cpp) | cpp | codeforces / 307094D | sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [subarray sum x — subarray-sum-x.cpp](../solutions/two-pointers-and-sliding-window/subarray-sum-x.cpp) | cpp | unknown | two-pointers-and-sliding-window | suggested |  |
 | [subarray sum x — subarray-sum-x.py](../solutions/two-pointers-and-sliding-window/subarray-sum-x.py) | python | unknown | two-pointers-and-sliding-window | suggested |  |
 | [the sound of silence — the-sound-of-silence.py](../solutions/two-pointers-and-sliding-window/the-sound-of-silence.py) | python | unknown | data-structures/stacks-and-queues, two-pointers-and-sliding-window | suggested |  |
+| [Total Length — Total_Length.cpp](../solutions/two-pointers-and-sliding-window/Total_Length.cpp) | cpp | codeforces / 307094B | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [USACO Diamond Collector — USACO_Diamond_Collector.cpp](../solutions/two-pointers-and-sliding-window/USACO_Diamond_Collector.cpp) | cpp | usaco | sorting-and-searching, two-pointers-and-sliding-window | suggested |  |
 | [USACO Diamond Collector Silver — USACO_Diamond_Collector_Silver.cpp](../solutions/two-pointers-and-sliding-window/USACO_Diamond_Collector_Silver.cpp) | cpp | usaco | sorting-and-searching, two-pointers-and-sliding-window | suggested |  |
 | [utpc merging sorted list — utpc-merging-sorted-list.cpp](../solutions/two-pointers-and-sliding-window/utpc-merging-sorted-list.cpp) | cpp | unknown | sorting-and-searching, two-pointers-and-sliding-window | suggested |  |

@@ -11,4 +11,6 @@
 - [Monotonic deque](patterns/monotonic-deque.md)
 - [Pair counting with inclusion-exclusion](patterns/pair-counting-inclusion-exclusion.md)
 - [Prefix sums with a frequency map](patterns/prefix-sum-frequency-map.md)
+- [Two-pointer window over a monotone condition](patterns/two-pointer-window.md)
+- [Queue with an aggregate built from two stacks](patterns/two-stack-aggregate-queue.md)
 - [Creating problems without CPH](tooling/problem-workflow.md)

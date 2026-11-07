@@ -12,3 +12,5 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Prefix sums with a frequency map](prefix-sum-frequency-map.md) | 5 |
 | [Monotonic deque](monotonic-deque.md) | 3 |
 | [Interval dynamic programming](interval-dp.md) | 3 |
+| [Two-pointer window over a monotone condition](two-pointer-window.md) | 15 |
+| [Queue with an aggregate built from two stacks](two-stack-aggregate-queue.md) | 2 |

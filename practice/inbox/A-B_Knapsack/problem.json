@@ -1,0 +1,31 @@
+{
+  "name": "H. A-B Knapsack",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/H",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "6 7 23 3 5\n7 4 3 1 5 8\n10 12 7 3 8 9 7\n",
+      "output": "47\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "HABKnapsack"
+    }
+  },
+  "batch": {
+    "id": "7a41dadd-52f7-4349-b1b3-4fa54da50565",
+    "size": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "C. Che city",
+  "group": "Codeforces - ITMO Academy: pilot course - Two Pointers Method - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/C",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "4 4\n1 3 5 8\n",
+      "output": "2\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CCheCity"
+    }
+  },
+  "batch": {
+    "id": "55fa065c-9f88-423f-95d4-d1f042eb483f",
+    "size": 1
+  }
+}
