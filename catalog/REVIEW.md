@@ -6,16 +6,16 @@ Automatic suggestions can be inspected with `python3 scripts/search.py --suggest
 
 | File | Reason |
 | --- | --- |
-| [C_Unique_Offices.cpp](../solutions/needs-review/C_Unique_Offices.cpp) | Empty file or empty solve function |
-| [cf-blackboardgame.cpp](../solutions/needs-review/cf-blackboardgame.cpp) | Empty file or empty solve function |
-| [cyber_security_expert.cpp](../solutions/needs-review/cyber_security_expert.cpp) | Empty file or empty solve function |
-| [D_753.cpp](../solutions/needs-review/D_753.cpp) | Empty file or empty solve function |
-| [D_Hello_World.cpp](../solutions/needs-review/D_Hello_World.cpp) | Empty file or empty solve function |
-| [Digits_Duel.cpp](../solutions/needs-review/Digits_Duel.cpp) | Unfinished simulation repeatedly subtracts ceil(n/2) and toggles turn inside while(true), with no exit or output; reaches zero and loops forever. Reconfirmed after verifying the previous classified bytes differ only by CRLF-to-LF line endings. |
-| [E_Integer_Moves.cpp](../solutions/needs-review/E_Integer_Moves.cpp) | Empty file or empty solve function |
-| [G_Even_Odds.py](../solutions/needs-review/G_Even_Odds.py) | Empty file or empty solve function |
-| [H_ABCD_quadruplets.cpp](../solutions/needs-review/H_ABCD_quadruplets.cpp) | Empty file or empty solve function |
-| [K_Flowers.cpp](../solutions/needs-review/K_Flowers.cpp) | Empty file or empty solve function |
-| [Problem_2_Milking_Order.cpp](../solutions/needs-review/Problem_2_Milking_Order.cpp) | Empty file or empty solve function |
+| [C_Unique_Offices.cpp](../solutions/needs-review/C_Unique_Offices.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [cf-blackboardgame.cpp](../solutions/needs-review/cf-blackboardgame.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [cyber_security_expert.cpp](../solutions/needs-review/cyber_security_expert.cpp) | Template only: solve() has an empty body, so there is no implementation to classify. |
+| [D_753.cpp](../solutions/needs-review/D_753.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [D_Hello_World.cpp](../solutions/needs-review/D_Hello_World.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [Digits_Duel.cpp](../solutions/needs-review/Digits_Duel.cpp) | Unfinished stub: loops forever halving n and toggling a turn flag with no exit condition or output. Limitation: while(true) never terminates and nothing is printed. |
+| [E_Integer_Moves.cpp](../solutions/needs-review/E_Integer_Moves.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [G_Even_Odds.py](../solutions/needs-review/G_Even_Odds.py) | Source file is empty (0 bytes); no implementation to classify. |
+| [H_ABCD_quadruplets.cpp](../solutions/needs-review/H_ABCD_quadruplets.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [K_Flowers.cpp](../solutions/needs-review/K_Flowers.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [Problem_2_Milking_Order.cpp](../solutions/needs-review/Problem_2_Milking_Order.cpp) | Source file is empty (0 bytes); no implementation to classify. |
 
 Record a decision with `python3 scripts/review_solution.py FILE --category CATEGORY --evidence "Why this pattern applies"`.

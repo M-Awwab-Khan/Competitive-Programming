@@ -46,11 +46,15 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [A. Knight Tournament (cpp)](../../solutions/data-structures/disjoint-set/A_Knight_Tournament.cpp) | data-structures/disjoint-set | reviewed |
+| [B Max Spanning Tree (cpp)](../../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp) | graphs/spanning-trees | reviewed |
 | [Bosses (cpp)](../../solutions/data-structures/disjoint-set/Bosses.cpp) | data-structures/disjoint-set | reviewed |
 | [Cutting a graph (cpp)](../../solutions/data-structures/disjoint-set/Cutting_a_graph.cpp) | data-structures/disjoint-set | reviewed |
+| [D. Roads not only in Berland (cpp)](../../solutions/data-structures/disjoint-set/D_Roads_not_only_in_Berland.cpp) | data-structures/disjoint-set | reviewed |
 | [Disjoint Sets Union (cpp)](../../solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp) | data-structures/disjoint-set | reviewed |
 | [Disjoint Sets Union 2 (cpp)](../../solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp) | data-structures/disjoint-set | reviewed |
 | [Experience (cpp)](../../solutions/data-structures/disjoint-set/Experience.cpp) | data-structures/disjoint-set | reviewed |
+| [kruskal (cpp)](../../solutions/graphs/spanning-trees/kruskal.cpp) | graphs/spanning-trees | reviewed |
 | [Parking (cpp)](../../solutions/data-structures/disjoint-set/Parking.cpp) | data-structures/disjoint-set | reviewed |
 | [People are leaving (cpp)](../../solutions/data-structures/disjoint-set/People_are_leaving.cpp) | data-structures/disjoint-set | reviewed |
 | [Restructuring Company (cpp)](../../solutions/data-structures/disjoint-set/Restructuring_Company.cpp) | data-structures/disjoint-set | reviewed |

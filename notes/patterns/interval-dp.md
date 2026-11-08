@@ -46,8 +46,9 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
-| [cses removalgame (cpp)](../../solutions/dynamic-programming/intervals/cses-removalgame.cpp) | dynamic-programming/intervals | suggested |
-| [L - Deque (cpp)](../../solutions/dynamic-programming/intervals/L_Deque.cpp) | dynamic-programming/intervals | suggested |
-| [N - Slimes (cpp)](../../solutions/dynamic-programming/intervals/N_Slimes.cpp) | dynamic-programming/intervals | suggested |
+| [cses rectanglecutting (cpp)](../../solutions/dynamic-programming/general/cses-rectanglecutting.cpp) | dynamic-programming/general | reviewed |
+| [cses removalgame (cpp)](../../solutions/dynamic-programming/intervals/cses-removalgame.cpp) | dynamic-programming/intervals | reviewed |
+| [L - Deque (cpp)](../../solutions/dynamic-programming/intervals/L_Deque.cpp) | dynamic-programming/intervals | reviewed |
+| [N - Slimes (cpp)](../../solutions/dynamic-programming/intervals/N_Slimes.cpp) | dynamic-programming/intervals | reviewed |
 
 <!-- examples:end -->

@@ -48,10 +48,17 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [A Dividing Candies (cpp)](../../solutions/prefix-sums/A_Dividing_Candies.cpp) | prefix-sums | reviewed |
+| [B Modulo Sum (cpp)](../../solutions/dynamic-programming/knapsack/B_Modulo_Sum.cpp) | dynamic-programming/knapsack | reviewed |
 | [E Romantic Glasses (cpp)](../../solutions/prefix-sums/E_Romantic_Glasses.cpp) | prefix-sums | reviewed |
-| [good subarrays (cpp)](../../solutions/arrays-and-counting/good_subarrays.cpp) | arrays-and-counting | suggested |
+| [good subarrays (cpp)](../../solutions/prefix-sums/good_subarrays.cpp) | prefix-sums | reviewed |
+| [Kousuke Assignment (cpp)](../../solutions/prefix-sums/Kousuke_Assignment.cpp) | prefix-sums | reviewed |
 | [longest subarray with sum k (cpp)](../../algorithms/prefix-sums/longest_subarray_with_sum_k.cpp) | prefix-sums | reviewed |
-| [subarray divisibility (cpp)](../../solutions/prefix-sums/subarray-divisibility.cpp) | prefix-sums | suggested |
+| [subarray divisibility (cpp)](../../solutions/prefix-sums/subarray-divisibility.cpp) | prefix-sums | reviewed |
 | [subarray sum equals k (cpp)](../../algorithms/prefix-sums/subarray_sum_equals_k.cpp) | prefix-sums | reviewed |
+| [subarray sum x (cpp)](../../solutions/prefix-sums/subarray-sum-x.cpp) | prefix-sums | reviewed |
+| [subarray sum x (python)](../../solutions/prefix-sums/subarray-sum-x.py) | prefix-sums | reviewed |
+| [subsequences summing to seven (cpp)](../../solutions/prefix-sums/subsequences_summing_to_seven.cpp) | prefix-sums | reviewed |
+| [utpc 3 11 g (cpp)](../../solutions/prefix-sums/utpc-3-11-g.cpp) | prefix-sums | reviewed |
 
 <!-- examples:end -->

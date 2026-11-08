@@ -35,11 +35,46 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
-| [Aggressive cows (cpp)](../../solutions/binary-search/Aggressive_cows.cpp) | binary-search | suggested |
+| [Aggressive cows (cpp)](../../solutions/binary-search/Aggressive_cows.cpp) | binary-search | reviewed |
+| [array division (python)](../../solutions/binary-search/array_division.py) | binary-search | reviewed |
+| [B - Maximum Median (cpp)](../../solutions/binary-search/B_Maximum_Median.cpp) | binary-search | reviewed |
+| [B Burning Midnight Oil (cpp)](../../solutions/binary-search/B_Burning_Midnight_Oil.cpp) | binary-search | reviewed |
+| [B Cubes Sum (cpp)](../../solutions/math/arithmetic/B_Cubes_Sum.cpp) | math/arithmetic | reviewed |
+| [B Cubes Sum (python)](../../solutions/math/arithmetic/B_Cubes_Sum.py) | math/arithmetic | reviewed |
+| [B. Fear of the Dark (cpp)](../../solutions/binary-search/B_Fear_of_the_Dark.cpp) | binary-search | reviewed |
+| [B. Getting Points (cpp)](../../solutions/binary-search/B_Getting_Points.cpp) | binary-search | reviewed |
+| [B. Vanya and Lanterns (cpp)](../../solutions/binary-search/B_Vanya_and_Lanterns.cpp) | binary-search | reviewed |
+| [bake fishes (python)](../../solutions/binary-search/bake_fishes.py) | binary-search | reviewed |
+| [C - C (cpp)](../../solutions/binary-search/C_C.cpp) | binary-search | reviewed |
+| [C - ICPC Practice (cpp)](../../solutions/binary-search/C_ICPC_Practice.cpp) | binary-search | reviewed |
+| [C Limited Repainting (cpp)](../../solutions/binary-search/C_Limited_Repainting.cpp) | binary-search | reviewed |
+| [cf books (cpp)](../../solutions/binary-search/cf-books.cpp) | binary-search | reviewed |
+| [covid (python)](../../solutions/binary-search/covid.py) | binary-search | reviewed |
+| [D. Javed Nihari (cpp)](../../solutions/binary-search/D_Javed_Nihari.cpp) | binary-search | reviewed |
+| [D1. Magic Powder - 1 (cpp)](../../solutions/binary-search/D_1_Magic_Powder_1.cpp) | binary-search | reviewed |
+| [D2. Magic Powder - 2 (cpp)](../../solutions/binary-search/D_2_Magic_Powder_2.cpp) | binary-search | reviewed |
+| [E - Cut in Half (cpp)](../../solutions/binary-search/E_Cut_in_Half.cpp) | binary-search | reviewed |
+| [E - Robin Hood in Town (cpp)](../../solutions/binary-search/E_Robin_Hood_in_Town.cpp) | binary-search | reviewed |
 | [E Feed the Beast (cpp)](../../solutions/binary-search/E_Feed_the_Beast.cpp) | binary-search | reviewed |
-| [E. Building an Aquarium (cpp)](../../solutions/binary-search/E_Building_an_Aquarium.cpp) | binary-search | suggested |
-| [factory machines (cpp)](../../solutions/binary-search/factory_machines.cpp) | binary-search | suggested |
+| [E. Building an Aquarium (cpp)](../../solutions/binary-search/E_Building_an_Aquarium.cpp) | binary-search | reviewed |
+| [E. Cardboard for Pictures (cpp)](../../solutions/binary-search/E_Cardboard_for_Pictures.cpp) | binary-search | reviewed |
+| [Eko (cpp)](../../solutions/binary-search/Eko.cpp) | binary-search | reviewed |
+| [factory machines (cpp)](../../solutions/binary-search/factory_machines.cpp) | binary-search | reviewed |
 | [G The Veneto Relay (cpp)](../../solutions/binary-search/G_The_Veneto_Relay.cpp) | binary-search | reviewed |
+| [I - Meeting on the Line (cpp)](../../solutions/binary-search/I_Meeting_on_the_Line.cpp) | binary-search | reviewed |
+| [J - Magic Ship (cpp)](../../solutions/binary-search/J_Magic_Ship.cpp) | binary-search | reviewed |
+| [K - The Meeting Place Cannot Be Changed (cpp)](../../solutions/binary-search/K_The_Meeting_Place_Cannot_Be_Changed.cpp) | binary-search | reviewed |
+| [M - Mafia (cpp)](../../solutions/binary-search/M_Mafia.cpp) | binary-search | reviewed |
+| [magic powder ii (cpp)](../../solutions/binary-search/magic_powder_ii.cpp) | binary-search | reviewed |
+| [maximum median (cpp)](../../solutions/binary-search/maximum_median.cpp) | binary-search | reviewed |
+| [moobuzz (cpp)](../../solutions/binary-search/moobuzz.cpp) | binary-search | reviewed |
+| [O - Cat, Fox and the Lonely Array (cpp)](../../solutions/binary-search/O_Cat_Fox_and_the_Lonely_Array.cpp) | binary-search | reviewed |
+| [poinsnoned dagger (python)](../../solutions/binary-search/poinsnoned_dagger.py) | binary-search | reviewed |
 | [Rameez And The Missing Numbers (cpp)](../../solutions/binary-search/Rameez_And_The_Missing_Numbers.cpp) | binary-search | reviewed |
+| [T - Set (cpp)](../../solutions/binary-search/T_Set.cpp) | binary-search | reviewed |
+| [TripTastic (cpp)](../../solutions/binary-search/TripTastic.cpp) | binary-search | reviewed |
+| [utpc 3 11 a (cpp)](../../solutions/binary-search/utpc-3-11-a.cpp) | binary-search | reviewed |
+| [utpc 3 11 e (cpp)](../../solutions/binary-search/utpc-3-11-e.cpp) | binary-search | reviewed |
+| [uva throughthedesert (cpp)](../../solutions/binary-search/uva-throughthedesert.cpp) | binary-search | reviewed |
 
 <!-- examples:end -->

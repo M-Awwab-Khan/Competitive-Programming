@@ -37,6 +37,15 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [1 (python)](../../solutions/sorting-and-searching/1.py) | sorting-and-searching | reviewed |
+| [C Two Colors (cpp)](../../solutions/sorting-and-searching/C_Two_Colors.cpp) | sorting-and-searching | reviewed |
+| [C. White Sheet (cpp)](../../solutions/geometry/C_White_Sheet.cpp) | geometry | reviewed |
 | [cf ballinberland (cpp)](../../solutions/arrays-and-counting/cf-ballinberland.cpp) | arrays-and-counting | reviewed |
+| [E Again Divisors (cpp)](../../solutions/math/number-theory/E_Again_Divisors.cpp) | math/number-theory | reviewed |
+| [E FizzBuzz Sum Hard (cpp)](../../solutions/math/number-theory/E_FizzBuzz_Sum_Hard.cpp) | math/number-theory | reviewed |
+| [H - Hits Different (cpp)](../../solutions/dynamic-programming/general/H_Hits_Different.cpp) | dynamic-programming/general | reviewed |
+| [H - Number of Pairs (cpp)](../../solutions/binary-search/H_Number_of_Pairs.cpp) | binary-search | reviewed |
+| [two knights (cpp)](../../solutions/math/combinatorics/two-knights.cpp) | math/combinatorics | reviewed |
+| [yuki countmultiples (cpp)](../../solutions/math/combinatorics/yuki-countmultiples.cpp) | math/combinatorics | reviewed |
 
 <!-- examples:end -->

@@ -34,6 +34,7 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [B 7485 Unlimited Easy version (cpp)](../../solutions/two-pointers-and-sliding-window/B_7485_Unlimited_Easy_version.cpp) | two-pointers-and-sliding-window | reviewed |
 | [Coprime Segment (cpp)](../../solutions/two-pointers-and-sliding-window/Coprime_Segment.cpp) | two-pointers-and-sliding-window | reviewed |
 | [Segments with Small Spread (cpp)](../../solutions/two-pointers-and-sliding-window/Segments_with_Small_Spread.cpp) | two-pointers-and-sliding-window | reviewed |
 

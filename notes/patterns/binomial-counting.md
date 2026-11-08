@@ -46,6 +46,17 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [AE - AND Sequences (cpp)](../../solutions/math/combinatorics/AE_AND_Sequences.cpp) | math/combinatorics | reviewed |
+| [B NCR With Mod (cpp)](../../solutions/math/combinatorics/B_NCR_With_Mod.cpp) | math/combinatorics | reviewed |
+| [B Random Teams (cpp)](../../solutions/math/combinatorics/B_Random_Teams.cpp) | math/combinatorics | reviewed |
+| [biodiversity scan (cpp)](../../solutions/math/combinatorics/biodiversity_scan.cpp) | math/combinatorics | reviewed |
+| [biodiversity scan (python)](../../solutions/math/combinatorics/biodiversity_scan.py) | math/combinatorics | reviewed |
+| [C - Peer Review (python)](../../solutions/math/combinatorics/C_Peer_Review.py) | math/combinatorics | reviewed |
+| [C How Many Strings (cpp)](../../solutions/math/combinatorics/C_How_Many_Strings.cpp) | math/combinatorics | reviewed |
 | [cf expectedmedian (cpp)](../../solutions/math/combinatorics/cf-expectedmedian.cpp) | math/combinatorics | reviewed |
+| [D Product Subsequences (cpp)](../../solutions/math/combinatorics/D_Product_Subsequences.cpp) | math/combinatorics | reviewed |
+| [D Revenge of the C K or e ys (cpp)](../../solutions/math/combinatorics/D_Revenge_of_the_C_K_or_e_ys.cpp) | math/combinatorics | reviewed |
+| [subarray divisibility (cpp)](../../solutions/prefix-sums/subarray-divisibility.cpp) | prefix-sums | reviewed |
+| [two knights (cpp)](../../solutions/math/combinatorics/two-knights.cpp) | math/combinatorics | reviewed |
 
 <!-- examples:end -->

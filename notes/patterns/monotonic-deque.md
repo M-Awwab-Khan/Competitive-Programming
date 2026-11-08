@@ -42,8 +42,10 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [D - Deque-STL (cpp)](../../solutions/data-structures/stacks-and-queues/D_Deque_STL.cpp) | data-structures/stacks-and-queues | reviewed |
 | [D. Good Sets (cpp)](../../solutions/two-pointers-and-sliding-window/D_Good_Sets.cpp) | two-pointers-and-sliding-window | reviewed |
 | [maximum subarray sum ii (python)](../../solutions/two-pointers-and-sliding-window/maximum_subarray_sum_ii.py) | two-pointers-and-sliding-window | reviewed |
-| [sliding window max (cpp)](../../algorithms/two-pointers-and-sliding-window/sliding_window_max.cpp) | two-pointers-and-sliding-window | suggested |
+| [sliding window max (cpp)](../../algorithms/two-pointers-and-sliding-window/sliding_window_max.cpp) | two-pointers-and-sliding-window | reviewed |
+| [the sound of silence (python)](../../solutions/two-pointers-and-sliding-window/the-sound-of-silence.py) | two-pointers-and-sliding-window | reviewed |
 
 <!-- examples:end -->
