@@ -400,16 +400,24 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/disjoint-set
 
-8 files
+16 files
 
 - [A. Knight Tournament (cpp)](../solutions/data-structures/disjoint-set/A_Knight_Tournament.cpp)
 - [B DZY Loves Chemistry (cpp)](../solutions/data-structures/disjoint-set/B_DZY_Loves_Chemistry.cpp)
 - [B Max Spanning Tree (cpp)](../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp)
+- [Bosses (cpp)](../solutions/data-structures/disjoint-set/Bosses.cpp)
+- [Cutting a graph (cpp)](../solutions/data-structures/disjoint-set/Cutting_a_graph.cpp)
 - [D Districts Connection (cpp)](../solutions/data-structures/disjoint-set/D_Districts_Connection.cpp)
 - [D. Roads not only in Berland (cpp)](../solutions/data-structures/disjoint-set/D_Roads_not_only_in_Berland.cpp)
+- [Disjoint Sets Union (cpp)](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp)
+- [Disjoint Sets Union 2 (cpp)](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp)
 - [E Join States (cpp)](../solutions/data-structures/disjoint-set/E_Join_States.cpp)
+- [Experience (cpp)](../solutions/data-structures/disjoint-set/Experience.cpp)
 - [G The Veneto Relay (cpp)](../solutions/binary-search/G_The_Veneto_Relay.cpp)
 - [kruskal (cpp)](../solutions/graphs/spanning-trees/kruskal.cpp)
+- [Parking (cpp)](../solutions/data-structures/disjoint-set/Parking.cpp)
+- [People are leaving (cpp)](../solutions/data-structures/disjoint-set/People_are_leaving.cpp)
+- [Restructuring Company (cpp)](../solutions/data-structures/disjoint-set/Restructuring_Company.cpp)
 
 ## data-structures/heaps
 
@@ -695,7 +703,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## graphs/traversal
 
-26 files
+27 files
 
 - [A Two Friends (cpp)](../solutions/graphs/traversal/A_Two_Friends.cpp)
 - [B DZY Loves Chemistry (cpp)](../solutions/data-structures/disjoint-set/B_DZY_Loves_Chemistry.cpp)
@@ -707,6 +715,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf iceskating (cpp)](../solutions/graphs/traversal/cf-iceskating.cpp)
 - [cses gameroutes (cpp)](../solutions/graphs/topological-sort/cses-gameroutes.cpp)
 - [cses subtreequeries (cpp)](../solutions/trees/cses-subtreequeries.cpp)
+- [Cutting a graph (cpp)](../solutions/data-structures/disjoint-set/Cutting_a_graph.cpp)
 - [D - Subordinates (cpp)](../solutions/trees/D_Subordinates.cpp)
 - [E - Labyrinth (cpp)](../solutions/graphs/shortest-paths/E_Labyrinth.cpp)
 - [E. Danil and a Part-time Job (cpp)](../solutions/trees/E_Danil_and_a_Part_time_Job.cpp)

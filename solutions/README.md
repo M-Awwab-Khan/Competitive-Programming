@@ -9,7 +9,7 @@
 | [bit-manipulation](bit-manipulation/) | 34 |
 | [brute-force-and-backtracking](brute-force-and-backtracking/) | 41 |
 | [constructive](constructive/) | 46 |
-| [data-structures/disjoint-set](data-structures/disjoint-set/) | 5 |
+| [data-structures/disjoint-set](data-structures/disjoint-set/) | 13 |
 | [data-structures/heaps](data-structures/heaps/) | 1 |
 | [data-structures/ordered-sets](data-structures/ordered-sets/) | 9 |
 | [data-structures/range-queries](data-structures/range-queries/) | 3 |

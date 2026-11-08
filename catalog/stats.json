@@ -1,7 +1,7 @@
 {
-  "total_entries": 1150,
+  "total_entries": 1158,
   "roles": {
-    "solution": 1145,
+    "solution": 1153,
     "reference": 1,
     "algorithm": 4
   },
@@ -25,7 +25,7 @@
     "intervals": 1,
     "brute-force-and-backtracking": 41,
     "dynamic-programming/general": 30,
-    "data-structures/disjoint-set": 5,
+    "data-structures/disjoint-set": 13,
     "graphs/traversal": 15,
     "data-structures/ordered-sets": 9,
     "trees": 8,
@@ -46,11 +46,11 @@
   },
   "classifications": {
     "suggested": 957,
-    "reviewed": 182,
+    "reviewed": 190,
     "needs-review": 11
   },
   "implementations": {
-    "not-verified": 1140,
+    "not-verified": 1148,
     "empty-or-template": 10
   },
   "sources_changed_since_classification": 0

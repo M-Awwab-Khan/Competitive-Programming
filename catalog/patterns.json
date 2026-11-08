@@ -8,6 +8,7 @@
     {"id": "monotonic-deque", "title": "Monotonic deque", "path": "notes/patterns/monotonic-deque.md"},
     {"id": "interval-dp", "title": "Interval dynamic programming", "path": "notes/patterns/interval-dp.md"},
     {"id": "two-pointer-window", "title": "Two-pointer window over a monotone condition", "path": "notes/patterns/two-pointer-window.md"},
-    {"id": "two-stack-aggregate-queue", "title": "Queue with an aggregate built from two stacks", "path": "notes/patterns/two-stack-aggregate-queue.md"}
+    {"id": "two-stack-aggregate-queue", "title": "Queue with an aggregate built from two stacks", "path": "notes/patterns/two-stack-aggregate-queue.md"},
+    {"id": "dsu-variants", "title": "Disjoint set union and its variants", "path": "notes/patterns/dsu-variants.md"}
   ]
 }

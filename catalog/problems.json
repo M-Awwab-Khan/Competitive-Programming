@@ -31931,6 +31931,287 @@
       "time_limit_ms": 1000,
       "memory_limit_mb": 1024,
       "interactive": false
+    },
+    {
+      "key": "01650cbb50e64ba3",
+      "title": "Bosses",
+      "path": "solutions/data-structures/disjoint-set/Bosses.cpp",
+      "original_path": "practice/inbox/Bosses/Bosses.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391D",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/D"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "50146d937a79dda263d29a15590c3ec9e626c2ec300b4924b5eb07abf4770afd",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Weighted DSU: dist[v] is depth relative to parent, compressed with dist[v]+=dist[p]; unite links boss root a under b with dist 1 (no union by size); query depth after find.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "50146d937a79dda263d29a15590c3ec9e626c2ec300b4924b5eb07abf4770afd",
+      "observed_sha256": "50146d937a79dda263d29a15590c3ec9e626c2ec300b4924b5eb07abf4770afd",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 64,
+      "interactive": false
+    },
+    {
+      "key": "4c6ee0d4770744c3",
+      "title": "Cutting a graph",
+      "path": "solutions/data-structures/disjoint-set/Cutting_a_graph.cpp",
+      "original_path": "practice/inbox/Cutting_a_graph/Cutting_a_graph.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289390D",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/D"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "ac6bb1cac06d3abbb78b0c6eb23656384f686952eb0ef367dcb476133355e547",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set",
+        "graphs/traversal"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Processes queries in reverse so cut becomes union; size-based DSU answers ask queries, then output reversed.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "ac6bb1cac06d3abbb78b0c6eb23656384f686952eb0ef367dcb476133355e547",
+      "observed_sha256": "ac6bb1cac06d3abbb78b0c6eb23656384f686952eb0ef367dcb476133355e547",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "9403dec59aad4815",
+      "title": "Disjoint Sets Union",
+      "path": "solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp",
+      "original_path": "practice/inbox/Disjoint_Sets_Union/Disjoint_Sets_Union.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289390A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "e76ab8171c07972fb17609dabd64e293fc4d50f4620fd09032323a81089ffc1b",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Plain DSU with path compression and union by size; union and get queries.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e76ab8171c07972fb17609dabd64e293fc4d50f4620fd09032323a81089ffc1b",
+      "observed_sha256": "e76ab8171c07972fb17609dabd64e293fc4d50f4620fd09032323a81089ffc1b",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "2b4fb7b370c94fc9",
+      "title": "Disjoint Sets Union 2",
+      "path": "solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp",
+      "original_path": "practice/inbox/Disjoint_Sets_Union_2/Disjoint_Sets_Union_2.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289390B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "b2a9e044056f65b6731954a2b521915d74bbce86178b62a4c9522cc23d5afad8",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "DSU storing min, max and size at roots, merged on union; get prints aggregates of x's set.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "b2a9e044056f65b6731954a2b521915d74bbce86178b62a4c9522cc23d5afad8",
+      "observed_sha256": "b2a9e044056f65b6731954a2b521915d74bbce86178b62a4c9522cc23d5afad8",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "fdf77ce88aa7407d",
+      "title": "Experience",
+      "path": "solutions/data-structures/disjoint-set/Experience.cpp",
+      "original_path": "practice/inbox/Experience/Experience.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289390C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "534726b0eabaeb167fca07b21494e348bf019bf37d2bc76b9ead1e7a89b8b69d",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Group-wide add via lazy[root]; on join sets diff[y]=lazy[y]-lazy[x]; value = lazy[root] plus compressed diff path; long long via #define int.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "534726b0eabaeb167fca07b21494e348bf019bf37d2bc76b9ead1e7a89b8b69d",
+      "observed_sha256": "534726b0eabaeb167fca07b21494e348bf019bf37d2bc76b9ead1e7a89b8b69d",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 64,
+      "interactive": false
+    },
+    {
+      "key": "c2541452329e42fc",
+      "title": "Parking",
+      "path": "solutions/data-structures/disjoint-set/Parking.cpp",
+      "original_path": "practice/inbox/Parking/Parking.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "e05f7fdc94e1fb7b2c052a63a08e7fe688e2789fc5f1f11da06ba91e051bb3df",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Next-free-spot DSU: occupied spot points to find(spot+1); sentinel n+1 wraps to find(1).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e05f7fdc94e1fb7b2c052a63a08e7fe688e2789fc5f1f11da06ba91e051bb3df",
+      "observed_sha256": "e05f7fdc94e1fb7b2c052a63a08e7fe688e2789fc5f1f11da06ba91e051bb3df",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "375db309ad3346f0",
+      "title": "People are leaving",
+      "path": "solutions/data-structures/disjoint-set/People_are_leaving.cpp",
+      "original_path": "practice/inbox/People_are_leaving/People_are_leaving.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "d5b06546c1a894723e7be322d52ccc1893fd57e381dcb7daea63ad12b1ef4035",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Removing p unites p with p+1; max of set gives nearest remaining person, n+1 sentinel means -1.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "d5b06546c1a894723e7be322d52ccc1893fd57e381dcb7daea63ad12b1ef4035",
+      "observed_sha256": "d5b06546c1a894723e7be322d52ccc1893fd57e381dcb7daea63ad12b1ef4035",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "4afd4094943c45c5",
+      "title": "Restructuring Company",
+      "path": "solutions/data-structures/disjoint-set/Restructuring_Company.cpp",
+      "original_path": "practice/inbox/Restructuring_Company/Restructuring_Company.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "cf1935b40d1f596ab5428a35bdebe66a65e1d03ddfb6493d1326d2c484e842ef",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "DSU with union by size plus separate nxt pointer that skips already-merged neighbours for range merge queries.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "cf1935b40d1f596ab5428a35bdebe66a65e1d03ddfb6493d1326d2c484e842ef",
+      "observed_sha256": "cf1935b40d1f596ab5428a35bdebe66a65e1d03ddfb6493d1326d2c484e842ef",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

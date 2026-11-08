@@ -4,6 +4,49 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-08T17:08:12+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Restructuring_Company.cpp → solutions/data-structures/disjoint-set/Restructuring_Company.cpp: DSU with union by size plus separate nxt pointer that skips already-merged neighbours for range merge queries.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:12+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/People_are_leaving.cpp → solutions/data-structures/disjoint-set/People_are_leaving.cpp: Removing p unites p with p+1; max of set gives nearest remaining person, n+1 sentinel means -1.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:11+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Parking.cpp → solutions/data-structures/disjoint-set/Parking.cpp: Next-free-spot DSU: occupied spot points to find(spot+1); sentinel n+1 wraps to find(1).. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:11+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Experience.cpp → solutions/data-structures/disjoint-set/Experience.cpp: Group-wide add via lazy[root]; on join sets diff[y]=lazy[y]-lazy[x]; value = lazy[root] plus compressed diff path; long long via #define int.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:10+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp → solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp: DSU storing min, max and size at roots, merged on union; get prints aggregates of x's set.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:10+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp → solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp: Plain DSU with path compression and union by size; union and get queries.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:09+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Cutting_a_graph.cpp → solutions/data-structures/disjoint-set/Cutting_a_graph.cpp: Processes queries in reverse so cut becomes union; size-based DSU answers ask queries, then output reversed.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:09+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Bosses.cpp → solutions/data-structures/disjoint-set/Bosses.cpp: Weighted DSU: dist[v] is depth relative to parent, compressed with dist[v]+=dist[p]; unite links boss root a under b with dist 1 (no union by size); query depth after find.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-08T17:08:08+00:00 — INGEST
+
+- practice/inbox/Bosses/Bosses.cpp → solutions/data-structures/disjoint-set/Bosses.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Cutting_a_graph/Cutting_a_graph.cpp → solutions/data-structures/disjoint-set/Cutting_a_graph.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Disjoint_Sets_Union/Disjoint_Sets_Union.cpp → solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Disjoint_Sets_Union_2/Disjoint_Sets_Union_2.cpp → solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Experience/Experience.cpp → solutions/data-structures/disjoint-set/Experience.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Parking/Parking.cpp → solutions/data-structures/disjoint-set/Parking.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/People_are_leaving/People_are_leaving.cpp → solutions/data-structures/disjoint-set/People_are_leaving.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Restructuring_Company/Restructuring_Company.cpp → solutions/data-structures/disjoint-set/Restructuring_Company.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+
 ## 2026-11-07T16:36:50+00:00 — REVIEW
 
 - solutions/needs-review/Total_Length.cpp → solutions/two-pointers-and-sliding-window/Total_Length.cpp: Sliding window with sum <= s; adds len*(len+1)/2 over each maximal window length r-l+1.. Category: two-pointers-and-sliding-window; status: reviewed.

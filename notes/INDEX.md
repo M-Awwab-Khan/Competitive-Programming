@@ -7,6 +7,7 @@
 - [What is a Diophantine Equation?](math/diophantine-equations.md)
 - [Binary search on the answer](patterns/binary-search-on-answer.md)
 - [Counting selections with binomial coefficients](patterns/binomial-counting.md)
+- [Disjoint set union and its variants](patterns/dsu-variants.md)
 - [Interval dynamic programming](patterns/interval-dp.md)
 - [Monotonic deque](patterns/monotonic-deque.md)
 - [Pair counting with inclusion-exclusion](patterns/pair-counting-inclusion-exclusion.md)

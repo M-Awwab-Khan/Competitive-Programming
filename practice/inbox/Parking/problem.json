@@ -1,0 +1,31 @@
+{
+  "name": "B. Parking",
+  "group": "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3\n2 2 2\n",
+      "output": "2 3 1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BParking"
+    }
+  },
+  "batch": {
+    "id": "dd194f17-d994-4138-be16-7e2b27eb4673",
+    "size": 1
+  }
+}
