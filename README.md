@@ -81,6 +81,26 @@ Search matches titles, filenames, original paths, known problem IDs, tags, and c
 
 Each implementation has one primary category and can have several tags. For example, a window problem can also appear under prefix sums or ordered sets in the tag index. C++ and Python implementations remain separate files, and original filenames are preserved.
 
+## Drill patterns with spaced repetition
+
+`make drill` runs a short daily review in the terminal. Recall the answer, press Enter to reveal it, then grade yourself: `1` again, `2` hard, `3` good, `4` easy.
+
+- **Pattern cards** show a note's recognition clues. Name the technique, its invariant, and one pitfall.
+- **Problem cards** show a solved problem's title and link. Recall the key idea and pattern; the back shows the recorded evidence, linked notes, and your code.
+
+A problem card appears only after the card for its pattern. Reviews are interleaved across patterns and scheduled with SM-2, so well-known cards come back after weeks while forgotten ones return the next day.
+
+```bash
+make drill                         # due reviews + 10 new cards
+make drill NEW=20                  # learn faster
+make drill PATTERN=dsu-variants    # focus on one pattern
+make drill-stats                   # learned, due, next 7 days
+make drill-weak                    # patterns you forget most
+python3 scripts/drill.py --help    # all options (e.g. --all-problems)
+```
+
+Progress is saved after every answer in `drill/state.json`; commit it to keep your schedule across machines. New reviewed solutions with a pattern become cards automatically. The card answer is the solution's classification evidence, so write evidence as the key idea.
+
 ## Layout
 
 ```text
@@ -101,6 +121,7 @@ notes/            Canonical pattern notes and written explanations
 practice/         Current scratch work and input/output
 practice/legacy/  Preserved experiments, debug programs, and scratch sources
 catalog/          Search metadata, generated indexes, and original move map
+drill/            Spaced-repetition progress (personal review schedule)
 scripts/          Search, run, file a solution, and rebuild navigation
 bits/, ext/       Existing local C++ headers, retained for include compatibility
 build/            Ignored compiled files, including preserved legacy artifacts

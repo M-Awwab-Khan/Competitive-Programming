@@ -34,6 +34,8 @@ Triggered by “organize my new solutions,” “ingest the inbox,” or an equi
 7. Search existing pattern notes first. Extend a matching note if the source teaches a new invariant or pitfall; do not create a second explanation of the same idea. Associate examples using `--pattern PATTERN_ID`. Register genuinely new notes in `catalog/patterns.json` and keep one marked examples block.
 8. Run LINT. Summarize additions, changed classifications, and unresolved cases. Do not stage or commit unless explicitly requested.
 
+Evidence doubles as the answer on the solution's flashcard (`scripts/drill.py`). Write it as one sentence naming the implementation's key idea with concrete specifics, and append visible bugs as `Limitation: ...`. Link a pattern whenever the code relies on one, because only patterned solutions become cards by default. `drill/state.json` is the user's review history: never edit or reset it during organization work.
+
 Use `scripts/add_solution.py` when the category is already known. The shared organizer updates navigation and logs as one operation and rolls back on ordinary failures. Never silently overwrite a source or merge away an attempt.
 
 ## QUERY

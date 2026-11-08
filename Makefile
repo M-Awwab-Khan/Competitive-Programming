@@ -53,7 +53,7 @@ $(problem_files):
 endif
 endif
 
-.PHONY: help new build run check debug samples sample-add pch ingest ingest-apply lint companion
+.PHONY: help new build run check debug samples sample-add pch ingest ingest-apply lint companion drill drill-stats drill-weak
 companion:
 	@$(PYTHON) scripts/companion.py
 help:
@@ -66,3 +66,12 @@ ingest-apply:
 	@$(PYTHON) scripts/ingest.py --apply
 lint:
 	@$(PYTHON) scripts/lint_repo.py
+# Spaced-repetition review: make drill [NEW=10] [PATTERN=dsu-variants]
+NEW ?= 10
+PATTERN ?=
+drill:
+	@$(PYTHON) scripts/drill.py --new $(NEW) $(if $(PATTERN),--pattern $(PATTERN))
+drill-stats:
+	@$(PYTHON) scripts/drill.py --stats
+drill-weak:
+	@$(PYTHON) scripts/drill.py --weak
