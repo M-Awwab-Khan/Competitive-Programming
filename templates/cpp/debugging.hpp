@@ -12,6 +12,10 @@ namespace __DEBUG_UTIL__
     string outer = I_want_colored_output ? "\033[0;31m" : "";    // red
     string varName = I_want_colored_output ? "\033[1;34m" : "";  // blue
     string varValue = I_want_colored_output ? "\033[1;32m" : ""; // green
+
+    // User-defined types can provide debug_print(value) in their own namespace.
+    void debug_print();
+
     template <typename T>
     concept is_iterable = requires(T &&x) { begin(x); } &&
                           !is_same_v<remove_cvref_t<T>, string>;
@@ -76,6 +80,8 @@ namespace __DEBUG_UTIL__
                                x);
             cerr << ')';
         }
+        else if constexpr (requires { debug_print(x); })
+            debug_print(x);
         else
             cerr << x;
     }
@@ -125,4 +131,33 @@ namespace __DEBUG_UTIL__
 #define debug(...)
 #define debugArr(...)
 #endif
+
+#define CP_DEBUG_DETAIL_JOIN_IMPL(a, b) a##b
+#define CP_DEBUG_DETAIL_JOIN(a, b) CP_DEBUG_DETAIL_JOIN_IMPL(a, b)
+#define CP_DEBUG_DETAIL_NARG_IMPL(_1, _2, _3, _4, _5, _6, _7, _8, n, ...) n
+#define CP_DEBUG_DETAIL_NARG(...) \
+    CP_DEBUG_DETAIL_NARG_IMPL(__VA_ARGS__, 8, 7, 6, 5, 4, 3, 2, 1)
+#define CP_DEBUG_DETAIL_FOR_EACH_1(m, a) m(a)
+#define CP_DEBUG_DETAIL_FOR_EACH_2(m, a, ...) m(a) CP_DEBUG_DETAIL_FOR_EACH_1(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_FOR_EACH_3(m, a, ...) m(a) CP_DEBUG_DETAIL_FOR_EACH_2(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_FOR_EACH_4(m, a, ...) m(a) CP_DEBUG_DETAIL_FOR_EACH_3(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_FOR_EACH_5(m, a, ...) m(a) CP_DEBUG_DETAIL_FOR_EACH_4(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_FOR_EACH_6(m, a, ...) m(a) CP_DEBUG_DETAIL_FOR_EACH_5(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_FOR_EACH_7(m, a, ...) m(a) CP_DEBUG_DETAIL_FOR_EACH_6(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_FOR_EACH_8(m, a, ...) m(a) CP_DEBUG_DETAIL_FOR_EACH_7(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_FOR_EACH(m, ...) \
+    CP_DEBUG_DETAIL_JOIN(CP_DEBUG_DETAIL_FOR_EACH_, CP_DEBUG_DETAIL_NARG(__VA_ARGS__))(m, __VA_ARGS__)
+#define CP_DEBUG_DETAIL_PRINT_FIELD(field) \
+    std::cerr << (first ? "" : ", ") << #field << "="; \
+    __DEBUG_UTIL__::print(value.field); \
+    first = false;
+
+// Register up to eight public fields; the generated formatter is found by ADL.
+#define DEBUG_STRUCT(Type, ...) \
+    inline void debug_print(const Type& value) { \
+        std::cerr << #Type "{"; \
+        bool first = true; \
+        CP_DEBUG_DETAIL_FOR_EACH(CP_DEBUG_DETAIL_PRINT_FIELD, __VA_ARGS__) \
+        std::cerr << '}'; \
+    }
 #endif
