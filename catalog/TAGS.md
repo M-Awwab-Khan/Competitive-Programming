@@ -302,7 +302,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## brute-force-and-backtracking
 
-80 files
+81 files
 
 - [A IQ Test (cpp)](../solutions/brute-force-and-backtracking/A_IQ_Test.cpp)
 - [A System of Equations (cpp)](../solutions/brute-force-and-backtracking/A_System_of_Equations.cpp)
@@ -348,6 +348,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [D Gold Rush (cpp)](../solutions/recursion-and-divide-and-conquer/D_Gold_Rush.cpp)
 - [D. Three Activities (cpp)](../solutions/brute-force-and-backtracking/D_Three_Activities.cpp)
 - [D. Three Logos (cpp)](../solutions/brute-force-and-backtracking/D_Three_Logos.cpp)
+- [Dense spanning tree (cpp)](../solutions/graphs/spanning-trees/Dense_spanning_tree.cpp)
 - [DMOJ 24 (python)](../solutions/brute-force-and-backtracking/DMOJ_24.py)
 - [F. 3SUM (cpp)](../solutions/brute-force-and-backtracking/F_3_SUM.cpp)
 - [G - Preparing Olympiad (cpp)](../solutions/brute-force-and-backtracking/G_Preparing_Olympiad.cpp)
@@ -469,21 +470,26 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/disjoint-set
 
-13 files
+18 files
 
 - [A. Knight Tournament (cpp)](../solutions/data-structures/disjoint-set/A_Knight_Tournament.cpp)
 - [B Max Spanning Tree (cpp)](../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp)
 - [Bosses (cpp)](../solutions/data-structures/disjoint-set/Bosses.cpp)
 - [Cutting a graph (cpp)](../solutions/data-structures/disjoint-set/Cutting_a_graph.cpp)
 - [D. Roads not only in Berland (cpp)](../solutions/data-structures/disjoint-set/D_Roads_not_only_in_Berland.cpp)
+- [Dense spanning tree (cpp)](../solutions/graphs/spanning-trees/Dense_spanning_tree.cpp)
 - [Disjoint Sets Union (cpp)](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp)
 - [Disjoint Sets Union 2 (cpp)](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp)
 - [Experience (cpp)](../solutions/data-structures/disjoint-set/Experience.cpp)
+- [First Non-Bipartite Edge (cpp)](../solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp)
 - [G The Veneto Relay (cpp)](../solutions/binary-search/G_The_Veneto_Relay.cpp)
 - [kruskal (cpp)](../solutions/graphs/spanning-trees/kruskal.cpp)
+- [No refuel (cpp)](../solutions/graphs/spanning-trees/No_refuel.cpp)
+- [Oil business (cpp)](../solutions/graphs/spanning-trees/Oil_business.cpp)
 - [Parking (cpp)](../solutions/data-structures/disjoint-set/Parking.cpp)
 - [People are leaving (cpp)](../solutions/data-structures/disjoint-set/People_are_leaving.cpp)
 - [Restructuring Company (cpp)](../solutions/data-structures/disjoint-set/Restructuring_Company.cpp)
+- [Spanning Tree (cpp)](../solutions/graphs/spanning-trees/Spanning_Tree.cpp)
 
 ## data-structures/heaps
 
@@ -770,12 +776,16 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## graphs/spanning-trees
 
-4 files
+8 files
 
 - [B Max Spanning Tree (cpp)](../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp)
 - [D Districts Connection (cpp)](../solutions/constructive/D_Districts_Connection.cpp)
 - [D. Roads not only in Berland (cpp)](../solutions/data-structures/disjoint-set/D_Roads_not_only_in_Berland.cpp)
+- [Dense spanning tree (cpp)](../solutions/graphs/spanning-trees/Dense_spanning_tree.cpp)
 - [kruskal (cpp)](../solutions/graphs/spanning-trees/kruskal.cpp)
+- [No refuel (cpp)](../solutions/graphs/spanning-trees/No_refuel.cpp)
+- [Oil business (cpp)](../solutions/graphs/spanning-trees/Oil_business.cpp)
+- [Spanning Tree (cpp)](../solutions/graphs/spanning-trees/Spanning_Tree.cpp)
 
 ## graphs/topological-sort
 
@@ -788,7 +798,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## graphs/traversal
 
-26 files
+27 files
 
 - [A Two Friends (cpp)](../solutions/graphs/traversal/A_Two_Friends.cpp)
 - [at removeminedges (cpp)](../solutions/arrays-and-counting/at-removeminedges.cpp)
@@ -806,6 +816,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [E - Labyrinth (cpp)](../solutions/graphs/shortest-paths/E_Labyrinth.cpp)
 - [E. Danil and a Part-time Job (cpp)](../solutions/trees/E_Danil_and_a_Part_time_Job.cpp)
 - [F Milk Factory (cpp)](../solutions/graphs/traversal/F_Milk_Factory.cpp)
+- [First Non-Bipartite Edge (cpp)](../solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp)
 - [graph subchain (python)](../solutions/graphs/traversal/graph-subchain.py)
 - [graphcycles (cpp)](../solutions/brute-force-and-backtracking/graphcycles.cpp)
 - [H. Mad City (cpp)](../solutions/graphs/traversal/H_Mad_City.cpp)
@@ -819,7 +830,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## greedy
 
-199 files
+200 files
 
 - [A - A (cpp)](../solutions/two-pointers-and-sliding-window/A_A.cpp)
 - [A - Very Different Array (cpp)](../solutions/greedy/A_Very_Different_Array.cpp)
@@ -994,6 +1005,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [maximum nonoverlapping segments (cpp)](../solutions/greedy/maximum-nonoverlapping-segments.cpp)
 - [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum.cpp)
 - [movie festival (cpp)](../solutions/greedy/movie_festival.cpp)
+- [Oil business (cpp)](../solutions/graphs/spanning-trees/Oil_business.cpp)
 - [only plusses (python)](../solutions/greedy/only_plusses.py)
 - [paint numbers (python)](../solutions/greedy/paint_numbers.py)
 - [phoenix and socks (python)](../solutions/greedy/phoenix_and_socks.py)

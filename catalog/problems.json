@@ -34414,6 +34414,190 @@
       "time_limit_ms": 2000,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "d9a57c5140354f7b",
+      "title": "Dense spanning tree",
+      "path": "solutions/graphs/spanning-trees/Dense_spanning_tree.cpp",
+      "original_path": "practice/inbox/Dense_spanning_tree/Dense_spanning_tree.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391F",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/F"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "235d89152e3e6764d68479164b49a33c95cc4e942a34c528e4a3ce139645e86c",
+      "category": "graphs/spanning-trees",
+      "tags": [
+        "brute-force-and-backtracking",
+        "data-structures/disjoint-set",
+        "graphs/spanning-trees"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Minimise max-min edge of a spanning tree: for each start l in sorted edges, run Kruskal from a fresh DSU on edges[l..] and take the spread of the first full tree; O(m^2).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "235d89152e3e6764d68479164b49a33c95cc4e942a34c528e4a3ce139645e86c",
+      "observed_sha256": "235d89152e3e6764d68479164b49a33c95cc4e942a34c528e4a3ce139645e86c",
+      "review_required": false,
+      "patterns": [
+        "minimum-spanning-tree"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "0a48a416244943e2",
+      "title": "First Non-Bipartite Edge",
+      "path": "solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp",
+      "original_path": "practice/inbox/First_Non-Bipartite_Edge/First_Non-Bipartite_Edge.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391J",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/J"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "fe4f10e08eaaa43b6490865fc234a3aeb5d26581fc74786178d9c9caea864caa",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set",
+        "graphs/traversal"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Parity DSU: xr[v] is colour relative to parent (compressed with xor); an edge inside a component with equal parity breaks bipartiteness, print its index.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "fe4f10e08eaaa43b6490865fc234a3aeb5d26581fc74786178d9c9caea864caa",
+      "observed_sha256": "fe4f10e08eaaa43b6490865fc234a3aeb5d26581fc74786178d9c9caea864caa",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 64,
+      "interactive": false
+    },
+    {
+      "key": "0500764463fb4120",
+      "title": "No refuel",
+      "path": "solutions/graphs/spanning-trees/No_refuel.cpp",
+      "original_path": "practice/inbox/No_refuel/No_refuel.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391G",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/G"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "613576100d3a4af6204b4dd95ad65d23125d1c3d092f4ff8a0efd1d7b2a91865",
+      "category": "graphs/spanning-trees",
+      "tags": [
+        "data-structures/disjoint-set",
+        "graphs/spanning-trees"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Bottleneck MST: Kruskal in ascending weight; the minimum possible maximum edge is the weight of the last edge added (stops at n-1 edges).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "613576100d3a4af6204b4dd95ad65d23125d1c3d092f4ff8a0efd1d7b2a91865",
+      "observed_sha256": "613576100d3a4af6204b4dd95ad65d23125d1c3d092f4ff8a0efd1d7b2a91865",
+      "review_required": false,
+      "patterns": [
+        "minimum-spanning-tree"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "236eb632702b4a06",
+      "title": "Oil business",
+      "path": "solutions/graphs/spanning-trees/Oil_business.cpp",
+      "original_path": "practice/inbox/Oil_business/Oil_business.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391H",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/H"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "61481e9ea3b95e5c2884f4ec4af0ca10698ae10ceade4bc5a44d636fc4625f32",
+      "category": "graphs/spanning-trees",
+      "tags": [
+        "data-structures/disjoint-set",
+        "graphs/spanning-trees",
+        "greedy"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Keep a maximum spanning tree (Kruskal descending, tracking edge ids), then delete non-tree edges cheapest first while the total stays within s.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "61481e9ea3b95e5c2884f4ec4af0ca10698ae10ceade4bc5a44d636fc4625f32",
+      "observed_sha256": "61481e9ea3b95e5c2884f4ec4af0ca10698ae10ceade4bc5a44d636fc4625f32",
+      "review_required": false,
+      "patterns": [
+        "minimum-spanning-tree",
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "24bdeae1fe1e43e2",
+      "title": "Spanning Tree",
+      "path": "solutions/graphs/spanning-trees/Spanning_Tree.cpp",
+      "original_path": "practice/inbox/Spanning_Tree/Spanning_Tree.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289391E",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/E"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "67aa572f441fa298628272bed93e6c4973b60f0d4f3b2e7b3c7fc5e27a8d2579",
+      "category": "graphs/spanning-trees",
+      "tags": [
+        "data-structures/disjoint-set",
+        "graphs/spanning-trees"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Plain Kruskal: sort edges by weight and add every edge joining two DSU components, summing the MST weight.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "67aa572f441fa298628272bed93e6c4973b60f0d4f3b2e7b3c7fc5e27a8d2579",
+      "observed_sha256": "67aa572f441fa298628272bed93e6c4973b60f0d4f3b2e7b3c7fc5e27a8d2579",
+      "review_required": false,
+      "patterns": [
+        "dsu-variants",
+        "minimum-spanning-tree"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

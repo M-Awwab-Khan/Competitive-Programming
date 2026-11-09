@@ -1,0 +1,35 @@
+{
+  "name": "J. First Non-Bipartite Edge",
+  "group": "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/J",
+  "interactive": false,
+  "memoryLimit": 64,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3 3\n1 2\n2 3\n1 3\n",
+      "output": "3\n"
+    },
+    {
+      "input": "4 5\n1 2\n2 3\n3 4\n1 4\n2 4\n",
+      "output": "5\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "JFirstNonBipartiteEdge"
+    }
+  },
+  "batch": {
+    "id": "cad77faa-0bb5-4e43-af67-2daa1de9ac5b",
+    "size": 1
+  }
+}

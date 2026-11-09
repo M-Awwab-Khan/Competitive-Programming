@@ -4,6 +4,34 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-09T11:57:47+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp → solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp: Parity DSU: xr[v] is colour relative to parent (compressed with xor); an edge inside a component with equal parity breaks bipartiteness, print its index.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-09T11:57:46+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Oil_business.cpp → solutions/graphs/spanning-trees/Oil_business.cpp: Keep a maximum spanning tree (Kruskal descending, tracking edge ids), then delete non-tree edges cheapest first while the total stays within s.. Category: graphs/spanning-trees; status: reviewed.
+
+## 2026-11-09T11:57:45+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Dense_spanning_tree.cpp → solutions/graphs/spanning-trees/Dense_spanning_tree.cpp: Minimise max-min edge of a spanning tree: for each start l in sorted edges, run Kruskal from a fresh DSU on edges[l..] and take the spread of the first full tree; O(m^2).. Category: graphs/spanning-trees; status: reviewed.
+
+## 2026-11-09T11:57:44+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/No_refuel.cpp → solutions/graphs/spanning-trees/No_refuel.cpp: Bottleneck MST: Kruskal in ascending weight; the minimum possible maximum edge is the weight of the last edge added (stops at n-1 edges).. Category: graphs/spanning-trees; status: reviewed.
+
+## 2026-11-09T11:57:43+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Spanning_Tree.cpp → solutions/graphs/spanning-trees/Spanning_Tree.cpp: Plain Kruskal: sort edges by weight and add every edge joining two DSU components, summing the MST weight.. Category: graphs/spanning-trees; status: reviewed.
+
+## 2026-11-09T11:57:42+00:00 — INGEST
+
+- practice/inbox/Dense_spanning_tree/Dense_spanning_tree.cpp → solutions/data-structures/disjoint-set/Dense_spanning_tree.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/First_Non-Bipartite_Edge/First_Non-Bipartite_Edge.cpp → solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/No_refuel/No_refuel.cpp → solutions/data-structures/disjoint-set/No_refuel.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Oil_business/Oil_business.cpp → solutions/data-structures/disjoint-set/Oil_business.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Spanning_Tree/Spanning_Tree.cpp → solutions/data-structures/disjoint-set/Spanning_Tree.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+
 ## 2026-11-08T17:41:39+00:00 — REVIEW
 
 - solutions/arrays-and-counting/AQ_Minimize_Equal_Sum_Subarrays.cpp → solutions/constructive/AQ_Minimize_Equal_Sum_Subarrays.cpp: Outputs the given permutation cyclically shifted left by one (a[1..n-1], a[0]) so equal-sum subarrays with the original are minimized.. Category: constructive; status: reviewed.

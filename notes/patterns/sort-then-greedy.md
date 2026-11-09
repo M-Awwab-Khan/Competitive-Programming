@@ -104,6 +104,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [maximum nonoverlapping segments (cpp)](../../solutions/greedy/maximum-nonoverlapping-segments.cpp) | greedy | reviewed |
 | [missing coin sum (cpp)](../../solutions/greedy/missing_coin_sum.cpp) | greedy | reviewed |
 | [movie festival (cpp)](../../solutions/greedy/movie_festival.cpp) | greedy | reviewed |
+| [Oil business (cpp)](../../solutions/graphs/spanning-trees/Oil_business.cpp) | graphs/spanning-trees | reviewed |
 | [paint numbers (python)](../../solutions/greedy/paint_numbers.py) | greedy | reviewed |
 | [sellstocks (python)](../../solutions/greedy/sellstocks.py) | greedy | reviewed |
 | [songs compression (python)](../../solutions/greedy/songs_compression.py) | greedy | reviewed |

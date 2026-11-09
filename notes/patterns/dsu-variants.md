@@ -22,6 +22,7 @@ Maintain a partition under merges. Each set is a tree with a representative root
 | Range merge | Keep a second `next` pointer that skips indices already merged with their right neighbour, so merging `[l, r]` does amortised `O(n)` total work. |
 | Weighted / potential DSU | Store `d[x]` = value of `x` relative to its parent. During path compression, compress the parent first, then add the parent's offset: `d[x] += d[p]`. |
 | Group-wide add (lazy) | Add to `lazy[root]`. On linking `y` under `x`, set `d[y] = lazy[y] - lazy[x]` so old members keep their values. A member's value is `lazy[root] + (sum of d along its path)`. |
+| Parity (bipartite) DSU | Store `p[x]` = colour of `x` XOR colour of its parent; compress with `p[x] ^= p[parent]`. An edge inside one component is fine only if `p[u] ^ p[v] == 1`; when merging roots, set `p[rv] = p[u] ^ p[v] ^ 1`. Finds the first edge that breaks bipartiteness online. |
 
 With union by size and path compression, operations take `O(alpha(n))` amortised. Path compression alone gives `O(log n)` amortised. Weighted variants that must link a specific root under another (for example, the boss relationship) cannot use union by size; they rely on path compression only.
 
@@ -54,9 +55,11 @@ Links are generated from catalog associations; classifications do not establish 
 | [Disjoint Sets Union (cpp)](../../solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp) | data-structures/disjoint-set | reviewed |
 | [Disjoint Sets Union 2 (cpp)](../../solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp) | data-structures/disjoint-set | reviewed |
 | [Experience (cpp)](../../solutions/data-structures/disjoint-set/Experience.cpp) | data-structures/disjoint-set | reviewed |
+| [First Non-Bipartite Edge (cpp)](../../solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp) | data-structures/disjoint-set | reviewed |
 | [kruskal (cpp)](../../solutions/graphs/spanning-trees/kruskal.cpp) | graphs/spanning-trees | reviewed |
 | [Parking (cpp)](../../solutions/data-structures/disjoint-set/Parking.cpp) | data-structures/disjoint-set | reviewed |
 | [People are leaving (cpp)](../../solutions/data-structures/disjoint-set/People_are_leaving.cpp) | data-structures/disjoint-set | reviewed |
 | [Restructuring Company (cpp)](../../solutions/data-structures/disjoint-set/Restructuring_Company.cpp) | data-structures/disjoint-set | reviewed |
+| [Spanning Tree (cpp)](../../solutions/graphs/spanning-trees/Spanning_Tree.cpp) | graphs/spanning-trees | reviewed |
 
 <!-- examples:end -->

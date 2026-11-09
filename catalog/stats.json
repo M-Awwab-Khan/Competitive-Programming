@@ -1,7 +1,7 @@
 {
-  "total_entries": 1158,
+  "total_entries": 1163,
   "roles": {
-    "solution": 1153,
+    "solution": 1158,
     "reference": 1,
     "algorithm": 4
   },
@@ -25,12 +25,12 @@
     "dynamic-programming/kadane": 7,
     "intervals": 6,
     "dynamic-programming/general": 32,
-    "data-structures/disjoint-set": 10,
+    "data-structures/disjoint-set": 11,
     "data-structures/ordered-sets": 12,
     "graphs/traversal": 14,
     "games": 7,
     "trees": 9,
-    "graphs/spanning-trees": 2,
+    "graphs/spanning-trees": 6,
     "recursion-and-divide-and-conquer": 5,
     "data-structures/stacks-and-queues": 11,
     "dynamic-programming/sequences": 9,
@@ -45,11 +45,11 @@
     "data-structures/heaps": 1
   },
   "classifications": {
-    "reviewed": 1147,
+    "reviewed": 1152,
     "needs-review": 11
   },
   "implementations": {
-    "not-verified": 1148,
+    "not-verified": 1153,
     "empty-or-template": 10
   },
   "sources_changed_since_classification": 0

@@ -1,6 +1,6 @@
 # Problem index
 
-1158 source files across 37 primary categories.
+1163 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -13,7 +13,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [bit-manipulation](#bit-manipulation) | 29 | Bitwise operations, XOR identities, and bit counting |
 | [brute-force-and-backtracking](#brute-force-and-backtracking) | 58 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 54 | Constructing a valid array, permutation, or arrangement |
-| [data-structures/disjoint-set](#data-structuresdisjoint-set) | 10 | Disjoint set union and component merging |
+| [data-structures/disjoint-set](#data-structuresdisjoint-set) | 11 | Disjoint set union and component merging |
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
 | [data-structures/ordered-sets](#data-structuresordered-sets) | 12 | Ordered sets, multisets, and order statistics |
 | [data-structures/range-queries](#data-structuresrange-queries) | 3 | Segment trees, Fenwick trees, and sparse tables |
@@ -27,7 +27,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [games](#games) | 7 | Winning states, parity games, and strategy |
 | [geometry](#geometry) | 35 | Coordinates, distances, intersections, and areas |
 | [graphs/shortest-paths](#graphsshortest-paths) | 4 | Shortest path and breadth first distance problems |
-| [graphs/spanning-trees](#graphsspanning-trees) | 2 | Minimum or maximum spanning trees |
+| [graphs/spanning-trees](#graphsspanning-trees) | 6 | Minimum or maximum spanning trees |
 | [graphs/topological-sort](#graphstopological-sort) | 2 | Dependency ordering and DAG algorithms |
 | [graphs/traversal](#graphstraversal) | 14 | Graph search, components, grids, and reachability |
 | [greedy](#greedy) | 141 | Local choices, scheduling, and exchange arguments |
@@ -372,6 +372,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Disjoint Sets Union — Disjoint_Sets_Union.cpp](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp) | cpp | codeforces / 289390A | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [Disjoint Sets Union 2 — Disjoint_Sets_Union_2.cpp](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp) | cpp | codeforces / 289390B | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [Experience — Experience.cpp](../solutions/data-structures/disjoint-set/Experience.cpp) | cpp | codeforces / 289390C | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
+| [First Non-Bipartite Edge — First_Non-Bipartite_Edge.cpp](../solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp) | cpp | codeforces / 289391J | data-structures/disjoint-set, graphs/traversal | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [Parking — Parking.cpp](../solutions/data-structures/disjoint-set/Parking.cpp) | cpp | codeforces / 289391B | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [People are leaving — People_are_leaving.cpp](../solutions/data-structures/disjoint-set/People_are_leaving.cpp) | cpp | codeforces / 289391A | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [Restructuring Company — Restructuring_Company.cpp](../solutions/data-structures/disjoint-set/Restructuring_Company.cpp) | cpp | codeforces / 289391C | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
@@ -591,7 +592,11 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
 | [B Max Spanning Tree — B_Max_Spanning_Tree.cpp](../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp) | cpp | unknown | data-structures/disjoint-set, graphs/spanning-trees, sorting-and-searching | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md), [Minimum and maximum spanning trees with Kruskal](../notes/patterns/minimum-spanning-tree.md) |
+| [Dense spanning tree — Dense_spanning_tree.cpp](../solutions/graphs/spanning-trees/Dense_spanning_tree.cpp) | cpp | codeforces / 289391F | brute-force-and-backtracking, data-structures/disjoint-set, graphs/spanning-trees | reviewed | [Minimum and maximum spanning trees with Kruskal](../notes/patterns/minimum-spanning-tree.md) |
 | [kruskal — kruskal.cpp](../solutions/graphs/spanning-trees/kruskal.cpp) | cpp | unknown | data-structures/disjoint-set, graphs/spanning-trees, greedy | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md), [Minimum and maximum spanning trees with Kruskal](../notes/patterns/minimum-spanning-tree.md) |
+| [No refuel — No_refuel.cpp](../solutions/graphs/spanning-trees/No_refuel.cpp) | cpp | codeforces / 289391G | data-structures/disjoint-set, graphs/spanning-trees | reviewed | [Minimum and maximum spanning trees with Kruskal](../notes/patterns/minimum-spanning-tree.md) |
+| [Oil business — Oil_business.cpp](../solutions/graphs/spanning-trees/Oil_business.cpp) | cpp | codeforces / 289391H | data-structures/disjoint-set, graphs/spanning-trees, greedy | reviewed | [Minimum and maximum spanning trees with Kruskal](../notes/patterns/minimum-spanning-tree.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Spanning Tree — Spanning_Tree.cpp](../solutions/graphs/spanning-trees/Spanning_Tree.cpp) | cpp | codeforces / 289391E | data-structures/disjoint-set, graphs/spanning-trees | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md), [Minimum and maximum spanning trees with Kruskal](../notes/patterns/minimum-spanning-tree.md) |
 
 ## graphs/topological-sort
 

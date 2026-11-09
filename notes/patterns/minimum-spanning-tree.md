@@ -25,6 +25,9 @@ bool connected = (used == n - 1);
 | Maximum spanning tree | sort in descending order |
 | Forced edge | unite its endpoints and add its cost before the loop; skip it by id inside the loop; start the counter at 1 |
 | Spanning forest | do not require `n - 1`; sum what is added |
+| Minimise the maximum edge (bottleneck) | the MST also minimises its largest edge; answer is the weight of the last edge Kruskal adds |
+| Minimise `max - min` over a spanning tree | for each start `l` in sorted order, run Kruskal on `edges[l..]` from a fresh DSU; the first spanning tree has the smallest maximum for that minimum. `O(m^2 α)` |
+| Delete edges within a budget, keep connectivity | build a maximum spanning tree to keep; delete the remaining edges cheapest first while the budget allows |
 | DSU flavour | path compression + union by rank, or a rollback DSU (no compression) if undo is needed |
 
 Time is `O(m log m)` for sorting plus near-constant DSU operations.
@@ -50,6 +53,10 @@ Links are generated from catalog associations; classifications do not establish 
 | Implementation | Category | Classification |
 | --- | --- | --- |
 | [B Max Spanning Tree (cpp)](../../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp) | graphs/spanning-trees | reviewed |
+| [Dense spanning tree (cpp)](../../solutions/graphs/spanning-trees/Dense_spanning_tree.cpp) | graphs/spanning-trees | reviewed |
 | [kruskal (cpp)](../../solutions/graphs/spanning-trees/kruskal.cpp) | graphs/spanning-trees | reviewed |
+| [No refuel (cpp)](../../solutions/graphs/spanning-trees/No_refuel.cpp) | graphs/spanning-trees | reviewed |
+| [Oil business (cpp)](../../solutions/graphs/spanning-trees/Oil_business.cpp) | graphs/spanning-trees | reviewed |
+| [Spanning Tree (cpp)](../../solutions/graphs/spanning-trees/Spanning_Tree.cpp) | graphs/spanning-trees | reviewed |
 
 <!-- examples:end -->

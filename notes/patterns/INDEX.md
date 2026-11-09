@@ -14,10 +14,10 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Interval dynamic programming](interval-dp.md) | 4 |
 | [Two-pointer window over a monotone condition](two-pointer-window.md) | 58 |
 | [Queue with an aggregate built from two stacks](two-stack-aggregate-queue.md) | 3 |
-| [Disjoint set union and its variants](dsu-variants.md) | 12 |
+| [Disjoint set union and its variants](dsu-variants.md) | 14 |
 | [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 124 |
 | [Frequency tables and distinct-value counting](frequency-table.md) | 93 |
-| [Sort then greedy](sort-then-greedy.md) | 60 |
+| [Sort then greedy](sort-then-greedy.md) | 61 |
 | [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 60 |
 | [Parity and operation invariants](parity-and-invariants.md) | 53 |
 | [Constructive answers from small cases](constructive-small-cases.md) | 37 |
@@ -57,4 +57,4 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [String matching: naive scans, library find, and KMP](string-matching.md) | 3 |
 | [Monotonic stack for nearest smaller or greater elements](monotonic-stack.md) | 2 |
 | [Bitmask DP](bitmask-dp.md) | 2 |
-| [Minimum and maximum spanning trees with Kruskal](minimum-spanning-tree.md) | 2 |
+| [Minimum and maximum spanning trees with Kruskal](minimum-spanning-tree.md) | 6 |

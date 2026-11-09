@@ -1,0 +1,31 @@
+{
+  "name": "H. Oil business",
+  "group": "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/H",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "6 7 10\n1 2 3\n1 3 3\n2 3 3\n3 4 1\n4 5 5\n5 6 4\n4 6 5\n",
+      "output": "2\n1 6\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "HOilBusiness"
+    }
+  },
+  "batch": {
+    "id": "e74c4ccb-65c9-4fc3-9c85-b128070994d2",
+    "size": 1
+  }
+}
