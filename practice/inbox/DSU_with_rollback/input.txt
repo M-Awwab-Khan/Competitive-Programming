@@ -1,0 +1,11 @@
+5 10
+persist
+union 1 2
+union 3 4
+persist
+union 1 4
+union 2 3
+rollback
+union 4 5
+rollback
+union 1 5

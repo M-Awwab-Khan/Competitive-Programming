@@ -1,7 +1,7 @@
 {
-  "total_entries": 1163,
+  "total_entries": 1166,
   "roles": {
-    "solution": 1158,
+    "solution": 1161,
     "reference": 1,
     "algorithm": 4
   },
@@ -25,7 +25,7 @@
     "dynamic-programming/kadane": 7,
     "intervals": 6,
     "dynamic-programming/general": 32,
-    "data-structures/disjoint-set": 11,
+    "data-structures/disjoint-set": 14,
     "data-structures/ordered-sets": 12,
     "graphs/traversal": 14,
     "games": 7,
@@ -45,11 +45,11 @@
     "data-structures/heaps": 1
   },
   "classifications": {
-    "reviewed": 1152,
+    "reviewed": 1155,
     "needs-review": 11
   },
   "implementations": {
-    "not-verified": 1153,
+    "not-verified": 1156,
     "empty-or-template": 10
   },
   "sources_changed_since_classification": 0

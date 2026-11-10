@@ -470,7 +470,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/disjoint-set
 
-18 files
+21 files
 
 - [A. Knight Tournament (cpp)](../solutions/data-structures/disjoint-set/A_Knight_Tournament.cpp)
 - [B Max Spanning Tree (cpp)](../solutions/graphs/spanning-trees/B_Max_Spanning_Tree.cpp)
@@ -480,11 +480,14 @@ A source may appear under several tags. Its primary category determines its fold
 - [Dense spanning tree (cpp)](../solutions/graphs/spanning-trees/Dense_spanning_tree.cpp)
 - [Disjoint Sets Union (cpp)](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp)
 - [Disjoint Sets Union 2 (cpp)](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp)
+- [DSU with rollback (cpp)](../solutions/data-structures/disjoint-set/DSU_with_rollback.cpp)
+- [Dynamic Connectivity Offline (cpp)](../solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp)
 - [Experience (cpp)](../solutions/data-structures/disjoint-set/Experience.cpp)
 - [First Non-Bipartite Edge (cpp)](../solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp)
 - [G The Veneto Relay (cpp)](../solutions/binary-search/G_The_Veneto_Relay.cpp)
 - [kruskal (cpp)](../solutions/graphs/spanning-trees/kruskal.cpp)
 - [No refuel (cpp)](../solutions/graphs/spanning-trees/No_refuel.cpp)
+- [Number of Connected Components on Segments (cpp)](../solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp)
 - [Oil business (cpp)](../solutions/graphs/spanning-trees/Oil_business.cpp)
 - [Parking (cpp)](../solutions/data-structures/disjoint-set/Parking.cpp)
 - [People are leaving (cpp)](../solutions/data-structures/disjoint-set/People_are_leaving.cpp)
@@ -540,10 +543,11 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## data-structures/range-queries
 
-7 files
+8 files
 
 - [cses subtreequeries (cpp)](../solutions/trees/cses-subtreequeries.cpp)
 - [D. Xenia and Bit Operations (cpp)](../solutions/data-structures/range-queries/D_Xenia_and_Bit_Operations.cpp)
+- [Dynamic Connectivity Offline (cpp)](../solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp)
 - [E. Baby Baraa playing with LEGO (cpp)](../solutions/data-structures/range-queries/E_Baby_Baraa_playing_with_LEGO.cpp)
 - [E. Danil and a Part-time Job (cpp)](../solutions/trees/E_Danil_and_a_Part_time_Job.cpp)
 - [F. Ant colony (cpp)](../solutions/data-structures/range-queries/F_Ant_colony.cpp)
@@ -1517,7 +1521,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## recursion-and-divide-and-conquer
 
-13 files
+14 files
 
 - [atcoder christmas (cpp)](../solutions/recursion-and-divide-and-conquer/atcoder-christmas.cpp)
 - [B Recursion Fibonacci Numbers (cpp)](../solutions/recursion-and-divide-and-conquer/B_Recursion_Fibonacci_Numbers.cpp)
@@ -1525,6 +1529,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [binary (cpp)](../solutions/bit-manipulation/binary.cpp)
 - [cf 1 3 5 (cpp)](../solutions/recursion-and-divide-and-conquer/cf-1-3-5.cpp)
 - [D Gold Rush (cpp)](../solutions/recursion-and-divide-and-conquer/D_Gold_Rush.cpp)
+- [Dynamic Connectivity Offline (cpp)](../solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp)
 - [E. Baby Baraa playing with LEGO (cpp)](../solutions/data-structures/range-queries/E_Baby_Baraa_playing_with_LEGO.cpp)
 - [longest path (cpp)](../solutions/graphs/traversal/longest_path.cpp)
 - [M Truckloads (cpp)](../solutions/dynamic-programming/general/M_Truckloads.cpp)
@@ -1645,7 +1650,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-198 files
+199 files
 
 - [1 (python)](../solutions/sorting-and-searching/1.py)
 - [11222 Only I did it (python)](../solutions/arrays-and-counting/11222_Only_I_did_it.py)
@@ -1813,6 +1818,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum.cpp)
 - [Monster Game (cpp)](../solutions/binary-search/Monster_Game.cpp)
 - [movie festival (cpp)](../solutions/greedy/movie_festival.cpp)
+- [Number of Connected Components on Segments (cpp)](../solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp)
 - [Number of Smaller (cpp)](../solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp)
 - [O - Trinity (cpp)](../solutions/binary-search/O_Trinity.cpp)
 - [P - Devu and his Brother (cpp)](../solutions/ternary-search/P_Devu_and_his_Brother.cpp)

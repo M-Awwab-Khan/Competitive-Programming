@@ -1,0 +1,31 @@
+{
+  "name": "A. DSU with rollback",
+  "group": "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/A",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5 10\npersist\nunion 1 2\nunion 3 4\npersist\nunion 1 4\nunion 2 3\nrollback\nunion 4 5\nrollback\nunion 1 5\n",
+      "output": "4\n3\n2\n2\n3\n2\n5\n4\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ADSUWithRollback"
+    }
+  },
+  "batch": {
+    "id": "c149efc9-6d5e-4639-b849-31451c1612a5",
+    "size": 1
+  }
+}

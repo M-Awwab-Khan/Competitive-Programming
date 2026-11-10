@@ -53,8 +53,9 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Priority-queue greedy](priority-queue-greedy.md) | 4 |
 | [Topological order, indegree peeling, and DAG DP](topological-sort.md) | 4 |
 | [Ternary search on a unimodal function](ternary-search.md) | 4 |
-| [Divide and conquer on recursive structure](divide-and-conquer.md) | 3 |
+| [Divide and conquer on recursive structure](divide-and-conquer.md) | 4 |
 | [String matching: naive scans, library find, and KMP](string-matching.md) | 3 |
 | [Monotonic stack for nearest smaller or greater elements](monotonic-stack.md) | 2 |
 | [Bitmask DP](bitmask-dp.md) | 2 |
 | [Minimum and maximum spanning trees with Kruskal](minimum-spanning-tree.md) | 6 |
+| [Rollback DSU and offline connectivity](rollback-dsu.md) | 3 |

@@ -52,6 +52,7 @@
     {"id": "string-matching", "title": "String matching: naive scans, library find, and KMP", "path": "notes/patterns/string-matching.md"},
     {"id": "monotonic-stack", "title": "Monotonic stack for nearest smaller or greater elements", "path": "notes/patterns/monotonic-stack.md"},
     {"id": "bitmask-dp", "title": "Bitmask DP", "path": "notes/patterns/bitmask-dp.md"},
-    {"id": "minimum-spanning-tree", "title": "Minimum and maximum spanning trees with Kruskal", "path": "notes/patterns/minimum-spanning-tree.md"}
+    {"id": "minimum-spanning-tree", "title": "Minimum and maximum spanning trees with Kruskal", "path": "notes/patterns/minimum-spanning-tree.md"},
+    {"id": "rollback-dsu", "title": "Rollback DSU and offline connectivity", "path": "notes/patterns/rollback-dsu.md"}
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "name": "B. Number of Connected Components on Segments",
+  "group": "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 4000,
+  "tests": [
+    {
+      "input": "3 3\n1 2\n2 3\n1 3\n5\n1 1\n1 2\n2 3\n3 3\n1 3\n",
+      "output": "2\n1\n1\n2\n1\n"
+    },
+    {
+      "input": "8 6\n1 2\n2 3\n3 1\n3 4\n4 5\n5 3\n7\n3 5\n1 6\n1 4\n3 6\n2 4\n2 3\n5 6\n",
+      "output": "5\n4\n5\n5\n5\n6\n6\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BNumberOfConnectedComponentsOnSegments"
+    }
+  },
+  "batch": {
+    "id": "513d38d5-9abe-49bb-8c44-152b8fbe9b42",
+    "size": 1
+  }
+}

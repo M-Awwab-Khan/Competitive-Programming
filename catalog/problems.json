@@ -34598,6 +34598,115 @@
       "time_limit_ms": 2000,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "a7b848bc75b5449c",
+      "title": "DSU with rollback",
+      "path": "solutions/data-structures/disjoint-set/DSU_with_rollback.cpp",
+      "original_path": "practice/inbox/DSU_with_rollback/DSU_with_rollback.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289392A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "7d9163947f3bc33b647920b64c9b4cf447fc0b662a9ef3d6d56c41833f75e11e",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Rollback DSU without path compression: each union pushes (child root, old size) to a history stack; persist saves history size, rollback pops unions back to it. Limitation: unite does sz[x] += y instead of sz[y], so union by size no longer bounds depth (component counts stay correct).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "7d9163947f3bc33b647920b64c9b4cf447fc0b662a9ef3d6d56c41833f75e11e",
+      "observed_sha256": "7d9163947f3bc33b647920b64c9b4cf447fc0b662a9ef3d6d56c41833f75e11e",
+      "review_required": false,
+      "patterns": [
+        "rollback-dsu"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "c263c16b12f24c31",
+      "title": "Dynamic Connectivity Offline",
+      "path": "solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp",
+      "original_path": "practice/inbox/Dynamic_Connectivity_Offline/Dynamic_Connectivity_Offline.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289392C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "6c121fa2302d57baf1540fb82b4203672cd6d5852213da5f15df616caf784b3b",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set",
+        "data-structures/range-queries",
+        "recursion-and-divide-and-conquer"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Offline dynamic connectivity: each edge's alive interval [add, remove-1] is stored in segment-tree nodes over time; DFS unites a node's edges, answers '?' at leaves, then rolls the DSU back.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "6c121fa2302d57baf1540fb82b4203672cd6d5852213da5f15df616caf784b3b",
+      "observed_sha256": "6c121fa2302d57baf1540fb82b4203672cd6d5852213da5f15df616caf784b3b",
+      "review_required": false,
+      "patterns": [
+        "divide-and-conquer",
+        "rollback-dsu"
+      ],
+      "time_limit_ms": 4000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "c933bcb1e8084404",
+      "title": "Number of Connected Components on Segments",
+      "path": "solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp",
+      "original_path": "practice/inbox/Number_of_Connected_Components_on_Segments/Number_of_Connected_Components_on_Segments.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "289392B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Disjoint Sets Union - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "b47ac5e09e0ea91c76adab40886ccb3fc5d06e0b06cc5a0827116e35d54e3c0e",
+      "category": "data-structures/disjoint-set",
+      "tags": [
+        "data-structures/disjoint-set",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sqrt blocks on l, queries sorted by r: in-block queries brute force; others grow a persistent right part from the block end and add edges l..blockEnd on top, answer, then roll back.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "b47ac5e09e0ea91c76adab40886ccb3fc5d06e0b06cc5a0827116e35d54e3c0e",
+      "observed_sha256": "b47ac5e09e0ea91c76adab40886ccb3fc5d06e0b06cc5a0827116e35d54e3c0e",
+      "review_required": false,
+      "patterns": [
+        "rollback-dsu"
+      ],
+      "time_limit_ms": 4000,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

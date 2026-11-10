@@ -44,6 +44,7 @@
 - [Primes, sieves, and factorization](patterns/primes-sieve-and-factorization.md)
 - [Priority-queue greedy](patterns/priority-queue-greedy.md)
 - [Range query structures: Fenwick and segment trees](patterns/range-query-structures.md)
+- [Rollback DSU and offline connectivity](patterns/rollback-dsu.md)
 - [Shortest paths: BFS, 0-1 BFS, Dijkstra, Floyd-Warshall](patterns/shortest-paths.md)
 - [Simulation with cycle detection](patterns/simulation-with-cycle.md)
 - [Sort then greedy](patterns/sort-then-greedy.md)

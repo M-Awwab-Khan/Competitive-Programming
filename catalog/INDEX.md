@@ -1,6 +1,6 @@
 # Problem index
 
-1163 source files across 37 primary categories.
+1166 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -13,7 +13,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [bit-manipulation](#bit-manipulation) | 29 | Bitwise operations, XOR identities, and bit counting |
 | [brute-force-and-backtracking](#brute-force-and-backtracking) | 58 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 54 | Constructing a valid array, permutation, or arrangement |
-| [data-structures/disjoint-set](#data-structuresdisjoint-set) | 11 | Disjoint set union and component merging |
+| [data-structures/disjoint-set](#data-structuresdisjoint-set) | 14 | Disjoint set union and component merging |
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
 | [data-structures/ordered-sets](#data-structuresordered-sets) | 12 | Ordered sets, multisets, and order statistics |
 | [data-structures/range-queries](#data-structuresrange-queries) | 3 | Segment trees, Fenwick trees, and sparse tables |
@@ -371,8 +371,11 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [D. Roads not only in Berland — D_Roads_not_only_in_Berland.cpp](../solutions/data-structures/disjoint-set/D_Roads_not_only_in_Berland.cpp) | cpp | codeforces / 25D | data-structures/disjoint-set, graphs/spanning-trees | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [Disjoint Sets Union — Disjoint_Sets_Union.cpp](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union.cpp) | cpp | codeforces / 289390A | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [Disjoint Sets Union 2 — Disjoint_Sets_Union_2.cpp](../solutions/data-structures/disjoint-set/Disjoint_Sets_Union_2.cpp) | cpp | codeforces / 289390B | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
+| [DSU with rollback — DSU_with_rollback.cpp](../solutions/data-structures/disjoint-set/DSU_with_rollback.cpp) | cpp | codeforces / 289392A | data-structures/disjoint-set | reviewed | [Rollback DSU and offline connectivity](../notes/patterns/rollback-dsu.md) |
+| [Dynamic Connectivity Offline — Dynamic_Connectivity_Offline.cpp](../solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp) | cpp | codeforces / 289392C | data-structures/disjoint-set, data-structures/range-queries, recursion-and-divide-and-conquer | reviewed | [Divide and conquer on recursive structure](../notes/patterns/divide-and-conquer.md), [Rollback DSU and offline connectivity](../notes/patterns/rollback-dsu.md) |
 | [Experience — Experience.cpp](../solutions/data-structures/disjoint-set/Experience.cpp) | cpp | codeforces / 289390C | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [First Non-Bipartite Edge — First_Non-Bipartite_Edge.cpp](../solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp) | cpp | codeforces / 289391J | data-structures/disjoint-set, graphs/traversal | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
+| [Number of Connected Components on Segments — Number_of_Connected_Components_on_Segments.cpp](../solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp) | cpp | codeforces / 289392B | data-structures/disjoint-set, sorting-and-searching | reviewed | [Rollback DSU and offline connectivity](../notes/patterns/rollback-dsu.md) |
 | [Parking — Parking.cpp](../solutions/data-structures/disjoint-set/Parking.cpp) | cpp | codeforces / 289391B | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [People are leaving — People_are_leaving.cpp](../solutions/data-structures/disjoint-set/People_are_leaving.cpp) | cpp | codeforces / 289391A | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |
 | [Restructuring Company — Restructuring_Company.cpp](../solutions/data-structures/disjoint-set/Restructuring_Company.cpp) | cpp | codeforces / 289391C | data-structures/disjoint-set | reviewed | [Disjoint set union and its variants](../notes/patterns/dsu-variants.md) |

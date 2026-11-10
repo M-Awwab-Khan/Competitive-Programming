@@ -4,6 +4,24 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-10T17:58:11+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp → solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp: Sqrt blocks on l, queries sorted by r: in-block queries brute force; others grow a persistent right part from the block end and add edges l..blockEnd on top, answer, then roll back.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-10T17:58:10+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp → solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp: Offline dynamic connectivity: each edge's alive interval [add, remove-1] is stored in segment-tree nodes over time; DFS unites a node's edges, answers '?' at leaves, then rolls the DSU back.. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-10T17:58:10+00:00 — REVIEW
+
+- solutions/data-structures/disjoint-set/DSU_with_rollback.cpp → solutions/data-structures/disjoint-set/DSU_with_rollback.cpp: Rollback DSU without path compression: each union pushes (child root, old size) to a history stack; persist saves history size, rollback pops unions back to it. Limitation: unite does sz[x] += y instead of sz[y], so union by size no longer bounds depth (component counts stay correct).. Category: data-structures/disjoint-set; status: reviewed.
+
+## 2026-11-10T17:58:09+00:00 — INGEST
+
+- practice/inbox/DSU_with_rollback/DSU_with_rollback.cpp → solutions/data-structures/disjoint-set/DSU_with_rollback.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Dynamic_Connectivity_Offline/Dynamic_Connectivity_Offline.cpp → solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+- practice/inbox/Number_of_Connected_Components_on_Segments/Number_of_Connected_Components_on_Segments.cpp → solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp: Filed new source; classification remains a suggestion. Category: data-structures/disjoint-set; status: suggested.
+
 ## 2026-11-09T11:57:47+00:00 — REVIEW
 
 - solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp → solutions/data-structures/disjoint-set/First_Non-Bipartite_Edge.cpp: Parity DSU: xr[v] is colour relative to parent (compressed with xor); an edge inside a component with equal parity breaks bipartiteness, print its index.. Category: data-structures/disjoint-set; status: reviewed.

@@ -50,6 +50,7 @@ Links are generated from catalog associations; classifications do not establish 
 | Implementation | Category | Classification |
 | --- | --- | --- |
 | [atcoder christmas (cpp)](../../solutions/recursion-and-divide-and-conquer/atcoder-christmas.cpp) | recursion-and-divide-and-conquer | reviewed |
+| [Dynamic Connectivity Offline (cpp)](../../solutions/data-structures/disjoint-set/Dynamic_Connectivity_Offline.cpp) | data-structures/disjoint-set | reviewed |
 | [M Truckloads (cpp)](../../solutions/dynamic-programming/general/M_Truckloads.cpp) | dynamic-programming/general | reviewed |
 | [tower of hanoi (cpp)](../../solutions/recursion-and-divide-and-conquer/tower_of_hanoi.cpp) | recursion-and-divide-and-conquer | reviewed |
 
