@@ -34707,6 +34707,293 @@
       "time_limit_ms": 4000,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "f45b17f3cc794f05",
+      "title": "Avalanche",
+      "path": "solutions/games/Avalanche.cpp",
+      "original_path": "practice/inbox/Avalanche/Avalanche.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2290E",
+      "urls": [
+        "https://codeforces.com/contest/2290/problem/E"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1134 (Div. 4)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "840450a3ae6f0a0b4a7b725c2fbe3f83df5b7c3b30873f3e86a0654cedc056e8",
+      "category": "games",
+      "tags": [
+        "bit-manipulation",
+        "games",
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Scan piles right to left from the last positive one: a pile whose parity (a[j] xor active flips) is odd toggles the winner and flips the next k piles to the left, tracked as XOR events that expire at j+k+1.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "840450a3ae6f0a0b4a7b725c2fbe3f83df5b7c3b30873f3e86a0654cedc056e8",
+      "observed_sha256": "840450a3ae6f0a0b4a7b725c2fbe3f83df5b7c3b30873f3e86a0654cedc056e8",
+      "review_required": false,
+      "patterns": [
+        "game-theory",
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "15659aeef1964b78",
+      "title": "Books on a Shelf",
+      "path": "solutions/constructive/Books_on_a_Shelf.cpp",
+      "original_path": "practice/inbox/Books_on_a_Shelf/Books_on_a_Shelf.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2290C",
+      "urls": [
+        "https://codeforces.com/contest/2290/problem/C"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1134 (Div. 4)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "18f8544b6f64ae9b1d0873bcf76e8656e2e12c741f857329d14eca8ee5b0b875",
+      "category": "constructive",
+      "tags": [
+        "constructive",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort, then place values alternately at the left and right ends to form a mountain; count positions that are strict new maxima seen from the left or from the right, plus both ends.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "18f8544b6f64ae9b1d0873bcf76e8656e2e12c741f857329d14eca8ee5b0b875",
+      "observed_sha256": "18f8544b6f64ae9b1d0873bcf76e8656e2e12c741f857329d14eca8ee5b0b875",
+      "review_required": false,
+      "patterns": [
+        "constructive-small-cases",
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "e73f3527044c4718",
+      "title": "Letters Down",
+      "path": "solutions/strings/Letters_Down.cpp",
+      "original_path": "practice/inbox/Letters_Down/Letters_Down.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2290D",
+      "urls": [
+        "https://codeforces.com/contest/2290/problem/D"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1134 (Div. 4)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "9037d75603cf4cd288e87e6c04a37db32e2496d51f594dff3c359e36938201d4",
+      "category": "strings",
+      "tags": [
+        "greedy",
+        "strings"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "For c from z down to a: if some mirrored pair (i, n-1-i) has one side equal to c and the other smaller, decrement every c in the string and count one operation.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "9037d75603cf4cd288e87e6c04a37db32e2496d51f594dff3c359e36938201d4",
+      "observed_sha256": "9037d75603cf4cd288e87e6c04a37db32e2496d51f594dff3c359e36938201d4",
+      "review_required": false,
+      "patterns": [
+        "palindromes"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "b0b3f146d9964f6d",
+      "title": "Packing Rectangles",
+      "path": "solutions/binary-search/Packing_Rectangles.cpp",
+      "original_path": "practice/inbox/Packing_Rectangles/Packing_Rectangles.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283932A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "5cc55b0de323d81b57638a8d61aef3df2320a68158920f2907939ea75cd6e5dd",
+      "category": "binary-search",
+      "tags": [
+        "binary-search"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the square side; double hi until it fits, and check cols >= ceil(n / rows) instead of multiplying cols*rows to avoid overflow.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "5cc55b0de323d81b57638a8d61aef3df2320a68158920f2907939ea75cd6e5dd",
+      "observed_sha256": "5cc55b0de323d81b57638a8d61aef3df2320a68158920f2907939ea75cd6e5dd",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "240e3f4a454a406a",
+      "title": "Ropes",
+      "path": "solutions/binary-search/Ropes.cpp",
+      "original_path": "practice/inbox/Ropes/Ropes.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283932B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0b101adc62fcd1153549d8ff3df6274992958dae8a3c2307479917fc7d892135",
+      "category": "binary-search",
+      "tags": [
+        "binary-search"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Real-valued binary search on rope length: feasible if sum(floor(a[i] / len)) >= k; keep the largest feasible length until hi - lo < 1e-6.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0b101adc62fcd1153549d8ff3df6274992958dae8a3c2307479917fc7d892135",
+      "observed_sha256": "0b101adc62fcd1153549d8ff3df6274992958dae8a3c2307479917fc7d892135",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "e685f7a8eba14d4c",
+      "title": "Stubborn Pen",
+      "path": "solutions/simulation/Stubborn_Pen.cpp",
+      "original_path": "practice/inbox/Stubborn_Pen/Stubborn_Pen.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2290B",
+      "urls": [
+        "https://codeforces.com/contest/2290/problem/B"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1134 (Div. 4)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "81b57703de1d1f40c887769824112739d9e94d366decfe896336a14fffc4d738",
+      "category": "simulation",
+      "tags": [
+        "greedy",
+        "simulation"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Track the colour the pen would draw next (starts R, alternates each step); on a mismatch count one change and shift the phase so this position matches.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "81b57703de1d1f40c887769824112739d9e94d366decfe896336a14fffc4d738",
+      "observed_sha256": "81b57703de1d1f40c887769824112739d9e94d366decfe896336a14fffc4d738",
+      "review_required": false,
+      "patterns": [
+        "parity-and-invariants"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "c75c507823e346ed",
+      "title": "Three Piles",
+      "path": "solutions/math/arithmetic/Three_Piles.cpp",
+      "original_path": "practice/inbox/Three_Piles/Three_Piles.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2290A",
+      "urls": [
+        "https://codeforces.com/contest/2290/problem/A"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1134 (Div. 4)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "e9863bbddf49a0a380f5ebf3e2abc2d0e31d5fa52383fa6f75c4242ffe7948e3",
+      "category": "math/arithmetic",
+      "tags": [
+        "math/arithmetic",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort the three piles; YES exactly when they are consecutive integers (each adjacent difference is 1).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e9863bbddf49a0a380f5ebf3e2abc2d0e31d5fa52383fa6f75c4242ffe7948e3",
+      "observed_sha256": "e9863bbddf49a0a380f5ebf3e2abc2d0e31d5fa52383fa6f75c4242ffe7948e3",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "47f3477027404c80",
+      "title": "Very Easy Task",
+      "path": "solutions/binary-search/Very_Easy_Task.cpp",
+      "original_path": "practice/inbox/Very_Easy_Task/Very_Easy_Task.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283932C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "4e2d86a7db04c26a22ea755ca48b4b34f22ea3db276c789c3afa468f15310caf",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "math/arithmetic"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the time with x <= y: the first copy uses the faster copier, then both work, so copies(t) = t/x + (t - x)/y; find the smallest t with copies(t) >= n.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "4e2d86a7db04c26a22ea755ca48b4b34f22ea3db276c789c3afa468f15310caf",
+      "observed_sha256": "4e2d86a7db04c26a22ea755ca48b4b34f22ea3db276c789c3afa468f15310caf",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

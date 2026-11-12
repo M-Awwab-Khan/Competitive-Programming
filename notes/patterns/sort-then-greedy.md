@@ -72,6 +72,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [B. Collecting Game (cpp)](../../solutions/greedy/B_Collecting_Game.cpp) | greedy | reviewed |
 | [B. Equal Rectangles (python)](../../solutions/sorting-and-searching/B_Equal_Rectangles.py) | sorting-and-searching | reviewed |
 | [Balatro (cpp)](../../solutions/greedy/Balatro.cpp) | greedy | reviewed |
+| [Books on a Shelf (cpp)](../../solutions/constructive/Books_on_a_Shelf.cpp) | constructive | reviewed |
 | [bottles and gems (cpp)](../../solutions/greedy/bottles_and_gems.cpp) | greedy | reviewed |
 | [C Building Permutation (cpp)](../../solutions/greedy/C_Building_Permutation.cpp) | greedy | reviewed |
 | [C Photographer (cpp)](../../solutions/greedy/C_Photographer.cpp) | greedy | reviewed |

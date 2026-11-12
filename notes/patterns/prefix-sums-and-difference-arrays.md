@@ -61,6 +61,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [A-B Knapsack (cpp)](../../solutions/greedy/A-B_Knapsack.cpp) | greedy | reviewed |
 | [AH - And It's Non-Zero (cpp)](../../solutions/bit-manipulation/AH_And_It_s_Non_Zero.cpp) | bit-manipulation | reviewed |
 | [AJ - Data Structures Fan (cpp)](../../solutions/prefix-sums/AJ_Data_Structures_Fan.cpp) | prefix-sums | reviewed |
+| [Avalanche (cpp)](../../solutions/games/Avalanche.cpp) | games | reviewed |
 | [B Fence (cpp)](../../solutions/prefix-sums/B_Fence.cpp) | prefix-sums | reviewed |
 | [B Flip The Bits (cpp)](../../solutions/prefix-sums/B_Flip_The_Bits.cpp) | prefix-sums | reviewed |
 | [B Kuriyama Mirai s Stones (cpp)](../../solutions/prefix-sums/B_Kuriyama_Mirai_s_Stones.cpp) | prefix-sums | reviewed |

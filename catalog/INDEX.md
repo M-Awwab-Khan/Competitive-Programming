@@ -1,6 +1,6 @@
 # Problem index
 
-1166 source files across 37 primary categories.
+1174 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -9,10 +9,10 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Category | Files | Description |
 | --- | ---: | --- |
 | [arrays-and-counting](#arrays-and-counting) | 89 | Arrays, frequency counting, sets, and direct scans |
-| [binary-search](#binary-search) | 60 | Binary search on sorted data or a monotone answer |
+| [binary-search](#binary-search) | 63 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 29 | Bitwise operations, XOR identities, and bit counting |
 | [brute-force-and-backtracking](#brute-force-and-backtracking) | 58 | Enumeration, subset search, and backtracking |
-| [constructive](#constructive) | 54 | Constructing a valid array, permutation, or arrangement |
+| [constructive](#constructive) | 55 | Constructing a valid array, permutation, or arrangement |
 | [data-structures/disjoint-set](#data-structuresdisjoint-set) | 14 | Disjoint set union and component merging |
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
 | [data-structures/ordered-sets](#data-structuresordered-sets) | 12 | Ordered sets, multisets, and order statistics |
@@ -24,7 +24,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [dynamic-programming/kadane](#dynamic-programmingkadane) | 7 | Maximum subarray sums and Kadane style recurrences |
 | [dynamic-programming/knapsack](#dynamic-programmingknapsack) | 19 | Subset sum, coin change, and knapsack states |
 | [dynamic-programming/sequences](#dynamic-programmingsequences) | 9 | Subsequence and string dynamic programming |
-| [games](#games) | 7 | Winning states, parity games, and strategy |
+| [games](#games) | 8 | Winning states, parity games, and strategy |
 | [geometry](#geometry) | 35 | Coordinates, distances, intersections, and areas |
 | [graphs/shortest-paths](#graphsshortest-paths) | 4 | Shortest path and breadth first distance problems |
 | [graphs/spanning-trees](#graphsspanning-trees) | 6 | Minimum or maximum spanning trees |
@@ -32,16 +32,16 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [graphs/traversal](#graphstraversal) | 14 | Graph search, components, grids, and reachability |
 | [greedy](#greedy) | 141 | Local choices, scheduling, and exchange arguments |
 | [intervals](#intervals) | 6 | Interval overlap, coverage, and endpoint constraints |
-| [math/arithmetic](#matharithmetic) | 117 | Formulas, parity, digit arithmetic, and algebra |
+| [math/arithmetic](#matharithmetic) | 118 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 22 | Combinatorial counting, factorials, and binomial coefficients |
 | [math/number-theory](#mathnumber-theory) | 70 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 5 | Enumerate two halves and combine their results |
 | [needs-review](#needs-review) | 11 | Insufficient evidence for a specific pattern |
 | [prefix-sums](#prefix-sums) | 54 | Prefix/suffix aggregates, differences, and prefix sum hashing |
 | [recursion-and-divide-and-conquer](#recursion-and-divide-and-conquer) | 5 | Recursive decomposition and divide and conquer |
-| [simulation](#simulation) | 80 | Direct simulation of rules, grids, and processes |
+| [simulation](#simulation) | 81 | Direct simulation of rules, grids, and processes |
 | [sorting-and-searching](#sorting-and-searching) | 59 | Sorting, rank queries, and sorted order reasoning |
-| [strings](#strings) | 54 | String matching, parsing, and character transformations |
+| [strings](#strings) | 55 | String matching, parsing, and character transformations |
 | [ternary-search](#ternary-search) | 4 | Searching a unimodal function |
 | [trees](#trees) | 9 | Tree traversal, subtree queries, and tree properties |
 | [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 58 | Moving boundaries, fixed/variable windows, and merging |
@@ -194,9 +194,11 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [moobuzz — moobuzz.cpp](../solutions/binary-search/moobuzz.cpp) | cpp | unknown | binary-search, math/arithmetic | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [O - Cat, Fox and the Lonely Array — O_Cat_Fox_and_the_Lonely_Array.cpp](../solutions/binary-search/O_Cat_Fox_and_the_Lonely_Array.cpp) | cpp | vjudge / contest-688791-O | binary-search, bit-manipulation, two-pointers-and-sliding-window | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Per-bit reasoning](../notes/patterns/per-bit-reasoning.md) |
 | [O - Trinity — O_Trinity.cpp](../solutions/binary-search/O_Trinity.cpp) | cpp | vjudge / contest-688796-O | binary-search, sorting-and-searching | reviewed | [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
+| [Packing Rectangles — Packing_Rectangles.cpp](../solutions/binary-search/Packing_Rectangles.cpp) | cpp | codeforces / 283932A | binary-search | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [poinsnoned dagger — poinsnoned_dagger.py](../solutions/binary-search/poinsnoned_dagger.py) | python | unknown | binary-search | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [Rameez And The Missing Numbers — Rameez_And_The_Missing_Numbers.cpp](../solutions/binary-search/Rameez_And_The_Missing_Numbers.cpp) | cpp | unknown | binary-search, math/number-theory | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [roots — roots.py](../solutions/binary-search/roots.py) | python | unknown | binary-search, math/arithmetic, sorting-and-searching | reviewed | [Parity and operation invariants](../notes/patterns/parity-and-invariants.md), [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
+| [Ropes — Ropes.cpp](../solutions/binary-search/Ropes.cpp) | cpp | codeforces / 283932B | binary-search | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [T - Set — T_Set.cpp](../solutions/binary-search/T_Set.cpp) | cpp | vjudge / contest-688794-T | binary-search, math/arithmetic | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [The Wave — The_Wave.cpp](../solutions/binary-search/The_Wave.cpp) | cpp | unknown | binary-search, math/arithmetic, sorting-and-searching | reviewed | [Parity and operation invariants](../notes/patterns/parity-and-invariants.md), [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
 | [TripTastic — TripTastic.cpp](../solutions/binary-search/TripTastic.cpp) | cpp | codechef / TRPTSTIC | binary-search, prefix-sums | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
@@ -204,6 +206,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [utpc 3 11 e — utpc-3-11-e.cpp](../solutions/binary-search/utpc-3-11-e.cpp) | cpp | unknown | binary-search | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [uva smallfactors — uva-smallfactors.cpp](../solutions/binary-search/uva-smallfactors.cpp) | cpp | uva | binary-search, data-structures/ordered-sets, math/number-theory | reviewed | [Ordered-set queries](../notes/patterns/ordered-set-queries.md) |
 | [uva throughthedesert — uva-throughthedesert.cpp](../solutions/binary-search/uva-throughthedesert.cpp) | cpp | uva | binary-search, simulation | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
+| [Very Easy Task — Very_Easy_Task.cpp](../solutions/binary-search/Very_Easy_Task.cpp) | cpp | codeforces / 283932C | binary-search, math/arithmetic | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 
 ## bit-manipulation
 
@@ -334,6 +337,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [B. Alternating Series — B_Alternating_Series.cpp](../solutions/constructive/B_Alternating_Series.cpp) | cpp | codeforces / 2131B | constructive | reviewed | [Constructive answers from small cases](../notes/patterns/constructive-small-cases.md) |
 | [B. Sequence Game — B_Sequence_Game.cpp](../solutions/constructive/B_Sequence_Game.cpp) | cpp | codeforces / 1862B | constructive | reviewed | [Constructive answers from small cases](../notes/patterns/constructive-small-cases.md) |
 | [B. Vera And LCS — B_Vera_And_LCS.py](../solutions/constructive/B_Vera_And_LCS.py) | python | codeforces / gym-101262-B | constructive, greedy, strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md) |
+| [Books on a Shelf — Books_on_a_Shelf.cpp](../solutions/constructive/Books_on_a_Shelf.cpp) | cpp | codeforces / 2290C | constructive, sorting-and-searching | reviewed | [Constructive answers from small cases](../notes/patterns/constructive-small-cases.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Breach of Faith — Breach_of_Faith.cpp](../solutions/constructive/Breach_of_Faith.cpp) | cpp | unknown | constructive, sorting-and-searching | reviewed |  |
 | [C Creating Keys for StORages Has Become My Main Skill — C_Creating_Keys_for_StORages_Has_Become_My_Main_Skill.cpp](../solutions/constructive/C_Creating_Keys_for_StORages_Has_Become_My_Main_Skill.cpp) | cpp | unknown | bit-manipulation, constructive | reviewed | [Per-bit reasoning](../notes/patterns/per-bit-reasoning.md) |
 | [C Differential Sorting — C_Differential_Sorting.cpp](../solutions/constructive/C_Differential_Sorting.cpp) | cpp | unknown | constructive | reviewed | [Constructive answers from small cases](../notes/patterns/constructive-small-cases.md) |
@@ -535,6 +539,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | --- | --- | --- | --- | --- | --- |
 | [A Game of chocolates — A_Game_of_chocolates.py](../solutions/games/A_Game_of_chocolates.py) | python | unknown | games, math/number-theory | reviewed | [Game theory: winning and losing states](../notes/patterns/game-theory.md) |
 | [A Two Frogs — A_Two_Frogs.cpp](../solutions/games/A_Two_Frogs.cpp) | cpp | unknown | games, math/arithmetic | reviewed | [Game theory: winning and losing states](../notes/patterns/game-theory.md), [Parity and operation invariants](../notes/patterns/parity-and-invariants.md) |
+| [Avalanche — Avalanche.cpp](../solutions/games/Avalanche.cpp) | cpp | codeforces / 2290E | bit-manipulation, games, prefix-sums | reviewed | [Game theory: winning and losing states](../notes/patterns/game-theory.md), [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [B Little Girl and Game — B_Little_Girl_and_Game.cpp](../solutions/games/B_Little_Girl_and_Game.cpp) | cpp | unknown | games, simulation, strings | reviewed | [Game theory: winning and losing states](../notes/patterns/game-theory.md), [Palindromes: counts, pairs, and two-ended scans](../notes/patterns/palindromes.md) |
 | [B Simple Game — B_Simple_Game.cpp](../solutions/games/B_Simple_Game.cpp) | cpp | unknown | games, math/arithmetic | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [C. Kero ! Kero ! El3ab ya Kero ! — C_Kero_Kero_El_3_ab_ya_Kero.cpp](../solutions/games/C_Kero_Kero_El_3_ab_ya_Kero.cpp) | cpp | codeforces / gym-106350-C | games, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
@@ -893,6 +898,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [summing digits — summing-digits.cpp](../solutions/math/arithmetic/summing-digits.cpp) | cpp | unknown | math/arithmetic | reviewed | [Digit manipulation](../notes/patterns/digit-manipulation.md), [Modular arithmetic](../notes/patterns/modular-arithmetic.md) |
 | [T Savings — T_Savings.cpp](../solutions/math/arithmetic/T_Savings.cpp) | cpp | unknown | math/arithmetic | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [tarifa — tarifa.cpp](../solutions/math/arithmetic/tarifa.cpp) | cpp | unknown | math/arithmetic, simulation | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
+| [Three Piles — Three_Piles.cpp](../solutions/math/arithmetic/Three_Piles.cpp) | cpp | codeforces / 2290A | math/arithmetic, sorting-and-searching | reviewed |  |
 | [time travelling temperatures — time-travelling-temperatures.cpp](../solutions/math/arithmetic/time-travelling-temperatures.cpp) | cpp | unknown | math/arithmetic | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [tlx tilinggame — tlx-tilinggame.cpp](../solutions/math/arithmetic/tlx-tilinggame.cpp) | cpp | tlx | math/arithmetic | reviewed |  |
 | [traffic lights — traffic-lights.cpp](../references/model-solutions/math/arithmetic/traffic-lights.cpp) | cpp | unknown | math/arithmetic | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
@@ -1162,6 +1168,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Problem 3. Swapity Swap — Problem_3_Swapity_Swap.cpp](../solutions/simulation/Problem_3_Swapity_Swap.cpp) | cpp | usaco / cpid-1013 | simulation | reviewed | [Simulation with cycle detection](../notes/patterns/simulation-with-cycle.md) |
 | [rotate mat — rotate-mat.py](../solutions/simulation/rotate-mat.py) | python | unknown | simulation | reviewed |  |
 | [Shell Game — Shell_Game.cpp](../solutions/simulation/Shell_Game.cpp) | cpp | eolymp / 10329 | simulation | reviewed |  |
+| [Stubborn Pen — Stubborn_Pen.cpp](../solutions/simulation/Stubborn_Pen.cpp) | cpp | codeforces / 2290B | greedy, simulation | reviewed | [Parity and operation invariants](../notes/patterns/parity-and-invariants.md) |
 | [stuck in a timeloop — stuck_in_a_timeloop.cpp](../solutions/simulation/stuck_in_a_timeloop.cpp) | cpp | unknown | simulation | reviewed |  |
 | [team tic tac toe — team-tic-tac-toe.py](../solutions/simulation/team-tic-tac-toe.py) | python | unknown | simulation, strings | reviewed |  |
 | [USACO Angry Cows — USACO_Angry_Cows.cpp](../solutions/simulation/USACO_Angry_Cows.cpp) | cpp | usaco | brute-force-and-backtracking, simulation, sorting-and-searching | reviewed |  |
@@ -1299,6 +1306,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [kattis peasoup pancakes — kattis-peasoup-pancakes.cpp](../solutions/strings/kattis-peasoup-pancakes.cpp) | cpp | kattis | strings | reviewed |  |
 | [kmp — kmp.py](../solutions/strings/kmp.py) | python | unknown | strings | reviewed | [String matching: naive scans, library find, and KMP](../notes/patterns/string-matching.md) |
 | [language detection — language_detection.cpp](../solutions/strings/language_detection.cpp) | cpp | unknown | strings | reviewed |  |
+| [Letters Down — Letters_Down.cpp](../solutions/strings/Letters_Down.cpp) | cpp | codeforces / 2290D | greedy, strings | reviewed | [Palindromes: counts, pairs, and two-ended scans](../notes/patterns/palindromes.md) |
 | [P Polycarp and the Day of Pi — P_Polycarp_and_the_Day_of_Pi.cpp](../solutions/strings/P_Polycarp_and_the_Day_of_Pi.cpp) | cpp | unknown | strings | reviewed |  |
 | [palindrome reorder — palindrome_reorder.cpp](../solutions/strings/palindrome_reorder.cpp) | cpp | unknown | constructive, strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md), [Palindromes: counts, pairs, and two-ended scans](../notes/patterns/palindromes.md) |
 | [registration system — registration_system.py](../solutions/strings/registration_system.py) | python | unknown | arrays-and-counting, strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md) |

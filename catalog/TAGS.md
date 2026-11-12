@@ -141,7 +141,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## binary-search
 
-87 files
+90 files
 
 - [1 (python)](../solutions/sorting-and-searching/1.py)
 - [A Drink Accordingly (cpp)](../solutions/sorting-and-searching/A_Drink_Accordingly.cpp)
@@ -220,9 +220,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [moobuzz (cpp)](../solutions/binary-search/moobuzz.cpp)
 - [O - Cat, Fox and the Lonely Array (cpp)](../solutions/binary-search/O_Cat_Fox_and_the_Lonely_Array.cpp)
 - [O - Trinity (cpp)](../solutions/binary-search/O_Trinity.cpp)
+- [Packing Rectangles (cpp)](../solutions/binary-search/Packing_Rectangles.cpp)
 - [poinsnoned dagger (python)](../solutions/binary-search/poinsnoned_dagger.py)
 - [Rameez And The Missing Numbers (cpp)](../solutions/binary-search/Rameez_And_The_Missing_Numbers.cpp)
 - [roots (python)](../solutions/binary-search/roots.py)
+- [Ropes (cpp)](../solutions/binary-search/Ropes.cpp)
 - [T - Set (cpp)](../solutions/binary-search/T_Set.cpp)
 - [The Wave (cpp)](../solutions/binary-search/The_Wave.cpp)
 - [TripTastic (cpp)](../solutions/binary-search/TripTastic.cpp)
@@ -230,10 +232,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [utpc 3 11 e (cpp)](../solutions/binary-search/utpc-3-11-e.cpp)
 - [uva smallfactors (cpp)](../solutions/binary-search/uva-smallfactors.cpp)
 - [uva throughthedesert (cpp)](../solutions/binary-search/uva-throughthedesert.cpp)
+- [Very Easy Task (cpp)](../solutions/binary-search/Very_Easy_Task.cpp)
 
 ## bit-manipulation
 
-64 files
+65 files
 
 - [A - Flipping bits (cpp)](../solutions/bit-manipulation/A_Flipping_bits.cpp)
 - [A And Zero (cpp)](../solutions/bit-manipulation/A_And_Zero.cpp)
@@ -247,6 +250,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [AJ - Data Structures Fan (cpp)](../solutions/prefix-sums/AJ_Data_Structures_Fan.cpp)
 - [Alya And Permutation (cpp)](../solutions/constructive/Alya_And_Permutation.cpp)
 - [apple division (cpp)](../solutions/brute-force-and-backtracking/apple_division.cpp)
+- [Avalanche (cpp)](../solutions/games/Avalanche.cpp)
 - [B - B (cpp)](../solutions/brute-force-and-backtracking/B_B.cpp)
 - [B - Check bit (cpp)](../solutions/bit-manipulation/B_Check_bit.cpp)
 - [B Fedor and New Game (cpp)](../solutions/bit-manipulation/B_Fedor_and_New_Game.cpp)
@@ -388,7 +392,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## constructive
 
-77 files
+78 files
 
 - [A Array Divisibility (cpp)](../solutions/constructive/A_Array_Divisibility.cpp)
 - [A Boys and Girls (cpp)](../solutions/constructive/A_Boys_and_Girls.cpp)
@@ -427,6 +431,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Heapify 1 (cpp)](../solutions/trees/B_Heapify_1.cpp)
 - [B. Sequence Game (cpp)](../solutions/constructive/B_Sequence_Game.cpp)
 - [B. Vera And LCS (python)](../solutions/constructive/B_Vera_And_LCS.py)
+- [Books on a Shelf (cpp)](../solutions/constructive/Books_on_a_Shelf.cpp)
 - [Breach of Faith (cpp)](../solutions/constructive/Breach_of_Faith.cpp)
 - [C Creating Keys for StORages Has Become My Main Skill (cpp)](../solutions/constructive/C_Creating_Keys_for_StORages_Has_Become_My_Main_Skill.cpp)
 - [C Differential Sorting (cpp)](../solutions/constructive/C_Differential_Sorting.cpp)
@@ -695,10 +700,11 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## games
 
-12 files
+13 files
 
 - [A Game of chocolates (python)](../solutions/games/A_Game_of_chocolates.py)
 - [A Two Frogs (cpp)](../solutions/games/A_Two_Frogs.cpp)
+- [Avalanche (cpp)](../solutions/games/Avalanche.cpp)
 - [B Little Girl and Game (cpp)](../solutions/games/B_Little_Girl_and_Game.cpp)
 - [B Simple Game (cpp)](../solutions/games/B_Simple_Game.cpp)
 - [C. Kero ! Kero ! El3ab ya Kero ! (cpp)](../solutions/games/C_Kero_Kero_El_3_ab_ya_Kero.cpp)
@@ -834,7 +840,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## greedy
 
-200 files
+202 files
 
 - [A - A (cpp)](../solutions/two-pointers-and-sliding-window/A_A.cpp)
 - [A - Very Different Array (cpp)](../solutions/greedy/A_Very_Different_Array.cpp)
@@ -1005,6 +1011,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [kayaking (python)](../solutions/brute-force-and-backtracking/kayaking.py)
 - [Kousuke Assignment (cpp)](../solutions/prefix-sums/Kousuke_Assignment.cpp)
 - [kruskal (cpp)](../solutions/graphs/spanning-trees/kruskal.cpp)
+- [Letters Down (cpp)](../solutions/strings/Letters_Down.cpp)
 - [maximum median (cpp)](../solutions/binary-search/maximum_median.cpp)
 - [maximum nonoverlapping segments (cpp)](../solutions/greedy/maximum-nonoverlapping-segments.cpp)
 - [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum.cpp)
@@ -1018,6 +1025,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [quiz forming teams (python)](../solutions/greedy/quiz_forming_teams.py)
 - [sellstocks (python)](../solutions/greedy/sellstocks.py)
 - [songs compression (python)](../solutions/greedy/songs_compression.py)
+- [Stubborn Pen (cpp)](../solutions/simulation/Stubborn_Pen.cpp)
 - [The Third Side (cpp)](../solutions/greedy/The_Third_Side.cpp)
 - [troc runningforpresident (cpp)](../solutions/math/arithmetic/troc-runningforpresident.cpp)
 - [two sets (cpp)](../solutions/constructive/two-sets.cpp)
@@ -1061,7 +1069,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## math/arithmetic
 
-204 files
+206 files
 
 - [A - Between a and b ... (cpp)](../solutions/math/arithmetic/A_Between_a_and_b.cpp)
 - [A - Keep the Apples (cpp)](../solutions/math/arithmetic/A_Keep_the_Apples.cpp)
@@ -1249,6 +1257,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [test (python)](../solutions/math/number-theory/test.py)
 - [The Third Side (cpp)](../solutions/greedy/The_Third_Side.cpp)
 - [The Wave (cpp)](../solutions/binary-search/The_Wave.cpp)
+- [Three Piles (cpp)](../solutions/math/arithmetic/Three_Piles.cpp)
 - [time travelling temperatures (cpp)](../solutions/math/arithmetic/time-travelling-temperatures.cpp)
 - [tlx tilinggame (cpp)](../solutions/math/arithmetic/tlx-tilinggame.cpp)
 - [traffic lights (cpp)](../references/model-solutions/math/arithmetic/traffic-lights.cpp)
@@ -1263,6 +1272,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [uva luckythief (cpp)](../solutions/math/arithmetic/uva-luckythief.cpp)
 - [uva tariffplan (cpp)](../solutions/math/arithmetic/uva-tariffplan.cpp)
 - [uva tennisrounds (cpp)](../solutions/simulation/uva-tennisrounds.cpp)
+- [Very Easy Task (cpp)](../solutions/binary-search/Very_Easy_Task.cpp)
 - [watermelon (python)](../solutions/math/arithmetic/watermelon.py)
 - [weird algo (cpp)](../solutions/simulation/weird-algo.cpp)
 - [X - Profitable Interest Rate (cpp)](../solutions/math/arithmetic/X_Profitable_Interest_Rate.cpp)
@@ -1430,7 +1440,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## prefix-sums
 
-86 files
+87 files
 
 - [A Appleman and Toastman (cpp)](../solutions/greedy/A_Appleman_and_Toastman.cpp)
 - [A Dividing Candies (cpp)](../solutions/prefix-sums/A_Dividing_Candies.cpp)
@@ -1438,6 +1448,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [A. Line Breaks (cpp)](../solutions/greedy/A_Line_Breaks.cpp)
 - [AH - And It's Non-Zero (cpp)](../solutions/bit-manipulation/AH_And_It_s_Non_Zero.cpp)
 - [AJ - Data Structures Fan (cpp)](../solutions/prefix-sums/AJ_Data_Structures_Fan.cpp)
+- [Avalanche (cpp)](../solutions/games/Avalanche.cpp)
 - [B Fence (cpp)](../solutions/prefix-sums/B_Fence.cpp)
 - [B Flip The Bits (cpp)](../solutions/prefix-sums/B_Flip_The_Bits.cpp)
 - [B Kuriyama Mirai s Stones (cpp)](../solutions/prefix-sums/B_Kuriyama_Mirai_s_Stones.cpp)
@@ -1540,7 +1551,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## simulation
 
-105 files
+106 files
 
 - [10978 - Let's Play Magic! (python)](../solutions/simulation/10978_Let_s_Play_Magic.py)
 - [A - Gift Exchange (cpp)](../solutions/simulation/A_Gift_Exchange.cpp)
@@ -1614,6 +1625,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Problem 3. Swapity Swap (cpp)](../solutions/simulation/Problem_3_Swapity_Swap.cpp)
 - [rotate mat (python)](../solutions/simulation/rotate-mat.py)
 - [Shell Game (cpp)](../solutions/simulation/Shell_Game.cpp)
+- [Stubborn Pen (cpp)](../solutions/simulation/Stubborn_Pen.cpp)
 - [stuck in a timeloop (cpp)](../solutions/simulation/stuck_in_a_timeloop.cpp)
 - [tarifa (cpp)](../solutions/math/arithmetic/tarifa.cpp)
 - [team tic tac toe (python)](../solutions/simulation/team-tic-tac-toe.py)
@@ -1650,7 +1662,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-199 files
+201 files
 
 - [1 (python)](../solutions/sorting-and-searching/1.py)
 - [11222 Only I did it (python)](../solutions/arrays-and-counting/11222_Only_I_did_it.py)
@@ -1707,6 +1719,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Vanya and Lanterns (cpp)](../solutions/binary-search/B_Vanya_and_Lanterns.cpp)
 - [balanced team (python)](../solutions/two-pointers-and-sliding-window/balanced_team.py)
 - [Balatro (cpp)](../solutions/greedy/Balatro.cpp)
+- [Books on a Shelf (cpp)](../solutions/constructive/Books_on_a_Shelf.cpp)
 - [bottles and gems (cpp)](../solutions/greedy/bottles_and_gems.cpp)
 - [Breach of Faith (cpp)](../solutions/constructive/Breach_of_Faith.cpp)
 - [building reconstruction (cpp)](../solutions/ternary-search/building_reconstruction.cpp)
@@ -1837,6 +1850,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [test2 (cpp)](../solutions/math/number-theory/test2.cpp)
 - [The Third Side (cpp)](../solutions/greedy/The_Third_Side.cpp)
 - [The Wave (cpp)](../solutions/binary-search/The_Wave.cpp)
+- [Three Piles (cpp)](../solutions/math/arithmetic/Three_Piles.cpp)
 - [tournament (cpp)](../solutions/sorting-and-searching/tournament.cpp)
 - [USACO Angry Cows (cpp)](../solutions/simulation/USACO_Angry_Cows.cpp)
 - [USACO Cow College (cpp)](../solutions/sorting-and-searching/USACO_Cow_College.cpp)
@@ -1854,7 +1868,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## strings
 
-138 files
+139 files
 
 - [A - ABC -> AC (python)](../solutions/strings/A_ABC_AC.py)
 - [A - Repdigit (cpp)](../solutions/math/arithmetic/A_Repdigit.cpp)
@@ -1964,6 +1978,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [L JUMP (cpp)](../solutions/dynamic-programming/general/L_JUMP.cpp)
 - [L Recursive Digit Sum (cpp)](../solutions/math/number-theory/L_Recursive_Digit_Sum.cpp)
 - [language detection (cpp)](../solutions/strings/language_detection.cpp)
+- [Letters Down (cpp)](../solutions/strings/Letters_Down.cpp)
 - [love calculator (cpp)](../solutions/math/arithmetic/love-calculator.cpp)
 - [M Balanced Shuffle Easy (cpp)](../solutions/sorting-and-searching/M_Balanced_Shuffle_Easy.cpp)
 - [Nikita and string (cpp)](../solutions/dynamic-programming/sequences/Nikita_and_string.cpp)

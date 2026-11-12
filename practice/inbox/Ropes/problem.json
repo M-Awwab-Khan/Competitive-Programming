@@ -1,0 +1,31 @@
+{
+  "name": "B. Ropes",
+  "group": "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2",
+  "url": "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "4 11\n802\n743\n457\n539\n",
+      "output": "200.5\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BRopes"
+    }
+  },
+  "batch": {
+    "id": "6a2eb8ec-282f-4758-8a09-3070d609888e",
+    "size": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "D. Letters Down",
+  "group": "Codeforces - Codeforces Round 1134 (Div. 4)",
+  "url": "https://codeforces.com/contest/2290/problem/D",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5\n4\nabca\n4\nabdc\n7\nracecar\n4\ncbad\n4\nzaza\n",
+      "output": "1\n3\n0\n2\n25\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DLettersDown"
+    }
+  },
+  "batch": {
+    "id": "ea42005f-bea3-4fc8-b802-b6199004d3ee",
+    "size": 1
+  }
+}

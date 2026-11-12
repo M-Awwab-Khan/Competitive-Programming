@@ -4,6 +4,49 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-12T17:57:24+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Three_Piles.cpp → solutions/math/arithmetic/Three_Piles.cpp: Sort the three piles; YES exactly when they are consecutive integers (each adjacent difference is 1).. Category: math/arithmetic; status: reviewed.
+
+## 2026-11-12T17:57:23+00:00 — REVIEW
+
+- solutions/needs-review/Stubborn_Pen.cpp → solutions/simulation/Stubborn_Pen.cpp: Track the colour the pen would draw next (starts R, alternates each step); on a mismatch count one change and shift the phase so this position matches.. Category: simulation; status: reviewed.
+
+## 2026-11-12T17:57:23+00:00 — REVIEW
+
+- solutions/binary-search/Very_Easy_Task.cpp → solutions/binary-search/Very_Easy_Task.cpp: Binary search the time with x <= y: the first copy uses the faster copier, then both work, so copies(t) = t/x + (t - x)/y; find the smallest t with copies(t) >= n.. Category: binary-search; status: reviewed.
+
+## 2026-11-12T17:57:23+00:00 — REVIEW
+
+- solutions/binary-search/Ropes.cpp → solutions/binary-search/Ropes.cpp: Real-valued binary search on rope length: feasible if sum(floor(a[i] / len)) >= k; keep the largest feasible length until hi - lo < 1e-6.. Category: binary-search; status: reviewed.
+
+## 2026-11-12T17:57:22+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Packing_Rectangles.cpp → solutions/binary-search/Packing_Rectangles.cpp: Binary search the square side; double hi until it fits, and check cols >= ceil(n / rows) instead of multiplying cols*rows to avoid overflow.. Category: binary-search; status: reviewed.
+
+## 2026-11-12T17:57:22+00:00 — REVIEW
+
+- solutions/strings/Letters_Down.cpp → solutions/strings/Letters_Down.cpp: For c from z down to a: if some mirrored pair (i, n-1-i) has one side equal to c and the other smaller, decrement every c in the string and count one operation.. Category: strings; status: reviewed.
+
+## 2026-11-12T17:57:21+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Books_on_a_Shelf.cpp → solutions/constructive/Books_on_a_Shelf.cpp: Sort, then place values alternately at the left and right ends to form a mountain; count positions that are strict new maxima seen from the left or from the right, plus both ends.. Category: constructive; status: reviewed.
+
+## 2026-11-12T17:57:21+00:00 — REVIEW
+
+- solutions/bit-manipulation/Avalanche.cpp → solutions/games/Avalanche.cpp: Scan piles right to left from the last positive one: a pile whose parity (a[j] xor active flips) is odd toggles the winner and flips the next k piles to the left, tracked as XOR events that expire at j+k+1.. Category: games; status: reviewed.
+
+## 2026-11-12T17:57:20+00:00 — INGEST
+
+- practice/inbox/Avalanche/Avalanche.cpp → solutions/bit-manipulation/Avalanche.cpp: Filed new source; classification remains a suggestion. Category: bit-manipulation; status: suggested.
+- practice/inbox/Books_on_a_Shelf/Books_on_a_Shelf.cpp → solutions/sorting-and-searching/Books_on_a_Shelf.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Letters_Down/Letters_Down.cpp → solutions/strings/Letters_Down.cpp: Filed new source; classification remains a suggestion. Category: strings; status: suggested.
+- practice/inbox/Packing_Rectangles/Packing_Rectangles.cpp → solutions/arrays-and-counting/Packing_Rectangles.cpp: Filed new source; classification remains a suggestion. Category: arrays-and-counting; status: suggested.
+- practice/inbox/Ropes/Ropes.cpp → solutions/binary-search/Ropes.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Stubborn_Pen/Stubborn_Pen.cpp → solutions/needs-review/Stubborn_Pen.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Three_Piles/Three_Piles.cpp → solutions/sorting-and-searching/Three_Piles.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Very_Easy_Task/Very_Easy_Task.cpp → solutions/binary-search/Very_Easy_Task.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+
 ## 2026-11-10T17:58:11+00:00 — REVIEW
 
 - solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp → solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp: Sqrt blocks on l, queries sorted by r: in-block queries brute force; others grow a persistent right part from the block end and add edges l..blockEnd on top, answer, then roll back.. Category: data-structures/disjoint-set; status: reviewed.

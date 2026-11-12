@@ -52,6 +52,7 @@ Links are generated from catalog associations; classifications do not establish 
 | --- | --- | --- |
 | [A Game of chocolates (python)](../../solutions/games/A_Game_of_chocolates.py) | games | reviewed |
 | [A Two Frogs (cpp)](../../solutions/games/A_Two_Frogs.cpp) | games | reviewed |
+| [Avalanche (cpp)](../../solutions/games/Avalanche.cpp) | games | reviewed |
 | [B Little Girl and Game (cpp)](../../solutions/games/B_Little_Girl_and_Game.cpp) | games | reviewed |
 | [cses removalgame (cpp)](../../solutions/dynamic-programming/intervals/cses-removalgame.cpp) | dynamic-programming/intervals | reviewed |
 | [K - Stones (cpp)](../../solutions/games/K_Stones.cpp) | games | reviewed |

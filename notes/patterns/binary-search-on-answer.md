@@ -16,6 +16,10 @@ For the largest feasible integer, keep the best feasible midpoint and search abo
 
 If checking a candidate costs `T(n)` and the candidate range has width `R`, the search costs `O(T(n) log R)`, plus preprocessing such as sorting.
 
+When no safe upper bound is obvious, start with a small `hi` and double it until `check(hi)` holds; this costs only `O(log answer)` extra checks. If the check compares a product with a target (`(side / w) * (side / h) >= n`), compare `cols >= ceil(n / rows)` instead so nothing overflows.
+
+For a real-valued answer (a length, a time), keep `lo` infeasible and `hi` feasible (or the reverse) and run a fixed number of iterations, for example 100, instead of `while (hi - lo > eps)`. A fixed count always terminates and gives relative precision even when the answer is large.
+
 ## Common mistakes
 
 - Binary searching a predicate that is not monotone.
@@ -69,12 +73,15 @@ Links are generated from catalog associations; classifications do not establish 
 | [maximum median (cpp)](../../solutions/binary-search/maximum_median.cpp) | binary-search | reviewed |
 | [moobuzz (cpp)](../../solutions/binary-search/moobuzz.cpp) | binary-search | reviewed |
 | [O - Cat, Fox and the Lonely Array (cpp)](../../solutions/binary-search/O_Cat_Fox_and_the_Lonely_Array.cpp) | binary-search | reviewed |
+| [Packing Rectangles (cpp)](../../solutions/binary-search/Packing_Rectangles.cpp) | binary-search | reviewed |
 | [poinsnoned dagger (python)](../../solutions/binary-search/poinsnoned_dagger.py) | binary-search | reviewed |
 | [Rameez And The Missing Numbers (cpp)](../../solutions/binary-search/Rameez_And_The_Missing_Numbers.cpp) | binary-search | reviewed |
+| [Ropes (cpp)](../../solutions/binary-search/Ropes.cpp) | binary-search | reviewed |
 | [T - Set (cpp)](../../solutions/binary-search/T_Set.cpp) | binary-search | reviewed |
 | [TripTastic (cpp)](../../solutions/binary-search/TripTastic.cpp) | binary-search | reviewed |
 | [utpc 3 11 a (cpp)](../../solutions/binary-search/utpc-3-11-a.cpp) | binary-search | reviewed |
 | [utpc 3 11 e (cpp)](../../solutions/binary-search/utpc-3-11-e.cpp) | binary-search | reviewed |
 | [uva throughthedesert (cpp)](../../solutions/binary-search/uva-throughthedesert.cpp) | binary-search | reviewed |
+| [Very Easy Task (cpp)](../../solutions/binary-search/Very_Easy_Task.cpp) | binary-search | reviewed |
 
 <!-- examples:end -->

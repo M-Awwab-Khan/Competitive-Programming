@@ -60,6 +60,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [C Grandma Capa Knits A Scarf (cpp)](../../solutions/two-pointers-and-sliding-window/C_Grandma_Capa_Knits_A_Scarf.cpp) | two-pointers-and-sliding-window | reviewed |
 | [cf notquiteapalindromicstring (cpp)](../../solutions/strings/cf_notquiteapalindromicstring.cpp) | strings | reviewed |
 | [D. Palindromes Coloring (cpp)](../../solutions/strings/D_Palindromes_Coloring.cpp) | strings | reviewed |
+| [Letters Down (cpp)](../../solutions/strings/Letters_Down.cpp) | strings | reviewed |
 | [palindrome reorder (cpp)](../../solutions/strings/palindrome_reorder.cpp) | strings | reviewed |
 
 <!-- examples:end -->

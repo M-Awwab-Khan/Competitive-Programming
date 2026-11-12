@@ -71,6 +71,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [B Weird Function (cpp)](../../solutions/constructive/B_Weird_Function.cpp) | constructive | reviewed |
 | [B. Alternating Series (cpp)](../../solutions/constructive/B_Alternating_Series.cpp) | constructive | reviewed |
 | [B. Sequence Game (cpp)](../../solutions/constructive/B_Sequence_Game.cpp) | constructive | reviewed |
+| [Books on a Shelf (cpp)](../../solutions/constructive/Books_on_a_Shelf.cpp) | constructive | reviewed |
 | [C Differential Sorting (cpp)](../../solutions/constructive/C_Differential_Sorting.cpp) | constructive | reviewed |
 | [C Make Them Equal (cpp)](../../solutions/greedy/C_Make_Them_Equal.cpp) | greedy | reviewed |
 | [C Max Non Attacking Knights (cpp)](../../solutions/math/arithmetic/C_Max_Non_Attacking_Knights.cpp) | math/arithmetic | reviewed |

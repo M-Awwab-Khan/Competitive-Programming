@@ -94,6 +94,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [parity sort (python)](../../solutions/sorting-and-searching/parity_sort.py) | sorting-and-searching | reviewed |
 | [roots (python)](../../solutions/binary-search/roots.py) | binary-search | reviewed |
 | [secret message (cpp)](../../solutions/strings/secret-message.cpp) | strings | reviewed |
+| [Stubborn Pen (cpp)](../../solutions/simulation/Stubborn_Pen.cpp) | simulation | reviewed |
 | [The Wave (cpp)](../../solutions/binary-search/The_Wave.cpp) | binary-search | reviewed |
 | [two sets (cpp)](../../solutions/constructive/two-sets.cpp) | constructive | reviewed |
 | [USACO Even More Odd Photos (cpp)](../../solutions/greedy/USACO_Even_More_Odd_Photos.cpp) | greedy | reviewed |
