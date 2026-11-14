@@ -107,6 +107,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [movie festival (cpp)](../../solutions/greedy/movie_festival.cpp) | greedy | reviewed |
 | [Oil business (cpp)](../../solutions/graphs/spanning-trees/Oil_business.cpp) | graphs/spanning-trees | reviewed |
 | [paint numbers (python)](../../solutions/greedy/paint_numbers.py) | greedy | reviewed |
+| [Pair Selection (cpp)](../../solutions/binary-search/Pair_Selection.cpp) | binary-search | reviewed |
 | [sellstocks (python)](../../solutions/greedy/sellstocks.py) | greedy | reviewed |
 | [songs compression (python)](../../solutions/greedy/songs_compression.py) | greedy | reviewed |
 | [USACO Why Did the Cow Cross the Road III (cpp)](../../solutions/simulation/USACO_Why_Did_the_Cow_Cross_the_Road_III.cpp) | simulation | reviewed |

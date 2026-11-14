@@ -1,7 +1,7 @@
 {
-  "total_entries": 1174,
+  "total_entries": 1185,
   "roles": {
-    "solution": 1169,
+    "solution": 1180,
     "reference": 1,
     "algorithm": 4
   },
@@ -12,7 +12,7 @@
     "bit-manipulation": 29,
     "math/arithmetic": 118,
     "math/combinatorics": 22,
-    "binary-search": 63,
+    "binary-search": 74,
     "brute-force-and-backtracking": 58,
     "prefix-sums": 54,
     "constructive": 55,
@@ -45,11 +45,11 @@
     "data-structures/heaps": 1
   },
   "classifications": {
-    "reviewed": 1163,
+    "reviewed": 1174,
     "needs-review": 11
   },
   "implementations": {
-    "not-verified": 1164,
+    "not-verified": 1175,
     "empty-or-template": 10
   },
   "sources_changed_since_classification": 0

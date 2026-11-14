@@ -34994,6 +34994,406 @@
       "time_limit_ms": 2000,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "96b2f8d4c97e48b9",
+      "title": "Children Holiday",
+      "path": "solutions/binary-search/Children_Holiday.cpp",
+      "original_path": "practice/inbox/Children_Holiday/Children_Holiday.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283932D",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/D"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "2c5eb06c2c10bfec810b89acb6cc55d7adea6ebbff8bb4dc00345fce679bee0b",
+      "category": "binary-search",
+      "tags": [
+        "binary-search"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the time, doubling hi first; balloons by one helper = z*(time / (t*z + y)) + min(remainder / t, z); then hand out counts greedily up to m.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "2c5eb06c2c10bfec810b89acb6cc55d7adea6ebbff8bb4dc00345fce679bee0b",
+      "observed_sha256": "2c5eb06c2c10bfec810b89acb6cc55d7adea6ebbff8bb4dc00345fce679bee0b",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer",
+        "closed-form-arithmetic"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "aeac0f971cd8453b",
+      "title": "Cows in Stalls",
+      "path": "solutions/binary-search/Cows_in_Stalls.cpp",
+      "original_path": "practice/inbox/Cows_in_Stalls/Cows_in_Stalls.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285083C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/3/practice/contest/285083/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "d9f99d430716cbd1776a4b7697901a38f065b3e0de29abe266dcad1b6e7066e1",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "greedy"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Maximise the minimum distance: binary search d and greedily place a cow in each stall at least d after the previous one; feasible if k cows fit.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "d9f99d430716cbd1776a4b7697901a38f065b3e0de29abe266dcad1b6e7066e1",
+      "observed_sha256": "d9f99d430716cbd1776a4b7697901a38f065b3e0de29abe266dcad1b6e7066e1",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "579572c419f746cc",
+      "title": "Equation",
+      "path": "solutions/binary-search/Equation.cpp",
+      "original_path": "practice/inbox/Equation/Equation.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283932E",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/E"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "cbe35c5fcbb5c911dfbe3f3398f4a59f1f340cab371ff3a614cf667a4658878b",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "math/arithmetic"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Real-valued binary search for x with x^2 + sqrt(x) = C on [0, C], using that the left side increases; loops until hi - lo < 1e-6.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "cbe35c5fcbb5c911dfbe3f3398f4a59f1f340cab371ff3a614cf667a4658878b",
+      "observed_sha256": "cbe35c5fcbb5c911dfbe3f3398f4a59f1f340cab371ff3a614cf667a4658878b",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "167ad5dccbad4e83",
+      "title": "Get together",
+      "path": "solutions/binary-search/Get_together.cpp",
+      "original_path": "practice/inbox/Get_together/Get_together.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285083A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/3/practice/contest/285083/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "3432c2117e6fdbd0f778357a0b713776526f1551a38949e23af11765ec3fed38",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "geometry"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Real binary search on time t (100 iterations): each person can reach [x - t*v, x + t*v]; feasible if all intervals intersect (max left <= min right).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "3432c2117e6fdbd0f778357a0b713776526f1551a38949e23af11765ec3fed38",
+      "observed_sha256": "3432c2117e6fdbd0f778357a0b713776526f1551a38949e23af11765ec3fed38",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "f3c82fe5267a42f3",
+      "title": "Hamburgers",
+      "path": "solutions/binary-search/Hamburgers.cpp",
+      "original_path": "practice/inbox/Hamburgers/Hamburgers.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283932H",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/H"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "3c066e0f6d1ed89d20ebc342522498329abe0f1a9da115e09ed42b2bad023778",
+      "category": "binary-search",
+      "tags": [
+        "binary-search"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the number of burgers (doubling hi first): cost = sum over ingredients of price * max(0, need*x - stock); feasible if cost <= rubles.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "3c066e0f6d1ed89d20ebc342522498329abe0f1a9da115e09ed42b2bad023778",
+      "observed_sha256": "3c066e0f6d1ed89d20ebc342522498329abe0f1a9da115e09ed42b2bad023778",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "f3bbf86d121a446a",
+      "title": "Maximum Average Segment",
+      "path": "solutions/binary-search/Maximum_Average_Segment.cpp",
+      "original_path": "practice/inbox/Maximum_Average_Segment/Maximum_Average_Segment.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285069A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/4/practice/contest/285069/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 4"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "5fd3ec0f5ea8b65c6051ff570ca79388957fa3bfaccd13549c67e79540e1f7c0",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the average x: subtract x from all values; a segment of length >= k with average >= x exists if some prefix[end] >= min prefix[0..end-k]; recover l, r from the final check.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "5fd3ec0f5ea8b65c6051ff570ca79388957fa3bfaccd13549c67e79540e1f7c0",
+      "observed_sha256": "5fd3ec0f5ea8b65c6051ff570ca79388957fa3bfaccd13549c67e79540e1f7c0",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer",
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "ac97e3a895ec435b",
+      "title": "Minimum Average Path",
+      "path": "solutions/binary-search/Minimum_Average_Path.cpp",
+      "original_path": "practice/inbox/Minimum_Average_Path/Minimum_Average_Path.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285069B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/4/practice/contest/285069/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 4"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "e2db649564c5027673b5046b50efd7bceeb469618330e3ec876433eacac033ee",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "dynamic-programming/general",
+        "graphs/topological-sort"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the average x: shortest path from 1 to n on the DAG (topological-order DP) with edge weights w - x is <= 0; rebuild the path from parent pointers.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e2db649564c5027673b5046b50efd7bceeb469618330e3ec876433eacac033ee",
+      "observed_sha256": "e2db649564c5027673b5046b50efd7bceeb469618330e3ec876433eacac033ee",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer",
+        "topological-sort"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "d8c21d6ff0ee4d7a",
+      "title": "Minimum maximum on the Path",
+      "path": "solutions/binary-search/Minimum_maximum_on_the_Path.cpp",
+      "original_path": "practice/inbox/Minimum_maximum_on_the_Path/Minimum_maximum_on_the_Path.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285083D",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/3/practice/contest/285083/problem/D"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "e603431b70ca20cacfdf7bb000c17a0afe5c8d32fe78c6d744c7140f92c81b6d",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "graphs/traversal"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the largest allowed edge weight x: BFS from 1 using only edges with w <= x and check that n is reached within d edges; print the BFS path.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e603431b70ca20cacfdf7bb000c17a0afe5c8d32fe78c6d744c7140f92c81b6d",
+      "observed_sha256": "e603431b70ca20cacfdf7bb000c17a0afe5c8d32fe78c6d744c7140f92c81b6d",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer",
+        "graph-bfs-dfs"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "1db840b7eca0419d",
+      "title": "Pair Selection",
+      "path": "solutions/binary-search/Pair_Selection.cpp",
+      "original_path": "practice/inbox/Pair_Selection/Pair_Selection.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285069C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/4/practice/contest/285069/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 4"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "fb8a8b844155eb692d5a4e98fb6785df0c2d1f8b17e48be6fde3bdef96fbf706",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Maximise sum a / sum b over k pairs: binary search ratio x, sort a_i - x*b_i descending and check whether the top k sum to >= 0.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "fb8a8b844155eb692d5a4e98fb6785df0c2d1f8b17e48be6fde3bdef96fbf706",
+      "observed_sha256": "fb8a8b844155eb692d5a4e98fb6785df0c2d1f8b17e48be6fde3bdef96fbf706",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer",
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "6689ac480be047a0",
+      "title": "Splitting an Array",
+      "path": "solutions/binary-search/Splitting_an_Array.cpp",
+      "original_path": "practice/inbox/Splitting_an_Array/Splitting_an_Array.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285083B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/3/practice/contest/285083/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 3"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "2acd74b63ab13fab8dcb91de00d9c5161cd2348669ea6e20718d354513bbc541",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "greedy"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Minimise the largest segment sum: binary search the cap x and greedily start a new segment when the next element would exceed x; feasible if at most k segments.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "2acd74b63ab13fab8dcb91de00d9c5161cd2348669ea6e20718d354513bbc541",
+      "observed_sha256": "2acd74b63ab13fab8dcb91de00d9c5161cd2348669ea6e20718d354513bbc541",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "a29b16f7f3384c60",
+      "title": "Student Councils",
+      "path": "solutions/binary-search/Student_Councils.cpp",
+      "original_path": "practice/inbox/Student_Councils/Student_Councils.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283932G",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/G"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 2"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "3a91738eb7d51c7564d3863f14f28352fcbd10d1bd85fe97f81f650d888671e7",
+      "category": "binary-search",
+      "tags": [
+        "binary-search"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the number of councils x: each group contributes min(size, x) members (at most one per council), so feasible when sum min(a_i, x) >= x*k.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "3a91738eb7d51c7564d3863f14f28352fcbd10d1bd85fe97f81f650d888671e7",
+      "observed_sha256": "3a91738eb7d51c7564d3863f14f28352fcbd10d1bd85fe97f81f650d888671e7",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 500,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

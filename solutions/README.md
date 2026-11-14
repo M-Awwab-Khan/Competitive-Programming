@@ -5,7 +5,7 @@
 | Category | Solutions |
 | --- | ---: |
 | [arrays-and-counting](arrays-and-counting/) | 89 |
-| [binary-search](binary-search/) | 63 |
+| [binary-search](binary-search/) | 74 |
 | [bit-manipulation](bit-manipulation/) | 29 |
 | [brute-force-and-backtracking](brute-force-and-backtracking/) | 58 |
 | [constructive](constructive/) | 55 |

@@ -66,6 +66,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [H. Mad City (cpp)](../../solutions/graphs/traversal/H_Mad_City.cpp) | graphs/traversal | reviewed |
 | [I Count Simple Paths (cpp)](../../solutions/graphs/traversal/I_Count_Simple_Paths.cpp) | graphs/traversal | reviewed |
 | [longest path (cpp)](../../solutions/graphs/traversal/longest_path.cpp) | graphs/traversal | reviewed |
+| [Minimum maximum on the Path (cpp)](../../solutions/binary-search/Minimum_maximum_on_the_Path.cpp) | binary-search | reviewed |
 | [q6 (cpp)](../../solutions/graphs/shortest-paths/q6.cpp) | graphs/shortest-paths | reviewed |
 | [q6 (python)](../../solutions/graphs/shortest-paths/q6.py) | graphs/shortest-paths | reviewed |
 

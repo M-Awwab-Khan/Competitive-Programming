@@ -108,6 +108,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [K - Counting Test (cpp)](../../solutions/prefix-sums/K_Counting_Test.cpp) | prefix-sums | reviewed |
 | [Karen and Coffee (cpp)](../../solutions/prefix-sums/Karen_and_Coffee.cpp) | prefix-sums | reviewed |
 | [M - Candies (cpp)](../../solutions/dynamic-programming/knapsack/M_Candies.cpp) | dynamic-programming/knapsack | reviewed |
+| [Maximum Average Segment (cpp)](../../solutions/binary-search/Maximum_Average_Segment.cpp) | binary-search | reviewed |
 | [maximum sum (python)](../../solutions/prefix-sums/maximum_sum.py) | prefix-sums | reviewed |
 | [N - Slimes (cpp)](../../solutions/dynamic-programming/intervals/N_Slimes.cpp) | dynamic-programming/intervals | reviewed |
 | [Prefix Sum Addicts (cpp)](../../solutions/prefix-sums/Prefix_Sum_Addicts.cpp) | prefix-sums | reviewed |

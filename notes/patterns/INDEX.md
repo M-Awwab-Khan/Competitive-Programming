@@ -8,17 +8,17 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | --- | ---: |
 | [Pair counting with inclusion-exclusion](pair-counting-inclusion-exclusion.md) | 10 |
 | [Counting selections with binomial coefficients](binomial-counting.md) | 12 |
-| [Binary search on the answer](binary-search-on-answer.md) | 44 |
+| [Binary search on the answer](binary-search-on-answer.md) | 55 |
 | [Prefix sums with a frequency map](prefix-sum-frequency-map.md) | 12 |
 | [Monotonic deque](monotonic-deque.md) | 5 |
 | [Interval dynamic programming](interval-dp.md) | 4 |
 | [Two-pointer window over a monotone condition](two-pointer-window.md) | 58 |
 | [Queue with an aggregate built from two stacks](two-stack-aggregate-queue.md) | 3 |
 | [Disjoint set union and its variants](dsu-variants.md) | 14 |
-| [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 124 |
+| [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 125 |
 | [Frequency tables and distinct-value counting](frequency-table.md) | 93 |
-| [Sort then greedy](sort-then-greedy.md) | 62 |
-| [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 61 |
+| [Sort then greedy](sort-then-greedy.md) | 63 |
+| [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 62 |
 | [Parity and operation invariants](parity-and-invariants.md) | 54 |
 | [Constructive answers from small cases](constructive-small-cases.md) | 38 |
 | [Sorted lookup with binary search](sorted-lookup.md) | 35 |
@@ -37,7 +37,7 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [XOR properties and cancellation](xor-properties.md) | 13 |
 | [Simulation with cycle detection](simulation-with-cycle.md) | 13 |
 | [Backtracking and exhaustive recursion](backtracking-recursion.md) | 12 |
-| [Graph traversal with BFS and DFS](graph-bfs-dfs.md) | 10 |
+| [Graph traversal with BFS and DFS](graph-bfs-dfs.md) | 11 |
 | [Grid traversal and neighbourhood scans](grid-traversal.md) | 9 |
 | [Kadane maximum subarray](kadane-max-subarray.md) | 9 |
 | [Contribution technique](contribution-technique.md) | 8 |
@@ -51,7 +51,7 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [LIS and subsequence DP](lis-and-sequence-dp.md) | 5 |
 | [Palindromes: counts, pairs, and two-ended scans](palindromes.md) | 6 |
 | [Priority-queue greedy](priority-queue-greedy.md) | 4 |
-| [Topological order, indegree peeling, and DAG DP](topological-sort.md) | 4 |
+| [Topological order, indegree peeling, and DAG DP](topological-sort.md) | 5 |
 | [Ternary search on a unimodal function](ternary-search.md) | 4 |
 | [Divide and conquer on recursive structure](divide-and-conquer.md) | 4 |
 | [String matching: naive scans, library find, and KMP](string-matching.md) | 3 |

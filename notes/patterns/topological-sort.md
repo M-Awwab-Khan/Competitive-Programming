@@ -58,5 +58,6 @@ Links are generated from catalog associations; classifications do not establish 
 | [cses gameroutes (cpp)](../../solutions/dynamic-programming/general/cses-gameroutes.cpp) | dynamic-programming/general | reviewed |
 | [find permutation (cpp)](../../solutions/graphs/topological-sort/find_permutation.cpp) | graphs/topological-sort | reviewed |
 | [H. Mad City (cpp)](../../solutions/graphs/traversal/H_Mad_City.cpp) | graphs/traversal | reviewed |
+| [Minimum Average Path (cpp)](../../solutions/binary-search/Minimum_Average_Path.cpp) | binary-search | reviewed |
 
 <!-- examples:end -->

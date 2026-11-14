@@ -1,0 +1,31 @@
+{
+  "name": "C. Cows in Stalls",
+  "group": "Codeforces - ITMO Academy: pilot course - Binary Search - Step 3",
+  "url": "https://codeforces.com/edu/course/2/lesson/6/3/practice/contest/285083/problem/C",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "6 3\n2 5 7 11 15 20\n",
+      "output": "9\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CCowsInStalls"
+    }
+  },
+  "batch": {
+    "id": "39424911-df21-46e4-8fc0-056b9d518af8",
+    "size": 1
+  }
+}

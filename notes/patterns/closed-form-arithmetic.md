@@ -130,6 +130,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [cf fun (cpp)](../../solutions/brute-force-and-backtracking/cf-fun.cpp) | brute-force-and-backtracking | reviewed |
 | [cf kthnondivisible (cpp)](../../solutions/math/arithmetic/cf-kthnondivisible.cpp) | math/arithmetic | reviewed |
 | [cf newmenewarray (cpp)](../../solutions/math/arithmetic/cf-newmenewarray.cpp) | math/arithmetic | reviewed |
+| [Children Holiday (cpp)](../../solutions/binary-search/Children_Holiday.cpp) | binary-search | reviewed |
 | [coin piles (cpp)](../../solutions/math/arithmetic/coin_piles.cpp) | math/arithmetic | reviewed |
 | [cses readingbooks (cpp)](../../solutions/greedy/cses-readingbooks.cpp) | greedy | reviewed |
 | [D - Circle Lattice Points (python)](../../solutions/geometry/D_Circle_Lattice_Points.py) | geometry | reviewed |

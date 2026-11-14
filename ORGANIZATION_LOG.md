@@ -4,6 +4,64 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-14T17:17:17+00:00 — REVIEW
+
+- solutions/binary-search/Student_Councils.cpp → solutions/binary-search/Student_Councils.cpp: Binary search the number of councils x: each group contributes min(size, x) members (at most one per council), so feasible when sum min(a_i, x) >= x*k.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:17+00:00 — REVIEW
+
+- solutions/binary-search/Splitting_an_Array.cpp → solutions/binary-search/Splitting_an_Array.cpp: Minimise the largest segment sum: binary search the cap x and greedily start a new segment when the next element would exceed x; feasible if at most k segments.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:16+00:00 — REVIEW
+
+- solutions/graphs/traversal/Minimum_maximum_on_the_Path.cpp → solutions/binary-search/Minimum_maximum_on_the_Path.cpp: Binary search the largest allowed edge weight x: BFS from 1 using only edges with w <= x and check that n is reached within d edges; print the BFS path.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:16+00:00 — REVIEW
+
+- solutions/dynamic-programming/general/Minimum_Average_Path.cpp → solutions/binary-search/Minimum_Average_Path.cpp: Binary search the average x: shortest path from 1 to n on the DAG (topological-order DP) with edge weights w - x is <= 0; rebuild the path from parent pointers.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:16+00:00 — REVIEW
+
+- solutions/binary-search/Pair_Selection.cpp → solutions/binary-search/Pair_Selection.cpp: Maximise sum a / sum b over k pairs: binary search ratio x, sort a_i - x*b_i descending and check whether the top k sum to >= 0.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:15+00:00 — REVIEW
+
+- solutions/binary-search/Maximum_Average_Segment.cpp → solutions/binary-search/Maximum_Average_Segment.cpp: Binary search the average x: subtract x from all values; a segment of length >= k with average >= x exists if some prefix[end] >= min prefix[0..end-k]; recover l, r from the final check.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:15+00:00 — REVIEW
+
+- solutions/binary-search/Hamburgers.cpp → solutions/binary-search/Hamburgers.cpp: Binary search the number of burgers (doubling hi first): cost = sum over ingredients of price * max(0, need*x - stock); feasible if cost <= rubles.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:14+00:00 — REVIEW
+
+- solutions/binary-search/Get_together.cpp → solutions/binary-search/Get_together.cpp: Real binary search on time t (100 iterations): each person can reach [x - t*v, x + t*v]; feasible if all intervals intersect (max left <= min right).. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:14+00:00 — REVIEW
+
+- solutions/binary-search/Cows_in_Stalls.cpp → solutions/binary-search/Cows_in_Stalls.cpp: Maximise the minimum distance: binary search d and greedily place a cow in each stall at least d after the previous one; feasible if k cows fit.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:13+00:00 — REVIEW
+
+- solutions/binary-search/Children_Holiday.cpp → solutions/binary-search/Children_Holiday.cpp: Binary search the time, doubling hi first; balloons by one helper = z*(time / (t*z + y)) + min(remainder / t, z); then hand out counts greedily up to m.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:12+00:00 — REVIEW
+
+- solutions/binary-search/Equation.cpp → solutions/binary-search/Equation.cpp: Real-valued binary search for x with x^2 + sqrt(x) = C on [0, C], using that the left side increases; loops until hi - lo < 1e-6.. Category: binary-search; status: reviewed.
+
+## 2026-11-14T17:17:12+00:00 — INGEST
+
+- practice/inbox/Children_Holiday/Children_Holiday.cpp → solutions/binary-search/Children_Holiday.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Cows_in_Stalls/Cows_in_Stalls.cpp → solutions/binary-search/Cows_in_Stalls.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Equation/Equation.cpp → solutions/binary-search/Equation.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Get_together/Get_together.cpp → solutions/binary-search/Get_together.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Hamburgers/Hamburgers.cpp → solutions/binary-search/Hamburgers.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Maximum_Average_Segment/Maximum_Average_Segment.cpp → solutions/binary-search/Maximum_Average_Segment.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Minimum_Average_Path/Minimum_Average_Path.cpp → solutions/dynamic-programming/general/Minimum_Average_Path.cpp: Filed new source; classification remains a suggestion. Category: dynamic-programming/general; status: suggested.
+- practice/inbox/Minimum_maximum_on_the_Path/Minimum_maximum_on_the_Path.cpp → solutions/graphs/traversal/Minimum_maximum_on_the_Path.cpp: Filed new source; classification remains a suggestion. Category: graphs/traversal; status: suggested.
+- practice/inbox/Pair_Selection/Pair_Selection.cpp → solutions/binary-search/Pair_Selection.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Splitting_an_Array/Splitting_an_Array.cpp → solutions/binary-search/Splitting_an_Array.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Student_Councils/Student_Councils.cpp → solutions/binary-search/Student_Councils.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+
 ## 2026-11-12T17:57:24+00:00 — REVIEW
 
 - solutions/sorting-and-searching/Three_Piles.cpp → solutions/math/arithmetic/Three_Piles.cpp: Sort the three piles; YES exactly when they are consecutive integers (each adjacent difference is 1).. Category: math/arithmetic; status: reviewed.
