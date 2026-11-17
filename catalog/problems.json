@@ -35394,6 +35394,625 @@
       "time_limit_ms": 500,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "a49737e5f1634e89",
+      "title": "Apartments",
+      "path": "solutions/two-pointers-and-sliding-window/Apartments.cpp",
+      "original_path": "practice/inbox/Apartments/Apartments.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392N",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/N"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "a8b57582043c5bf8ad56cb32fd19ea9abca11cf95f4bd8a0991c23da8ff0c2c2",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "greedy",
+        "sorting-and-searching",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort applicants and apartments; two pointers: skip an apartment below a[i]-k, skip an applicant whose range lies below b[j], otherwise match both.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "a8b57582043c5bf8ad56cb32fd19ea9abca11cf95f4bd8a0991c23da8ff0c2c2",
+      "observed_sha256": "a8b57582043c5bf8ad56cb32fd19ea9abca11cf95f4bd8a0991c23da8ff0c2c2",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy",
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "a1400973aa0f48e0",
+      "title": "Bracket Subsequence",
+      "path": "solutions/data-structures/stacks-and-queues/Bracket_Subsequence.cpp",
+      "original_path": "practice/inbox/Bracket_Subsequence/Bracket_Subsequence.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392A",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/A"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "a10cb51bb6deaa0e2a3301bbcb510ffd92fa1d04bc09a1db60d1a3569706d081",
+      "category": "data-structures/stacks-and-queues",
+      "tags": [
+        "data-structures/stacks-and-queues",
+        "strings"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Match each ')' with the nearest unmatched '(' on a stack, record both indices, then sort them and print the matched characters as a regular subsequence.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "a10cb51bb6deaa0e2a3301bbcb510ffd92fa1d04bc09a1db60d1a3569706d081",
+      "observed_sha256": "a10cb51bb6deaa0e2a3301bbcb510ffd92fa1d04bc09a1db60d1a3569706d081",
+      "review_required": false,
+      "patterns": [
+        "stack-matching"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "e42af6ea05f44236",
+      "title": "Car Fueling",
+      "path": "solutions/greedy/Car_Fueling.cpp",
+      "original_path": "practice/inbox/Car_Fueling/Car_Fueling.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392M",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/M"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "d707a348ecfa9e5aa19318557b6c45253d22f1e041e0b587226634704ab88e1a",
+      "category": "greedy",
+      "tags": [
+        "greedy"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Drive station to station with sentinels 0 and d; refuel only when the tank cannot reach the next stop, and print -1 if a full tank still cannot.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "d707a348ecfa9e5aa19318557b6c45253d22f1e041e0b587226634704ab88e1a",
+      "observed_sha256": "d707a348ecfa9e5aa19318557b6c45253d22f1e041e0b587226634704ab88e1a",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "1f92f8fe482f4b39",
+      "title": "Cheese",
+      "path": "solutions/greedy/Cheese.cpp",
+      "original_path": "practice/inbox/Cheese/Cheese.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392B",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/B"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "df15042ba9c8c49b7a32a26b10af6f2ecc533f841629c6b62c68c70eb0115a11",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Fractional take: sort cheeses by price per unit descending and take min(w, amount) of each until the bag is full.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "df15042ba9c8c49b7a32a26b10af6f2ecc533f841629c6b62c68c70eb0115a11",
+      "observed_sha256": "df15042ba9c8c49b7a32a26b10af6f2ecc533f841629c6b62c68c70eb0115a11",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "4570c68db8c44076",
+      "title": "Ferris Wheel",
+      "path": "solutions/greedy/Ferris_Wheel.cpp",
+      "original_path": "practice/inbox/Ferris_Wheel/Ferris_Wheel.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392D",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/D"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "7fc179265588aebaeef7a9accda94e0eaf14a20dab279ba6d9ece46285d1aeb6",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort weights; the heaviest child always takes a gondola, pairing with the lightest remaining child if the two fit within x.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "7fc179265588aebaeef7a9accda94e0eaf14a20dab279ba6d9ece46285d1aeb6",
+      "observed_sha256": "7fc179265588aebaeef7a9accda94e0eaf14a20dab279ba6d9ece46285d1aeb6",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy",
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "8db2a3baae854a42",
+      "title": "High Card Wins",
+      "path": "solutions/greedy/High_Card_Wins.cpp",
+      "original_path": "practice/inbox/High_Card_Wins/High_Card_Wins.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392C",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/C"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "50a9d18792a9a566a51d85752bb92b05eb6bcf79dedafcc6c58152b37cb61f3f",
+      "category": "greedy",
+      "tags": [
+        "data-structures/ordered-sets",
+        "greedy"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Your cards are the complement of the opponent's in 1..2n; for each opponent card in increasing order, beat it with the smallest larger card (set upper_bound) and erase it.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "50a9d18792a9a566a51d85752bb92b05eb6bcf79dedafcc6c58152b37cb61f3f",
+      "observed_sha256": "50a9d18792a9a566a51d85752bb92b05eb6bcf79dedafcc6c58152b37cb61f3f",
+      "review_required": false,
+      "patterns": [
+        "ordered-set-queries",
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "29f93069ceb84132",
+      "title": "Islands War",
+      "path": "solutions/intervals/Islands_War.cpp",
+      "original_path": "practice/inbox/Islands_War/Islands_War.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392F",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/F"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "9e667296a379f3e5e90439f576a985a5b26a77a8b0168794e3a163e9f3c2ee5c",
+      "category": "intervals",
+      "tags": [
+        "greedy",
+        "intervals"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort requests by right end; cut at the current right end and skip every request starting before it; count the cuts.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "9e667296a379f3e5e90439f576a985a5b26a77a8b0168794e3a163e9f3c2ee5c",
+      "observed_sha256": "9e667296a379f3e5e90439f576a985a5b26a77a8b0168794e3a163e9f3c2ee5c",
+      "review_required": false,
+      "patterns": [
+        "interval-scheduling-and-sweep"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "a2b7233284904ed6",
+      "title": "K-th Number in the Union of Segments",
+      "path": "solutions/binary-search/K-th_Number_in_the_Union_of_Segments.cpp",
+      "original_path": "practice/inbox/K-th_Number_in_the_Union_of_Segments/K-th_Number_in_the_Union_of_Segments.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285084A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/5/practice/contest/285084/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 5"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "320470494775d3206f1c6e8ceb933e5f71c1bfcb35ac6ebe76da3286fd12a0dd",
+      "category": "binary-search",
+      "tags": [
+        "binary-search"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the value x: count numbers < x across all segments as sum(min(r+1, x) - l); the answer is the largest x with count <= k (0-indexed).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "320470494775d3206f1c6e8ceb933e5f71c1bfcb35ac6ebe76da3286fd12a0dd",
+      "observed_sha256": "320470494775d3206f1c6e8ceb933e5f71c1bfcb35ac6ebe76da3286fd12a0dd",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer"
+      ],
+      "time_limit_ms": 500,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "74fa4863d93c4470",
+      "title": "K-th Sum",
+      "path": "solutions/binary-search/K-th_Sum.cpp",
+      "original_path": "practice/inbox/K-th_Sum/K-th_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285084C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/5/practice/contest/285084/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 5"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "6a8f342bb32644ad69c03f81f2d94ddcbf5e95fe986488bd569030d76fdb02d2",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search the sum x: count pairs a_i + b_j < x with lower_bound on sorted b; the answer is the largest x with count < k. Limitation: the pair count and sums are int, so up to n^2 pairs or 2e9 sums overflow without long long.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "6a8f342bb32644ad69c03f81f2d94ddcbf5e95fe986488bd569030d76fdb02d2",
+      "observed_sha256": "6a8f342bb32644ad69c03f81f2d94ddcbf5e95fe986488bd569030d76fdb02d2",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer",
+        "sorted-lookup"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "840b8786982f488c",
+      "title": "Largest Number",
+      "path": "solutions/greedy/Largest_Number.cpp",
+      "original_path": "practice/inbox/Largest_Number/Largest_Number.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392I",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/I"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "ea841851c15cd01f87bee022476abea82bfafb265767111dc246f3afc03076ce",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching",
+        "strings"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort strings with the exchange comparator a+b > b+a, concatenate, and strip leading zeros (print 0 if all zeros).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "ea841851c15cd01f87bee022476abea82bfafb265767111dc246f3afc03076ce",
+      "observed_sha256": "ea841851c15cd01f87bee022476abea82bfafb265767111dc246f3afc03076ce",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "7fbff9fae40942d0",
+      "title": "Linear Functions",
+      "path": "solutions/greedy/Linear_Functions.cpp",
+      "original_path": "practice/inbox/Linear_Functions/Linear_Functions.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392K",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/K"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "9b1897a3bc0306b03f40505482d665e6d5d1a6b99be42ad8b4293022cddb8b43",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Order functions to maximise their composition applied to 1: f before g iff g(f(1)) > f(g(1)), compared in __int128.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "9b1897a3bc0306b03f40505482d665e6d5d1a6b99be42ad8b4293022cddb8b43",
+      "observed_sha256": "9b1897a3bc0306b03f40505482d665e6d5d1a6b99be42ad8b4293022cddb8b43",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "bd0aca8e710642c9",
+      "title": "Minimal Coverage",
+      "path": "solutions/intervals/Minimal_Coverage.cpp",
+      "original_path": "practice/inbox/Minimal_Coverage/Minimal_Coverage.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392G",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/G"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "1d4a0abd448f5621c5653e3f8f936b3fb829533129fa5469d1404e1ba3f4bdaf",
+      "category": "intervals",
+      "tags": [
+        "greedy",
+        "intervals"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort by left end; from the covered prefix, take the segment reaching farthest among those starting at or before it; -1 if no progress.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "1d4a0abd448f5621c5653e3f8f936b3fb829533129fa5469d1404e1ba3f4bdaf",
+      "observed_sha256": "1d4a0abd448f5621c5653e3f8f936b3fb829533129fa5469d1404e1ba3f4bdaf",
+      "review_required": false,
+      "patterns": [
+        "interval-scheduling-and-sweep"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "304e55d2bdb94bd7",
+      "title": "Missing Coin Sum",
+      "path": "solutions/greedy/Missing_Coin_Sum.cpp",
+      "original_path": "practice/inbox/Missing_Coin_Sum/Missing_Coin_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392J",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/J"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "a5f016f65060b1435e3d603102652a5b2926438a04ebef9f01783a72a5e1c21b",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort coins; keep reachable sums [1, sum]; the first coin > sum+1 leaves sum+1 unreachable. Limitation: sum is an int, so large coin totals overflow.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "a5f016f65060b1435e3d603102652a5b2926438a04ebef9f01783a72a5e1c21b",
+      "observed_sha256": "a5f016f65060b1435e3d603102652a5b2926438a04ebef9f01783a72a5e1c21b",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "ad3fe21586eb496c",
+      "title": "Multiplication Table",
+      "path": "solutions/binary-search/Multiplication_Table.cpp",
+      "original_path": "practice/inbox/Multiplication_Table/Multiplication_Table.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "285084B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/5/practice/contest/285084/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 5"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "ca2a2d992859dd4eb97f1131fc31ff47027348f3815364beadb0fe7416107c80",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "math/arithmetic"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Binary search x: count table values < x row by row as min(n, (x-1)/i); the answer is the largest x with count < k.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "ca2a2d992859dd4eb97f1131fc31ff47027348f3815364beadb0fe7416107c80",
+      "observed_sha256": "ca2a2d992859dd4eb97f1131fc31ff47027348f3815364beadb0fe7416107c80",
+      "review_required": false,
+      "patterns": [
+        "binary-search-on-answer",
+        "closed-form-arithmetic"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "862df618ff624f61",
+      "title": "Paired Up",
+      "path": "solutions/two-pointers-and-sliding-window/Paired_Up.cpp",
+      "original_path": "practice/inbox/Paired_Up/Paired_Up.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392L",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/L"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "cdaeb2b9e450e7990d220db19364143d522352d97003b2b56cb23c3d94dee7ea",
+      "category": "two-pointers-and-sliding-window",
+      "tags": [
+        "greedy",
+        "sorting-and-searching",
+        "two-pointers-and-sliding-window"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sort output groups by time; two pointers pair the smallest with the largest, consuming min(count) cows, and the answer is the maximum pair sum. Limitation: int ans = LLONG_MIN narrows to an implementation-defined value (harmless here as sums are positive).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "cdaeb2b9e450e7990d220db19364143d522352d97003b2b56cb23c3d94dee7ea",
+      "observed_sha256": "cdaeb2b9e450e7990d220db19364143d522352d97003b2b56cb23c3d94dee7ea",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy",
+        "two-pointer-window"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "bf8aa0a41f124fe5",
+      "title": "Tasks and Deadlines",
+      "path": "solutions/greedy/Tasks_and_Deadlines.cpp",
+      "original_path": "practice/inbox/Tasks_and_Deadlines/Tasks_and_Deadlines.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392H",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/H"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "03592fca4586ff7fc2c104a1f82ad8a10dab9164ecef35b339d88392e8b383a6",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Shortest processing time first: sort by duration and add deadline minus finish time. Limitation: time and reward are int, so large inputs overflow.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "03592fca4586ff7fc2c104a1f82ad8a10dab9164ecef35b339d88392e8b383a6",
+      "observed_sha256": "03592fca4586ff7fc2c104a1f82ad8a10dab9164ecef35b339d88392e8b383a6",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "86745ffb9ce84a35",
+      "title": "Training Sessions",
+      "path": "solutions/intervals/Training_Sessions.cpp",
+      "original_path": "practice/inbox/Training_Sessions/Training_Sessions.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392E",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/E"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "096285b138401d93f586692a268999eec693313bac5e77746b33dc0aff308ff3",
+      "category": "intervals",
+      "tags": [
+        "greedy",
+        "intervals"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Earliest end first: sort sessions by end and take each one starting no earlier than the last taken end; output their ids. Limitation: ids are looked up by (l, r), so identical sessions share one id.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "096285b138401d93f586692a268999eec693313bac5e77746b33dc0aff308ff3",
+      "observed_sha256": "096285b138401d93f586692a268999eec693313bac5e77746b33dc0aff308ff3",
+      "review_required": false,
+      "patterns": [
+        "interval-scheduling-and-sweep"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

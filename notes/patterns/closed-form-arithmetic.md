@@ -162,6 +162,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [M Floor Number (cpp)](../../solutions/math/arithmetic/M_Floor_Number.cpp) | math/arithmetic | reviewed |
 | [missing number (cpp)](../../solutions/math/arithmetic/missing-number.cpp) | math/arithmetic | reviewed |
 | [moobuzz (cpp)](../../solutions/binary-search/moobuzz.cpp) | binary-search | reviewed |
+| [Multiplication Table (cpp)](../../solutions/binary-search/Multiplication_Table.cpp) | binary-search | reviewed |
 | [N Square Counting (cpp)](../../solutions/math/arithmetic/N_Square_Counting.cpp) | math/arithmetic | reviewed |
 | [number spiral (cpp)](../../solutions/math/arithmetic/number_spiral.cpp) | math/arithmetic | reviewed |
 | [O Vasya and Coins (cpp)](../../solutions/math/arithmetic/O_Vasya_and_Coins.cpp) | math/arithmetic | reviewed |

@@ -1,0 +1,35 @@
+{
+  "name": "B. Cheese",
+  "group": "Codeforces - 2. Greedy Algorithms",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3 5\n10 2\n6 4\n3 1\n",
+      "output": "38\n"
+    },
+    {
+      "input": "2 10\n5 2\n7 3\n",
+      "output": "31\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BCheese"
+    }
+  },
+  "batch": {
+    "id": "5f0fb65b-0b83-4dd0-aa76-ec72a1468cfa",
+    "size": 1
+  }
+}

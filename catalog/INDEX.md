@@ -1,6 +1,6 @@
 # Problem index
 
-1185 source files across 37 primary categories.
+1202 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -9,7 +9,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Category | Files | Description |
 | --- | ---: | --- |
 | [arrays-and-counting](#arrays-and-counting) | 89 | Arrays, frequency counting, sets, and direct scans |
-| [binary-search](#binary-search) | 74 | Binary search on sorted data or a monotone answer |
+| [binary-search](#binary-search) | 77 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 29 | Bitwise operations, XOR identities, and bit counting |
 | [brute-force-and-backtracking](#brute-force-and-backtracking) | 58 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 55 | Constructing a valid array, permutation, or arrangement |
@@ -17,7 +17,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
 | [data-structures/ordered-sets](#data-structuresordered-sets) | 12 | Ordered sets, multisets, and order statistics |
 | [data-structures/range-queries](#data-structuresrange-queries) | 3 | Segment trees, Fenwick trees, and sparse tables |
-| [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 11 | Stacks, deques, and monotonic structures |
+| [data-structures/stacks-and-queues](#data-structuresstacks-and-queues) | 12 | Stacks, deques, and monotonic structures |
 | [dynamic-programming/bitmask](#dynamic-programmingbitmask) | 2 | Dynamic programming over subsets |
 | [dynamic-programming/general](#dynamic-programminggeneral) | 32 | Other dynamic programming recurrences |
 | [dynamic-programming/intervals](#dynamic-programmingintervals) | 3 | Dynamic programming over intervals |
@@ -30,8 +30,8 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [graphs/spanning-trees](#graphsspanning-trees) | 6 | Minimum or maximum spanning trees |
 | [graphs/topological-sort](#graphstopological-sort) | 2 | Dependency ordering and DAG algorithms |
 | [graphs/traversal](#graphstraversal) | 14 | Graph search, components, grids, and reachability |
-| [greedy](#greedy) | 141 | Local choices, scheduling, and exchange arguments |
-| [intervals](#intervals) | 6 | Interval overlap, coverage, and endpoint constraints |
+| [greedy](#greedy) | 149 | Local choices, scheduling, and exchange arguments |
+| [intervals](#intervals) | 9 | Interval overlap, coverage, and endpoint constraints |
 | [math/arithmetic](#matharithmetic) | 118 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 22 | Combinatorial counting, factorials, and binomial coefficients |
 | [math/number-theory](#mathnumber-theory) | 70 | GCD, primes, factorization, divisibility, and modular arithmetic |
@@ -44,7 +44,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [strings](#strings) | 55 | String matching, parsing, and character transformations |
 | [ternary-search](#ternary-search) | 4 | Searching a unimodal function |
 | [trees](#trees) | 9 | Tree traversal, subtree queries, and tree properties |
-| [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 58 | Moving boundaries, fixed/variable windows, and merging |
+| [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 60 | Moving boundaries, fixed/variable windows, and merging |
 
 ## arrays-and-counting
 
@@ -189,6 +189,8 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [I - Meeting on the Line — I_Meeting_on_the_Line.cpp](../solutions/binary-search/I_Meeting_on_the_Line.cpp) | cpp | vjudge / contest-688768-I | binary-search, math/arithmetic | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [J - Magic Ship — J_Magic_Ship.cpp](../solutions/binary-search/J_Magic_Ship.cpp) | cpp | vjudge / contest-688768-J | binary-search, simulation | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
 | [K - The Meeting Place Cannot Be Changed — K_The_Meeting_Place_Cannot_Be_Changed.cpp](../solutions/binary-search/K_The_Meeting_Place_Cannot_Be_Changed.cpp) | cpp | vjudge / contest-688768-K | binary-search, intervals | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
+| [K-th Number in the Union of Segments — K-th_Number_in_the_Union_of_Segments.cpp](../solutions/binary-search/K-th_Number_in_the_Union_of_Segments.cpp) | cpp | codeforces / 285084A | binary-search | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
+| [K-th Sum — K-th_Sum.cpp](../solutions/binary-search/K-th_Sum.cpp) | cpp | codeforces / 285084C | binary-search, sorting-and-searching | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
 | [kattis outofsorts — kattis-outofsorts.cpp](../solutions/binary-search/kattis-outofsorts.cpp) | cpp | kattis | binary-search, sorting-and-searching | reviewed |  |
 | [kattis roompainting — kattis-roompainting.cpp](../solutions/binary-search/kattis-roompainting.cpp) | cpp | kattis | binary-search, sorting-and-searching | reviewed | [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
 | [luchu bandr — luchu_bandr.cpp](../solutions/binary-search/luchu_bandr.cpp) | cpp | unknown | binary-search, sorting-and-searching | reviewed | [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
@@ -200,6 +202,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Minimum maximum on the Path — Minimum_maximum_on_the_Path.cpp](../solutions/binary-search/Minimum_maximum_on_the_Path.cpp) | cpp | codeforces / 285083D | binary-search, graphs/traversal | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Graph traversal with BFS and DFS](../notes/patterns/graph-bfs-dfs.md) |
 | [Monster Game — Monster_Game.cpp](../solutions/binary-search/Monster_Game.cpp) | cpp | codeforces / 2193D | binary-search, prefix-sums, sorting-and-searching | reviewed | [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
 | [moobuzz — moobuzz.cpp](../solutions/binary-search/moobuzz.cpp) | cpp | unknown | binary-search, math/arithmetic | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
+| [Multiplication Table — Multiplication_Table.cpp](../solutions/binary-search/Multiplication_Table.cpp) | cpp | codeforces / 285084B | binary-search, math/arithmetic | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [O - Cat, Fox and the Lonely Array — O_Cat_Fox_and_the_Lonely_Array.cpp](../solutions/binary-search/O_Cat_Fox_and_the_Lonely_Array.cpp) | cpp | vjudge / contest-688791-O | binary-search, bit-manipulation, two-pointers-and-sliding-window | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md), [Per-bit reasoning](../notes/patterns/per-bit-reasoning.md) |
 | [O - Trinity — O_Trinity.cpp](../solutions/binary-search/O_Trinity.cpp) | cpp | vjudge / contest-688796-O | binary-search, sorting-and-searching | reviewed | [Sorted lookup with binary search](../notes/patterns/sorted-lookup.md) |
 | [Packing Rectangles — Packing_Rectangles.cpp](../solutions/binary-search/Packing_Rectangles.cpp) | cpp | codeforces / 283932A | binary-search | reviewed | [Binary search on the answer](../notes/patterns/binary-search-on-answer.md) |
@@ -431,6 +434,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
 | [B Two Brackets — B_Two_Brackets.cpp](../solutions/data-structures/stacks-and-queues/B_Two_Brackets.cpp) | cpp | unknown | data-structures/stacks-and-queues, strings | reviewed | [Stack matching and cancellation](../notes/patterns/stack-matching.md) |
+| [Bracket Subsequence — Bracket_Subsequence.cpp](../solutions/data-structures/stacks-and-queues/Bracket_Subsequence.cpp) | cpp | codeforces / 730392A | data-structures/stacks-and-queues, strings | reviewed | [Stack matching and cancellation](../notes/patterns/stack-matching.md) |
 | [cses nearestsmallervalues — cses-nearestsmallervalues.cpp](../solutions/data-structures/stacks-and-queues/cses-nearestsmallervalues.cpp) | cpp | cses | data-structures/stacks-and-queues | reviewed | [Monotonic stack for nearest smaller or greater elements](../notes/patterns/monotonic-stack.md) |
 | [D - Deque-STL — D_Deque_STL.cpp](../solutions/data-structures/stacks-and-queues/D_Deque_STL.cpp) | cpp | vjudge / contest-688780-D | data-structures/stacks-and-queues, two-pointers-and-sliding-window | reviewed | [Monotonic deque](../notes/patterns/monotonic-deque.md) |
 | [D - Take ABC — D_-_Take_ABC.cpp](../solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp) | cpp | unknown | data-structures/stacks-and-queues, simulation, strings | reviewed | [Stack matching and cancellation](../notes/patterns/stack-matching.md) |
@@ -714,11 +718,13 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C. Quests — C_Quests.cpp](../solutions/greedy/C_Quests.cpp) | cpp | codeforces / 1914C | greedy, prefix-sums | reviewed |  |
 | [C. Save the Magazines — C_Save_the_Magazines.cpp](../solutions/greedy/C_Save_the_Magazines.cpp) | cpp | codeforces / 1743C | greedy | reviewed |  |
 | [C. Virus — C_Virus.cpp](../solutions/greedy/C_Virus.cpp) | cpp | codeforces / 1704C | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Car Fueling — Car_Fueling.cpp](../solutions/greedy/Car_Fueling.cpp) | cpp | codeforces / 730392M | greedy | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [cf B Appleman and Card Game — cf-B_Appleman_and_Card_Game.cpp](../solutions/greedy/cf-B_Appleman_and_Card_Game.cpp) | cpp | codeforces | greedy, sorting-and-searching | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [cf clockwork — cf-clockwork.cpp](../solutions/greedy/cf-clockwork.cpp) | cpp | codeforces | greedy, math/arithmetic | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [cf gorilla and the exam — cf-gorilla-and-the-exam.cpp](../solutions/greedy/cf-gorilla-and-the-exam.cpp) | cpp | codeforces | greedy, sorting-and-searching | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [cf news about credit — cf-news-about-credit.cpp](../solutions/greedy/cf-news-about-credit.cpp) | cpp | codeforces | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [cf skibidifanumtax — cf-skibidifanumtax.cpp](../solutions/greedy/cf-skibidifanumtax.cpp) | cpp | codeforces | greedy | reviewed |  |
+| [Cheese — Cheese.cpp](../solutions/greedy/Cheese.cpp) | cpp | codeforces / 730392B | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Coin Collector — Coin_Collector.cpp](../solutions/greedy/Coin_Collector.cpp) | cpp | uva / 11264 | greedy | reviewed |  |
 | [cses moviefestival2 — cses-moviefestival2.cpp](../solutions/greedy/cses-moviefestival2.cpp) | cpp | cses | data-structures/ordered-sets, greedy, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md), [Ordered-set queries](../notes/patterns/ordered-set-queries.md) |
 | [cses readingbooks — cses-readingbooks.cpp](../solutions/greedy/cses-readingbooks.cpp) | cpp | cses | greedy, math/arithmetic, sorting-and-searching | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
@@ -747,6 +753,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [ezzat — ezzat.py](../solutions/greedy/ezzat.py) | python | unknown | greedy, math/arithmetic | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [F1. Complete the Projects (easy version) — F_1_Complete_the_Projects_easy_version.cpp](../solutions/greedy/F_1_Complete_the_Projects_easy_version.cpp) | cpp | codeforces / 1203F1 | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Faking Data — Faking_Data.cpp](../solutions/greedy/Faking_Data.cpp) | cpp | unknown | arrays-and-counting, greedy | reviewed |  |
+| [Ferris Wheel — Ferris_Wheel.cpp](../solutions/greedy/Ferris_Wheel.cpp) | cpp | codeforces / 730392D | greedy, two-pointers-and-sliding-window | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md), [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [ferris wheel — ferris_wheel.cpp](../solutions/greedy/ferris_wheel.cpp) | cpp | unknown | greedy, sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md), [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [flipping the matrix — flipping-the-matrix.py](../solutions/greedy/flipping-the-matrix.py) | python | unknown | greedy | reviewed |  |
 | [friends and the restaurant — friends_and_the_restaurant.py](../solutions/greedy/friends_and_the_restaurant.py) | python | unknown | greedy, sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md), [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
@@ -758,12 +765,16 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [greedilyincreasing — greedilyincreasing.cpp](../solutions/greedy/greedilyincreasing.cpp) | cpp | unknown | greedy | reviewed |  |
 | [H Two Screens — H_Two_Screens.cpp](../solutions/greedy/H_Two_Screens.cpp) | cpp | unknown | greedy, strings | reviewed |  |
 | [H. Permutator — H_Permutator.cpp](../solutions/greedy/H_Permutator.cpp) | cpp | codeforces / gym-104520-H | greedy, math/combinatorics, sorting-and-searching | reviewed | [Contribution technique](../notes/patterns/contribution-technique.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [High Card Wins — High_Card_Wins.cpp](../solutions/greedy/High_Card_Wins.cpp) | cpp | codeforces / 730392C | data-structures/ordered-sets, greedy | reviewed | [Ordered-set queries](../notes/patterns/ordered-set-queries.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [I - Two Buttons — I_Two_Buttons.cpp](../solutions/greedy/I_Two_Buttons.cpp) | cpp | vjudge / contest-708940-I | greedy, math/arithmetic | reviewed |  |
 | [I Chores — I_Chores.cpp](../solutions/greedy/I_Chores.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [increasing array — increasing_array.cpp](../solutions/greedy/increasing_array.cpp) | cpp | unknown | greedy | reviewed |  |
 | [J Arrival of the General — J_Arrival_of_the_General.py](../solutions/greedy/J_Arrival_of_the_General.py) | python | unknown | greedy | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [kattis bitsequalizer — kattis-bitsequalizer.cpp](../solutions/greedy/kattis-bitsequalizer.cpp) | cpp | kattis | greedy, strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md) |
+| [Largest Number — Largest_Number.cpp](../solutions/greedy/Largest_Number.cpp) | cpp | codeforces / 730392I | greedy, sorting-and-searching, strings | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Linear Functions — Linear_Functions.cpp](../solutions/greedy/Linear_Functions.cpp) | cpp | codeforces / 730392K | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [maximum nonoverlapping segments — maximum-nonoverlapping-segments.cpp](../solutions/greedy/maximum-nonoverlapping-segments.cpp) | cpp | unknown | greedy, intervals, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Missing Coin Sum — Missing_Coin_Sum.cpp](../solutions/greedy/Missing_Coin_Sum.cpp) | cpp | codeforces / 730392J | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [missing coin sum — missing_coin_sum.cpp](../solutions/greedy/missing_coin_sum.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [movie festival — movie_festival.cpp](../solutions/greedy/movie_festival.cpp) | cpp | unknown | greedy, intervals, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [only plusses — only_plusses.py](../solutions/greedy/only_plusses.py) | python | unknown | greedy, math/arithmetic | reviewed |  |
@@ -773,6 +784,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [quiz forming teams — quiz_forming_teams.py](../solutions/greedy/quiz_forming_teams.py) | python | unknown | geometry, greedy | reviewed | [Geometry predicates](../notes/patterns/geometry-predicates.md) |
 | [sellstocks — sellstocks.py](../solutions/greedy/sellstocks.py) | python | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [songs compression — songs_compression.py](../solutions/greedy/songs_compression.py) | python | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Tasks and Deadlines — Tasks_and_Deadlines.cpp](../solutions/greedy/Tasks_and_Deadlines.cpp) | cpp | codeforces / 730392H | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [The Third Side — The_Third_Side.cpp](../solutions/greedy/The_Third_Side.cpp) | cpp | unknown | greedy, math/arithmetic, sorting-and-searching | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [USACO Air Cownditioning — USACO_Air_Cownditioning.cpp](../solutions/greedy/USACO_Air_Cownditioning.cpp) | cpp | usaco | greedy, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [USACO Cow Tipping — USACO_Cow_Tipping.cpp](../solutions/greedy/USACO_Cow_Tipping.cpp) | cpp | usaco | greedy, simulation | reviewed |  |
@@ -797,8 +809,11 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [B. foodbreak — B_foodbreak.cpp](../solutions/intervals/B_foodbreak.cpp) | cpp | codeforces / gym-106151-B | intervals, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
 | [D Counting Points — D_Counting_Points.cpp](../solutions/intervals/D_Counting_Points.cpp) | cpp | unknown | geometry, intervals, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
 | [Disastrous Downtime — Disastrous_Downtime.cpp](../solutions/intervals/Disastrous_Downtime.cpp) | cpp | kattis / downtime | intervals, math/arithmetic, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
+| [Islands War — Islands_War.cpp](../solutions/intervals/Islands_War.cpp) | cpp | codeforces / 730392F | greedy, intervals | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
+| [Minimal Coverage — Minimal_Coverage.cpp](../solutions/intervals/Minimal_Coverage.cpp) | cpp | codeforces / 730392G | greedy, intervals | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
 | [Problem 1. Fence Painting — Problem_1_Fence_Painting.cpp](../solutions/intervals/Problem_1_Fence_Painting.cpp) | cpp | usaco / cpid-567 | geometry, intervals | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [restaurant customers — restaurant_customers.cpp](../solutions/intervals/restaurant_customers.cpp) | cpp | unknown | intervals, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
+| [Training Sessions — Training_Sessions.cpp](../solutions/intervals/Training_Sessions.cpp) | cpp | codeforces / 730392E | greedy, intervals | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
 
 ## math/arithmetic
 
@@ -1358,6 +1373,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
 | [A - A — A_A.cpp](../solutions/two-pointers-and-sliding-window/A_A.cpp) | cpp | vjudge / contest-762603-A | greedy, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Apartments — Apartments.cpp](../solutions/two-pointers-and-sliding-window/Apartments.cpp) | cpp | codeforces / 730392N | greedy, sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md), [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [atcoder enougharray — atcoder-enougharray.cpp](../solutions/two-pointers-and-sliding-window/atcoder-enougharray.cpp) | cpp | atcoder | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [B 7485 Unlimited Easy version — B_7485_Unlimited_Easy_version.cpp](../solutions/two-pointers-and-sliding-window/B_7485_Unlimited_Easy_version.cpp) | cpp | unknown | data-structures/stacks-and-queues, dynamic-programming/sequences, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md), [Queue with an aggregate built from two stacks](../notes/patterns/two-stack-aggregate-queue.md) |
 | [B Approximating a Constant Range — B_Approximating_a_Constant_Range.cpp](../solutions/two-pointers-and-sliding-window/B_Approximating_a_Constant_Range.cpp) | cpp | unknown | data-structures/ordered-sets, two-pointers-and-sliding-window | reviewed | [Ordered-set queries](../notes/patterns/ordered-set-queries.md), [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
@@ -1400,6 +1416,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Number of Segments with Big Sum — Number_of_Segments_with_Big_Sum.cpp](../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Big_Sum.cpp) | cpp | codeforces / 307093D | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [Number of Segments with Small Sum — Number_of_Segments_with_Small_Sum.cpp](../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Small_Sum.cpp) | cpp | codeforces / 307093C | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [Number of Smaller — Number_of_Smaller.cpp](../solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp) | cpp | codeforces / 307092B | sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
+| [Paired Up — Paired_Up.cpp](../solutions/two-pointers-and-sliding-window/Paired_Up.cpp) | cpp | codeforces / 730392L | greedy, sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md), [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [Segment with Big Sum — Segment_with_Big_Sum.cpp](../solutions/two-pointers-and-sliding-window/Segment_with_Big_Sum.cpp) | cpp | codeforces / 307093B | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [Segment with Small Sum — Segment_with_Small_Sum.cpp](../solutions/two-pointers-and-sliding-window/Segment_with_Small_Sum.cpp) | cpp | codeforces / 307093A | two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |
 | [Segments with Small Set — Segments_with_Small_Set.cpp](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp) | cpp | codeforces / 307093E | arrays-and-counting, two-pointers-and-sliding-window | reviewed | [Two-pointer window over a monotone condition](../notes/patterns/two-pointer-window.md) |

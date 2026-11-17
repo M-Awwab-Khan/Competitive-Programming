@@ -1,0 +1,31 @@
+{
+  "name": "C. K-th Sum",
+  "group": "Codeforces - ITMO Academy: pilot course - Binary Search - Step 5",
+  "url": "https://codeforces.com/edu/course/2/lesson/6/5/practice/contest/285084/problem/C",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "5 10\n4 2 6 4 8\n7 3 1 9 5\n",
+      "output": "9\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CKThSum"
+    }
+  },
+  "batch": {
+    "id": "55234c34-1c74-46ae-b33a-549530d2e3ee",
+    "size": 1
+  }
+}

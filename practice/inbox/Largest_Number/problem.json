@@ -1,0 +1,39 @@
+{
+  "name": "I. Largest Number",
+  "group": "Codeforces - 2. Greedy Algorithms",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/I",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3\n9 34 3\n",
+      "output": "9343\n"
+    },
+    {
+      "input": "4\n0 0 0 0\n",
+      "output": "0\n"
+    },
+    {
+      "input": "5\n12 121 1212 3 30\n",
+      "output": "330121212121\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ILargestNumber"
+    }
+  },
+  "batch": {
+    "id": "c39bac6b-f98e-4cd6-bc65-55ed8c5e831d",
+    "size": 1
+  }
+}

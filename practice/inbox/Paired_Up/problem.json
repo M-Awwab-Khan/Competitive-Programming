@@ -1,0 +1,35 @@
+{
+  "name": "L. Paired Up",
+  "group": "Codeforces - 2. Greedy Algorithms",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/L",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3\n1 8\n2 5\n1 2\n",
+      "output": "10\n"
+    },
+    {
+      "input": "1\n6 7\n",
+      "output": "14\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "LPairedUp"
+    }
+  },
+  "batch": {
+    "id": "c41b6cde-57c9-4279-a28a-2ffb8e787591",
+    "size": 1
+  }
+}

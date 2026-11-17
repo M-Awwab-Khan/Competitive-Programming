@@ -64,6 +64,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [A - A (cpp)](../../solutions/two-pointers-and-sliding-window/A_A.cpp) | two-pointers-and-sliding-window | reviewed |
 | [A Puzzles (cpp)](../../solutions/sorting-and-searching/A_Puzzles.cpp) | sorting-and-searching | reviewed |
 | [apartments (python)](../../solutions/greedy/apartments.py) | greedy | reviewed |
+| [Apartments (cpp)](../../solutions/two-pointers-and-sliding-window/Apartments.cpp) | two-pointers-and-sliding-window | reviewed |
 | [atcoder enougharray (cpp)](../../solutions/two-pointers-and-sliding-window/atcoder-enougharray.cpp) | two-pointers-and-sliding-window | reviewed |
 | [B 7485 Unlimited Easy version (cpp)](../../solutions/two-pointers-and-sliding-window/B_7485_Unlimited_Easy_version.cpp) | two-pointers-and-sliding-window | reviewed |
 | [B Approximating a Constant Range (cpp)](../../solutions/two-pointers-and-sliding-window/B_Approximating_a_Constant_Range.cpp) | two-pointers-and-sliding-window | reviewed |
@@ -92,6 +93,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [F Playing with OR (cpp)](../../solutions/two-pointers-and-sliding-window/F_Playing_with_OR.cpp) | two-pointers-and-sliding-window | reviewed |
 | [F Playing with OR (python)](../../solutions/two-pointers-and-sliding-window/F_Playing_with_OR.py) | two-pointers-and-sliding-window | reviewed |
 | [F. Money Trees (cpp)](../../solutions/two-pointers-and-sliding-window/F_Money_Trees.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Ferris Wheel (cpp)](../../solutions/greedy/Ferris_Wheel.cpp) | greedy | reviewed |
 | [ferris wheel (cpp)](../../solutions/greedy/ferris_wheel.cpp) | greedy | reviewed |
 | [friends and the restaurant (python)](../../solutions/greedy/friends_and_the_restaurant.py) | greedy | reviewed |
 | [G - Three Parts of the Array (cpp)](../../solutions/two-pointers-and-sliding-window/G_Three_Parts_of_the_Array.cpp) | two-pointers-and-sliding-window | reviewed |
@@ -106,6 +108,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [Number of Segments with Small Sum (cpp)](../../solutions/two-pointers-and-sliding-window/Number_of_Segments_with_Small_Sum.cpp) | two-pointers-and-sliding-window | reviewed |
 | [Number of Smaller (cpp)](../../solutions/two-pointers-and-sliding-window/Number_of_Smaller.cpp) | two-pointers-and-sliding-window | reviewed |
 | [paint numbers (python)](../../solutions/greedy/paint_numbers.py) | greedy | reviewed |
+| [Paired Up (cpp)](../../solutions/two-pointers-and-sliding-window/Paired_Up.cpp) | two-pointers-and-sliding-window | reviewed |
 | [Segment with Big Sum (cpp)](../../solutions/two-pointers-and-sliding-window/Segment_with_Big_Sum.cpp) | two-pointers-and-sliding-window | reviewed |
 | [Segment with Small Sum (cpp)](../../solutions/two-pointers-and-sliding-window/Segment_with_Small_Sum.cpp) | two-pointers-and-sliding-window | reviewed |
 | [Segments with Small Set (cpp)](../../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp) | two-pointers-and-sliding-window | reviewed |

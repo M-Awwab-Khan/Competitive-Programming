@@ -57,6 +57,7 @@ Links are generated from catalog associations; classifications do not establish 
 | --- | --- | --- |
 | [A Regular Bracket Sequence (cpp)](../../solutions/greedy/A_Regular_Bracket_Sequence.cpp) | greedy | reviewed |
 | [B Two Brackets (cpp)](../../solutions/data-structures/stacks-and-queues/B_Two_Brackets.cpp) | data-structures/stacks-and-queues | reviewed |
+| [Bracket Subsequence (cpp)](../../solutions/data-structures/stacks-and-queues/Bracket_Subsequence.cpp) | data-structures/stacks-and-queues | reviewed |
 | [D - Take ABC (cpp)](../../solutions/data-structures/stacks-and-queues/D_-_Take_ABC.cpp) | data-structures/stacks-and-queues | reviewed |
 | [D String Game (cpp)](../../solutions/data-structures/stacks-and-queues/D_String_Game.cpp) | data-structures/stacks-and-queues | reviewed |
 | [K. Wahban and brackets (cpp)](../../solutions/data-structures/stacks-and-queues/K_Wahban_and_brackets.cpp) | data-structures/stacks-and-queues | reviewed |

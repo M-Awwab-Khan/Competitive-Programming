@@ -79,6 +79,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [D. Distinct Characters Queries (cpp)](../../solutions/data-structures/ordered-sets/D_Distinct_Characters_Queries.cpp) | data-structures/ordered-sets | reviewed |
 | [E - Sparse Range (cpp)](../../solutions/two-pointers-and-sliding-window/E_Sparse_Range.cpp) | two-pointers-and-sliding-window | reviewed |
 | [G - Souvenirs (cpp)](../../solutions/greedy/G_Souvenirs.cpp) | greedy | reviewed |
+| [High Card Wins (cpp)](../../solutions/greedy/High_Card_Wins.cpp) | greedy | reviewed |
 | [qoj4071 (cpp)](../../solutions/data-structures/ordered-sets/qoj4071.cpp) | data-structures/ordered-sets | reviewed |
 | [uva jollo (cpp)](../../solutions/greedy/uva-jollo.cpp) | greedy | reviewed |
 | [uva smallfactors (cpp)](../../solutions/binary-search/uva-smallfactors.cpp) | binary-search | reviewed |

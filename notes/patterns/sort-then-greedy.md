@@ -23,6 +23,9 @@ After processing the first `i` items in sorted order, the chosen set is optimal 
 | Two ends of a sorted array | Heaviest must go somewhere; pair with lightest if it fits | `ferris_wheel.cpp`, `apartments.py`, `A_Very_Different_Array.cpp` |
 | Take the `k` best gains | Gains are independent | `songs_compression.py`, `sellstocks.py`, `C_Stable_Groups.cpp` |
 | Sort by a combined key | Feasibility of a pair depends on `a + b` | `F_1_Complete_the_Projects_easy_version.cpp` |
+| Pairwise exchange comparator | Put `x` before `y` iff `x+y` beats `y+x`: string concatenation `ab > ba`, or composing linear functions `f(g(1))` vs `g(f(1))` (use `__int128`) | `Largest_Number.cpp`, `Linear_Functions.cpp` |
+| Best value per unit first (divisible items) | Fill capacity from the highest unit value; any unit of a worse item can be swapped for a better one | `Cheese.cpp` |
+| Refuel or act only when forced | Delaying a stop never reduces what you can still reach | `Car_Fueling.cpp` |
 
 ### Median minimises absolute deviation
 
@@ -61,6 +64,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [A. Red Bus (cpp)](../../solutions/sorting-and-searching/A_Red_Bus.cpp) | sorting-and-searching | reviewed |
 | [A. Strange Birthday Party (cpp)](../../solutions/greedy/A_Strange_Birthday_Party.cpp) | greedy | reviewed |
 | [apartments (python)](../../solutions/greedy/apartments.py) | greedy | reviewed |
+| [Apartments (cpp)](../../solutions/two-pointers-and-sliding-window/Apartments.cpp) | two-pointers-and-sliding-window | reviewed |
 | [array coloring (python)](../../solutions/greedy/array_coloring.py) | greedy | reviewed |
 | [B Array Recoloring (cpp)](../../solutions/greedy/B_Array_Recoloring.cpp) | greedy | reviewed |
 | [B Budget Allotment (cpp)](../../solutions/greedy/B_Budget_Allotment.cpp) | greedy | reviewed |
@@ -81,9 +85,11 @@ Links are generated from catalog associations; classifications do not establish 
 | [C. Kero ! Kero ! El3ab ya Kero ! (cpp)](../../solutions/games/C_Kero_Kero_El_3_ab_ya_Kero.cpp) | games | reviewed |
 | [C. Rudolf and the Another Competition (cpp)](../../solutions/sorting-and-searching/C_Rudolf_and_the_Another_Competition.cpp) | sorting-and-searching | reviewed |
 | [C. Virus (cpp)](../../solutions/greedy/C_Virus.cpp) | greedy | reviewed |
+| [Car Fueling (cpp)](../../solutions/greedy/Car_Fueling.cpp) | greedy | reviewed |
 | [cf B Appleman and Card Game (cpp)](../../solutions/greedy/cf-B_Appleman_and_Card_Game.cpp) | greedy | reviewed |
 | [cf gorilla and the exam (cpp)](../../solutions/greedy/cf-gorilla-and-the-exam.cpp) | greedy | reviewed |
 | [cf news about credit (cpp)](../../solutions/greedy/cf-news-about-credit.cpp) | greedy | reviewed |
+| [Cheese (cpp)](../../solutions/greedy/Cheese.cpp) | greedy | reviewed |
 | [cses sticks (cpp)](../../solutions/greedy/cses-sticks.cpp) | greedy | reviewed |
 | [cses tasksanddeadline (cpp)](../../solutions/greedy/cses-tasksanddeadline.cpp) | greedy | reviewed |
 | [cses towers (cpp)](../../solutions/data-structures/ordered-sets/cses-towers.cpp) | data-structures/ordered-sets | reviewed |
@@ -95,21 +101,28 @@ Links are generated from catalog associations; classifications do not establish 
 | [E Make Empty (cpp)](../../solutions/greedy/E_Make_Empty.cpp) | greedy | reviewed |
 | [E. Boxers (cpp)](../../solutions/greedy/E_Boxers.cpp) | greedy | reviewed |
 | [F1. Complete the Projects (easy version) (cpp)](../../solutions/greedy/F_1_Complete_the_Projects_easy_version.cpp) | greedy | reviewed |
+| [Ferris Wheel (cpp)](../../solutions/greedy/Ferris_Wheel.cpp) | greedy | reviewed |
 | [ferris wheel (cpp)](../../solutions/greedy/ferris_wheel.cpp) | greedy | reviewed |
 | [friends and the restaurant (python)](../../solutions/greedy/friends_and_the_restaurant.py) | greedy | reviewed |
 | [G. Matching (cpp)](../../solutions/greedy/G_Matching.cpp) | greedy | reviewed |
 | [G2. Subsequence Addition (Hard Version) (cpp)](../../solutions/greedy/G_2_Subsequence_Addition_Hard_Version.cpp) | greedy | reviewed |
 | [H. Permutator (cpp)](../../solutions/greedy/H_Permutator.cpp) | greedy | reviewed |
+| [High Card Wins (cpp)](../../solutions/greedy/High_Card_Wins.cpp) | greedy | reviewed |
 | [I Chores (cpp)](../../solutions/greedy/I_Chores.cpp) | greedy | reviewed |
 | [kayaking (python)](../../solutions/brute-force-and-backtracking/kayaking.py) | brute-force-and-backtracking | reviewed |
+| [Largest Number (cpp)](../../solutions/greedy/Largest_Number.cpp) | greedy | reviewed |
+| [Linear Functions (cpp)](../../solutions/greedy/Linear_Functions.cpp) | greedy | reviewed |
 | [maximum nonoverlapping segments (cpp)](../../solutions/greedy/maximum-nonoverlapping-segments.cpp) | greedy | reviewed |
+| [Missing Coin Sum (cpp)](../../solutions/greedy/Missing_Coin_Sum.cpp) | greedy | reviewed |
 | [missing coin sum (cpp)](../../solutions/greedy/missing_coin_sum.cpp) | greedy | reviewed |
 | [movie festival (cpp)](../../solutions/greedy/movie_festival.cpp) | greedy | reviewed |
 | [Oil business (cpp)](../../solutions/graphs/spanning-trees/Oil_business.cpp) | graphs/spanning-trees | reviewed |
 | [paint numbers (python)](../../solutions/greedy/paint_numbers.py) | greedy | reviewed |
 | [Pair Selection (cpp)](../../solutions/binary-search/Pair_Selection.cpp) | binary-search | reviewed |
+| [Paired Up (cpp)](../../solutions/two-pointers-and-sliding-window/Paired_Up.cpp) | two-pointers-and-sliding-window | reviewed |
 | [sellstocks (python)](../../solutions/greedy/sellstocks.py) | greedy | reviewed |
 | [songs compression (python)](../../solutions/greedy/songs_compression.py) | greedy | reviewed |
+| [Tasks and Deadlines (cpp)](../../solutions/greedy/Tasks_and_Deadlines.cpp) | greedy | reviewed |
 | [USACO Why Did the Cow Cross the Road III (cpp)](../../solutions/simulation/USACO_Why_Did_the_Cow_Cross_the_Road_III.cpp) | simulation | reviewed |
 | [very different array (python)](../../solutions/greedy/very_different_array.py) | greedy | reviewed |
 | [Young Explorers (cpp)](../../solutions/greedy/Young_Explorers.cpp) | greedy | reviewed |

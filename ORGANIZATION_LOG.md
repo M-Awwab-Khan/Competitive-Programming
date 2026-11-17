@@ -4,6 +4,94 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-17T16:30:14+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Training_Sessions.cpp → solutions/intervals/Training_Sessions.cpp: Earliest end first: sort sessions by end and take each one starting no earlier than the last taken end; output their ids. Limitation: ids are looked up by (l, r), so identical sessions share one id.. Category: intervals; status: reviewed.
+
+## 2026-11-17T16:30:13+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Tasks_and_Deadlines.cpp → solutions/greedy/Tasks_and_Deadlines.cpp: Shortest processing time first: sort by duration and add deadline minus finish time. Limitation: time and reward are int, so large inputs overflow.. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:13+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Paired_Up.cpp → solutions/two-pointers-and-sliding-window/Paired_Up.cpp: Sort output groups by time; two pointers pair the smallest with the largest, consuming min(count) cows, and the answer is the maximum pair sum. Limitation: int ans = LLONG_MIN narrows to an implementation-defined value (harmless here as sums are positive).. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-17T16:30:12+00:00 — REVIEW
+
+- solutions/binary-search/Multiplication_Table.cpp → solutions/binary-search/Multiplication_Table.cpp: Binary search x: count table values < x row by row as min(n, (x-1)/i); the answer is the largest x with count < k.. Category: binary-search; status: reviewed.
+
+## 2026-11-17T16:30:11+00:00 — REVIEW
+
+- solutions/greedy/Missing_Coin_Sum.cpp → solutions/greedy/Missing_Coin_Sum.cpp: Sort coins; keep reachable sums [1, sum]; the first coin > sum+1 leaves sum+1 unreachable. Limitation: sum is an int, so large coin totals overflow.. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:10+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Minimal_Coverage.cpp → solutions/intervals/Minimal_Coverage.cpp: Sort by left end; from the covered prefix, take the segment reaching farthest among those starting at or before it; -1 if no progress.. Category: intervals; status: reviewed.
+
+## 2026-11-17T16:30:09+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Linear_Functions.cpp → solutions/greedy/Linear_Functions.cpp: Order functions to maximise their composition applied to 1: f before g iff g(f(1)) > f(g(1)), compared in __int128.. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:08+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Largest_Number.cpp → solutions/greedy/Largest_Number.cpp: Sort strings with the exchange comparator a+b > b+a, concatenate, and strip leading zeros (print 0 if all zeros).. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:07+00:00 — REVIEW
+
+- solutions/binary-search/K-th_Sum.cpp → solutions/binary-search/K-th_Sum.cpp: Binary search the sum x: count pairs a_i + b_j < x with lower_bound on sorted b; the answer is the largest x with count < k. Limitation: the pair count and sums are int, so up to n^2 pairs or 2e9 sums overflow without long long.. Category: binary-search; status: reviewed.
+
+## 2026-11-17T16:30:06+00:00 — REVIEW
+
+- solutions/binary-search/K-th_Number_in_the_Union_of_Segments.cpp → solutions/binary-search/K-th_Number_in_the_Union_of_Segments.cpp: Binary search the value x: count numbers < x across all segments as sum(min(r+1, x) - l); the answer is the largest x with count <= k (0-indexed).. Category: binary-search; status: reviewed.
+
+## 2026-11-17T16:30:05+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Islands_War.cpp → solutions/intervals/Islands_War.cpp: Sort requests by right end; cut at the current right end and skip every request starting before it; count the cuts.. Category: intervals; status: reviewed.
+
+## 2026-11-17T16:30:04+00:00 — REVIEW
+
+- solutions/binary-search/High_Card_Wins.cpp → solutions/greedy/High_Card_Wins.cpp: Your cards are the complement of the opponent's in 1..2n; for each opponent card in increasing order, beat it with the smallest larger card (set upper_bound) and erase it.. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:03+00:00 — REVIEW
+
+- solutions/greedy/Ferris_Wheel.cpp → solutions/greedy/Ferris_Wheel.cpp: Sort weights; the heaviest child always takes a gondola, pairing with the lightest remaining child if the two fit within x.. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:02+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Cheese.cpp → solutions/greedy/Cheese.cpp: Fractional take: sort cheeses by price per unit descending and take min(w, amount) of each until the bag is full.. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:01+00:00 — REVIEW
+
+- solutions/needs-review/Car_Fueling.cpp → solutions/greedy/Car_Fueling.cpp: Drive station to station with sentinels 0 and d; refuel only when the tank cannot reach the next stop, and print -1 if a full tank still cannot.. Category: greedy; status: reviewed.
+
+## 2026-11-17T16:30:00+00:00 — REVIEW
+
+- solutions/strings/Bracket_Subsequence.cpp → solutions/data-structures/stacks-and-queues/Bracket_Subsequence.cpp: Match each ')' with the nearest unmatched '(' on a stack, record both indices, then sort them and print the matched characters as a regular subsequence.. Category: data-structures/stacks-and-queues; status: reviewed.
+
+## 2026-11-17T16:29:59+00:00 — REVIEW
+
+- solutions/greedy/Apartments.cpp → solutions/two-pointers-and-sliding-window/Apartments.cpp: Sort applicants and apartments; two pointers: skip an apartment below a[i]-k, skip an applicant whose range lies below b[j], otherwise match both.. Category: two-pointers-and-sliding-window; status: reviewed.
+
+## 2026-11-17T16:29:58+00:00 — INGEST
+
+- practice/inbox/Apartments/Apartments.cpp → solutions/greedy/Apartments.cpp: Filed new source; classification remains a suggestion. Category: greedy; status: suggested.
+- practice/inbox/Bracket_Subsequence/Bracket_Subsequence.cpp → solutions/strings/Bracket_Subsequence.cpp: Filed new source; classification remains a suggestion. Category: strings; status: suggested.
+- practice/inbox/Car_Fueling/Car_Fueling.cpp → solutions/needs-review/Car_Fueling.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Cheese/Cheese.cpp → solutions/sorting-and-searching/Cheese.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Ferris_Wheel/Ferris_Wheel.cpp → solutions/greedy/Ferris_Wheel.cpp: Filed new source; classification remains a suggestion. Category: greedy; status: suggested.
+- practice/inbox/High_Card_Wins/High_Card_Wins.cpp → solutions/binary-search/High_Card_Wins.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Islands_War/Islands_War.cpp → solutions/sorting-and-searching/Islands_War.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/K-th_Number_in_the_Union_of_Segments/K-th_Number_in_the_Union_of_Segments.cpp → solutions/binary-search/K-th_Number_in_the_Union_of_Segments.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/K-th_Sum/K-th_Sum.cpp → solutions/binary-search/K-th_Sum.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Largest_Number/Largest_Number.cpp → solutions/sorting-and-searching/Largest_Number.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Linear_Functions/Linear_Functions.cpp → solutions/sorting-and-searching/Linear_Functions.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Minimal_Coverage/Minimal_Coverage.cpp → solutions/sorting-and-searching/Minimal_Coverage.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Missing_Coin_Sum/Missing_Coin_Sum.cpp → solutions/greedy/Missing_Coin_Sum.cpp: Filed new source; classification remains a suggestion. Category: greedy; status: suggested.
+- practice/inbox/Multiplication_Table/Multiplication_Table.cpp → solutions/binary-search/Multiplication_Table.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Paired_Up/Paired_Up.cpp → solutions/sorting-and-searching/Paired_Up.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Tasks_and_Deadlines/Tasks_and_Deadlines.cpp → solutions/sorting-and-searching/Tasks_and_Deadlines.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Training_Sessions/Training_Sessions.cpp → solutions/sorting-and-searching/Training_Sessions.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+
 ## 2026-11-14T17:17:17+00:00 — REVIEW
 
 - solutions/binary-search/Student_Councils.cpp → solutions/binary-search/Student_Councils.cpp: Binary search the number of councils x: each group contributes min(size, x) members (at most one per council), so feasible when sum min(a_i, x) >= x*k.. Category: binary-search; status: reviewed.

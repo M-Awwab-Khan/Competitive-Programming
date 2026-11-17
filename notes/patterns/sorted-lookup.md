@@ -90,6 +90,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [H - Number of Pairs (cpp)](../../solutions/binary-search/H_Number_of_Pairs.cpp) | binary-search | reviewed |
 | [H. Zaglol vs. the British Occupation (cpp)](../../solutions/binary-search/H_Zaglol_vs_the_British_Occupation.cpp) | binary-search | reviewed |
 | [J - Meet in the Middle (cpp)](../../solutions/meet-in-the-middle/J_Meet_in_the_Middle.cpp) | meet-in-the-middle | reviewed |
+| [K-th Sum (cpp)](../../solutions/binary-search/K-th_Sum.cpp) | binary-search | reviewed |
 | [kattis roompainting (cpp)](../../solutions/binary-search/kattis-roompainting.cpp) | binary-search | reviewed |
 | [luchu bandr (cpp)](../../solutions/binary-search/luchu_bandr.cpp) | binary-search | reviewed |
 | [Monster Game (cpp)](../../solutions/binary-search/Monster_Game.cpp) | binary-search | reviewed |

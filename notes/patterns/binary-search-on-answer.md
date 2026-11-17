@@ -30,6 +30,7 @@ For a real-valued answer (a length, a time), keep `lo` infeasible and `hi` feasi
 | `sum(min(a_i, x)) >= k * x` (teams of `k` from distinct groups) | each group gives at most one member per team |
 | All intervals `[x_i - t v_i, x_i + t v_i]` intersect (meeting point) | intervals only grow with `t` |
 | Path exists using only edges of weight `<= x`, within `d` steps | allowing more edges never lengthens the shortest path |
+| `k`-th smallest value of an implicit multiset (pair sums, multiplication table, union of segments) | the count of elements `< x` only grows with `x`; find the largest `x` with count `< k` (or `<= k` for 0-indexed `k`) |
 
 ## Common mistakes
 
@@ -84,6 +85,8 @@ Links are generated from catalog associations; classifications do not establish 
 | [I - Meeting on the Line (cpp)](../../solutions/binary-search/I_Meeting_on_the_Line.cpp) | binary-search | reviewed |
 | [J - Magic Ship (cpp)](../../solutions/binary-search/J_Magic_Ship.cpp) | binary-search | reviewed |
 | [K - The Meeting Place Cannot Be Changed (cpp)](../../solutions/binary-search/K_The_Meeting_Place_Cannot_Be_Changed.cpp) | binary-search | reviewed |
+| [K-th Number in the Union of Segments (cpp)](../../solutions/binary-search/K-th_Number_in_the_Union_of_Segments.cpp) | binary-search | reviewed |
+| [K-th Sum (cpp)](../../solutions/binary-search/K-th_Sum.cpp) | binary-search | reviewed |
 | [M - Mafia (cpp)](../../solutions/binary-search/M_Mafia.cpp) | binary-search | reviewed |
 | [magic powder ii (cpp)](../../solutions/binary-search/magic_powder_ii.cpp) | binary-search | reviewed |
 | [Maximum Average Segment (cpp)](../../solutions/binary-search/Maximum_Average_Segment.cpp) | binary-search | reviewed |
@@ -91,6 +94,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [Minimum Average Path (cpp)](../../solutions/binary-search/Minimum_Average_Path.cpp) | binary-search | reviewed |
 | [Minimum maximum on the Path (cpp)](../../solutions/binary-search/Minimum_maximum_on_the_Path.cpp) | binary-search | reviewed |
 | [moobuzz (cpp)](../../solutions/binary-search/moobuzz.cpp) | binary-search | reviewed |
+| [Multiplication Table (cpp)](../../solutions/binary-search/Multiplication_Table.cpp) | binary-search | reviewed |
 | [O - Cat, Fox and the Lonely Array (cpp)](../../solutions/binary-search/O_Cat_Fox_and_the_Lonely_Array.cpp) | binary-search | reviewed |
 | [Packing Rectangles (cpp)](../../solutions/binary-search/Packing_Rectangles.cpp) | binary-search | reviewed |
 | [Pair Selection (cpp)](../../solutions/binary-search/Pair_Selection.cpp) | binary-search | reviewed |

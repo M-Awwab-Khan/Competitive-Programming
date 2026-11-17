@@ -29,6 +29,8 @@ Turn intervals into sorted endpoints or sorted-by-end segments, then sweep once 
 | Greedy left-to-right placement | last occupied coordinate | `C_Woodcutters.cpp`, `B_Vaccination.cpp` |
 | Spans by last occurrence | extend block end to `last[a[i]]` | `G_1_Into_Blocks_easy_version.cpp` |
 | Plane sweep with active set | points within `d` of the sweep line | `Closest_Pair.cpp` |
+| Fewest segments covering `[0, m]` | sort by start; from `covered`, take the segment reaching farthest among those starting `<= covered`; fail if no progress | `Minimal_Coverage.cpp` |
+| Fewest cut points hitting every interval | sort by end; cut at the current end and skip every interval that starts before it | `Islands_War.cpp` |
 
 Complexity: `O(n log n)` for sorting; the sweep is `O(n)` or `O(n log n)` with a heap/multiset.
 
@@ -67,8 +69,11 @@ Links are generated from catalog associations; classifications do not establish 
 | [Disastrous Downtime (cpp)](../../solutions/intervals/Disastrous_Downtime.cpp) | intervals | reviewed |
 | [E Burns Road (cpp)](../../solutions/sorting-and-searching/E_Burns_Road.cpp) | sorting-and-searching | reviewed |
 | [G1. Into Blocks (easy version) (cpp)](../../solutions/greedy/G_1_Into_Blocks_easy_version.cpp) | greedy | reviewed |
+| [Islands War (cpp)](../../solutions/intervals/Islands_War.cpp) | intervals | reviewed |
 | [maximum nonoverlapping segments (cpp)](../../solutions/greedy/maximum-nonoverlapping-segments.cpp) | greedy | reviewed |
+| [Minimal Coverage (cpp)](../../solutions/intervals/Minimal_Coverage.cpp) | intervals | reviewed |
 | [movie festival (cpp)](../../solutions/greedy/movie_festival.cpp) | greedy | reviewed |
 | [restaurant customers (cpp)](../../solutions/intervals/restaurant_customers.cpp) | intervals | reviewed |
+| [Training Sessions (cpp)](../../solutions/intervals/Training_Sessions.cpp) | intervals | reviewed |
 
 <!-- examples:end -->

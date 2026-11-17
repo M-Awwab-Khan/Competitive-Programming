@@ -1,0 +1,35 @@
+{
+  "name": "B. Multiplication Table",
+  "group": "Codeforces - ITMO Academy: pilot course - Binary Search - Step 5",
+  "url": "https://codeforces.com/edu/course/2/lesson/6/5/practice/contest/285084/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "3 4\n",
+      "output": "3\n"
+    },
+    {
+      "input": "5 16\n",
+      "output": "10\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BMultiplicationTable"
+    }
+  },
+  "batch": {
+    "id": "cf83353d-d0f2-4b86-b85c-d6754a05e9ef",
+    "size": 1
+  }
+}

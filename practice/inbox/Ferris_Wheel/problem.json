@@ -1,0 +1,35 @@
+{
+  "name": "D. Ferris Wheel",
+  "group": "Codeforces - 2. Greedy Algorithms",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/D",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "4 10\n2 3 5 9\n",
+      "output": "3\n"
+    },
+    {
+      "input": "4 10\n5 5 5 5\n",
+      "output": "2\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DFerrisWheel"
+    }
+  },
+  "batch": {
+    "id": "faccdc2e-7569-4dd0-8ae2-516ae3081223",
+    "size": 1
+  }
+}
