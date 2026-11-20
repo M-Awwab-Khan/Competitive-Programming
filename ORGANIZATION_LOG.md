@@ -4,6 +4,54 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-20T15:05:20+00:00 — REVIEW
+
+- solutions/needs-review/a.cpp → solutions/arrays-and-counting/a.cpp: Counts pairs i<j with a[i]-i == a[j]-j by keeping a running map of a[i]-i frequencies and adding the current count before incrementing.. Category: arrays-and-counting; status: reviewed.
+
+## 2026-11-20T15:05:14+00:00 — REVIEW
+
+- solutions/needs-review/New_Year_and_Counting_Cards.cpp → solutions/strings/New_Year_and_Counting_Cards.cpp: Single pass over the string counting characters that are vowels or odd digits; no data structure beyond a counter.. Category: strings; status: reviewed.
+
+## 2026-11-20T15:05:05+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Rectangles.cpp → solutions/arrays-and-counting/Rectangles.cpp: Builds prefix and suffix intersections of axis-aligned rectangles and tests each rectangle's removal by intersecting prefix[i-1] with suffix[i+1]. Limitation: suffix intersections stop at index 1 (the loop uses i > 0) and INT_MAX is used as an empty sentinel.. Category: arrays-and-counting; status: reviewed.
+
+## 2026-11-20T15:05:00+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Room_Allocation.cpp → solutions/sorting-and-searching/Room_Allocation.cpp: Sorts reservations by start time and keeps a std::set of (end, room) pairs, reusing the room with the earliest end when it ended strictly before the start, otherwise opening a new room.. Category: sorting-and-searching; status: reviewed.
+
+## 2026-11-20T15:04:56+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Loyalty.cpp → solutions/sorting-and-searching/Loyalty.cpp: Sorts the values and fills from both ends with two pointers: it takes the largest element when it makes floor(sum/x) increase, otherwise it places the smallest. Limitation: not verified against the full constraints.. Category: sorting-and-searching; status: reviewed.
+
+## 2026-11-20T15:04:52+00:00 — REVIEW
+
+- solutions/binary-search/Fast_search.cpp → solutions/binary-search/Fast_search.cpp: Sorts the array, then counts elements in [l, r] per query as upper_bound(r) - lower_bound(l).. Category: binary-search; status: reviewed.
+
+## 2026-11-20T15:04:48+00:00 — REVIEW
+
+- solutions/binary-search/Closest_to_the_Right.cpp → solutions/binary-search/Closest_to_the_Right.cpp: lower_bound finds the first element >= x and prints its 1-based index, or n+1 when none exists.. Category: binary-search; status: reviewed.
+
+## 2026-11-20T15:04:43+00:00 — REVIEW
+
+- solutions/binary-search/Closest_to_the_Left.cpp → solutions/binary-search/Closest_to_the_Left.cpp: upper_bound on the sorted array gives the count of elements <= x, which is the 1-based index of the closest element to the left (0 if none).. Category: binary-search; status: reviewed.
+
+## 2026-11-20T15:04:40+00:00 — REVIEW
+
+- solutions/needs-review/Binary_Search.cpp → solutions/binary-search/Binary_Search.cpp: Inserts the array into a std::set and answers each query with set::find membership, so it uses an ordered set rather than an explicit binary search. Limitation: the set already deduplicates, so it never exercises a manual lower_bound.. Category: binary-search; status: reviewed.
+
+## 2026-11-20T15:04:22+00:00 — INGEST
+
+- practice/inbox/a/a.cpp → solutions/needs-review/a.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Binary_Search/Binary_Search.cpp → solutions/needs-review/Binary_Search.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Closest_to_the_Left/Closest_to_the_Left.cpp → solutions/binary-search/Closest_to_the_Left.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Closest_to_the_Right/Closest_to_the_Right.cpp → solutions/binary-search/Closest_to_the_Right.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Fast_search/Fast_search.cpp → solutions/binary-search/Fast_search.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Loyalty/Loyalty.cpp → solutions/sorting-and-searching/Loyalty.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/New_Year_and_Counting_Cards/New_Year_and_Counting_Cards.cpp → solutions/needs-review/New_Year_and_Counting_Cards.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Rectangles/Rectangles.cpp → solutions/arrays-and-counting/Rectangles.cpp: Filed new source; classification remains a suggestion. Category: arrays-and-counting; status: suggested.
+- practice/inbox/Room_Allocation/Room_Allocation.cpp → solutions/sorting-and-searching/Room_Allocation.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+
 ## 2026-11-17T16:30:14+00:00 — REVIEW
 
 - solutions/sorting-and-searching/Training_Sessions.cpp → solutions/intervals/Training_Sessions.cpp: Earliest end first: sort sessions by end and take each one starting no earlier than the last taken end; output their ids. Limitation: ids are looked up by (l, r), so identical sessions share one id.. Category: intervals; status: reviewed.

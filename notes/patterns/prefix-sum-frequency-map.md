@@ -48,6 +48,7 @@ Links are generated from catalog associations; classifications do not establish 
 
 | Implementation | Category | Classification |
 | --- | --- | --- |
+| [a (cpp)](../../solutions/arrays-and-counting/a.cpp) | arrays-and-counting | reviewed |
 | [A Dividing Candies (cpp)](../../solutions/prefix-sums/A_Dividing_Candies.cpp) | prefix-sums | reviewed |
 | [B Modulo Sum (cpp)](../../solutions/dynamic-programming/knapsack/B_Modulo_Sum.cpp) | dynamic-programming/knapsack | reviewed |
 | [E Romantic Glasses (cpp)](../../solutions/prefix-sums/E_Romantic_Glasses.cpp) | prefix-sums | reviewed |

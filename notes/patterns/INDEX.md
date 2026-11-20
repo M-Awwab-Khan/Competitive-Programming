@@ -9,25 +9,25 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Pair counting with inclusion-exclusion](pair-counting-inclusion-exclusion.md) | 10 |
 | [Counting selections with binomial coefficients](binomial-counting.md) | 12 |
 | [Binary search on the answer](binary-search-on-answer.md) | 58 |
-| [Prefix sums with a frequency map](prefix-sum-frequency-map.md) | 12 |
+| [Prefix sums with a frequency map](prefix-sum-frequency-map.md) | 13 |
 | [Monotonic deque](monotonic-deque.md) | 5 |
 | [Interval dynamic programming](interval-dp.md) | 4 |
 | [Two-pointer window over a monotone condition](two-pointer-window.md) | 61 |
 | [Queue with an aggregate built from two stacks](two-stack-aggregate-queue.md) | 3 |
 | [Disjoint set union and its variants](dsu-variants.md) | 14 |
 | [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 126 |
-| [Frequency tables and distinct-value counting](frequency-table.md) | 93 |
-| [Sort then greedy](sort-then-greedy.md) | 73 |
+| [Frequency tables and distinct-value counting](frequency-table.md) | 94 |
+| [Sort then greedy](sort-then-greedy.md) | 74 |
 | [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 62 |
 | [Parity and operation invariants](parity-and-invariants.md) | 54 |
 | [Constructive answers from small cases](constructive-small-cases.md) | 38 |
-| [Sorted lookup with binary search](sorted-lookup.md) | 36 |
+| [Sorted lookup with binary search](sorted-lookup.md) | 39 |
 | [Modular arithmetic](modular-arithmetic.md) | 33 |
 | [Digit manipulation](digit-manipulation.md) | 28 |
 | [Linear DP over positions](linear-dp.md) | 25 |
-| [Ordered-set queries](ordered-set-queries.md) | 25 |
+| [Ordered-set queries](ordered-set-queries.md) | 26 |
 | [GCD and LCM](gcd-lcm.md) | 22 |
-| [Geometry predicates](geometry-predicates.md) | 19 |
+| [Geometry predicates](geometry-predicates.md) | 20 |
 | [Per-bit reasoning](per-bit-reasoning.md) | 20 |
 | [Primes, sieves, and factorization](primes-sieve-and-factorization.md) | 19 |
 | [Knapsack and coin-change DP](knapsack-dp.md) | 19 |
@@ -50,7 +50,7 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Meet in the middle](meet-in-the-middle.md) | 6 |
 | [LIS and subsequence DP](lis-and-sequence-dp.md) | 5 |
 | [Palindromes: counts, pairs, and two-ended scans](palindromes.md) | 6 |
-| [Priority-queue greedy](priority-queue-greedy.md) | 4 |
+| [Priority-queue greedy](priority-queue-greedy.md) | 5 |
 | [Topological order, indegree peeling, and DAG DP](topological-sort.md) | 5 |
 | [Ternary search on a unimodal function](ternary-search.md) | 4 |
 | [Divide and conquer on recursive structure](divide-and-conquer.md) | 4 |

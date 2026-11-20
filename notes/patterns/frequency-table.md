@@ -129,6 +129,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [kattis memorymatch (cpp)](../../solutions/simulation/kattis-memorymatch.cpp) | simulation | reviewed |
 | [kattis pokerhand (cpp)](../../solutions/arrays-and-counting/kattis-pokerhand.cpp) | arrays-and-counting | reviewed |
 | [kattis vote (cpp)](../../solutions/arrays-and-counting/kattis-vote.cpp) | arrays-and-counting | reviewed |
+| [New Year and Counting Cards (cpp)](../../solutions/strings/New_Year_and_Counting_Cards.cpp) | strings | reviewed |
 | [Number of Equal (cpp)](../../solutions/arrays-and-counting/Number_of_Equal.cpp) | arrays-and-counting | reviewed |
 | [palindrome reorder (cpp)](../../solutions/strings/palindrome_reorder.cpp) | strings | reviewed |
 | [phoenix and socks (python)](../../solutions/greedy/phoenix_and_socks.py) | greedy | reviewed |

@@ -102,7 +102,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [E. Boxers (cpp)](../../solutions/greedy/E_Boxers.cpp) | greedy | reviewed |
 | [F1. Complete the Projects (easy version) (cpp)](../../solutions/greedy/F_1_Complete_the_Projects_easy_version.cpp) | greedy | reviewed |
 | [Ferris Wheel (cpp)](../../solutions/greedy/Ferris_Wheel.cpp) | greedy | reviewed |
-| [ferris wheel (cpp)](../../solutions/greedy/ferris_wheel.cpp) | greedy | reviewed |
+| [ferris wheel (cpp)](../../solutions/greedy/ferris_wheel_v1.cpp) | greedy | reviewed |
 | [friends and the restaurant (python)](../../solutions/greedy/friends_and_the_restaurant.py) | greedy | reviewed |
 | [G. Matching (cpp)](../../solutions/greedy/G_Matching.cpp) | greedy | reviewed |
 | [G2. Subsequence Addition (Hard Version) (cpp)](../../solutions/greedy/G_2_Subsequence_Addition_Hard_Version.cpp) | greedy | reviewed |
@@ -112,9 +112,10 @@ Links are generated from catalog associations; classifications do not establish 
 | [kayaking (python)](../../solutions/brute-force-and-backtracking/kayaking.py) | brute-force-and-backtracking | reviewed |
 | [Largest Number (cpp)](../../solutions/greedy/Largest_Number.cpp) | greedy | reviewed |
 | [Linear Functions (cpp)](../../solutions/greedy/Linear_Functions.cpp) | greedy | reviewed |
+| [Loyalty (cpp)](../../solutions/sorting-and-searching/Loyalty.cpp) | sorting-and-searching | reviewed |
 | [maximum nonoverlapping segments (cpp)](../../solutions/greedy/maximum-nonoverlapping-segments.cpp) | greedy | reviewed |
 | [Missing Coin Sum (cpp)](../../solutions/greedy/Missing_Coin_Sum.cpp) | greedy | reviewed |
-| [missing coin sum (cpp)](../../solutions/greedy/missing_coin_sum.cpp) | greedy | reviewed |
+| [missing coin sum (cpp)](../../solutions/greedy/missing_coin_sum_v1.cpp) | greedy | reviewed |
 | [movie festival (cpp)](../../solutions/greedy/movie_festival.cpp) | greedy | reviewed |
 | [Oil business (cpp)](../../solutions/graphs/spanning-trees/Oil_business.cpp) | graphs/spanning-trees | reviewed |
 | [paint numbers (python)](../../solutions/greedy/paint_numbers.py) | greedy | reviewed |

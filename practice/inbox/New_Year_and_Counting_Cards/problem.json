@@ -1,0 +1,39 @@
+{
+  "name": "A. New Year and Counting Cards",
+  "group": "Codeforces - ICPC Mock Practice - 20th November, 2026",
+  "url": "https://codeforces.com/gym/734197/problem/A",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "ee\n",
+      "output": "2\n"
+    },
+    {
+      "input": "z\n",
+      "output": "0\n"
+    },
+    {
+      "input": "0ay1\n",
+      "output": "2\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ANewYearAndCountingCards"
+    }
+  },
+  "batch": {
+    "id": "5977614f-261c-4edc-bbb6-48cf7433054f",
+    "size": 1
+  }
+}

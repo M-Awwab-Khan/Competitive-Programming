@@ -76,5 +76,6 @@ Links are generated from catalog associations; classifications do not establish 
 | [E Orthogonality (cpp)](../../solutions/geometry/E_Orthogonality.cpp) | geometry | reviewed |
 | [Problem 1. Blocked Billboard (cpp)](../../solutions/geometry/Problem_1_Blocked_Billboard.cpp) | geometry | reviewed |
 | [quiz forming teams (python)](../../solutions/greedy/quiz_forming_teams.py) | greedy | reviewed |
+| [Rectangles (cpp)](../../solutions/arrays-and-counting/Rectangles.cpp) | arrays-and-counting | reviewed |
 
 <!-- examples:end -->

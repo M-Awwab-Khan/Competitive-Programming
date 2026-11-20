@@ -1,23 +1,23 @@
 {
-  "total_entries": 1202,
+  "total_entries": 1211,
   "roles": {
-    "solution": 1197,
+    "solution": 1206,
     "reference": 1,
     "algorithm": 4
   },
   "categories": {
-    "sorting-and-searching": 59,
+    "sorting-and-searching": 61,
     "simulation": 81,
-    "arrays-and-counting": 89,
+    "arrays-and-counting": 91,
     "bit-manipulation": 29,
     "math/arithmetic": 118,
     "math/combinatorics": 22,
-    "binary-search": 77,
+    "binary-search": 81,
     "brute-force-and-backtracking": 58,
     "prefix-sums": 54,
     "constructive": 55,
     "two-pointers-and-sliding-window": 60,
-    "strings": 55,
+    "strings": 56,
     "math/number-theory": 70,
     "greedy": 149,
     "dynamic-programming/knapsack": 19,
@@ -45,12 +45,12 @@
     "data-structures/heaps": 1
   },
   "classifications": {
-    "reviewed": 1191,
+    "reviewed": 1200,
     "needs-review": 11
   },
   "implementations": {
-    "not-verified": 1192,
+    "not-verified": 1201,
     "empty-or-template": 10
   },
-  "sources_changed_since_classification": 0
+  "sources_changed_since_classification": 1191
 }

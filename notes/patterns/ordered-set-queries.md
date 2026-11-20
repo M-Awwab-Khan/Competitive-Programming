@@ -64,6 +64,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [B George and Round (cpp)](../../solutions/greedy/B_George_and_Round.cpp) | greedy | reviewed |
 | [B M Arrays (cpp)](../../solutions/greedy/B_M_Arrays__0a29afd8.cpp) | greedy | reviewed |
 | [B. Baby Baraa in ALBAIK (cpp)](../../solutions/data-structures/ordered-sets/B_Baby_Baraa_in_ALBAIK.cpp) | data-structures/ordered-sets | reviewed |
+| [Binary Search (cpp)](../../solutions/binary-search/Binary_Search.cpp) | binary-search | reviewed |
 | [C - Mex Min (cpp)](../../solutions/two-pointers-and-sliding-window/C_Mex_Min.cpp) | two-pointers-and-sliding-window | reviewed |
 | [C Rearrange (cpp)](../../solutions/greedy/C_Rearrange.cpp) | greedy | reviewed |
 | [C. Dora and Search (cpp)](../../solutions/two-pointers-and-sliding-window/C_Dora_and_Search.cpp) | two-pointers-and-sliding-window | reviewed |

@@ -24599,7 +24599,7 @@
     {
       "key": "aee9392029ffbaf5",
       "title": "ferris wheel",
-      "path": "solutions/greedy/ferris_wheel.cpp",
+      "path": "solutions/greedy/ferris_wheel_v1.cpp",
       "original_path": "ferris_wheel.cpp",
       "language": "cpp",
       "role": "solution",
@@ -26953,7 +26953,7 @@
     {
       "key": "c8fcfdd2eb990b0e",
       "title": "missing coin sum",
-      "path": "solutions/greedy/missing_coin_sum.cpp",
+      "path": "solutions/greedy/missing_coin_sum_v1.cpp",
       "original_path": "missing_coin_sum.cpp",
       "language": "cpp",
       "role": "solution",
@@ -36009,6 +36009,323 @@
       "review_required": false,
       "patterns": [
         "interval-scheduling-and-sweep"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "b54b2fdfe41e4188",
+      "title": "a",
+      "path": "solutions/arrays-and-counting/a.cpp",
+      "original_path": "practice/inbox/a/a.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [],
+      "collections": [],
+      "implementation_status": "not-verified",
+      "original_sha256": "1aacc739d0a15a49e5d0f7fbd0471519e81d815a304988a9a5ce8ea69884c56e",
+      "category": "arrays-and-counting",
+      "tags": [
+        "arrays-and-counting",
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Counts pairs i<j with a[i]-i == a[j]-j by keeping a running map of a[i]-i frequencies and adding the current count before incrementing.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "1aacc739d0a15a49e5d0f7fbd0471519e81d815a304988a9a5ce8ea69884c56e",
+      "observed_sha256": "1aacc739d0a15a49e5d0f7fbd0471519e81d815a304988a9a5ce8ea69884c56e",
+      "review_required": false,
+      "patterns": [
+        "prefix-sum-frequency-map"
+      ]
+    },
+    {
+      "key": "4651d5e129914988",
+      "title": "Binary Search",
+      "path": "solutions/binary-search/Binary_Search.cpp",
+      "original_path": "practice/inbox/Binary_Search/Binary_Search.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283911A",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0254dec25c09359c0c79904e447861a82e3f770ae7d5b324545d8cd44208b29f",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Inserts the array into a std::set and answers each query with set::find membership, so it uses an ordered set rather than an explicit binary search. Limitation: the set already deduplicates, so it never exercises a manual lower_bound.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0254dec25c09359c0c79904e447861a82e3f770ae7d5b324545d8cd44208b29f",
+      "observed_sha256": "0254dec25c09359c0c79904e447861a82e3f770ae7d5b324545d8cd44208b29f",
+      "review_required": false,
+      "patterns": [
+        "ordered-set-queries"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "542c2637c0b4427e",
+      "title": "Closest to the Left",
+      "path": "solutions/binary-search/Closest_to_the_Left.cpp",
+      "original_path": "practice/inbox/Closest_to_the_Left/Closest_to_the_Left.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283911B",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/B"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "6b78d071e4b1d1378257863d8ae87a1526a1ef2e688d057abc9fa9104ec7afb6",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "upper_bound on the sorted array gives the count of elements <= x, which is the 1-based index of the closest element to the left (0 if none).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "6b78d071e4b1d1378257863d8ae87a1526a1ef2e688d057abc9fa9104ec7afb6",
+      "observed_sha256": "6b78d071e4b1d1378257863d8ae87a1526a1ef2e688d057abc9fa9104ec7afb6",
+      "review_required": false,
+      "patterns": [
+        "sorted-lookup"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "5da0c32b2e734186",
+      "title": "Closest to the Right",
+      "path": "solutions/binary-search/Closest_to_the_Right.cpp",
+      "original_path": "practice/inbox/Closest_to_the_Right/Closest_to_the_Right.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283911C",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/C"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "5a57e25e511868a125d1cd060b35266d5cd2ef494f973be87c04fbcd0ee48fb7",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "lower_bound finds the first element >= x and prints its 1-based index, or n+1 when none exists.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "5a57e25e511868a125d1cd060b35266d5cd2ef494f973be87c04fbcd0ee48fb7",
+      "observed_sha256": "5a57e25e511868a125d1cd060b35266d5cd2ef494f973be87c04fbcd0ee48fb7",
+      "review_required": false,
+      "patterns": [
+        "sorted-lookup"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "3a79c20644484279",
+      "title": "Fast search",
+      "path": "solutions/binary-search/Fast_search.cpp",
+      "original_path": "practice/inbox/Fast_search/Fast_search.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "283911D",
+      "urls": [
+        "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/D"
+      ],
+      "collections": [
+        "Codeforces - ITMO Academy: pilot course - Binary Search - Step 1"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "61aadc3f37ce71206fbd6b22464c3407d8e20613845f182c9587f90694032127",
+      "category": "binary-search",
+      "tags": [
+        "binary-search",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts the array, then counts elements in [l, r] per query as upper_bound(r) - lower_bound(l).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "61aadc3f37ce71206fbd6b22464c3407d8e20613845f182c9587f90694032127",
+      "observed_sha256": "61aadc3f37ce71206fbd6b22464c3407d8e20613845f182c9587f90694032127",
+      "review_required": false,
+      "patterns": [
+        "sorted-lookup"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "a625b787f66f43a5",
+      "title": "Loyalty",
+      "path": "solutions/sorting-and-searching/Loyalty.cpp",
+      "original_path": "practice/inbox/Loyalty/Loyalty.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2161C",
+      "urls": [
+        "https://codeforces.com/problemset/problem/2161/C"
+      ],
+      "collections": [
+        "Codeforces - Pinely Round 5 (Div. 1 + Div. 2)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0aed256e34e2c388e08e171044e53c4eb2ae4991d0ec33ea959546ef6bb239f6",
+      "category": "sorting-and-searching",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts the values and fills from both ends with two pointers: it takes the largest element when it makes floor(sum/x) increase, otherwise it places the smallest. Limitation: not verified against the full constraints.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0aed256e34e2c388e08e171044e53c4eb2ae4991d0ec33ea959546ef6bb239f6",
+      "observed_sha256": "0aed256e34e2c388e08e171044e53c4eb2ae4991d0ec33ea959546ef6bb239f6",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "fa59d3cc097d4ce1",
+      "title": "New Year and Counting Cards",
+      "path": "solutions/strings/New_Year_and_Counting_Cards.cpp",
+      "original_path": "practice/inbox/New_Year_and_Counting_Cards/New_Year_and_Counting_Cards.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "734197A",
+      "urls": [
+        "https://codeforces.com/gym/734197/problem/A"
+      ],
+      "collections": [
+        "Codeforces - ICPC Mock Practice - 20th November, 2026"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "40d45b802542a073771d68ea0d7c3439bf3a305a241eff7209bbbc135fb4c080",
+      "category": "strings",
+      "tags": [
+        "simulation",
+        "strings"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Single pass over the string counting characters that are vowels or odd digits; no data structure beyond a counter.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "40d45b802542a073771d68ea0d7c3439bf3a305a241eff7209bbbc135fb4c080",
+      "observed_sha256": "40d45b802542a073771d68ea0d7c3439bf3a305a241eff7209bbbc135fb4c080",
+      "review_required": false,
+      "patterns": [
+        "frequency-table"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "38805a9210fe4a8f",
+      "title": "Rectangles",
+      "path": "solutions/arrays-and-counting/Rectangles.cpp",
+      "original_path": "practice/inbox/Rectangles/Rectangles.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "734197E",
+      "urls": [
+        "https://codeforces.com/gym/734197/problem/E"
+      ],
+      "collections": [
+        "Codeforces - ICPC Mock Practice - 20th November, 2026"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "e9554cf4d283c8f89e5a605afe108315faf8c12a489ce10bfb36c29e2ac27d13",
+      "category": "arrays-and-counting",
+      "tags": [
+        "arrays-and-counting",
+        "geometry"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Builds prefix and suffix intersections of axis-aligned rectangles and tests each rectangle's removal by intersecting prefix[i-1] with suffix[i+1]. Limitation: suffix intersections stop at index 1 (the loop uses i > 0) and INT_MAX is used as an empty sentinel.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "e9554cf4d283c8f89e5a605afe108315faf8c12a489ce10bfb36c29e2ac27d13",
+      "observed_sha256": "e9554cf4d283c8f89e5a605afe108315faf8c12a489ce10bfb36c29e2ac27d13",
+      "review_required": false,
+      "patterns": [
+        "geometry-predicates"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "42809028d9694220",
+      "title": "Room Allocation",
+      "path": "solutions/sorting-and-searching/Room_Allocation.cpp",
+      "original_path": "practice/inbox/Room_Allocation/Room_Allocation.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "730392O",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/730392/problem/O"
+      ],
+      "collections": [
+        "Codeforces - 2. Greedy Algorithms"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "8e0d6586d982d6410758a8c6bedfd645d6e6a546f5f9816fb3a916e3112d14b0",
+      "category": "sorting-and-searching",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts reservations by start time and keeps a std::set of (end, room) pairs, reusing the room with the earliest end when it ended strictly before the start, otherwise opening a new room.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "8e0d6586d982d6410758a8c6bedfd645d6e6a546f5f9816fb3a916e3112d14b0",
+      "observed_sha256": "8e0d6586d982d6410758a8c6bedfd645d6e6a546f5f9816fb3a916e3112d14b0",
+      "review_required": false,
+      "patterns": [
+        "priority-queue-greedy"
       ],
       "time_limit_ms": 2000,
       "memory_limit_mb": 256,

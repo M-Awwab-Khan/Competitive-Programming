@@ -6,9 +6,10 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## arrays-and-counting
 
-130 files
+132 files
 
 - [11222 Only I did it (python)](../solutions/arrays-and-counting/11222_Only_I_did_it.py)
+- [a (cpp)](../solutions/arrays-and-counting/a.cpp)
 - [A - Gift Exchange (cpp)](../solutions/simulation/A_Gift_Exchange.cpp)
 - [A Elections (cpp)](../solutions/arrays-and-counting/A_Elections.cpp)
 - [A Free Cash (cpp)](../solutions/arrays-and-counting/A_Free_Cash.cpp)
@@ -123,6 +124,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [phoenix and socks (python)](../solutions/greedy/phoenix_and_socks.py)
 - [Prefix Sum Addicts (cpp)](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp)
 - [Range Operation (cpp)](../solutions/dynamic-programming/kadane/Range_Operation.cpp)
+- [Rectangles (cpp)](../solutions/arrays-and-counting/Rectangles.cpp)
 - [registration system (python)](../solutions/strings/registration_system.py)
 - [same differences (python)](../solutions/arrays-and-counting/same-differences.py)
 - [Segments with Small Set (cpp)](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp)
@@ -141,7 +143,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## binary-search
 
-104 files
+108 files
 
 - [1 (python)](../solutions/sorting-and-searching/1.py)
 - [A Drink Accordingly (cpp)](../solutions/sorting-and-searching/A_Drink_Accordingly.cpp)
@@ -161,6 +163,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Vanya and Lanterns (cpp)](../solutions/binary-search/B_Vanya_and_Lanterns.cpp)
 - [B. Worms (cpp)](../solutions/prefix-sums/B_Worms.cpp)
 - [bake fishes (python)](../solutions/binary-search/bake_fishes.py)
+- [Binary Search (cpp)](../solutions/binary-search/Binary_Search.cpp)
 - [C - C (cpp)](../solutions/binary-search/C_C.cpp)
 - [C - ICPC Practice (cpp)](../solutions/binary-search/C_ICPC_Practice.cpp)
 - [C 2 Skibidus and Fanum Tax hard version (cpp)](../solutions/greedy/C_2_Skibidus_and_Fanum_Tax_hard_version.cpp)
@@ -175,6 +178,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf countingpairs (python)](../solutions/sorting-and-searching/cf-countingpairs.py)
 - [cf eugeny playlist (cpp)](../solutions/binary-search/cf-eugeny-playlist.cpp)
 - [Children Holiday (cpp)](../solutions/binary-search/Children_Holiday.cpp)
+- [Closest to the Left (cpp)](../solutions/binary-search/Closest_to_the_Left.cpp)
+- [Closest to the Right (cpp)](../solutions/binary-search/Closest_to_the_Right.cpp)
 - [concert tickets (cpp)](../solutions/data-structures/ordered-sets/concert_tickets.cpp)
 - [counting haybales (python)](../solutions/sorting-and-searching/counting-haybales.py)
 - [covid (python)](../solutions/binary-search/covid.py)
@@ -203,6 +208,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [F. Yet Another Problem About Pairs Satisfying an Inequality (cpp)](../solutions/sorting-and-searching/F_Yet_Another_Problem_About_Pairs_Satisfying_an_Inequality.cpp)
 - [F1. Guess the K-th Zero (Easy version) (cpp)](../solutions/binary-search/F_1_Guess_the_K_th_Zero_Easy_version.cpp)
 - [factory machines (cpp)](../solutions/binary-search/factory_machines.cpp)
+- [Fast search (cpp)](../solutions/binary-search/Fast_search.cpp)
 - [G - Bowling Frame (cpp)](../solutions/binary-search/G_Bowling_Frame.cpp)
 - [G - Queries about less or equal elements (cpp)](../solutions/sorting-and-searching/G_Queries_about_less_or_equal_elements.cpp)
 - [G Cryptogram (cpp)](../solutions/strings/G_Cryptogram.cpp)
@@ -735,7 +741,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## geometry
 
-53 files
+54 files
 
 - [A - Isosceles (cpp)](../solutions/geometry/A_Isosceles.cpp)
 - [A - Point Location Test (cpp)](../solutions/geometry/A_Point_Location_Test.cpp)
@@ -787,6 +793,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Problem 1. Square Pasture (cpp)](../solutions/geometry/Problem_1_Square_Pasture.cpp)
 - [quadrantselection (cpp)](../solutions/geometry/quadrantselection.cpp)
 - [quiz forming teams (python)](../solutions/greedy/quiz_forming_teams.py)
+- [Rectangles (cpp)](../solutions/arrays-and-counting/Rectangles.cpp)
 - [two tables (python)](../solutions/geometry/two-tables.py)
 - [uva bender (cpp)](../solutions/simulation/uva-bender.cpp)
 - [W - Perpendicular Segments (cpp)](../solutions/constructive/W_Perpendicular_Segments.cpp)
@@ -860,7 +867,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## greedy
 
-218 files
+220 files
 
 - [A - A (cpp)](../solutions/two-pointers-and-sliding-window/A_A.cpp)
 - [A - Very Different Array (cpp)](../solutions/greedy/A_Very_Different_Array.cpp)
@@ -1013,7 +1020,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [F1. Complete the Projects (easy version) (cpp)](../solutions/greedy/F_1_Complete_the_Projects_easy_version.cpp)
 - [Faking Data (cpp)](../solutions/greedy/Faking_Data.cpp)
 - [Ferris Wheel (cpp)](../solutions/greedy/Ferris_Wheel.cpp)
-- [ferris wheel (cpp)](../solutions/greedy/ferris_wheel.cpp)
+- [ferris wheel (cpp)](../solutions/greedy/ferris_wheel_v1.cpp)
 - [flipping the matrix (python)](../solutions/greedy/flipping-the-matrix.py)
 - [friends and the restaurant (python)](../solutions/greedy/friends_and_the_restaurant.py)
 - [G - Souvenirs (cpp)](../solutions/greedy/G_Souvenirs.cpp)
@@ -1041,11 +1048,12 @@ A source may appear under several tags. Its primary category determines its fold
 - [Largest Number (cpp)](../solutions/greedy/Largest_Number.cpp)
 - [Letters Down (cpp)](../solutions/strings/Letters_Down.cpp)
 - [Linear Functions (cpp)](../solutions/greedy/Linear_Functions.cpp)
+- [Loyalty (cpp)](../solutions/sorting-and-searching/Loyalty.cpp)
 - [maximum median (cpp)](../solutions/binary-search/maximum_median.cpp)
 - [maximum nonoverlapping segments (cpp)](../solutions/greedy/maximum-nonoverlapping-segments.cpp)
 - [Minimal Coverage (cpp)](../solutions/intervals/Minimal_Coverage.cpp)
 - [Missing Coin Sum (cpp)](../solutions/greedy/Missing_Coin_Sum.cpp)
-- [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum.cpp)
+- [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum_v1.cpp)
 - [movie festival (cpp)](../solutions/greedy/movie_festival.cpp)
 - [Oil business (cpp)](../solutions/graphs/spanning-trees/Oil_business.cpp)
 - [only plusses (python)](../solutions/greedy/only_plusses.py)
@@ -1056,6 +1064,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Problem 2. The Great Revegetation (cpp)](../solutions/greedy/Problem_2_The_Great_Revegetation.cpp)
 - [Q Food for Animals (cpp)](../solutions/math/arithmetic/Q_Food_for_Animals.cpp)
 - [quiz forming teams (python)](../solutions/greedy/quiz_forming_teams.py)
+- [Room Allocation (cpp)](../solutions/sorting-and-searching/Room_Allocation.cpp)
 - [sellstocks (python)](../solutions/greedy/sellstocks.py)
 - [songs compression (python)](../solutions/greedy/songs_compression.py)
 - [Splitting an Array (cpp)](../solutions/binary-search/Splitting_an_Array.cpp)
@@ -1481,8 +1490,9 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## prefix-sums
 
-88 files
+89 files
 
+- [a (cpp)](../solutions/arrays-and-counting/a.cpp)
 - [A Appleman and Toastman (cpp)](../solutions/greedy/A_Appleman_and_Toastman.cpp)
 - [A Dividing Candies (cpp)](../solutions/prefix-sums/A_Dividing_Candies.cpp)
 - [A-B Knapsack (cpp)](../solutions/greedy/A-B_Knapsack.cpp)
@@ -1593,7 +1603,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## simulation
 
-106 files
+107 files
 
 - [10978 - Let's Play Magic! (python)](../solutions/simulation/10978_Let_s_Play_Magic.py)
 - [A - Gift Exchange (cpp)](../solutions/simulation/A_Gift_Exchange.cpp)
@@ -1663,6 +1673,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [minesweeper (python)](../solutions/simulation/minesweeper.py)
 - [minesweeper 2 (python)](../solutions/simulation/minesweeper%202.py)
 - [Mixing Milk (cpp)](../solutions/simulation/Mixing_Milk.cpp)
+- [New Year and Counting Cards (cpp)](../solutions/strings/New_Year_and_Counting_Cards.cpp)
 - [packingforholiday (cpp)](../solutions/simulation/packingforholiday.cpp)
 - [Problem 3. Swapity Swap (cpp)](../solutions/simulation/Problem_3_Swapity_Swap.cpp)
 - [rotate mat (python)](../solutions/simulation/rotate-mat.py)
@@ -1704,7 +1715,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-210 files
+216 files
 
 - [1 (python)](../solutions/sorting-and-searching/1.py)
 - [11222 Only I did it (python)](../solutions/arrays-and-counting/11222_Only_I_did_it.py)
@@ -1762,6 +1773,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [B. Vanya and Lanterns (cpp)](../solutions/binary-search/B_Vanya_and_Lanterns.cpp)
 - [balanced team (python)](../solutions/two-pointers-and-sliding-window/balanced_team.py)
 - [Balatro (cpp)](../solutions/greedy/Balatro.cpp)
+- [Binary Search (cpp)](../solutions/binary-search/Binary_Search.cpp)
 - [Books on a Shelf (cpp)](../solutions/constructive/Books_on_a_Shelf.cpp)
 - [bottles and gems (cpp)](../solutions/greedy/bottles_and_gems.cpp)
 - [Breach of Faith (cpp)](../solutions/constructive/Breach_of_Faith.cpp)
@@ -1799,6 +1811,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [closest numbers (python)](../solutions/sorting-and-searching/closest-numbers.py)
 - [Closest Pair (cpp)](../solutions/geometry/Closest_Pair.cpp)
 - [Closest Pair Uniform (cpp)](../solutions/geometry/Closest_Pair_Uniform.cpp)
+- [Closest to the Left (cpp)](../solutions/binary-search/Closest_to_the_Left.cpp)
+- [Closest to the Right (cpp)](../solutions/binary-search/Closest_to_the_Right.cpp)
 - [codechef adjsumlost (cpp)](../solutions/constructive/codechef-adjsumlost.cpp)
 - [counting haybales (python)](../solutions/sorting-and-searching/counting-haybales.py)
 - [counting sort (cpp)](../solutions/sorting-and-searching/counting-sort.cpp)
@@ -1840,7 +1854,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [F. Franco Haters Club (cpp)](../solutions/sorting-and-searching/F_Franco_Haters_Club.cpp)
 - [F. Yet Another Problem About Pairs Satisfying an Inequality (cpp)](../solutions/sorting-and-searching/F_Yet_Another_Problem_About_Pairs_Satisfying_an_Inequality.cpp)
 - [F1. Complete the Projects (easy version) (cpp)](../solutions/greedy/F_1_Complete_the_Projects_easy_version.cpp)
-- [ferris wheel (cpp)](../solutions/greedy/ferris_wheel.cpp)
+- [Fast search (cpp)](../solutions/binary-search/Fast_search.cpp)
+- [ferris wheel (cpp)](../solutions/greedy/ferris_wheel_v1.cpp)
 - [friends and the restaurant (python)](../solutions/greedy/friends_and_the_restaurant.py)
 - [G - Queries about less or equal elements (cpp)](../solutions/sorting-and-searching/G_Queries_about_less_or_equal_elements.cpp)
 - [G Gravity Flip (cpp)](../solutions/sorting-and-searching/G_Gravity_Flip.cpp)
@@ -1870,13 +1885,14 @@ A source may appear under several tags. Its primary category determines its fold
 - [L Plus One on the Subset (cpp)](../solutions/sorting-and-searching/L_Plus_One_on_the_Subset.cpp)
 - [Largest Number (cpp)](../solutions/greedy/Largest_Number.cpp)
 - [Linear Functions (cpp)](../solutions/greedy/Linear_Functions.cpp)
+- [Loyalty (cpp)](../solutions/sorting-and-searching/Loyalty.cpp)
 - [luchu bandr (cpp)](../solutions/binary-search/luchu_bandr.cpp)
 - [M Balanced Shuffle Easy (cpp)](../solutions/sorting-and-searching/M_Balanced_Shuffle_Easy.cpp)
 - [maximum median (cpp)](../solutions/binary-search/maximum_median.cpp)
 - [maximum nonoverlapping segments (cpp)](../solutions/greedy/maximum-nonoverlapping-segments.cpp)
 - [maximum sum (python)](../solutions/prefix-sums/maximum_sum.py)
 - [Missing Coin Sum (cpp)](../solutions/greedy/Missing_Coin_Sum.cpp)
-- [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum.cpp)
+- [missing coin sum (cpp)](../solutions/greedy/missing_coin_sum_v1.cpp)
 - [Monster Game (cpp)](../solutions/binary-search/Monster_Game.cpp)
 - [movie festival (cpp)](../solutions/greedy/movie_festival.cpp)
 - [Number of Connected Components on Segments (cpp)](../solutions/data-structures/disjoint-set/Number_of_Connected_Components_on_Segments.cpp)
@@ -1890,6 +1906,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [playing in a casino (python)](../solutions/sorting-and-searching/playing_in_a_casino.py)
 - [Problem 1. Field Reduction (cpp)](../solutions/brute-force-and-backtracking/Problem_1_Field_Reduction.cpp)
 - [restaurant customers (cpp)](../solutions/intervals/restaurant_customers.cpp)
+- [Room Allocation (cpp)](../solutions/sorting-and-searching/Room_Allocation.cpp)
 - [roots (python)](../solutions/binary-search/roots.py)
 - [sellstocks (python)](../solutions/greedy/sellstocks.py)
 - [songs compression (python)](../solutions/greedy/songs_compression.py)
@@ -1919,7 +1936,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## strings
 
-141 files
+142 files
 
 - [A - ABC -> AC (python)](../solutions/strings/A_ABC_AC.py)
 - [A - Repdigit (cpp)](../solutions/math/arithmetic/A_Repdigit.cpp)
@@ -2034,6 +2051,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Letters Down (cpp)](../solutions/strings/Letters_Down.cpp)
 - [love calculator (cpp)](../solutions/math/arithmetic/love-calculator.cpp)
 - [M Balanced Shuffle Easy (cpp)](../solutions/sorting-and-searching/M_Balanced_Shuffle_Easy.cpp)
+- [New Year and Counting Cards (cpp)](../solutions/strings/New_Year_and_Counting_Cards.cpp)
 - [Nikita and string (cpp)](../solutions/dynamic-programming/sequences/Nikita_and_string.cpp)
 - [Not Very Rude Substring (cpp)](../solutions/two-pointers-and-sliding-window/Not_Very_Rude_Substring.cpp)
 - [P Polycarp and the Day of Pi (cpp)](../solutions/strings/P_Polycarp_and_the_Day_of_Pi.cpp)
@@ -2138,7 +2156,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [F Playing with OR (python)](../solutions/two-pointers-and-sliding-window/F_Playing_with_OR.py)
 - [F. Money Trees (cpp)](../solutions/two-pointers-and-sliding-window/F_Money_Trees.cpp)
 - [Ferris Wheel (cpp)](../solutions/greedy/Ferris_Wheel.cpp)
-- [ferris wheel (cpp)](../solutions/greedy/ferris_wheel.cpp)
+- [ferris wheel (cpp)](../solutions/greedy/ferris_wheel_v1.cpp)
 - [friends and the restaurant (python)](../solutions/greedy/friends_and_the_restaurant.py)
 - [G - Three Parts of the Array (cpp)](../solutions/two-pointers-and-sliding-window/G_Three_Parts_of_the_Array.cpp)
 - [G. 2^Sort (cpp)](../solutions/arrays-and-counting/G_2_Sort.cpp)

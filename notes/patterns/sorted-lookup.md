@@ -75,6 +75,8 @@ Links are generated from catalog associations; classifications do not establish 
 | [cf countingpairs (cpp)](../../solutions/sorting-and-searching/cf-countingpairs.cpp) | sorting-and-searching | reviewed |
 | [cf countingpairs (python)](../../solutions/sorting-and-searching/cf-countingpairs.py) | sorting-and-searching | reviewed |
 | [cf eugeny playlist (cpp)](../../solutions/binary-search/cf-eugeny-playlist.cpp) | binary-search | reviewed |
+| [Closest to the Left (cpp)](../../solutions/binary-search/Closest_to_the_Left.cpp) | binary-search | reviewed |
+| [Closest to the Right (cpp)](../../solutions/binary-search/Closest_to_the_Right.cpp) | binary-search | reviewed |
 | [counting haybales (python)](../../solutions/sorting-and-searching/counting-haybales.py) | sorting-and-searching | reviewed |
 | [E - Laser Takahashi (cpp)](../../solutions/geometry/E_Laser_Takahashi.cpp) | geometry | reviewed |
 | [E - Laser Takahashi (python)](../../solutions/geometry/E_Laser_Takahashi.py) | geometry | reviewed |
@@ -85,6 +87,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [F Frosted Highway Hard (cpp)](../../solutions/math/number-theory/F_Frosted_Highway_Hard.cpp) | math/number-theory | reviewed |
 | [F. Ant colony (cpp)](../../solutions/data-structures/range-queries/F_Ant_colony.cpp) | data-structures/range-queries | reviewed |
 | [F. Yet Another Problem About Pairs Satisfying an Inequality (cpp)](../../solutions/sorting-and-searching/F_Yet_Another_Problem_About_Pairs_Satisfying_an_Inequality.cpp) | sorting-and-searching | reviewed |
+| [Fast search (cpp)](../../solutions/binary-search/Fast_search.cpp) | binary-search | reviewed |
 | [G - Queries about less or equal elements (cpp)](../../solutions/sorting-and-searching/G_Queries_about_less_or_equal_elements.cpp) | sorting-and-searching | reviewed |
 | [G Cryptogram (cpp)](../../solutions/strings/G_Cryptogram.cpp) | strings | reviewed |
 | [H - Number of Pairs (cpp)](../../solutions/binary-search/H_Number_of_Pairs.cpp) | binary-search | reviewed |

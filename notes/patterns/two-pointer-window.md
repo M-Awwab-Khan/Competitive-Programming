@@ -94,7 +94,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [F Playing with OR (python)](../../solutions/two-pointers-and-sliding-window/F_Playing_with_OR.py) | two-pointers-and-sliding-window | reviewed |
 | [F. Money Trees (cpp)](../../solutions/two-pointers-and-sliding-window/F_Money_Trees.cpp) | two-pointers-and-sliding-window | reviewed |
 | [Ferris Wheel (cpp)](../../solutions/greedy/Ferris_Wheel.cpp) | greedy | reviewed |
-| [ferris wheel (cpp)](../../solutions/greedy/ferris_wheel.cpp) | greedy | reviewed |
+| [ferris wheel (cpp)](../../solutions/greedy/ferris_wheel_v1.cpp) | greedy | reviewed |
 | [friends and the restaurant (python)](../../solutions/greedy/friends_and_the_restaurant.py) | greedy | reviewed |
 | [G - Three Parts of the Array (cpp)](../../solutions/two-pointers-and-sliding-window/G_Three_Parts_of_the_Array.cpp) | two-pointers-and-sliding-window | reviewed |
 | [H. Product of Four Elements (cpp)](../../solutions/two-pointers-and-sliding-window/H_Product_of_Four_Elements.cpp) | two-pointers-and-sliding-window | reviewed |

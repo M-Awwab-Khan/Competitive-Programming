@@ -4,8 +4,8 @@
 
 | Category | Solutions |
 | --- | ---: |
-| [arrays-and-counting](arrays-and-counting/) | 89 |
-| [binary-search](binary-search/) | 77 |
+| [arrays-and-counting](arrays-and-counting/) | 91 |
+| [binary-search](binary-search/) | 81 |
 | [bit-manipulation](bit-manipulation/) | 29 |
 | [brute-force-and-backtracking](brute-force-and-backtracking/) | 58 |
 | [constructive](constructive/) | 55 |
@@ -36,8 +36,8 @@
 | [prefix-sums](prefix-sums/) | 52 |
 | [recursion-and-divide-and-conquer](recursion-and-divide-and-conquer/) | 5 |
 | [simulation](simulation/) | 81 |
-| [sorting-and-searching](sorting-and-searching/) | 59 |
-| [strings](strings/) | 55 |
+| [sorting-and-searching](sorting-and-searching/) | 61 |
+| [strings](strings/) | 56 |
 | [ternary-search](ternary-search/) | 4 |
 | [trees](trees/) | 9 |
 | [two-pointers-and-sliding-window](two-pointers-and-sliding-window/) | 58 |

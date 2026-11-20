@@ -57,5 +57,6 @@ Links are generated from catalog associations; classifications do not establish 
 | [B Airport (cpp)](../../solutions/greedy/B_Airport.cpp) | greedy | reviewed |
 | [cses roomallocation (cpp)](../../solutions/greedy/cses-roomallocation.cpp) | greedy | reviewed |
 | [knigsoftheforest (cpp)](../../solutions/data-structures/heaps/knigsoftheforest.cpp) | data-structures/heaps | reviewed |
+| [Room Allocation (cpp)](../../solutions/sorting-and-searching/Room_Allocation.cpp) | sorting-and-searching | reviewed |
 
 <!-- examples:end -->
