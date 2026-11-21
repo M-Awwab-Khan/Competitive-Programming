@@ -55,7 +55,7 @@ practice/inbox/Number_of_Ways/
 
 `problem.json` preserves the received URL, title, constraints, flags, batch data, and original samples. Input/expected files preserve the sample text as UTF-8, including whitespace. Generated output files are ignored by Git. Each numbered `.in` file is a separate program invocation, in numeric order. `run` displays all outputs; `check` compares each against its matching `.expected.txt`, continues after failures, and returns failure if any sample fails. Compilation happens once. To add a custom sample, add the next numbered input and expected pair. If numbered inputs exist they take precedence over the single-sample files; keep one layout per workspace.
 
-A sample block containing `t` stays one input file; individual cases inside it are not split. With no received samples, empty single-sample files are created and the terminal asks you to fill them. Samples do not include hidden judge tests. Interactive problems produce a terminal notice and need an interactive runner; floating-point tolerances and special judging remain outside token comparison. The extension owns website parsing, so site changes may require updating Companion.
+A sample block containing `t` stays one input file; individual cases inside it are not split. With no received samples, empty single-sample files are created and the terminal asks you to fill them. Samples do not include hidden judge tests. Interactive problems produce a terminal notice and need an interactive runner; special judging remains outside token comparison. The extension owns website parsing, so site changes may require updating Companion.
 
 ## Run and compare
 
@@ -66,7 +66,7 @@ make run B.py
 make build A_Line_Trip.cpp
 ```
 
-`run` reads the whole `input.txt` through stdin, writes stdout to `output.txt`, and displays the result. Stderr stays on the terminal. The working directory is the sample folder, so relative file opens work there too. `check` runs the program and compares its output to `expected.txt`, ignoring whitespace differences. Nonzero program exits and mismatches fail the command. Fill `expected.txt` first: an empty expected file means you expect empty output. Floating-point answers require your own tolerance comparison; special judges need their own checker.
+`run` reads the whole `input.txt` through stdin, writes stdout to `output.txt`, and displays the result. Stderr stays on the terminal. The working directory is the sample folder, so relative file opens work there too. `check` runs the program and compares its output to `expected.txt`, ignoring whitespace differences. Nonzero program exits and mismatches fail the command. Fill `expected.txt` first: an empty expected file means you expect empty output. A mismatch prints a diagnosis and a side-by-side table of expected versus your lines, with the first five differing lines and the differing tokens marked (`VERBOSE=1` for every row, `DIFF=unified` for a classic diff; your raw output stays in `output.txt`). Floating-point answers can use `EPS=1e-6`, which accepts numeric tokens within that absolute-or-relative error; the default stays exact. Special judges need their own checker.
 
 Program execution has a five-second timeout. For a slower solution, use `make run A_Line_Trip.cpp RUN_TIMEOUT=10` (also supported by `check`). The limit must be a finite positive number of seconds; it does not apply to compilation or PCH creation. On timeout the runner stops the program, reports the limit, retains any partial output, and exits with status 124 (Make reports the failed recipe).
 

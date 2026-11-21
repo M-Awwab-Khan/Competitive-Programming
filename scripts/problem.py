@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Create and run standalone practice problems without CPH."""
 import argparse
-import difflib
 import json
 import math
 import os
@@ -11,6 +10,7 @@ import shutil
 import subprocess
 import sys
 
+from compare import parse_eps, report
 from cpp_build import build, prepare_pch
 from samples import add_sample, selected_samples
 
@@ -41,6 +41,8 @@ The previous NAME=... LANG=... and SOURCE=... forms also work.
 CXX=g++ CXXFLAGS='-std=c++23 -O2 -pipe' CPPFLAGS='' PCH=1 are configurable.
 Use PCH=0 for ordinary compilation, including with Clang. First PCH build costs extra.
 RUN_TIMEOUT=5 limits program execution to five seconds; compilation is not timed.
+check shows a side-by-side table of differing lines. VERBOSE=1 shows every row,
+DIFF=unified gives a classic diff, EPS=1e-6 accepts numeric answers within that error.
 No files are overwritten by new. There is no implicit ingestion or commit.
 """
 
@@ -163,7 +165,14 @@ def run(action):
     timeout = float(os.environ.get('CP_RUN_TIMEOUT', '5'))
     if not math.isfinite(timeout) or timeout <= 0:
         raise ValueError('RUN_TIMEOUT must be a finite positive number of seconds.')
+    eps = parse_eps(os.environ.get('CP_EPS', ''))
+    verbose = os.environ.get('CP_VERBOSE', '0') not in ('', '0')
+    style = os.environ.get('CP_DIFF', '') or 'side-by-side'
+    if style not in ('side-by-side', 'unified'):
+        raise ValueError('DIFF must be unified (or unset for the side-by-side table).')
+    color = sys.stdout.isatty() and 'NO_COLOR' not in os.environ
     status = 0
+    results = []
     for input_path, expected, output_path in samples:
         if len(samples) > 1 or os.environ.get('CP_SAMPLE'):
             print('\nSample ' + input_path.name, flush=True)
@@ -178,26 +187,29 @@ def run(action):
                 print(f'Error: program exceeded RUN_TIMEOUT={timeout:g} seconds. '
                       f'Partial output remains in {output_path.name}.', file=sys.stderr)
                 status = 124
+                results.append((input_path.name, 'error'))
                 continue
         actual = output_path.read_bytes()
         sys.stdout.flush()
-        sys.stdout.buffer.write(actual)
-        sys.stdout.buffer.flush()
+        # check shows its own comparison; the raw output stays in output.txt.
+        if action != 'check' or result.returncode:
+            sys.stdout.buffer.write(actual)
+            sys.stdout.buffer.flush()
         if result.returncode:
             print('\nProgram exited with code ' + str(result.returncode), file=sys.stderr)
             status = status or (result.returncode if result.returncode > 0 else 1)
+            results.append((input_path.name, 'error'))
             continue
         if action == 'check':
-            wanted = expected.read_bytes()
-            if actual.split() != wanted.split():
-                print('\nOutput differs from ' + expected.name + ':', file=sys.stderr)
-                print(''.join(difflib.unified_diff(
-                    wanted.decode(errors='replace').splitlines(True),
-                    actual.decode(errors='replace').splitlines(True),
-                    fromfile=expected.name, tofile=output_path.name)), file=sys.stderr)
-                status = status or 1
-            else:
-                print('\nPASS (whitespace-separated tokens match; no floating-point tolerance)')
+            ok, text = report(expected.read_bytes(), actual, expected.name, output_path.name,
+                              eps=eps, color=color, verbose=verbose, style=style)
+            print(('' if len(samples) > 1 else '\n') + text + ('' if ok else '\n   output: ' + output_path.name))
+            results.append((input_path.name, 'pass' if ok else 'fail'))
+            status = status or (0 if ok else 1)
+    if action == 'check' and len(samples) > 1:
+        failed = [name for name, state in results if state != 'pass']
+        print('\n%d passed, %d failed%s' % (len(results) - len(failed), len(failed),
+                                           ' (' + ', '.join(failed) + ')' if failed else ''))
     return status
 
 
