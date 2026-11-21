@@ -36036,8 +36036,8 @@
       "classification_evidence": "Counts pairs i<j with a[i]-i == a[j]-j by keeping a running map of a[i]-i frequencies and adding the current count before incrementing.",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "1aacc739d0a15a49e5d0f7fbd0471519e81d815a304988a9a5ce8ea69884c56e",
-      "observed_sha256": "1aacc739d0a15a49e5d0f7fbd0471519e81d815a304988a9a5ce8ea69884c56e",
+      "classification_sha256": "572eb43136d9e17e3ce496c848aa337c0054bc656f8ac9c7b92d410e5b17b5e6",
+      "observed_sha256": "572eb43136d9e17e3ce496c848aa337c0054bc656f8ac9c7b92d410e5b17b5e6",
       "review_required": false,
       "patterns": [
         "prefix-sum-frequency-map"
@@ -36069,8 +36069,8 @@
       "classification_evidence": "Inserts the array into a std::set and answers each query with set::find membership, so it uses an ordered set rather than an explicit binary search. Limitation: the set already deduplicates, so it never exercises a manual lower_bound.",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "0254dec25c09359c0c79904e447861a82e3f770ae7d5b324545d8cd44208b29f",
-      "observed_sha256": "0254dec25c09359c0c79904e447861a82e3f770ae7d5b324545d8cd44208b29f",
+      "classification_sha256": "f4071b9375e048d6909f794a9f2a2a4a70de94e25ae9ddbcd420319c951a2d4c",
+      "observed_sha256": "f4071b9375e048d6909f794a9f2a2a4a70de94e25ae9ddbcd420319c951a2d4c",
       "review_required": false,
       "patterns": [
         "ordered-set-queries"
@@ -36105,8 +36105,8 @@
       "classification_evidence": "upper_bound on the sorted array gives the count of elements <= x, which is the 1-based index of the closest element to the left (0 if none).",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "6b78d071e4b1d1378257863d8ae87a1526a1ef2e688d057abc9fa9104ec7afb6",
-      "observed_sha256": "6b78d071e4b1d1378257863d8ae87a1526a1ef2e688d057abc9fa9104ec7afb6",
+      "classification_sha256": "d7eac53ee354c7ce25b1525e8dfc6123b20505fa584a73f5bdd7636b0dcf7809",
+      "observed_sha256": "d7eac53ee354c7ce25b1525e8dfc6123b20505fa584a73f5bdd7636b0dcf7809",
       "review_required": false,
       "patterns": [
         "sorted-lookup"
@@ -36141,8 +36141,8 @@
       "classification_evidence": "lower_bound finds the first element >= x and prints its 1-based index, or n+1 when none exists.",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "5a57e25e511868a125d1cd060b35266d5cd2ef494f973be87c04fbcd0ee48fb7",
-      "observed_sha256": "5a57e25e511868a125d1cd060b35266d5cd2ef494f973be87c04fbcd0ee48fb7",
+      "classification_sha256": "f8c975f5c5bc5a826cb174742776104e3fa4ffebc511d51ad47a15e4a7bc4580",
+      "observed_sha256": "f8c975f5c5bc5a826cb174742776104e3fa4ffebc511d51ad47a15e4a7bc4580",
       "review_required": false,
       "patterns": [
         "sorted-lookup"
@@ -36177,8 +36177,8 @@
       "classification_evidence": "Sorts the array, then counts elements in [l, r] per query as upper_bound(r) - lower_bound(l).",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "61aadc3f37ce71206fbd6b22464c3407d8e20613845f182c9587f90694032127",
-      "observed_sha256": "61aadc3f37ce71206fbd6b22464c3407d8e20613845f182c9587f90694032127",
+      "classification_sha256": "e97a2a9b76a3c419a686c07a3f80b2860a4ac525963a5a4b91609acc480b5c33",
+      "observed_sha256": "e97a2a9b76a3c419a686c07a3f80b2860a4ac525963a5a4b91609acc480b5c33",
       "review_required": false,
       "patterns": [
         "sorted-lookup"
@@ -36213,8 +36213,8 @@
       "classification_evidence": "Sorts the values and fills from both ends with two pointers: it takes the largest element when it makes floor(sum/x) increase, otherwise it places the smallest. Limitation: not verified against the full constraints.",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "0aed256e34e2c388e08e171044e53c4eb2ae4991d0ec33ea959546ef6bb239f6",
-      "observed_sha256": "0aed256e34e2c388e08e171044e53c4eb2ae4991d0ec33ea959546ef6bb239f6",
+      "classification_sha256": "9c7e833a3601062a123c20e7d353e418608f14538f06478e24ca740c22e75f1b",
+      "observed_sha256": "9c7e833a3601062a123c20e7d353e418608f14538f06478e24ca740c22e75f1b",
       "review_required": false,
       "patterns": [
         "sort-then-greedy"
@@ -36249,8 +36249,8 @@
       "classification_evidence": "Single pass over the string counting characters that are vowels or odd digits; no data structure beyond a counter.",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "40d45b802542a073771d68ea0d7c3439bf3a305a241eff7209bbbc135fb4c080",
-      "observed_sha256": "40d45b802542a073771d68ea0d7c3439bf3a305a241eff7209bbbc135fb4c080",
+      "classification_sha256": "162c2c0c54b9b34485dd4fddc547afe96d73763b714c992180dc0b12fafa6094",
+      "observed_sha256": "162c2c0c54b9b34485dd4fddc547afe96d73763b714c992180dc0b12fafa6094",
       "review_required": false,
       "patterns": [
         "frequency-table"
@@ -36285,8 +36285,8 @@
       "classification_evidence": "Builds prefix and suffix intersections of axis-aligned rectangles and tests each rectangle's removal by intersecting prefix[i-1] with suffix[i+1]. Limitation: suffix intersections stop at index 1 (the loop uses i > 0) and INT_MAX is used as an empty sentinel.",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "e9554cf4d283c8f89e5a605afe108315faf8c12a489ce10bfb36c29e2ac27d13",
-      "observed_sha256": "e9554cf4d283c8f89e5a605afe108315faf8c12a489ce10bfb36c29e2ac27d13",
+      "classification_sha256": "b27fe524a8e8da97868101180ee450e53dbea8ede697f50e4246e7cba2ecedac",
+      "observed_sha256": "b27fe524a8e8da97868101180ee450e53dbea8ede697f50e4246e7cba2ecedac",
       "review_required": false,
       "patterns": [
         "geometry-predicates"
@@ -36321,8 +36321,8 @@
       "classification_evidence": "Sorts reservations by start time and keeps a std::set of (end, room) pairs, reusing the room with the earliest end when it ended strictly before the start, otherwise opening a new room.",
       "classification_status": "reviewed",
       "classification_locked": true,
-      "classification_sha256": "8e0d6586d982d6410758a8c6bedfd645d6e6a546f5f9816fb3a916e3112d14b0",
-      "observed_sha256": "8e0d6586d982d6410758a8c6bedfd645d6e6a546f5f9816fb3a916e3112d14b0",
+      "classification_sha256": "6b363ee5fbc281ff0818c19e935e2adc739d2be3cf7c886cd40a967fa27c90d4",
+      "observed_sha256": "6b363ee5fbc281ff0818c19e935e2adc739d2be3cf7c886cd40a967fa27c90d4",
       "review_required": false,
       "patterns": [
         "priority-queue-greedy"

@@ -4,6 +4,42 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-21T02:06:16+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Room_Allocation.cpp → solutions/sorting-and-searching/Room_Allocation.cpp: Sorts reservations by start time and keeps a std::set of (end, room) pairs, reusing the room with the earliest end when it ended strictly before the start, otherwise opening a new room.. Category: sorting-and-searching; status: reviewed.
+
+## 2026-11-21T02:06:15+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Rectangles.cpp → solutions/arrays-and-counting/Rectangles.cpp: Builds prefix and suffix intersections of axis-aligned rectangles and tests each rectangle's removal by intersecting prefix[i-1] with suffix[i+1]. Limitation: suffix intersections stop at index 1 (the loop uses i > 0) and INT_MAX is used as an empty sentinel.. Category: arrays-and-counting; status: reviewed.
+
+## 2026-11-21T02:06:14+00:00 — REVIEW
+
+- solutions/strings/New_Year_and_Counting_Cards.cpp → solutions/strings/New_Year_and_Counting_Cards.cpp: Single pass over the string counting characters that are vowels or odd digits; no data structure beyond a counter.. Category: strings; status: reviewed.
+
+## 2026-11-21T02:06:14+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Loyalty.cpp → solutions/sorting-and-searching/Loyalty.cpp: Sorts the values and fills from both ends with two pointers: it takes the largest element when it makes floor(sum/x) increase, otherwise it places the smallest. Limitation: not verified against the full constraints.. Category: sorting-and-searching; status: reviewed.
+
+## 2026-11-21T02:06:13+00:00 — REVIEW
+
+- solutions/binary-search/Fast_search.cpp → solutions/binary-search/Fast_search.cpp: Sorts the array, then counts elements in [l, r] per query as upper_bound(r) - lower_bound(l).. Category: binary-search; status: reviewed.
+
+## 2026-11-21T02:06:12+00:00 — REVIEW
+
+- solutions/binary-search/Closest_to_the_Right.cpp → solutions/binary-search/Closest_to_the_Right.cpp: lower_bound finds the first element >= x and prints its 1-based index, or n+1 when none exists.. Category: binary-search; status: reviewed.
+
+## 2026-11-21T02:06:11+00:00 — REVIEW
+
+- solutions/binary-search/Closest_to_the_Left.cpp → solutions/binary-search/Closest_to_the_Left.cpp: upper_bound on the sorted array gives the count of elements <= x, which is the 1-based index of the closest element to the left (0 if none).. Category: binary-search; status: reviewed.
+
+## 2026-11-21T02:06:10+00:00 — REVIEW
+
+- solutions/binary-search/Binary_Search.cpp → solutions/binary-search/Binary_Search.cpp: Inserts the array into a std::set and answers each query with set::find membership, so it uses an ordered set rather than an explicit binary search. Limitation: the set already deduplicates, so it never exercises a manual lower_bound.. Category: binary-search; status: reviewed.
+
+## 2026-11-21T02:06:10+00:00 — REVIEW
+
+- solutions/arrays-and-counting/a.cpp → solutions/arrays-and-counting/a.cpp: Counts pairs i<j with a[i]-i == a[j]-j by keeping a running map of a[i]-i frequencies and adding the current count before incrementing.. Category: arrays-and-counting; status: reviewed.
+
 ## 2026-11-20T15:05:20+00:00 — REVIEW
 
 - solutions/needs-review/a.cpp → solutions/arrays-and-counting/a.cpp: Counts pairs i<j with a[i]-i == a[j]-j by keeping a running map of a[i]-i frequencies and adding the current count before incrementing.. Category: arrays-and-counting; status: reviewed.
