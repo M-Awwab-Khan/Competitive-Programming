@@ -15,17 +15,17 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Two-pointer window over a monotone condition](two-pointer-window.md) | 61 |
 | [Queue with an aggregate built from two stacks](two-stack-aggregate-queue.md) | 3 |
 | [Disjoint set union and its variants](dsu-variants.md) | 14 |
-| [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 126 |
-| [Frequency tables and distinct-value counting](frequency-table.md) | 94 |
-| [Sort then greedy](sort-then-greedy.md) | 74 |
-| [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 62 |
+| [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 127 |
+| [Frequency tables and distinct-value counting](frequency-table.md) | 95 |
+| [Sort then greedy](sort-then-greedy.md) | 78 |
+| [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 63 |
 | [Parity and operation invariants](parity-and-invariants.md) | 54 |
 | [Constructive answers from small cases](constructive-small-cases.md) | 38 |
 | [Sorted lookup with binary search](sorted-lookup.md) | 39 |
 | [Modular arithmetic](modular-arithmetic.md) | 33 |
 | [Digit manipulation](digit-manipulation.md) | 28 |
 | [Linear DP over positions](linear-dp.md) | 25 |
-| [Ordered-set queries](ordered-set-queries.md) | 26 |
+| [Ordered-set queries](ordered-set-queries.md) | 27 |
 | [GCD and LCM](gcd-lcm.md) | 22 |
 | [Geometry predicates](geometry-predicates.md) | 20 |
 | [Per-bit reasoning](per-bit-reasoning.md) | 20 |

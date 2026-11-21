@@ -90,6 +90,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [cf gorilla and the exam (cpp)](../../solutions/greedy/cf-gorilla-and-the-exam.cpp) | greedy | reviewed |
 | [cf news about credit (cpp)](../../solutions/greedy/cf-news-about-credit.cpp) | greedy | reviewed |
 | [Cheese (cpp)](../../solutions/greedy/Cheese.cpp) | greedy | reviewed |
+| [Ciel and Duel (cpp)](../../solutions/greedy/Ciel_and_Duel.cpp) | greedy | reviewed |
 | [cses sticks (cpp)](../../solutions/greedy/cses-sticks.cpp) | greedy | reviewed |
 | [cses tasksanddeadline (cpp)](../../solutions/greedy/cses-tasksanddeadline.cpp) | greedy | reviewed |
 | [cses towers (cpp)](../../solutions/data-structures/ordered-sets/cses-towers.cpp) | data-structures/ordered-sets | reviewed |
@@ -113,6 +114,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [Largest Number (cpp)](../../solutions/greedy/Largest_Number.cpp) | greedy | reviewed |
 | [Linear Functions (cpp)](../../solutions/greedy/Linear_Functions.cpp) | greedy | reviewed |
 | [Loyalty (cpp)](../../solutions/sorting-and-searching/Loyalty.cpp) | sorting-and-searching | reviewed |
+| [Matching Arrays (cpp)](../../solutions/greedy/Matching_Arrays.cpp) | greedy | reviewed |
 | [maximum nonoverlapping segments (cpp)](../../solutions/greedy/maximum-nonoverlapping-segments.cpp) | greedy | reviewed |
 | [Missing Coin Sum (cpp)](../../solutions/greedy/Missing_Coin_Sum.cpp) | greedy | reviewed |
 | [missing coin sum (cpp)](../../solutions/greedy/missing_coin_sum_v1.cpp) | greedy | reviewed |
@@ -124,7 +126,9 @@ Links are generated from catalog associations; classifications do not establish 
 | [sellstocks (python)](../../solutions/greedy/sellstocks.py) | greedy | reviewed |
 | [songs compression (python)](../../solutions/greedy/songs_compression.py) | greedy | reviewed |
 | [Tasks and Deadlines (cpp)](../../solutions/greedy/Tasks_and_Deadlines.cpp) | greedy | reviewed |
+| [The Party and Sweets (cpp)](../../solutions/greedy/The_Party_and_Sweets.cpp) | greedy | reviewed |
 | [USACO Why Did the Cow Cross the Road III (cpp)](../../solutions/simulation/USACO_Why_Did_the_Cow_Cross_the_Road_III.cpp) | simulation | reviewed |
+| [USB vs. PS/2 (cpp)](../../solutions/greedy/USB_vs_PS_2.cpp) | greedy | reviewed |
 | [very different array (python)](../../solutions/greedy/very_different_array.py) | greedy | reviewed |
 | [Young Explorers (cpp)](../../solutions/greedy/Young_Explorers.cpp) | greedy | reviewed |
 

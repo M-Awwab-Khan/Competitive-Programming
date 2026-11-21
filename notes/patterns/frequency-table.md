@@ -111,6 +111,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [D. A Linear Problem (cpp)](../../solutions/geometry/D_A_Linear_Problem.cpp) | geometry | reviewed |
 | [D. Harder Problem (cpp)](../../solutions/constructive/D_Harder_Problem.cpp) | constructive | reviewed |
 | [D. Palindromes Coloring (cpp)](../../solutions/strings/D_Palindromes_Coloring.cpp) | strings | reviewed |
+| [Did We Get Everything Covered? (cpp)](../../solutions/strings/Did_We_Get_Everything_Covered.cpp) | strings | reviewed |
 | [dont be last (python)](../../solutions/sorting-and-searching/dont-be-last.py) | sorting-and-searching | reviewed |
 | [E Indian Summer (cpp)](../../solutions/strings/E_Indian_Summer.cpp) | strings | reviewed |
 | [E Snowfake (cpp)](../../solutions/geometry/E_Snowfake.cpp) | geometry | reviewed |

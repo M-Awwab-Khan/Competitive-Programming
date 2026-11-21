@@ -1,0 +1,39 @@
+{
+  "name": "A. The Party and Sweets",
+  "group": "Codeforces - Codeforces Round 559 (Div. 1)",
+  "url": "https://codeforces.com/problemset/problem/1158/A",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "3 2\n1 2 1\n3 4\n",
+      "output": "12\n"
+    },
+    {
+      "input": "2 2\n0 1\n1 0\n",
+      "output": "-1\n"
+    },
+    {
+      "input": "2 3\n1 0\n1 1 2\n",
+      "output": "4\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "AThePartyAndSweets"
+    }
+  },
+  "batch": {
+    "id": "36262681-ee8e-45ca-aec6-b1ac405c1ef1",
+    "size": 1
+  }
+}

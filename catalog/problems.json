@@ -36330,6 +36330,323 @@
       "time_limit_ms": 2000,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "a67ccb1739384122",
+      "title": "Binary String Battle",
+      "path": "solutions/games/Binary_String_Battle.cpp",
+      "original_path": "practice/inbox/Binary_String_Battle/Binary_String_Battle.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2123D",
+      "urls": [
+        "https://codeforces.com/contest/2123/problem/D"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1034 (Div. 3)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "803e4d4acd52d5ae604cdb3b63222ad998a4c8e68dee47cfbd77d031ff4ef61d",
+      "category": "games",
+      "tags": [
+        "games"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Counts the ones in the string and decides the winner by closed-form casework: Alice wins if ones <= k or k > n/2, otherwise Bob. Limitation: not verified against the full constraints.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "803e4d4acd52d5ae604cdb3b63222ad998a4c8e68dee47cfbd77d031ff4ef61d",
+      "observed_sha256": "803e4d4acd52d5ae604cdb3b63222ad998a4c8e68dee47cfbd77d031ff4ef61d",
+      "review_required": false,
+      "patterns": [
+        "closed-form-arithmetic"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "f3ce32d6cc264038",
+      "title": "Ciel and Duel",
+      "path": "solutions/greedy/Ciel_and_Duel.cpp",
+      "original_path": "practice/inbox/Ciel_and_Duel/Ciel_and_Duel.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "322D",
+      "urls": [
+        "https://codeforces.com/contest/322/problem/D"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 190 (Div. 2)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "779737b5c8e87bcab180ce2166bb09470e411704679ff2460461d42b08f7cfe9",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts the opponent's ATK and DEF cards and keeps own cards in a multiset; it tries two orders (kill every DEF with the smallest upper_bound card then spend the strongest cards on ATK, or ATK first then DEF) and prints the better total. Limitation: uses a goto and duplicated loops, and is not verified.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "779737b5c8e87bcab180ce2166bb09470e411704679ff2460461d42b08f7cfe9",
+      "observed_sha256": "779737b5c8e87bcab180ce2166bb09470e411704679ff2460461d42b08f7cfe9",
+      "review_required": false,
+      "patterns": [
+        "ordered-set-queries",
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "87639f162a5142a9",
+      "title": "Did We Get Everything Covered?",
+      "path": "solutions/strings/Did_We_Get_Everything_Covered.cpp",
+      "original_path": "practice/inbox/Did_We_Get_Everything_Covered/Did_We_Get_Everything_Covered.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "1924A",
+      "urls": [
+        "https://codeforces.com/problemset/problem/1924/A"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 921 (Div. 1)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "963d7bcc96212ffed3a25f97254b766a2bd329fbec42726cc08948a8db034703",
+      "category": "strings",
+      "tags": [
+        "greedy",
+        "strings"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Scans the string cutting a block each time all k letters have been seen (a set of seen letters cleared per block); if fewer than n blocks it builds a counterexample from the last block plus a letter missing from the current partial block.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "963d7bcc96212ffed3a25f97254b766a2bd329fbec42726cc08948a8db034703",
+      "observed_sha256": "963d7bcc96212ffed3a25f97254b766a2bd329fbec42726cc08948a8db034703",
+      "review_required": false,
+      "patterns": [
+        "frequency-table"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "530f424ab41e4988",
+      "title": "Grouping Increases",
+      "path": "solutions/greedy/Grouping_Increases.cpp",
+      "original_path": "practice/inbox/Grouping_Increases/Grouping_Increases.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "1919C",
+      "urls": [
+        "https://codeforces.com/problemset/problem/1919/C"
+      ],
+      "collections": [
+        "Codeforces - Hello 2024"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "8076919021e8886d8b3bcdbe5ea198cf1843bc6a52789eddb4a924412650ea42",
+      "category": "greedy",
+      "tags": [
+        "greedy"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Keeps the last values x and y of two subsequences and appends each element to the one it fits without an increase, otherwise counts one increase and replaces the larger tail. Limitation: INT_MAX sentinels assume values below INT_MAX.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "8076919021e8886d8b3bcdbe5ea198cf1843bc6a52789eddb4a924412650ea42",
+      "observed_sha256": "8076919021e8886d8b3bcdbe5ea198cf1843bc6a52789eddb4a924412650ea42",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "88a8b3b84bb94ccd",
+      "title": "Matching Arrays",
+      "path": "solutions/greedy/Matching_Arrays.cpp",
+      "original_path": "practice/inbox/Matching_Arrays/Matching_Arrays.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "1896C",
+      "urls": [
+        "https://codeforces.com/problemset/problem/1896/C"
+      ],
+      "collections": [
+        "Codeforces - CodeTON Round 7 (Div. 1 + Div. 2, Rated, Prizes!)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0869986493c316455907e1eb9928edf0621aaaaf2197bb2172eb9c5d794cfb0a",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts a and b with original indices; the k smallest b values must beat the k largest a values and the remaining values are paired in order so no other position wins, printing NO if either check fails.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0869986493c316455907e1eb9928edf0621aaaaf2197bb2172eb9c5d794cfb0a",
+      "observed_sha256": "0869986493c316455907e1eb9928edf0621aaaaf2197bb2172eb9c5d794cfb0a",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "3a94a05642054b9e",
+      "title": "Robert Hood and Mrs Hood",
+      "path": "solutions/prefix-sums/Robert_Hood_and_Mrs_Hood.cpp",
+      "original_path": "practice/inbox/Robert_Hood_and_Mrs_Hood/Robert_Hood_and_Mrs_Hood.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2014D",
+      "urls": [
+        "https://codeforces.com/contest/2014/problem/D"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 974 (Div. 3)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "5145017592d6b4da68925cfc5c3d7cd0e5775db345d0521566d7f4ef7b823087",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Counts interval starts and ends in prefix arrays so each window [x, x+d-1] overlaps starts[y] - ends[x-1] jobs, then scans windows for the maximum and minimum count. Limitation: the interval vector is sized n though only k are read; the extra zero entries cancel out.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "5145017592d6b4da68925cfc5c3d7cd0e5775db345d0521566d7f4ef7b823087",
+      "observed_sha256": "5145017592d6b4da68925cfc5c3d7cd0e5775db345d0521566d7f4ef7b823087",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "f6af98ed65ac40fd",
+      "title": "Sets and Union",
+      "path": "solutions/brute-force-and-backtracking/Sets_and_Union.cpp",
+      "original_path": "practice/inbox/Sets_and_Union/Sets_and_Union.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "1882B",
+      "urls": [
+        "https://codeforces.com/contest/1882/problem/B"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 899 (Div. 2)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0c9dc6328e3aa7b2dba348e06b0ec3b54f5c04cc6701c456b85af7f1868837d9",
+      "category": "brute-force-and-backtracking",
+      "tags": [
+        "brute-force-and-backtracking"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "For each distinct element x, unions every set that does not contain x and keeps the largest union size. Limitation: copies each set in the inner loop, so it is O(distinct values times total elements).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0c9dc6328e3aa7b2dba348e06b0ec3b54f5c04cc6701c456b85af7f1868837d9",
+      "observed_sha256": "0c9dc6328e3aa7b2dba348e06b0ec3b54f5c04cc6701c456b85af7f1868837d9",
+      "review_required": false,
+      "patterns": [],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "48be996892444417",
+      "title": "The Party and Sweets",
+      "path": "solutions/greedy/The_Party_and_Sweets.cpp",
+      "original_path": "practice/inbox/The_Party_and_Sweets/The_Party_and_Sweets.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "1158A",
+      "urls": [
+        "https://codeforces.com/problemset/problem/1158/A"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 559 (Div. 1)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0131a69d00b62045e917c2a114e5f86367d1c32439eed384b0304e6ee877573d",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts the boys' maxima to get the largest and second largest, prints -1 if the largest exceeds the smallest girl value, and otherwise adds each girl's excess over the largest with a correction using the second largest. Limitation: reads b[n-2], so it assumes n >= 2.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0131a69d00b62045e917c2a114e5f86367d1c32439eed384b0304e6ee877573d",
+      "observed_sha256": "0131a69d00b62045e917c2a114e5f86367d1c32439eed384b0304e6ee877573d",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "a84d352cd3a1437f",
+      "title": "USB vs. PS/2",
+      "path": "solutions/greedy/USB_vs_PS_2.cpp",
+      "original_path": "practice/inbox/USB_vs_PS_2/USB_vs_PS_2.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "762B",
+      "urls": [
+        "https://codeforces.com/contest/762/problem/B"
+      ],
+      "collections": [
+        "Codeforces - Educational Codeforces Round 17"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "b9ec268d15a9fc5b6ba31c1b7b0c39389627383591db03b6e09d0f536771169e",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts each connector type by price, takes the cheapest a USB and b PS/2 first, then fills the c remaining either-type slots by merging the next cheapest of both lists.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "b9ec268d15a9fc5b6ba31c1b7b0c39389627383591db03b6e09d0f536771169e",
+      "observed_sha256": "b9ec268d15a9fc5b6ba31c1b7b0c39389627383591db03b6e09d0f536771169e",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

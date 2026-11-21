@@ -4,6 +4,54 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-21T12:59:00+00:00 — REVIEW
+
+- solutions/sorting-and-searching/USB_vs_PS_2.cpp → solutions/greedy/USB_vs_PS_2.cpp: Sorts each connector type by price, takes the cheapest a USB and b PS/2 first, then fills the c remaining either-type slots by merging the next cheapest of both lists.. Category: greedy; status: reviewed.
+
+## 2026-11-21T12:59:00+00:00 — REVIEW
+
+- solutions/sorting-and-searching/The_Party_and_Sweets.cpp → solutions/greedy/The_Party_and_Sweets.cpp: Sorts the boys' maxima to get the largest and second largest, prints -1 if the largest exceeds the smallest girl value, and otherwise adds each girl's excess over the largest with a correction using the second largest. Limitation: reads b[n-2], so it assumes n >= 2.. Category: greedy; status: reviewed.
+
+## 2026-11-21T12:58:59+00:00 — REVIEW
+
+- solutions/needs-review/Sets_and_Union.cpp → solutions/brute-force-and-backtracking/Sets_and_Union.cpp: For each distinct element x, unions every set that does not contain x and keeps the largest union size. Limitation: copies each set in the inner loop, so it is O(distinct values times total elements).. Category: brute-force-and-backtracking; status: reviewed.
+
+## 2026-11-21T12:58:58+00:00 — REVIEW
+
+- solutions/needs-review/Robert_Hood_and_Mrs_Hood.cpp → solutions/prefix-sums/Robert_Hood_and_Mrs_Hood.cpp: Counts interval starts and ends in prefix arrays so each window [x, x+d-1] overlaps starts[y] - ends[x-1] jobs, then scans windows for the maximum and minimum count. Limitation: the interval vector is sized n though only k are read; the extra zero entries cancel out.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-21T12:58:57+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Matching_Arrays.cpp → solutions/greedy/Matching_Arrays.cpp: Sorts a and b with original indices; the k smallest b values must beat the k largest a values and the remaining values are paired in order so no other position wins, printing NO if either check fails.. Category: greedy; status: reviewed.
+
+## 2026-11-21T12:58:57+00:00 — REVIEW
+
+- solutions/needs-review/Grouping_Increases.cpp → solutions/greedy/Grouping_Increases.cpp: Keeps the last values x and y of two subsequences and appends each element to the one it fits without an increase, otherwise counts one increase and replaces the larger tail. Limitation: INT_MAX sentinels assume values below INT_MAX.. Category: greedy; status: reviewed.
+
+## 2026-11-21T12:58:56+00:00 — REVIEW
+
+- solutions/needs-review/Did_We_Get_Everything_Covered.cpp → solutions/strings/Did_We_Get_Everything_Covered.cpp: Scans the string cutting a block each time all k letters have been seen (a set of seen letters cleared per block); if fewer than n blocks it builds a counterexample from the last block plus a letter missing from the current partial block.. Category: strings; status: reviewed.
+
+## 2026-11-21T12:58:55+00:00 — REVIEW
+
+- solutions/binary-search/Ciel_and_Duel.cpp → solutions/greedy/Ciel_and_Duel.cpp: Sorts the opponent's ATK and DEF cards and keeps own cards in a multiset; it tries two orders (kill every DEF with the smallest upper_bound card then spend the strongest cards on ATK, or ATK first then DEF) and prints the better total. Limitation: uses a goto and duplicated loops, and is not verified.. Category: greedy; status: reviewed.
+
+## 2026-11-21T12:58:55+00:00 — REVIEW
+
+- solutions/strings/Binary_String_Battle.cpp → solutions/games/Binary_String_Battle.cpp: Counts the ones in the string and decides the winner by closed-form casework: Alice wins if ones <= k or k > n/2, otherwise Bob. Limitation: not verified against the full constraints.. Category: games; status: reviewed.
+
+## 2026-11-21T12:58:54+00:00 — INGEST
+
+- practice/inbox/Binary_String_Battle/Binary_String_Battle.cpp → solutions/strings/Binary_String_Battle.cpp: Filed new source; classification remains a suggestion. Category: strings; status: suggested.
+- practice/inbox/Ciel_and_Duel/Ciel_and_Duel.cpp → solutions/binary-search/Ciel_and_Duel.cpp: Filed new source; classification remains a suggestion. Category: binary-search; status: suggested.
+- practice/inbox/Did_We_Get_Everything_Covered/Did_We_Get_Everything_Covered.cpp → solutions/needs-review/Did_We_Get_Everything_Covered.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Grouping_Increases/Grouping_Increases.cpp → solutions/needs-review/Grouping_Increases.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Matching_Arrays/Matching_Arrays.cpp → solutions/arrays-and-counting/Matching_Arrays.cpp: Filed new source; classification remains a suggestion. Category: arrays-and-counting; status: suggested.
+- practice/inbox/Robert_Hood_and_Mrs_Hood/Robert_Hood_and_Mrs_Hood.cpp → solutions/needs-review/Robert_Hood_and_Mrs_Hood.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Sets_and_Union/Sets_and_Union.cpp → solutions/needs-review/Sets_and_Union.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/The_Party_and_Sweets/The_Party_and_Sweets.cpp → solutions/sorting-and-searching/The_Party_and_Sweets.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/USB_vs_PS_2/USB_vs_PS_2.cpp → solutions/sorting-and-searching/USB_vs_PS_2.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+
 ## 2026-11-21T02:06:16+00:00 — REVIEW
 
 - solutions/sorting-and-searching/Room_Allocation.cpp → solutions/sorting-and-searching/Room_Allocation.cpp: Sorts reservations by start time and keeps a std::set of (end, room) pairs, reusing the room with the earliest end when it ended strictly before the start, otherwise opening a new room.. Category: sorting-and-searching; status: reviewed.

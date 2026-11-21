@@ -1,0 +1,39 @@
+{
+  "name": "D. Ciel and Duel",
+  "group": "Codeforces - Codeforces Round 190 (Div. 2)",
+  "url": "https://codeforces.com/contest/322/problem/D",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "2 3\nATK 2000\nDEF 1700\n2500\n2500\n2500\n",
+      "output": "3000\n"
+    },
+    {
+      "input": "3 4\nATK 10\nATK 100\nATK 1000\n1\n11\n101\n1001\n",
+      "output": "992\n"
+    },
+    {
+      "input": "2 4\nDEF 0\nATK 0\n0\n0\n1\n1\n",
+      "output": "1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DCielAndDuel"
+    }
+  },
+  "batch": {
+    "id": "21c7b597-2c5a-47ae-9c88-2cb9afa57bc9",
+    "size": 1
+  }
+}

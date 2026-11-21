@@ -1,6 +1,6 @@
 # Problem index
 
-1211 source files across 37 primary categories.
+1220 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -11,7 +11,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [arrays-and-counting](#arrays-and-counting) | 91 | Arrays, frequency counting, sets, and direct scans |
 | [binary-search](#binary-search) | 81 | Binary search on sorted data or a monotone answer |
 | [bit-manipulation](#bit-manipulation) | 29 | Bitwise operations, XOR identities, and bit counting |
-| [brute-force-and-backtracking](#brute-force-and-backtracking) | 58 | Enumeration, subset search, and backtracking |
+| [brute-force-and-backtracking](#brute-force-and-backtracking) | 59 | Enumeration, subset search, and backtracking |
 | [constructive](#constructive) | 55 | Constructing a valid array, permutation, or arrangement |
 | [data-structures/disjoint-set](#data-structuresdisjoint-set) | 14 | Disjoint set union and component merging |
 | [data-structures/heaps](#data-structuresheaps) | 1 | Priority queues and heap based selection |
@@ -24,24 +24,24 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [dynamic-programming/kadane](#dynamic-programmingkadane) | 7 | Maximum subarray sums and Kadane style recurrences |
 | [dynamic-programming/knapsack](#dynamic-programmingknapsack) | 19 | Subset sum, coin change, and knapsack states |
 | [dynamic-programming/sequences](#dynamic-programmingsequences) | 9 | Subsequence and string dynamic programming |
-| [games](#games) | 8 | Winning states, parity games, and strategy |
+| [games](#games) | 9 | Winning states, parity games, and strategy |
 | [geometry](#geometry) | 35 | Coordinates, distances, intersections, and areas |
 | [graphs/shortest-paths](#graphsshortest-paths) | 4 | Shortest path and breadth first distance problems |
 | [graphs/spanning-trees](#graphsspanning-trees) | 6 | Minimum or maximum spanning trees |
 | [graphs/topological-sort](#graphstopological-sort) | 2 | Dependency ordering and DAG algorithms |
 | [graphs/traversal](#graphstraversal) | 14 | Graph search, components, grids, and reachability |
-| [greedy](#greedy) | 149 | Local choices, scheduling, and exchange arguments |
+| [greedy](#greedy) | 154 | Local choices, scheduling, and exchange arguments |
 | [intervals](#intervals) | 9 | Interval overlap, coverage, and endpoint constraints |
 | [math/arithmetic](#matharithmetic) | 118 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 22 | Combinatorial counting, factorials, and binomial coefficients |
 | [math/number-theory](#mathnumber-theory) | 70 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 5 | Enumerate two halves and combine their results |
 | [needs-review](#needs-review) | 11 | Insufficient evidence for a specific pattern |
-| [prefix-sums](#prefix-sums) | 54 | Prefix/suffix aggregates, differences, and prefix sum hashing |
+| [prefix-sums](#prefix-sums) | 55 | Prefix/suffix aggregates, differences, and prefix sum hashing |
 | [recursion-and-divide-and-conquer](#recursion-and-divide-and-conquer) | 5 | Recursive decomposition and divide and conquer |
 | [simulation](#simulation) | 81 | Direct simulation of rules, grids, and processes |
 | [sorting-and-searching](#sorting-and-searching) | 61 | Sorting, rank queries, and sorted order reasoning |
-| [strings](#strings) | 56 | String matching, parsing, and character transformations |
+| [strings](#strings) | 57 | String matching, parsing, and character transformations |
 | [ternary-search](#ternary-search) | 4 | Searching a unimodal function |
 | [trees](#trees) | 9 | Tree traversal, subtree queries, and tree properties |
 | [two-pointers-and-sliding-window](#two-pointers-and-sliding-window) | 60 | Moving boundaries, fixed/variable windows, and merging |
@@ -311,6 +311,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Load Balancing — Load_Balancing.cpp](../solutions/brute-force-and-backtracking/Load_Balancing.cpp) | cpp | codeforces / gym-331104I | brute-force-and-backtracking, geometry | reviewed |  |
 | [Problem 1. Field Reduction — Problem_1_Field_Reduction.cpp](../solutions/brute-force-and-backtracking/Problem_1_Field_Reduction.cpp) | cpp | usaco / cpid-642 | bit-manipulation, brute-force-and-backtracking, geometry, sorting-and-searching | reviewed | [Subset and permutation enumeration](../notes/patterns/subset-enumeration.md) |
 | [Problem 3. Cow Evolution — Problem_3_Cow_Evolution.cpp](../solutions/brute-force-and-backtracking/Problem_3_Cow_Evolution.cpp) | cpp | usaco / cpid-941 | brute-force-and-backtracking | reviewed |  |
+| [Sets and Union — Sets_and_Union.cpp](../solutions/brute-force-and-backtracking/Sets_and_Union.cpp) | cpp | codeforces / 1882B | brute-force-and-backtracking | reviewed |  |
 | [Trilobyte — Trilobyte.cpp](../solutions/brute-force-and-backtracking/Trilobyte.cpp) | cpp | unknown | brute-force-and-backtracking | reviewed |  |
 | [USACO Air Cownditioning II — USACO_Air_Cownditioning_II.cpp](../solutions/brute-force-and-backtracking/USACO_Air_Cownditioning_II.cpp) | cpp | usaco | bit-manipulation, brute-force-and-backtracking, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md), [Subset and permutation enumeration](../notes/patterns/subset-enumeration.md) |
 | [USACO Back And Forth — USACO_Back_And_Forth.cpp](../solutions/brute-force-and-backtracking/USACO_Back_And_Forth.cpp) | cpp | usaco | brute-force-and-backtracking, recursion-and-divide-and-conquer | reviewed | [Backtracking and exhaustive recursion](../notes/patterns/backtracking-recursion.md) |
@@ -563,6 +564,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Avalanche — Avalanche.cpp](../solutions/games/Avalanche.cpp) | cpp | codeforces / 2290E | bit-manipulation, games, prefix-sums | reviewed | [Game theory: winning and losing states](../notes/patterns/game-theory.md), [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [B Little Girl and Game — B_Little_Girl_and_Game.cpp](../solutions/games/B_Little_Girl_and_Game.cpp) | cpp | unknown | games, simulation, strings | reviewed | [Game theory: winning and losing states](../notes/patterns/game-theory.md), [Palindromes: counts, pairs, and two-ended scans](../notes/patterns/palindromes.md) |
 | [B Simple Game — B_Simple_Game.cpp](../solutions/games/B_Simple_Game.cpp) | cpp | unknown | games, math/arithmetic | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
+| [Binary String Battle — Binary_String_Battle.cpp](../solutions/games/Binary_String_Battle.cpp) | cpp | codeforces / 2123D | games | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [C. Kero ! Kero ! El3ab ya Kero ! — C_Kero_Kero_El_3_ab_ya_Kero.cpp](../solutions/games/C_Kero_Kero_El_3_ab_ya_Kero.cpp) | cpp | codeforces / gym-106350-C | games, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [gameOfDivision — gameOfDivision.py](../solutions/games/gameOfDivision.py) | python | unknown | games, math/number-theory | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md), [Modular arithmetic](../notes/patterns/modular-arithmetic.md) |
 | [K - Stones — K_Stones.cpp](../solutions/games/K_Stones.cpp) | cpp | atcoder / dp_k | dynamic-programming/general, games | reviewed | [Game theory: winning and losing states](../notes/patterns/game-theory.md) |
@@ -731,6 +733,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [cf news about credit — cf-news-about-credit.cpp](../solutions/greedy/cf-news-about-credit.cpp) | cpp | codeforces | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [cf skibidifanumtax — cf-skibidifanumtax.cpp](../solutions/greedy/cf-skibidifanumtax.cpp) | cpp | codeforces | greedy | reviewed |  |
 | [Cheese — Cheese.cpp](../solutions/greedy/Cheese.cpp) | cpp | codeforces / 730392B | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Ciel and Duel — Ciel_and_Duel.cpp](../solutions/greedy/Ciel_and_Duel.cpp) | cpp | codeforces / 322D | greedy, sorting-and-searching | reviewed | [Ordered-set queries](../notes/patterns/ordered-set-queries.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Coin Collector — Coin_Collector.cpp](../solutions/greedy/Coin_Collector.cpp) | cpp | uva / 11264 | greedy | reviewed |  |
 | [cses moviefestival2 — cses-moviefestival2.cpp](../solutions/greedy/cses-moviefestival2.cpp) | cpp | cses | data-structures/ordered-sets, greedy, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md), [Ordered-set queries](../notes/patterns/ordered-set-queries.md) |
 | [cses readingbooks — cses-readingbooks.cpp](../solutions/greedy/cses-readingbooks.cpp) | cpp | cses | greedy, math/arithmetic, sorting-and-searching | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
@@ -769,6 +772,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [G1. Into Blocks (easy version) — G_1_Into_Blocks_easy_version.cpp](../solutions/greedy/G_1_Into_Blocks_easy_version.cpp) | cpp | codeforces / 1209G1 | arrays-and-counting, greedy, intervals | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md), [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
 | [G2. Subsequence Addition (Hard Version) — G_2_Subsequence_Addition_Hard_Version.cpp](../solutions/greedy/G_2_Subsequence_Addition_Hard_Version.cpp) | cpp | codeforces / 1807G2 | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [greedilyincreasing — greedilyincreasing.cpp](../solutions/greedy/greedilyincreasing.cpp) | cpp | unknown | greedy | reviewed |  |
+| [Grouping Increases — Grouping_Increases.cpp](../solutions/greedy/Grouping_Increases.cpp) | cpp | codeforces / 1919C | greedy | reviewed |  |
 | [H Two Screens — H_Two_Screens.cpp](../solutions/greedy/H_Two_Screens.cpp) | cpp | unknown | greedy, strings | reviewed |  |
 | [H. Permutator — H_Permutator.cpp](../solutions/greedy/H_Permutator.cpp) | cpp | codeforces / gym-104520-H | greedy, math/combinatorics, sorting-and-searching | reviewed | [Contribution technique](../notes/patterns/contribution-technique.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [High Card Wins — High_Card_Wins.cpp](../solutions/greedy/High_Card_Wins.cpp) | cpp | codeforces / 730392C | data-structures/ordered-sets, greedy | reviewed | [Ordered-set queries](../notes/patterns/ordered-set-queries.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
@@ -779,6 +783,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [kattis bitsequalizer — kattis-bitsequalizer.cpp](../solutions/greedy/kattis-bitsequalizer.cpp) | cpp | kattis | greedy, strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md) |
 | [Largest Number — Largest_Number.cpp](../solutions/greedy/Largest_Number.cpp) | cpp | codeforces / 730392I | greedy, sorting-and-searching, strings | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Linear Functions — Linear_Functions.cpp](../solutions/greedy/Linear_Functions.cpp) | cpp | codeforces / 730392K | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Matching Arrays — Matching_Arrays.cpp](../solutions/greedy/Matching_Arrays.cpp) | cpp | codeforces / 1896C | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [maximum nonoverlapping segments — maximum-nonoverlapping-segments.cpp](../solutions/greedy/maximum-nonoverlapping-segments.cpp) | cpp | unknown | greedy, intervals, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md), [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Missing Coin Sum — Missing_Coin_Sum.cpp](../solutions/greedy/Missing_Coin_Sum.cpp) | cpp | codeforces / 730392J | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [missing coin sum — missing_coin_sum.cpp](../solutions/greedy/missing_coin_sum_v1.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
@@ -791,6 +796,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [sellstocks — sellstocks.py](../solutions/greedy/sellstocks.py) | python | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [songs compression — songs_compression.py](../solutions/greedy/songs_compression.py) | python | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Tasks and Deadlines — Tasks_and_Deadlines.cpp](../solutions/greedy/Tasks_and_Deadlines.cpp) | cpp | codeforces / 730392H | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [The Party and Sweets — The_Party_and_Sweets.cpp](../solutions/greedy/The_Party_and_Sweets.cpp) | cpp | codeforces / 1158A | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [The Third Side — The_Third_Side.cpp](../solutions/greedy/The_Third_Side.cpp) | cpp | unknown | greedy, math/arithmetic, sorting-and-searching | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [USACO Air Cownditioning — USACO_Air_Cownditioning.cpp](../solutions/greedy/USACO_Air_Cownditioning.cpp) | cpp | usaco | greedy, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [USACO Cow Tipping — USACO_Cow_Tipping.cpp](../solutions/greedy/USACO_Cow_Tipping.cpp) | cpp | usaco | greedy, simulation | reviewed |  |
@@ -801,6 +807,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [USACO Photoshoot — USACO_Photoshoot.cpp](../solutions/greedy/USACO_Photoshoot.cpp) | cpp | usaco | greedy, strings | reviewed | [Parity and operation invariants](../notes/patterns/parity-and-invariants.md) |
 | [USACO Sleeping in Class — USACO_Sleeping_in_Class.cpp](../solutions/greedy/USACO_Sleeping_in_Class.cpp) | cpp | usaco | greedy, math/number-theory | reviewed | [Divisor enumeration and harmonic multiples](../notes/patterns/divisor-enumeration.md) |
 | [USACO Watching Mooloo — USACO_Watching_Mooloo.cpp](../solutions/greedy/USACO_Watching_Mooloo.cpp) | cpp | usaco | greedy | reviewed |  |
+| [USB vs. PS/2 — USB_vs_PS_2.cpp](../solutions/greedy/USB_vs_PS_2.cpp) | cpp | codeforces / 762B | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [uva jollo — uva-jollo.cpp](../solutions/greedy/uva-jollo.cpp) | cpp | uva | data-structures/ordered-sets, greedy, simulation | reviewed | [Ordered-set queries](../notes/patterns/ordered-set-queries.md) |
 | [validsplit — validsplit.py](../solutions/greedy/validsplit.py) | python | unknown | greedy, strings | reviewed |  |
 | [very different array — very_different_array.py](../solutions/greedy/very_different_array.py) | python | unknown | greedy, sorting-and-searching, two-pointers-and-sliding-window | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
@@ -1120,6 +1127,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [longest subarray with sum k — longest_subarray_with_sum_k.cpp](../algorithms/prefix-sums/longest_subarray_with_sum_k.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [maximum sum — maximum_sum.py](../solutions/prefix-sums/maximum_sum.py) | python | unknown | brute-force-and-backtracking, prefix-sums, sorting-and-searching | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [Prefix Sum Addicts — Prefix_Sum_Addicts.cpp](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp) | cpp | codeforces / 1738B | arrays-and-counting, math/arithmetic, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
+| [Robert Hood and Mrs Hood — Robert_Hood_and_Mrs_Hood.cpp](../solutions/prefix-sums/Robert_Hood_and_Mrs_Hood.cpp) | cpp | codeforces / 2014D | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [static range sum queries — static-range-sum-queries.py](../solutions/prefix-sums/static-range-sum-queries.py) | python | unknown | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [static range sum queries — static_range_sum_queries.cpp](../solutions/prefix-sums/static_range_sum_queries.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [subarray divisibility — subarray-divisibility.cpp](../solutions/prefix-sums/subarray-divisibility.cpp) | cpp | unknown | math/combinatorics, prefix-sums | reviewed | [Counting selections with binomial coefficients](../notes/patterns/binomial-counting.md), [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
@@ -1326,6 +1334,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [D. Palindromes Coloring — D_Palindromes_Coloring.cpp](../solutions/strings/D_Palindromes_Coloring.cpp) | cpp | codeforces / 1624D | sorting-and-searching, strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md), [Palindromes: counts, pairs, and two-ended scans](../notes/patterns/palindromes.md) |
 | [D1. Remove the Substring (easy version) — D_1_Remove_the_Substring_easy_version.cpp](../solutions/strings/D_1_Remove_the_Substring_easy_version.cpp) | cpp | codeforces / 1203D1 | greedy, prefix-sums, strings | reviewed |  |
 | [decrypt — decrypt.py](../solutions/strings/decrypt.py) | python | unknown | strings | reviewed |  |
+| [Did We Get Everything Covered? — Did_We_Get_Everything_Covered.cpp](../solutions/strings/Did_We_Get_Everything_Covered.cpp) | cpp | codeforces / 1924A | greedy, strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md) |
 | [Divide by 100... — Divide_by_100.py](../solutions/strings/Divide_by_100.py) | python | kattis / divideby100 | math/arithmetic, strings | reviewed | [Digit manipulation](../notes/patterns/digit-manipulation.md) |
 | [E Indian Summer — E_Indian_Summer.cpp](../solutions/strings/E_Indian_Summer.cpp) | cpp | unknown | strings | reviewed | [Frequency tables and distinct-value counting](../notes/patterns/frequency-table.md) |
 | [F No — F_No.py](../solutions/strings/F_No.py) | python | unknown | strings | reviewed |  |

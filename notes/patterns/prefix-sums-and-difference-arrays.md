@@ -112,6 +112,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [maximum sum (python)](../../solutions/prefix-sums/maximum_sum.py) | prefix-sums | reviewed |
 | [N - Slimes (cpp)](../../solutions/dynamic-programming/intervals/N_Slimes.cpp) | dynamic-programming/intervals | reviewed |
 | [Prefix Sum Addicts (cpp)](../../solutions/prefix-sums/Prefix_Sum_Addicts.cpp) | prefix-sums | reviewed |
+| [Robert Hood and Mrs Hood (cpp)](../../solutions/prefix-sums/Robert_Hood_and_Mrs_Hood.cpp) | prefix-sums | reviewed |
 | [static range sum queries (python)](../../solutions/prefix-sums/static-range-sum-queries.py) | prefix-sums | reviewed |
 | [static range sum queries (cpp)](../../solutions/prefix-sums/static_range_sum_queries.cpp) | prefix-sums | reviewed |
 | [trace of matrix (python)](../../solutions/prefix-sums/trace_of_matrix.py) | prefix-sums | reviewed |

@@ -68,6 +68,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [C - Mex Min (cpp)](../../solutions/two-pointers-and-sliding-window/C_Mex_Min.cpp) | two-pointers-and-sliding-window | reviewed |
 | [C Rearrange (cpp)](../../solutions/greedy/C_Rearrange.cpp) | greedy | reviewed |
 | [C. Dora and Search (cpp)](../../solutions/two-pointers-and-sliding-window/C_Dora_and_Search.cpp) | two-pointers-and-sliding-window | reviewed |
+| [Ciel and Duel (cpp)](../../solutions/greedy/Ciel_and_Duel.cpp) | greedy | reviewed |
 | [Closest Pair (cpp)](../../solutions/geometry/Closest_Pair.cpp) | geometry | reviewed |
 | [Closest Pair Uniform (cpp)](../../solutions/geometry/Closest_Pair_Uniform.cpp) | geometry | reviewed |
 | [concert tickets (cpp)](../../solutions/data-structures/ordered-sets/concert_tickets.cpp) | data-structures/ordered-sets | reviewed |

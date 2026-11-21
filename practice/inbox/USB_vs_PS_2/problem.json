@@ -1,0 +1,31 @@
+{
+  "name": "B. USB vs. PS/2",
+  "group": "Codeforces - Educational Codeforces Round 17",
+  "url": "https://codeforces.com/contest/762/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "2 1 1\n4\n5 USB\n6 PS/2\n3 PS/2\n7 PS/2\n",
+      "output": "3 14\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BUSBVsPS2"
+    }
+  },
+  "batch": {
+    "id": "07aed0b5-8ddd-456a-a81a-debb719e8afd",
+    "size": 1
+  }
+}

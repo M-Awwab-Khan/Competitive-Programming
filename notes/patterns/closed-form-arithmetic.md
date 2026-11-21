@@ -112,6 +112,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [B. Prefix Max (cpp)](../../solutions/greedy/B_Prefix_Max.cpp) | greedy | reviewed |
 | [B. Two Tables (cpp)](../../solutions/geometry/B_Two_Tables.cpp) | geometry | reviewed |
 | [beautiful matrix (python)](../../solutions/math/arithmetic/beautiful_matrix.py) | math/arithmetic | reviewed |
+| [Binary String Battle (cpp)](../../solutions/games/Binary_String_Battle.cpp) | games | reviewed |
 | [C - Lock All Doors (python)](../../solutions/simulation/C_Lock_All_Doors.py) | simulation | reviewed |
 | [C A and B and Team Training (cpp)](../../solutions/math/arithmetic/C_A_and_B_and_Team_Training.cpp) | math/arithmetic | reviewed |
 | [C Be Together (cpp)](../../solutions/math/arithmetic/C_Be_Together.cpp) | math/arithmetic | reviewed |
