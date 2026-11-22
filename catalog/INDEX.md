@@ -1,6 +1,6 @@
 # Problem index
 
-1220 source files across 37 primary categories.
+1223 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -30,8 +30,8 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [graphs/spanning-trees](#graphsspanning-trees) | 6 | Minimum or maximum spanning trees |
 | [graphs/topological-sort](#graphstopological-sort) | 2 | Dependency ordering and DAG algorithms |
 | [graphs/traversal](#graphstraversal) | 14 | Graph search, components, grids, and reachability |
-| [greedy](#greedy) | 154 | Local choices, scheduling, and exchange arguments |
-| [intervals](#intervals) | 9 | Interval overlap, coverage, and endpoint constraints |
+| [greedy](#greedy) | 156 | Local choices, scheduling, and exchange arguments |
+| [intervals](#intervals) | 10 | Interval overlap, coverage, and endpoint constraints |
 | [math/arithmetic](#matharithmetic) | 118 | Formulas, parity, digit arithmetic, and algebra |
 | [math/combinatorics](#mathcombinatorics) | 22 | Combinatorial counting, factorials, and binomial coefficients |
 | [math/number-theory](#mathnumber-theory) | 70 | GCD, primes, factorization, divisibility, and modular arithmetic |
@@ -795,7 +795,9 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [quiz forming teams — quiz_forming_teams.py](../solutions/greedy/quiz_forming_teams.py) | python | unknown | geometry, greedy | reviewed | [Geometry predicates](../notes/patterns/geometry-predicates.md) |
 | [sellstocks — sellstocks.py](../solutions/greedy/sellstocks.py) | python | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [songs compression — songs_compression.py](../solutions/greedy/songs_compression.py) | python | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [Station Balance — Station_Balance.cpp](../solutions/greedy/Station_Balance.cpp) | cpp | vjudge / POJ-1599 | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [Tasks and Deadlines — Tasks_and_Deadlines.cpp](../solutions/greedy/Tasks_and_Deadlines.cpp) | cpp | codeforces / 730392H | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
+| [The Dragon of Loowater — The_Dragon_of_Loowater.cpp](../solutions/greedy/The_Dragon_of_Loowater.cpp) | cpp | unknown | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [The Party and Sweets — The_Party_and_Sweets.cpp](../solutions/greedy/The_Party_and_Sweets.cpp) | cpp | codeforces / 1158A | greedy, sorting-and-searching | reviewed | [Sort then greedy](../notes/patterns/sort-then-greedy.md) |
 | [The Third Side — The_Third_Side.cpp](../solutions/greedy/The_Third_Side.cpp) | cpp | unknown | greedy, math/arithmetic, sorting-and-searching | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [USACO Air Cownditioning — USACO_Air_Cownditioning.cpp](../solutions/greedy/USACO_Air_Cownditioning.cpp) | cpp | usaco | greedy, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
@@ -827,6 +829,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Problem 1. Fence Painting — Problem_1_Fence_Painting.cpp](../solutions/intervals/Problem_1_Fence_Painting.cpp) | cpp | usaco / cpid-567 | geometry, intervals | reviewed | [Closed-form arithmetic and casework](../notes/patterns/closed-form-arithmetic.md) |
 | [restaurant customers — restaurant_customers.cpp](../solutions/intervals/restaurant_customers.cpp) | cpp | unknown | intervals, sorting-and-searching | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
 | [Training Sessions — Training_Sessions.cpp](../solutions/intervals/Training_Sessions.cpp) | cpp | codeforces / 730392E | greedy, intervals | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
+| [Watering Grass — Watering_Grass.cpp](../solutions/intervals/Watering_Grass.cpp) | cpp | unknown | greedy, intervals | reviewed | [Interval scheduling and event sweep](../notes/patterns/interval-scheduling-and-sweep.md) |
 
 ## math/arithmetic
 

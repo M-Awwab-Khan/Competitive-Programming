@@ -75,5 +75,6 @@ Links are generated from catalog associations; classifications do not establish 
 | [movie festival (cpp)](../../solutions/greedy/movie_festival.cpp) | greedy | reviewed |
 | [restaurant customers (cpp)](../../solutions/intervals/restaurant_customers.cpp) | intervals | reviewed |
 | [Training Sessions (cpp)](../../solutions/intervals/Training_Sessions.cpp) | intervals | reviewed |
+| [Watering Grass (cpp)](../../solutions/intervals/Watering_Grass.cpp) | intervals | reviewed |
 
 <!-- examples:end -->

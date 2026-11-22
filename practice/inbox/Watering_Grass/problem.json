@@ -1,0 +1,31 @@
+{
+  "name": "Watering Grass",
+  "group": "Kattis",
+  "url": "https://open.kattis.com/problems/grass",
+  "interactive": false,
+  "memoryLimit": 1024,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "8 20 2\n5 3\n4 1\n1 2\n7 2\n10 2\n13 3\n16 2\n19 4\n3 10 1\n3 5\n9 3\n6 1\n3 10 1\n5 3\n1 1\n9 1\n",
+      "output": "6\n2\n-1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "WateringGrass"
+    }
+  },
+  "batch": {
+    "id": "504b0c30-5d13-455e-af62-a5e3796e8a75",
+    "size": 1
+  }
+}

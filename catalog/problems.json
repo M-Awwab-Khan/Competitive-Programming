@@ -36647,6 +36647,114 @@
       "time_limit_ms": 2000,
       "memory_limit_mb": 256,
       "interactive": false
+    },
+    {
+      "key": "4e4f5cabcd594577",
+      "title": "Station Balance",
+      "path": "solutions/greedy/Station_Balance.cpp",
+      "original_path": "practice/inbox/Station_Balance/Station_Balance.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "vjudge",
+      "problem_id": "POJ-1599",
+      "urls": [
+        "https://vjudge.net/problem/POJ-1599"
+      ],
+      "collections": [
+        "Virtual Judge - POJ"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "6080b9cc40acb354fe736a8cd78c401ad0e1f05e9dbd47d7efbf0c5fd02718ae",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Pads the masses to 2c with zeros, sorts them, and pairs the i-th smallest with the i-th largest in each chamber, then sums the deviation of every chamber mass from the mean. Limitation: masses is sized 2c, so more than 2c input masses would overflow it.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "6080b9cc40acb354fe736a8cd78c401ad0e1f05e9dbd47d7efbf0c5fd02718ae",
+      "observed_sha256": "6080b9cc40acb354fe736a8cd78c401ad0e1f05e9dbd47d7efbf0c5fd02718ae",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 9,
+      "interactive": false
+    },
+    {
+      "key": "5de0ebaae9a04964",
+      "title": "The Dragon of Loowater",
+      "path": "solutions/greedy/The_Dragon_of_Loowater.cpp",
+      "original_path": "practice/inbox/The_Dragon_of_Loowater/The_Dragon_of_Loowater.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [
+        "https://open.kattis.com/problems/loowater"
+      ],
+      "collections": [
+        "Kattis"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "68f6d27247559103748d505991d1b2360a21fbc03f404471e22ff6b86155d14c",
+      "category": "greedy",
+      "tags": [
+        "greedy",
+        "sorting-and-searching"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Sorts head diameters and knight heights, then walks both lists with two pointers giving each head the smallest knight tall enough, printing the doomed message when knights run out.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "68f6d27247559103748d505991d1b2360a21fbc03f404471e22ff6b86155d14c",
+      "observed_sha256": "68f6d27247559103748d505991d1b2360a21fbc03f404471e22ff6b86155d14c",
+      "review_required": false,
+      "patterns": [
+        "sort-then-greedy"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 1024,
+      "interactive": false
+    },
+    {
+      "key": "ab513f0730a44610",
+      "title": "Watering Grass",
+      "path": "solutions/intervals/Watering_Grass.cpp",
+      "original_path": "practice/inbox/Watering_Grass/Watering_Grass.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": null,
+      "problem_id": null,
+      "urls": [
+        "https://open.kattis.com/problems/grass"
+      ],
+      "collections": [
+        "Kattis"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "d0b2cc58ed8718bd2a589996257abcaa3e21d66eba13003278852c06829cde2c",
+      "category": "intervals",
+      "tags": [
+        "greedy",
+        "intervals"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Turns each sprinkler into the interval [x - sqrt(r^2 - (w/2)^2), x + sqrt(...)], sorts by start, and greedily extends coverage to the furthest right end among intervals starting at or before the covered point, printing -1 if stuck. Limitation: compares long doubles without an epsilon.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "d0b2cc58ed8718bd2a589996257abcaa3e21d66eba13003278852c06829cde2c",
+      "observed_sha256": "d0b2cc58ed8718bd2a589996257abcaa3e21d66eba13003278852c06829cde2c",
+      "review_required": false,
+      "patterns": [
+        "interval-scheduling-and-sweep"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 1024,
+      "interactive": false
     }
   ]
 }

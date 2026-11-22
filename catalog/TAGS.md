@@ -869,7 +869,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## greedy
 
-226 files
+229 files
 
 - [A - A (cpp)](../solutions/two-pointers-and-sliding-window/A_A.cpp)
 - [A - Very Different Array (cpp)](../solutions/greedy/A_Very_Different_Array.cpp)
@@ -1074,8 +1074,10 @@ A source may appear under several tags. Its primary category determines its fold
 - [sellstocks (python)](../solutions/greedy/sellstocks.py)
 - [songs compression (python)](../solutions/greedy/songs_compression.py)
 - [Splitting an Array (cpp)](../solutions/binary-search/Splitting_an_Array.cpp)
+- [Station Balance (cpp)](../solutions/greedy/Station_Balance.cpp)
 - [Stubborn Pen (cpp)](../solutions/simulation/Stubborn_Pen.cpp)
 - [Tasks and Deadlines (cpp)](../solutions/greedy/Tasks_and_Deadlines.cpp)
+- [The Dragon of Loowater (cpp)](../solutions/greedy/The_Dragon_of_Loowater.cpp)
 - [The Party and Sweets (cpp)](../solutions/greedy/The_Party_and_Sweets.cpp)
 - [The Third Side (cpp)](../solutions/greedy/The_Third_Side.cpp)
 - [Training Sessions (cpp)](../solutions/intervals/Training_Sessions.cpp)
@@ -1095,12 +1097,13 @@ A source may appear under several tags. Its primary category determines its fold
 - [uva jollo (cpp)](../solutions/greedy/uva-jollo.cpp)
 - [validsplit (python)](../solutions/greedy/validsplit.py)
 - [very different array (python)](../solutions/greedy/very_different_array.py)
+- [Watering Grass (cpp)](../solutions/intervals/Watering_Grass.cpp)
 - [wooden ladder (python)](../solutions/greedy/wooden_ladder.py)
 - [Young Explorers (cpp)](../solutions/greedy/Young_Explorers.cpp)
 
 ## intervals
 
-20 files
+21 files
 
 - [A Guess a number (cpp)](../solutions/intervals/A_Guess_a_number.cpp)
 - [B Chat Online (cpp)](../solutions/binary-search/B_Chat_Online.cpp)
@@ -1122,6 +1125,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Problem 1. Fence Painting (cpp)](../solutions/intervals/Problem_1_Fence_Painting.cpp)
 - [restaurant customers (cpp)](../solutions/intervals/restaurant_customers.cpp)
 - [Training Sessions (cpp)](../solutions/intervals/Training_Sessions.cpp)
+- [Watering Grass (cpp)](../solutions/intervals/Watering_Grass.cpp)
 
 ## math/arithmetic
 
@@ -1724,7 +1728,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## sorting-and-searching
 
-220 files
+222 files
 
 - [1 (python)](../solutions/sorting-and-searching/1.py)
 - [11222 Only I did it (python)](../solutions/arrays-and-counting/11222_Only_I_did_it.py)
@@ -1921,12 +1925,14 @@ A source may appear under several tags. Its primary category determines its fold
 - [roots (python)](../solutions/binary-search/roots.py)
 - [sellstocks (python)](../solutions/greedy/sellstocks.py)
 - [songs compression (python)](../solutions/greedy/songs_compression.py)
+- [Station Balance (cpp)](../solutions/greedy/Station_Balance.cpp)
 - [Stylish clothes (cpp)](../solutions/two-pointers-and-sliding-window/Stylish_clothes.cpp)
 - [sum of four values (python)](../solutions/sorting-and-searching/sum-of-four-values.py)
 - [sum of two values (cpp)](../solutions/sorting-and-searching/sum_of_two_values.cpp)
 - [sum of two values (python)](../solutions/sorting-and-searching/sum_of_two_values.py)
 - [Tasks and Deadlines (cpp)](../solutions/greedy/Tasks_and_Deadlines.cpp)
 - [test2 (cpp)](../solutions/math/number-theory/test2.cpp)
+- [The Dragon of Loowater (cpp)](../solutions/greedy/The_Dragon_of_Loowater.cpp)
 - [The Party and Sweets (cpp)](../solutions/greedy/The_Party_and_Sweets.cpp)
 - [The Third Side (cpp)](../solutions/greedy/The_Third_Side.cpp)
 - [The Wave (cpp)](../solutions/binary-search/The_Wave.cpp)

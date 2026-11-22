@@ -17,7 +17,7 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Disjoint set union and its variants](dsu-variants.md) | 14 |
 | [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 127 |
 | [Frequency tables and distinct-value counting](frequency-table.md) | 95 |
-| [Sort then greedy](sort-then-greedy.md) | 78 |
+| [Sort then greedy](sort-then-greedy.md) | 80 |
 | [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 63 |
 | [Parity and operation invariants](parity-and-invariants.md) | 54 |
 | [Constructive answers from small cases](constructive-small-cases.md) | 38 |
@@ -31,7 +31,7 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Per-bit reasoning](per-bit-reasoning.md) | 20 |
 | [Primes, sieves, and factorization](primes-sieve-and-factorization.md) | 19 |
 | [Knapsack and coin-change DP](knapsack-dp.md) | 19 |
-| [Interval scheduling and event sweep](interval-scheduling-and-sweep.md) | 20 |
+| [Interval scheduling and event sweep](interval-scheduling-and-sweep.md) | 21 |
 | [Subset and permutation enumeration](subset-enumeration.md) | 16 |
 | [Divisor enumeration and harmonic multiples](divisor-enumeration.md) | 14 |
 | [XOR properties and cancellation](xor-properties.md) | 13 |

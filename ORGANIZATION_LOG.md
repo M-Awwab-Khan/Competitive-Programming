@@ -4,6 +4,24 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-22T17:00:47+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Watering_Grass.cpp → solutions/intervals/Watering_Grass.cpp: Turns each sprinkler into the interval [x - sqrt(r^2 - (w/2)^2), x + sqrt(...)], sorts by start, and greedily extends coverage to the furthest right end among intervals starting at or before the covered point, printing -1 if stuck. Limitation: compares long doubles without an epsilon.. Category: intervals; status: reviewed.
+
+## 2026-11-22T17:00:46+00:00 — REVIEW
+
+- solutions/sorting-and-searching/The_Dragon_of_Loowater.cpp → solutions/greedy/The_Dragon_of_Loowater.cpp: Sorts head diameters and knight heights, then walks both lists with two pointers giving each head the smallest knight tall enough, printing the doomed message when knights run out.. Category: greedy; status: reviewed.
+
+## 2026-11-22T17:00:45+00:00 — REVIEW
+
+- solutions/sorting-and-searching/Station_Balance.cpp → solutions/greedy/Station_Balance.cpp: Pads the masses to 2c with zeros, sorts them, and pairs the i-th smallest with the i-th largest in each chamber, then sums the deviation of every chamber mass from the mean. Limitation: masses is sized 2c, so more than 2c input masses would overflow it.. Category: greedy; status: reviewed.
+
+## 2026-11-22T17:00:44+00:00 — INGEST
+
+- practice/inbox/Station_Balance/Station_Balance.cpp → solutions/sorting-and-searching/Station_Balance.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/The_Dragon_of_Loowater/The_Dragon_of_Loowater.cpp → solutions/sorting-and-searching/The_Dragon_of_Loowater.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+- practice/inbox/Watering_Grass/Watering_Grass.cpp → solutions/sorting-and-searching/Watering_Grass.cpp: Filed new source; classification remains a suggestion. Category: sorting-and-searching; status: suggested.
+
 ## 2026-11-21T12:59:00+00:00 — REVIEW
 
 - solutions/sorting-and-searching/USB_vs_PS_2.cpp → solutions/greedy/USB_vs_PS_2.cpp: Sorts each connector type by price, takes the cheapest a USB and b PS/2 first, then fills the c remaining either-type slots by merging the next cheapest of both lists.. Category: greedy; status: reviewed.

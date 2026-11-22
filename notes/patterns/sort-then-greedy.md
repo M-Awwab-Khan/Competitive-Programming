@@ -125,7 +125,9 @@ Links are generated from catalog associations; classifications do not establish 
 | [Paired Up (cpp)](../../solutions/two-pointers-and-sliding-window/Paired_Up.cpp) | two-pointers-and-sliding-window | reviewed |
 | [sellstocks (python)](../../solutions/greedy/sellstocks.py) | greedy | reviewed |
 | [songs compression (python)](../../solutions/greedy/songs_compression.py) | greedy | reviewed |
+| [Station Balance (cpp)](../../solutions/greedy/Station_Balance.cpp) | greedy | reviewed |
 | [Tasks and Deadlines (cpp)](../../solutions/greedy/Tasks_and_Deadlines.cpp) | greedy | reviewed |
+| [The Dragon of Loowater (cpp)](../../solutions/greedy/The_Dragon_of_Loowater.cpp) | greedy | reviewed |
 | [The Party and Sweets (cpp)](../../solutions/greedy/The_Party_and_Sweets.cpp) | greedy | reviewed |
 | [USACO Why Did the Cow Cross the Road III (cpp)](../../solutions/simulation/USACO_Why_Did_the_Cow_Cross_the_Road_III.cpp) | simulation | reviewed |
 | [USB vs. PS/2 (cpp)](../../solutions/greedy/USB_vs_PS_2.cpp) | greedy | reviewed |

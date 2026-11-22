@@ -26,8 +26,8 @@
 | [graphs/spanning-trees](graphs/spanning-trees/) | 6 |
 | [graphs/topological-sort](graphs/topological-sort/) | 2 |
 | [graphs/traversal](graphs/traversal/) | 14 |
-| [greedy](greedy/) | 154 |
-| [intervals](intervals/) | 9 |
+| [greedy](greedy/) | 156 |
+| [intervals](intervals/) | 10 |
 | [math/arithmetic](math/arithmetic/) | 117 |
 | [math/combinatorics](math/combinatorics/) | 22 |
 | [math/number-theory](math/number-theory/) | 70 |
