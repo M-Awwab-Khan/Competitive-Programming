@@ -1,29 +1,10 @@
 # Tab completion for problem filenames: make run|check|build|debug|samples|sample-add <TAB>
 # Source from ~/.bashrc:  source ~/workspace/competitive-programming/scripts/make-completion.bash
-# Candidates are the NAME.cpp / NAME.py files `make` can resolve: sources still in
-# practice/inbox/NAME/ and filed sources whose catalog original_path is there.
+# Candidates come from scripts/complete_names.py. Typing a prefix completes it as
+# usual; when nothing starts with what you typed, names containing those letters in
+# order (case-insensitive, e.g. "rctsum" -> Rectangle_Sum.cpp) are listed best first.
 
-_cp_problem_names() {
-    python3 - "$1" <<'PY'
-import json, sys
-from pathlib import Path
-root = Path(sys.argv[1])
-names = set()
-inbox = root / 'practice/inbox'
-if inbox.is_dir():
-    for d in inbox.iterdir():
-        if d.is_dir():
-            names.update(f.name for f in d.glob(d.name + '.*') if f.suffix in ('.cpp', '.py'))
-try:
-    for p in json.loads((root / 'catalog/problems.json').read_text(encoding='utf-8'))['problems']:
-        parts = Path(p['original_path']).parts
-        if len(parts) == 4 and parts[:2] == ('practice', 'inbox') and parts[3].rsplit('.', 1)[-1] in ('cpp', 'py'):
-            names.add(parts[3])
-except (OSError, ValueError, KeyError):
-    pass
-print('\n'.join(sorted(names)))
-PY
-}
+_CP_COMPLETE_NAMES="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)/complete_names.py"
 
 _cp_make() {
     local cur=${COMP_WORDS[COMP_CWORD]} action= i
@@ -34,8 +15,16 @@ _cp_make() {
             esac
         done
         if [[ -n $action ]]; then
-            local IFS=$'\n'
-            COMPREPLY=($(compgen -W "$(_cp_problem_names "$PWD")" -- "$cur"))
+            local out mode
+            out=$(python3 "$_CP_COMPLETE_NAMES" "$PWD" "$cur" 2>/dev/null) || return
+            mode=${out%%$'\n'*}
+            if [[ $out == *$'\n'* ]]; then
+                mapfile -t COMPREPLY <<<"${out#*$'\n'}"
+            else
+                COMPREPLY=()
+            fi
+            # Keep the ranking for fuzzy matches instead of readline's alphabetical sort.
+            [[ $mode == fuzzy ]] && compopt -o nosort 2>/dev/null
             return
         fi
     fi
