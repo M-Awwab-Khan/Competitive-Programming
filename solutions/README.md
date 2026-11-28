@@ -17,7 +17,7 @@
 | [dynamic-programming/bitmask](dynamic-programming/bitmask/) | 2 |
 | [dynamic-programming/general](dynamic-programming/general/) | 32 |
 | [dynamic-programming/intervals](dynamic-programming/intervals/) | 3 |
-| [dynamic-programming/kadane](dynamic-programming/kadane/) | 7 |
+| [dynamic-programming/kadane](dynamic-programming/kadane/) | 8 |
 | [dynamic-programming/knapsack](dynamic-programming/knapsack/) | 19 |
 | [dynamic-programming/sequences](dynamic-programming/sequences/) | 9 |
 | [games](games/) | 9 |
@@ -32,10 +32,10 @@
 | [math/combinatorics](math/combinatorics/) | 22 |
 | [math/number-theory](math/number-theory/) | 70 |
 | [meet-in-the-middle](meet-in-the-middle/) | 5 |
-| [needs-review](needs-review/) | 11 |
-| [prefix-sums](prefix-sums/) | 53 |
+| [needs-review](needs-review/) | 12 |
+| [prefix-sums](prefix-sums/) | 63 |
 | [recursion-and-divide-and-conquer](recursion-and-divide-and-conquer/) | 5 |
-| [simulation](simulation/) | 81 |
+| [simulation](simulation/) | 82 |
 | [sorting-and-searching](sorting-and-searching/) | 61 |
 | [strings](strings/) | 57 |
 | [ternary-search](ternary-search/) | 4 |

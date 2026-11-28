@@ -1,0 +1,31 @@
+{
+  "name": "G. Hoof, Paper, Scissors",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/G",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5\nP\nP\nH\nP\nS\n",
+      "output": "4\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "GHoofPaperScissors"
+    }
+  },
+  "batch": {
+    "id": "aa4352ff-b396-44e9-8506-284d84ec8ed4",
+    "size": 1
+  }
+}

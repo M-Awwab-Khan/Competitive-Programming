@@ -1,0 +1,31 @@
+{
+  "name": "M. Practical Skill Test",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/M",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "3 3 2\n1 4 7\n2 5 8\n3 6 9\n3\n1 9\n2 8\n5 5\n",
+      "output": "8\n6\n0\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "MPracticalSkillTest"
+    }
+  },
+  "batch": {
+    "id": "9674e177-7923-452e-b195-8092ce840fb0",
+    "size": 1
+  }
+}

@@ -17,5 +17,6 @@ Automatic suggestions can be inspected with `python3 scripts/search.py --suggest
 | [H_ABCD_quadruplets.cpp](../solutions/needs-review/H_ABCD_quadruplets.cpp) | Source file is empty (0 bytes); no implementation to classify. |
 | [K_Flowers.cpp](../solutions/needs-review/K_Flowers.cpp) | Source file is empty (0 bytes); no implementation to classify. |
 | [Problem_2_Milking_Order.cpp](../solutions/needs-review/Problem_2_Milking_Order.cpp) | Source file is empty (0 bytes); no implementation to classify. |
+| [practice/inbox/Unexpected_Precipitation/Unexpected_Precipitation.cpp](../solutions/needs-review/Unexpected_Precipitation.cpp) | Incomplete attempt: reads the two arrays and allocates dp1 and dp2, then a loop only skips an index when a\[i\] + a\[i+1\] < b\[i\]. Limitation: it never prints an answer. |
 
 Record a decision with `python3 scripts/review_solution.py FILE --category CATEGORY --evidence "Why this pattern applies"`.

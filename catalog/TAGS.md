@@ -6,7 +6,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## arrays-and-counting
 
-132 files
+134 files
 
 - [11222 Only I did it (python)](../solutions/arrays-and-counting/11222_Only_I_did_it.py)
 - [a (cpp)](../solutions/arrays-and-counting/a.cpp)
@@ -130,6 +130,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [Segments with Small Set (cpp)](../solutions/two-pointers-and-sliding-window/Segments_with_Small_Set.cpp)
 - [sequence pair weight (python)](../solutions/arrays-and-counting/sequence_pair_weight.py)
 - [statistics (cpp)](../solutions/arrays-and-counting/statistics.cpp)
+- [Subarrays Divisible by K (cpp)](../solutions/prefix-sums/Subarrays_Divisible_by_K.cpp)
+- [Subarrays with a Given Sum (cpp)](../solutions/prefix-sums/Subarrays_with_a_Given_Sum.cpp)
 - [troc thereisabear (cpp)](../solutions/arrays-and-counting/troc-thereisabear.cpp)
 - [USACO Block Game (cpp)](../solutions/arrays-and-counting/USACO_Block_Game.cpp)
 - [USACO Cities and States (python)](../solutions/arrays-and-counting/USACO_Cities_and_States.py)
@@ -671,7 +673,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## dynamic-programming/kadane
 
-8 files
+9 files
 
 - [A Flipping Game (cpp)](../solutions/dynamic-programming/kadane/A_Flipping_Game.cpp)
 - [B. Chaiwalay (cpp)](../solutions/dynamic-programming/kadane/B_Chaiwalay.cpp)
@@ -679,6 +681,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [C Yarik and Array (cpp)](../solutions/dynamic-programming/kadane/C_Yarik_and_Array.cpp)
 - [cses maximumsubarraysum (cpp)](../solutions/dynamic-programming/kadane/cses-maximumsubarraysum.cpp)
 - [E Max Subarray Sum (cpp)](../solutions/dynamic-programming/kadane/E_Max_Subarray_Sum.cpp)
+- [Maximum Subarray Sum (cpp)](../solutions/dynamic-programming/kadane/Maximum_Subarray_Sum.cpp)
 - [open credit system (cpp)](../solutions/arrays-and-counting/open-credit-system.cpp)
 - [Range Operation (cpp)](../solutions/dynamic-programming/kadane/Range_Operation.cpp)
 
@@ -1502,13 +1505,14 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## prefix-sums
 
-90 files
+100 files
 
 - [a (cpp)](../solutions/arrays-and-counting/a.cpp)
 - [A Appleman and Toastman (cpp)](../solutions/greedy/A_Appleman_and_Toastman.cpp)
 - [A Dividing Candies (cpp)](../solutions/prefix-sums/A_Dividing_Candies.cpp)
 - [A-B Knapsack (cpp)](../solutions/greedy/A-B_Knapsack.cpp)
 - [A. Line Breaks (cpp)](../solutions/greedy/A_Line_Breaks.cpp)
+- [Additions, Then Sums (cpp)](../solutions/prefix-sums/Additions_Then_Sums.cpp)
 - [AH - And It's Non-Zero (cpp)](../solutions/bit-manipulation/AH_And_It_s_Non_Zero.cpp)
 - [AJ - Data Structures Fan (cpp)](../solutions/prefix-sums/AJ_Data_Structures_Fan.cpp)
 - [Avalanche (cpp)](../solutions/games/Avalanche.cpp)
@@ -1537,6 +1541,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [cf eugeny playlist (cpp)](../solutions/binary-search/cf-eugeny-playlist.cpp)
 - [cf vladsumofdigits (cpp)](../solutions/prefix-sums/cf-vladsumofdigits.cpp)
 - [cf wrath (cpp)](../solutions/prefix-sums/cf-wrath.cpp)
+- [Circular Range Additions (cpp)](../solutions/prefix-sums/Circular_Range_Additions.cpp)
 - [Closest Cities (cpp)](../solutions/prefix-sums/Closest_Cities.cpp)
 - [counting sort (cpp)](../solutions/sorting-and-searching/counting-sort.cpp)
 - [cses forestqueries (cpp)](../solutions/prefix-sums/cses-forestqueries.cpp)
@@ -1561,6 +1566,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [H. Zaglol vs. the British Occupation (cpp)](../solutions/binary-search/H_Zaglol_vs_the_British_Occupation.cpp)
 - [haybale stacking (cpp)](../solutions/prefix-sums/haybale_stacking.cpp)
 - [hoof paper scissors (cpp)](../solutions/prefix-sums/hoof_paper_scissors.cpp)
+- [Hoof, Paper, Scissors (cpp)](../solutions/prefix-sums/Hoof_Paper_Scissors.cpp)
 - [I. Swap(Mohamed, !Mohamed) (cpp)](../solutions/prefix-sums/I_Swap_Mohamed_Mohamed.cpp)
 - [icpcworldfinals (cpp)](../solutions/prefix-sums/icpcworldfinals.cpp)
 - [J - Counting Rectangles (cpp)](../solutions/prefix-sums/J_Counting_Rectangles.cpp)
@@ -1577,7 +1583,11 @@ A source may appear under several tags. Its primary category determines its fold
 - [Monster Game (cpp)](../solutions/binary-search/Monster_Game.cpp)
 - [N - Slimes (cpp)](../solutions/dynamic-programming/intervals/N_Slimes.cpp)
 - [playing in a casino (python)](../solutions/sorting-and-searching/playing_in_a_casino.py)
+- [Practical Skill Test (cpp)](../solutions/prefix-sums/Practical_Skill_Test.cpp)
 - [Prefix Sum Addicts (cpp)](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp)
+- [Range Additions (cpp)](../solutions/prefix-sums/Range_Additions.cpp)
+- [Rectangle Additions (cpp)](../solutions/prefix-sums/Rectangle_Additions.cpp)
+- [Rectangle Sum (cpp)](../solutions/prefix-sums/Rectangle_Sum.cpp)
 - [Robert Hood and Mrs Hood (cpp)](../solutions/prefix-sums/Robert_Hood_and_Mrs_Hood.cpp)
 - [secret message (cpp)](../solutions/strings/secret-message.cpp)
 - [static range sum queries (python)](../solutions/prefix-sums/static-range-sum-queries.py)
@@ -1586,6 +1596,8 @@ A source may appear under several tags. Its primary category determines its fold
 - [subarray sum equals k (cpp)](../algorithms/prefix-sums/subarray_sum_equals_k.cpp)
 - [subarray sum x (cpp)](../solutions/prefix-sums/subarray-sum-x.cpp)
 - [subarray sum x (python)](../solutions/prefix-sums/subarray-sum-x.py)
+- [Subarrays Divisible by K (cpp)](../solutions/prefix-sums/Subarrays_Divisible_by_K.cpp)
+- [Subarrays with a Given Sum (cpp)](../solutions/prefix-sums/Subarrays_with_a_Given_Sum.cpp)
 - [subsequences summing to seven (cpp)](../solutions/prefix-sums/subsequences_summing_to_seven.cpp)
 - [trace of matrix (python)](../solutions/prefix-sums/trace_of_matrix.py)
 - [TripTastic (cpp)](../solutions/binary-search/TripTastic.cpp)
@@ -1593,6 +1605,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [USACO Air Cownditioning II (cpp)](../solutions/brute-force-and-backtracking/USACO_Air_Cownditioning_II.cpp)
 - [USACO Diamond Collector Silver (cpp)](../solutions/two-pointers-and-sliding-window/USACO_Diamond_Collector_Silver.cpp)
 - [utpc 3 11 g (cpp)](../solutions/prefix-sums/utpc-3-11-g.cpp)
+- [Weighted Range Sum (cpp)](../solutions/prefix-sums/Weighted_Range_Sum.cpp)
 - [Winning Record (cpp)](../solutions/prefix-sums/Winning_Record.cpp)
 
 ## recursion-and-divide-and-conquer
@@ -1616,7 +1629,7 @@ A source may appear under several tags. Its primary category determines its fold
 
 ## simulation
 
-107 files
+108 files
 
 - [10978 - Let's Play Magic! (python)](../solutions/simulation/10978_Let_s_Play_Magic.py)
 - [A - Gift Exchange (cpp)](../solutions/simulation/A_Gift_Exchange.cpp)
@@ -1688,6 +1701,7 @@ A source may appear under several tags. Its primary category determines its fold
 - [Mixing Milk (cpp)](../solutions/simulation/Mixing_Milk.cpp)
 - [New Year and Counting Cards (cpp)](../solutions/strings/New_Year_and_Counting_Cards.cpp)
 - [packingforholiday (cpp)](../solutions/simulation/packingforholiday.cpp)
+- [Picnic for Two (cpp)](../solutions/simulation/Picnic_for_Two.cpp)
 - [Problem 3. Swapity Swap (cpp)](../solutions/simulation/Problem_3_Swapity_Swap.cpp)
 - [rotate mat (python)](../solutions/simulation/rotate-mat.py)
 - [Shell Game (cpp)](../solutions/simulation/Shell_Game.cpp)

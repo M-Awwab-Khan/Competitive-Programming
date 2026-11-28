@@ -1,0 +1,31 @@
+{
+  "name": "I. Subarrays Divisible by K",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/I",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5 3\n1 2 3 -3 4\n",
+      "output": "7\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ISubarraysDivisibleByK"
+    }
+  },
+  "batch": {
+    "id": "fa7c788e-0032-4c32-8eaf-cc432c40f108",
+    "size": 1
+  }
+}

@@ -4,6 +4,74 @@ Repository organization events, newest first. Source code is never copied into t
 
 [Guide](README.md)
 
+## 2026-11-28T16:38:14+00:00 — REVIEW
+
+- solutions/needs-review/Weighted_Range_Sum.cpp → solutions/prefix-sums/Weighted_Range_Sum.cpp: Keeps prefix sums of a[i] and i*a[i], and answers each query as pb[r] - pb[l-1] - (l-1) * (pa[r] - pa[l-1]).. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:13+00:00 — REVIEW
+
+- solutions/needs-review/Unexpected_Precipitation.cpp → solutions/needs-review/Unexpected_Precipitation.cpp: Incomplete attempt: reads the two arrays and allocates dp1 and dp2, then a loop only skips an index when a[i] + a[i+1] < b[i]. Limitation: it never prints an answer.. Category: needs-review; status: needs-review.
+
+## 2026-11-28T16:38:12+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Subarrays_with_a_Given_Sum.cpp → solutions/prefix-sums/Subarrays_with_a_Given_Sum.cpp: Counts subarrays with sum s by adding the frequency of prefix - s in a map of earlier prefix sums, seeded with prefix 0 once.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:11+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Subarrays_Divisible_by_K.cpp → solutions/prefix-sums/Subarrays_Divisible_by_K.cpp: Counts subarrays by keeping a map of prefix-sum remainders mod s (normalised to non-negative) and adding the earlier frequency of each remainder.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:10+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Rectangle_Sum.cpp → solutions/prefix-sums/Rectangle_Sum.cpp: Two-dimensional prefix sums built by inclusion-exclusion, and each query is b[r2][c2] - b[r1-1][c2] - b[r2][c1-1] + b[r1-1][c1-1].. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:09+00:00 — REVIEW
+
+- solutions/arrays-and-counting/Rectangle_Additions.cpp → solutions/prefix-sums/Rectangle_Additions.cpp: Two-dimensional difference array updating four corners per rectangle, then a row pass and a column pass of prefix sums before adding to the grid.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:08+00:00 — REVIEW
+
+- solutions/needs-review/Range_Additions.cpp → solutions/prefix-sums/Range_Additions.cpp: Difference array: add x at l, subtract at r+1, prefix-sum the differences, then add to the original array.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:06+00:00 — REVIEW
+
+- solutions/needs-review/Practical_Skill_Test.cpp → solutions/prefix-sums/Practical_Skill_Test.cpp: Stores each value's grid position and builds p[i] = p[i-d] + distance(i, i-d), so a query is p[r] - p[l] along the step-d chain.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:05+00:00 — REVIEW
+
+- solutions/needs-review/Picnic_for_Two.cpp → solutions/simulation/Picnic_for_Two.cpp: Walks the multiples of a and of b modulo l into two sets until a residue repeats, then counts the residues common to both sets.. Category: simulation; status: reviewed.
+
+## 2026-11-28T16:38:04+00:00 — REVIEW
+
+- solutions/dynamic-programming/kadane/Maximum_Subarray_Sum.cpp → solutions/dynamic-programming/kadane/Maximum_Subarray_Sum.cpp: Kadane scan with curr = max(a[i], curr + a[i]) and a running maximum, so all-negative arrays return the largest element.. Category: dynamic-programming/kadane; status: reviewed.
+
+## 2026-11-28T16:38:03+00:00 — REVIEW
+
+- solutions/prefix-sums/Hoof_Paper_Scissors.cpp → solutions/prefix-sums/Hoof_Paper_Scissors.cpp: Builds prefix win counts for each gesture and tries every switch point, scoring the first gesture on the prefix and the second on the suffix for all six ordered pairs. Limitation: the win lambda has no return on non-winning cases, which is undefined behavior.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:02+00:00 — REVIEW
+
+- solutions/needs-review/Circular_Range_Additions.cpp → solutions/prefix-sums/Circular_Range_Additions.cpp: Difference array that handles wrap-around ranges (l > r) by also adding x at position 1 and cancelling it at n+1, then prefix-sums the differences.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:01+00:00 — REVIEW
+
+- solutions/prefix-sums/Additions_Then_Sums.cpp → solutions/prefix-sums/Additions_Then_Sums.cpp: Applies the m range additions with a difference array, rebuilds the array, then answers each range-sum query from a second prefix-sum array.. Category: prefix-sums; status: reviewed.
+
+## 2026-11-28T16:38:00+00:00 — INGEST
+
+- practice/inbox/Additions_Then_Sums/Additions_Then_Sums.cpp → solutions/prefix-sums/Additions_Then_Sums.cpp: Filed new source; classification remains a suggestion. Category: prefix-sums; status: suggested.
+- practice/inbox/Circular_Range_Additions/Circular_Range_Additions.cpp → solutions/needs-review/Circular_Range_Additions.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Hoof_Paper_Scissors/Hoof_Paper_Scissors.cpp → solutions/prefix-sums/Hoof_Paper_Scissors.cpp: Filed new source; classification remains a suggestion. Category: prefix-sums; status: suggested.
+- practice/inbox/Maximum_Subarray_Sum/Maximum_Subarray_Sum.cpp → solutions/dynamic-programming/kadane/Maximum_Subarray_Sum.cpp: Filed new source; classification remains a suggestion. Category: dynamic-programming/kadane; status: suggested.
+- practice/inbox/Picnic_for_Two/Picnic_for_Two.cpp → solutions/needs-review/Picnic_for_Two.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Practical_Skill_Test/Practical_Skill_Test.cpp → solutions/needs-review/Practical_Skill_Test.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Range_Additions/Range_Additions.cpp → solutions/needs-review/Range_Additions.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Rectangle_Additions/Rectangle_Additions.cpp → solutions/arrays-and-counting/Rectangle_Additions.cpp: Filed new source; classification remains a suggestion. Category: arrays-and-counting; status: suggested.
+- practice/inbox/Rectangle_Sum/Rectangle_Sum.cpp → solutions/arrays-and-counting/Rectangle_Sum.cpp: Filed new source; classification remains a suggestion. Category: arrays-and-counting; status: suggested.
+- practice/inbox/Subarrays_Divisible_by_K/Subarrays_Divisible_by_K.cpp → solutions/arrays-and-counting/Subarrays_Divisible_by_K.cpp: Filed new source; classification remains a suggestion. Category: arrays-and-counting; status: suggested.
+- practice/inbox/Subarrays_with_a_Given_Sum/Subarrays_with_a_Given_Sum.cpp → solutions/arrays-and-counting/Subarrays_with_a_Given_Sum.cpp: Filed new source; classification remains a suggestion. Category: arrays-and-counting; status: suggested.
+- practice/inbox/Unexpected_Precipitation/Unexpected_Precipitation.cpp → solutions/needs-review/Unexpected_Precipitation.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+- practice/inbox/Weighted_Range_Sum/Weighted_Range_Sum.cpp → solutions/needs-review/Weighted_Range_Sum.cpp: Filed new source; classification remains a suggestion. Category: needs-review; status: needs-review.
+
 ## 2026-11-22T17:00:47+00:00 — REVIEW
 
 - solutions/sorting-and-searching/Watering_Grass.cpp → solutions/intervals/Watering_Grass.cpp: Turns each sprinkler into the interval [x - sqrt(r^2 - (w/2)^2), x + sqrt(...)], sorts by start, and greedily extends coverage to the furthest right end among intervals starting at or before the covered point, printing -1 if stuck. Limitation: compares long doubles without an epsilon.. Category: intervals; status: reviewed.

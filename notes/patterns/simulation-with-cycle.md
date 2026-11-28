@@ -66,6 +66,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [kattis basicprogramming1 (cpp)](../../solutions/simulation/kattis-basicprogramming1.cpp) | simulation | reviewed |
 | [kattis digits (cpp)](../../solutions/simulation/kattis-digits.cpp) | simulation | reviewed |
 | [kattis shuffling (cpp)](../../solutions/simulation/kattis-shuffling.cpp) | simulation | reviewed |
+| [Picnic for Two (cpp)](../../solutions/simulation/Picnic_for_Two.cpp) | simulation | reviewed |
 | [Problem 3. Swapity Swap (cpp)](../../solutions/simulation/Problem_3_Swapity_Swap.cpp) | simulation | reviewed |
 
 <!-- examples:end -->

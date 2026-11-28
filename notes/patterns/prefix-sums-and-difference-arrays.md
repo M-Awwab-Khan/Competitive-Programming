@@ -59,6 +59,7 @@ Links are generated from catalog associations; classifications do not establish 
 | --- | --- | --- |
 | [A Appleman and Toastman (cpp)](../../solutions/greedy/A_Appleman_and_Toastman.cpp) | greedy | reviewed |
 | [A-B Knapsack (cpp)](../../solutions/greedy/A-B_Knapsack.cpp) | greedy | reviewed |
+| [Additions, Then Sums (cpp)](../../solutions/prefix-sums/Additions_Then_Sums.cpp) | prefix-sums | reviewed |
 | [AH - And It's Non-Zero (cpp)](../../solutions/bit-manipulation/AH_And_It_s_Non_Zero.cpp) | bit-manipulation | reviewed |
 | [AJ - Data Structures Fan (cpp)](../../solutions/prefix-sums/AJ_Data_Structures_Fan.cpp) | prefix-sums | reviewed |
 | [Avalanche (cpp)](../../solutions/games/Avalanche.cpp) | games | reviewed |
@@ -82,6 +83,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [cf eugeny playlist (cpp)](../../solutions/binary-search/cf-eugeny-playlist.cpp) | binary-search | reviewed |
 | [cf vladsumofdigits (cpp)](../../solutions/prefix-sums/cf-vladsumofdigits.cpp) | prefix-sums | reviewed |
 | [cf wrath (cpp)](../../solutions/prefix-sums/cf-wrath.cpp) | prefix-sums | reviewed |
+| [Circular Range Additions (cpp)](../../solutions/prefix-sums/Circular_Range_Additions.cpp) | prefix-sums | reviewed |
 | [Closest Cities (cpp)](../../solutions/prefix-sums/Closest_Cities.cpp) | prefix-sums | reviewed |
 | [counting sort (cpp)](../../solutions/sorting-and-searching/counting-sort.cpp) | sorting-and-searching | reviewed |
 | [cses forestqueries (cpp)](../../solutions/prefix-sums/cses-forestqueries.cpp) | prefix-sums | reviewed |
@@ -101,6 +103,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [H. Zaglol vs. the British Occupation (cpp)](../../solutions/binary-search/H_Zaglol_vs_the_British_Occupation.cpp) | binary-search | reviewed |
 | [haybale stacking (cpp)](../../solutions/prefix-sums/haybale_stacking.cpp) | prefix-sums | reviewed |
 | [hoof paper scissors (cpp)](../../solutions/prefix-sums/hoof_paper_scissors.cpp) | prefix-sums | reviewed |
+| [Hoof, Paper, Scissors (cpp)](../../solutions/prefix-sums/Hoof_Paper_Scissors.cpp) | prefix-sums | reviewed |
 | [I. Swap(Mohamed, !Mohamed) (cpp)](../../solutions/prefix-sums/I_Swap_Mohamed_Mohamed.cpp) | prefix-sums | reviewed |
 | [icpcworldfinals (cpp)](../../solutions/prefix-sums/icpcworldfinals.cpp) | prefix-sums | reviewed |
 | [J - Counting Rectangles (cpp)](../../solutions/prefix-sums/J_Counting_Rectangles.cpp) | prefix-sums | reviewed |
@@ -111,7 +114,11 @@ Links are generated from catalog associations; classifications do not establish 
 | [Maximum Average Segment (cpp)](../../solutions/binary-search/Maximum_Average_Segment.cpp) | binary-search | reviewed |
 | [maximum sum (python)](../../solutions/prefix-sums/maximum_sum.py) | prefix-sums | reviewed |
 | [N - Slimes (cpp)](../../solutions/dynamic-programming/intervals/N_Slimes.cpp) | dynamic-programming/intervals | reviewed |
+| [Practical Skill Test (cpp)](../../solutions/prefix-sums/Practical_Skill_Test.cpp) | prefix-sums | reviewed |
 | [Prefix Sum Addicts (cpp)](../../solutions/prefix-sums/Prefix_Sum_Addicts.cpp) | prefix-sums | reviewed |
+| [Range Additions (cpp)](../../solutions/prefix-sums/Range_Additions.cpp) | prefix-sums | reviewed |
+| [Rectangle Additions (cpp)](../../solutions/prefix-sums/Rectangle_Additions.cpp) | prefix-sums | reviewed |
+| [Rectangle Sum (cpp)](../../solutions/prefix-sums/Rectangle_Sum.cpp) | prefix-sums | reviewed |
 | [Robert Hood and Mrs Hood (cpp)](../../solutions/prefix-sums/Robert_Hood_and_Mrs_Hood.cpp) | prefix-sums | reviewed |
 | [static range sum queries (python)](../../solutions/prefix-sums/static-range-sum-queries.py) | prefix-sums | reviewed |
 | [static range sum queries (cpp)](../../solutions/prefix-sums/static_range_sum_queries.cpp) | prefix-sums | reviewed |
@@ -119,6 +126,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [TripTastic (cpp)](../../solutions/binary-search/TripTastic.cpp) | binary-search | reviewed |
 | [USACO Air Cownditioning (cpp)](../../solutions/greedy/USACO_Air_Cownditioning.cpp) | greedy | reviewed |
 | [USACO Air Cownditioning II (cpp)](../../solutions/brute-force-and-backtracking/USACO_Air_Cownditioning_II.cpp) | brute-force-and-backtracking | reviewed |
+| [Weighted Range Sum (cpp)](../../solutions/prefix-sums/Weighted_Range_Sum.cpp) | prefix-sums | reviewed |
 | [Winning Record (cpp)](../../solutions/prefix-sums/Winning_Record.cpp) | prefix-sums | reviewed |
 
 <!-- examples:end -->

@@ -9,7 +9,7 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Pair counting with inclusion-exclusion](pair-counting-inclusion-exclusion.md) | 10 |
 | [Counting selections with binomial coefficients](binomial-counting.md) | 12 |
 | [Binary search on the answer](binary-search-on-answer.md) | 58 |
-| [Prefix sums with a frequency map](prefix-sum-frequency-map.md) | 13 |
+| [Prefix sums with a frequency map](prefix-sum-frequency-map.md) | 15 |
 | [Monotonic deque](monotonic-deque.md) | 5 |
 | [Interval dynamic programming](interval-dp.md) | 4 |
 | [Two-pointer window over a monotone condition](two-pointer-window.md) | 61 |
@@ -18,7 +18,7 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Closed-form arithmetic and casework](closed-form-arithmetic.md) | 127 |
 | [Frequency tables and distinct-value counting](frequency-table.md) | 95 |
 | [Sort then greedy](sort-then-greedy.md) | 80 |
-| [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 63 |
+| [Prefix sums and difference arrays](prefix-sums-and-difference-arrays.md) | 71 |
 | [Parity and operation invariants](parity-and-invariants.md) | 54 |
 | [Constructive answers from small cases](constructive-small-cases.md) | 38 |
 | [Sorted lookup with binary search](sorted-lookup.md) | 39 |
@@ -35,11 +35,11 @@ Recognition clues, invariants, pitfalls, and examples from this repository.
 | [Subset and permutation enumeration](subset-enumeration.md) | 16 |
 | [Divisor enumeration and harmonic multiples](divisor-enumeration.md) | 14 |
 | [XOR properties and cancellation](xor-properties.md) | 13 |
-| [Simulation with cycle detection](simulation-with-cycle.md) | 13 |
+| [Simulation with cycle detection](simulation-with-cycle.md) | 14 |
 | [Backtracking and exhaustive recursion](backtracking-recursion.md) | 12 |
 | [Graph traversal with BFS and DFS](graph-bfs-dfs.md) | 11 |
 | [Grid traversal and neighbourhood scans](grid-traversal.md) | 9 |
-| [Kadane maximum subarray](kadane-max-subarray.md) | 9 |
+| [Kadane maximum subarray](kadane-max-subarray.md) | 10 |
 | [Contribution technique](contribution-technique.md) | 8 |
 | [Tree DFS, subtree aggregates, and binary lifting](tree-dfs.md) | 8 |
 | [Game theory: winning and losing states](game-theory.md) | 9 |

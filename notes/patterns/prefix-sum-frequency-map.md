@@ -59,6 +59,8 @@ Links are generated from catalog associations; classifications do not establish 
 | [subarray sum equals k (cpp)](../../algorithms/prefix-sums/subarray_sum_equals_k.cpp) | prefix-sums | reviewed |
 | [subarray sum x (cpp)](../../solutions/prefix-sums/subarray-sum-x.cpp) | prefix-sums | reviewed |
 | [subarray sum x (python)](../../solutions/prefix-sums/subarray-sum-x.py) | prefix-sums | reviewed |
+| [Subarrays Divisible by K (cpp)](../../solutions/prefix-sums/Subarrays_Divisible_by_K.cpp) | prefix-sums | reviewed |
+| [Subarrays with a Given Sum (cpp)](../../solutions/prefix-sums/Subarrays_with_a_Given_Sum.cpp) | prefix-sums | reviewed |
 | [subsequences summing to seven (cpp)](../../solutions/prefix-sums/subsequences_summing_to_seven.cpp) | prefix-sums | reviewed |
 | [utpc 3 11 g (cpp)](../../solutions/prefix-sums/utpc-3-11-g.cpp) | prefix-sums | reviewed |
 

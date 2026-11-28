@@ -1,0 +1,31 @@
+{
+  "name": "J. Circular Range Additions",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/J",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5 3\n0 0 0 0 0\n4 2 3\n2 4 1\n5 5 -2\n",
+      "output": "3 4 1 4 1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "JCircularRangeAdditions"
+    }
+  },
+  "batch": {
+    "id": "a4fc8608-1c62-4e10-950c-53ed0d2bced6",
+    "size": 1
+  }
+}

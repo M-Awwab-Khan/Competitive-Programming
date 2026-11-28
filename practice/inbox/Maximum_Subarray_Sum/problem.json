@@ -1,0 +1,31 @@
+{
+  "name": "F. Maximum Subarray Sum",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/F",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "8\n-2 3 -1 5 -6 2 4 -3\n",
+      "output": "7\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FMaximumSubarraySum"
+    }
+  },
+  "batch": {
+    "id": "d5501704-9768-4d5e-806a-43806e6a600b",
+    "size": 1
+  }
+}

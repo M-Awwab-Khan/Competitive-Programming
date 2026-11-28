@@ -1,0 +1,31 @@
+{
+  "name": "K. Weighted Range Sum",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/K",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5 3\n2 -1 3 4 0\n1 3\n2 5\n4 4\n",
+      "output": "9\n17\n4\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "KWeightedRangeSum"
+    }
+  },
+  "batch": {
+    "id": "3a530377-f801-4fac-9306-400c2fe1f997",
+    "size": 1
+  }
+}

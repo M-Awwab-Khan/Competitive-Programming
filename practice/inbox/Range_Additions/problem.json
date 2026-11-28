@@ -1,0 +1,31 @@
+{
+  "name": "D. Range Additions",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/d",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5 3\n1 2 3 4 5\n1 3 10\n2 5 -2\n4 4 7\n",
+      "output": "11 10 11 9 3\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DRangeAdditions"
+    }
+  },
+  "batch": {
+    "id": "0718cac1-2d7b-444f-96eb-e14cb48ce407",
+    "size": 1
+  }
+}

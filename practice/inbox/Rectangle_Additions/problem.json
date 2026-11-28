@@ -1,0 +1,31 @@
+{
+  "name": "N. Rectangle Additions",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/N",
+  "interactive": false,
+  "memoryLimit": 512,
+  "timeLimit": 3000,
+  "tests": [
+    {
+      "input": "2 3 2\n1 2 3\n4 5 6\n1 1 2 2 10\n2 2 2 3 -3\n",
+      "output": "11 12 3\n14 12 3\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "NRectangleAdditions"
+    }
+  },
+  "batch": {
+    "id": "aef64a76-b0b3-424e-a586-43b80c5d8105",
+    "size": 1
+  }
+}

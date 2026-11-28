@@ -61,6 +61,7 @@ Links are generated from catalog associations; classifications do not establish 
 | [C Yarik and Array (cpp)](../../solutions/dynamic-programming/kadane/C_Yarik_and_Array.cpp) | dynamic-programming/kadane | reviewed |
 | [cses maximumsubarraysum (cpp)](../../solutions/dynamic-programming/kadane/cses-maximumsubarraysum.cpp) | dynamic-programming/kadane | reviewed |
 | [E Max Subarray Sum (cpp)](../../solutions/dynamic-programming/kadane/E_Max_Subarray_Sum.cpp) | dynamic-programming/kadane | reviewed |
+| [Maximum Subarray Sum (cpp)](../../solutions/dynamic-programming/kadane/Maximum_Subarray_Sum.cpp) | dynamic-programming/kadane | reviewed |
 | [open credit system (cpp)](../../solutions/arrays-and-counting/open-credit-system.cpp) | arrays-and-counting | reviewed |
 | [Range Operation (cpp)](../../solutions/dynamic-programming/kadane/Range_Operation.cpp) | dynamic-programming/kadane | reviewed |
 

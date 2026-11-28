@@ -1,20 +1,20 @@
 {
-  "total_entries": 1223,
+  "total_entries": 1236,
   "roles": {
-    "solution": 1218,
+    "solution": 1231,
     "reference": 1,
     "algorithm": 4
   },
   "categories": {
     "sorting-and-searching": 61,
-    "simulation": 81,
+    "simulation": 82,
     "arrays-and-counting": 91,
     "bit-manipulation": 29,
     "math/arithmetic": 118,
     "math/combinatorics": 22,
     "binary-search": 81,
     "brute-force-and-backtracking": 59,
-    "prefix-sums": 55,
+    "prefix-sums": 65,
     "constructive": 55,
     "two-pointers-and-sliding-window": 60,
     "strings": 57,
@@ -22,7 +22,7 @@
     "greedy": 156,
     "dynamic-programming/knapsack": 19,
     "geometry": 35,
-    "dynamic-programming/kadane": 7,
+    "dynamic-programming/kadane": 8,
     "intervals": 10,
     "dynamic-programming/general": 32,
     "data-structures/disjoint-set": 14,
@@ -34,7 +34,7 @@
     "recursion-and-divide-and-conquer": 5,
     "data-structures/stacks-and-queues": 12,
     "dynamic-programming/sequences": 9,
-    "needs-review": 11,
+    "needs-review": 12,
     "data-structures/range-queries": 3,
     "graphs/shortest-paths": 4,
     "dynamic-programming/bitmask": 2,
@@ -45,11 +45,11 @@
     "data-structures/heaps": 1
   },
   "classifications": {
-    "reviewed": 1212,
-    "needs-review": 11
+    "reviewed": 1224,
+    "needs-review": 12
   },
   "implementations": {
-    "not-verified": 1213,
+    "not-verified": 1226,
     "empty-or-template": 10
   },
   "sources_changed_since_classification": 0

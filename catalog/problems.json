@@ -36755,6 +36755,459 @@
       "time_limit_ms": 2000,
       "memory_limit_mb": 1024,
       "interactive": false
+    },
+    {
+      "key": "386ba1ab9bb241ff",
+      "title": "Additions, Then Sums",
+      "path": "solutions/prefix-sums/Additions_Then_Sums.cpp",
+      "original_path": "practice/inbox/Additions_Then_Sums/Additions_Then_Sums.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587E",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/E"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "d270f830fa7e12183e1239530fcd332178429362eee1a79bfbc353302b568646",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Applies the m range additions with a difference array, rebuilds the array, then answers each range-sum query from a second prefix-sum array.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "d270f830fa7e12183e1239530fcd332178429362eee1a79bfbc353302b568646",
+      "observed_sha256": "d270f830fa7e12183e1239530fcd332178429362eee1a79bfbc353302b568646",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "8bce7faad3d34344",
+      "title": "Circular Range Additions",
+      "path": "solutions/prefix-sums/Circular_Range_Additions.cpp",
+      "original_path": "practice/inbox/Circular_Range_Additions/Circular_Range_Additions.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587J",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/J"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0d0ba66653ad185b48759d4e33eab48f1be1b91d45f9c24b9e8df1aee0369274",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Difference array that handles wrap-around ranges (l > r) by also adding x at position 1 and cancelling it at n+1, then prefix-sums the differences.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0d0ba66653ad185b48759d4e33eab48f1be1b91d45f9c24b9e8df1aee0369274",
+      "observed_sha256": "0d0ba66653ad185b48759d4e33eab48f1be1b91d45f9c24b9e8df1aee0369274",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "4c7a18d4c70d412a",
+      "title": "Hoof, Paper, Scissors",
+      "path": "solutions/prefix-sums/Hoof_Paper_Scissors.cpp",
+      "original_path": "practice/inbox/Hoof_Paper_Scissors/Hoof_Paper_Scissors.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587G",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/G"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "04651c214c1468a2efc4ab8a82749e83935e086aa68b244f9f59f90d9ab2ce93",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Builds prefix win counts for each gesture and tries every switch point, scoring the first gesture on the prefix and the second on the suffix for all six ordered pairs. Limitation: the win lambda has no return on non-winning cases, which is undefined behavior.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "04651c214c1468a2efc4ab8a82749e83935e086aa68b244f9f59f90d9ab2ce93",
+      "observed_sha256": "04651c214c1468a2efc4ab8a82749e83935e086aa68b244f9f59f90d9ab2ce93",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "5c18ce7246814d1a",
+      "title": "Maximum Subarray Sum",
+      "path": "solutions/dynamic-programming/kadane/Maximum_Subarray_Sum.cpp",
+      "original_path": "practice/inbox/Maximum_Subarray_Sum/Maximum_Subarray_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587F",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/F"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "dbbec1e692e48d1cc7a0a8e9adb6c63cadc705b1c9942c2bacbb8d6d35d28e4d",
+      "category": "dynamic-programming/kadane",
+      "tags": [
+        "dynamic-programming/kadane"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Kadane scan with curr = max(a[i], curr + a[i]) and a running maximum, so all-negative arrays return the largest element.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "dbbec1e692e48d1cc7a0a8e9adb6c63cadc705b1c9942c2bacbb8d6d35d28e4d",
+      "observed_sha256": "dbbec1e692e48d1cc7a0a8e9adb6c63cadc705b1c9942c2bacbb8d6d35d28e4d",
+      "review_required": false,
+      "patterns": [
+        "kadane-max-subarray"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "f4df059c65a74b9f",
+      "title": "Picnic for Two",
+      "path": "solutions/simulation/Picnic_for_Two.cpp",
+      "original_path": "practice/inbox/Picnic_for_Two/Picnic_for_Two.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2292A",
+      "urls": [
+        "https://codeforces.com/contest/2292/problem/A"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1138 (Div. 3)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "1a1fa48f7711ed7a2558f90acd635e0ddd4b0b63129b3616b01c51138965da10",
+      "category": "simulation",
+      "tags": [
+        "simulation"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Walks the multiples of a and of b modulo l into two sets until a residue repeats, then counts the residues common to both sets.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "1a1fa48f7711ed7a2558f90acd635e0ddd4b0b63129b3616b01c51138965da10",
+      "observed_sha256": "1a1fa48f7711ed7a2558f90acd635e0ddd4b0b63129b3616b01c51138965da10",
+      "review_required": false,
+      "patterns": [
+        "simulation-with-cycle"
+      ],
+      "time_limit_ms": 1000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "7866a5b92f0e4443",
+      "title": "Practical Skill Test",
+      "path": "solutions/prefix-sums/Practical_Skill_Test.cpp",
+      "original_path": "practice/inbox/Practical_Skill_Test/Practical_Skill_Test.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587M",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/M"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "9e946b47d6908f1569369363dda571cbd187fcf4971a7e8d1623ea209eab65af",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Stores each value's grid position and builds p[i] = p[i-d] + distance(i, i-d), so a query is p[r] - p[l] along the step-d chain.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "9e946b47d6908f1569369363dda571cbd187fcf4971a7e8d1623ea209eab65af",
+      "observed_sha256": "9e946b47d6908f1569369363dda571cbd187fcf4971a7e8d1623ea209eab65af",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "8876416c838e4a44",
+      "title": "Range Additions",
+      "path": "solutions/prefix-sums/Range_Additions.cpp",
+      "original_path": "practice/inbox/Range_Additions/Range_Additions.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587d",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/d"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "21197b455186cab698588efad1df20f1bd39aa9c022af18d5a964d2d7e01236b",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Difference array: add x at l, subtract at r+1, prefix-sum the differences, then add to the original array.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "21197b455186cab698588efad1df20f1bd39aa9c022af18d5a964d2d7e01236b",
+      "observed_sha256": "21197b455186cab698588efad1df20f1bd39aa9c022af18d5a964d2d7e01236b",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "6ab163dae91b41b2",
+      "title": "Rectangle Additions",
+      "path": "solutions/prefix-sums/Rectangle_Additions.cpp",
+      "original_path": "practice/inbox/Rectangle_Additions/Rectangle_Additions.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587N",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/N"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "bf5797927fb8c04ce8d7db573f2a817e1fed151be265969c97858c5c3536a2c9",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Two-dimensional difference array updating four corners per rectangle, then a row pass and a column pass of prefix sums before adding to the grid.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "bf5797927fb8c04ce8d7db573f2a817e1fed151be265969c97858c5c3536a2c9",
+      "observed_sha256": "bf5797927fb8c04ce8d7db573f2a817e1fed151be265969c97858c5c3536a2c9",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 3000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "9581cf7513214ae8",
+      "title": "Rectangle Sum",
+      "path": "solutions/prefix-sums/Rectangle_Sum.cpp",
+      "original_path": "practice/inbox/Rectangle_Sum/Rectangle_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587L",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/L"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0198e8eeb3223f430914dbf3f77a152a17c28f9b76641a1df96c9935a3148071",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Two-dimensional prefix sums built by inclusion-exclusion, and each query is b[r2][c2] - b[r1-1][c2] - b[r2][c1-1] + b[r1-1][c1-1].",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0198e8eeb3223f430914dbf3f77a152a17c28f9b76641a1df96c9935a3148071",
+      "observed_sha256": "0198e8eeb3223f430914dbf3f77a152a17c28f9b76641a1df96c9935a3148071",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 3000,
+      "memory_limit_mb": 512,
+      "interactive": false
+    },
+    {
+      "key": "8eb02fa4ee894c82",
+      "title": "Subarrays Divisible by K",
+      "path": "solutions/prefix-sums/Subarrays_Divisible_by_K.cpp",
+      "original_path": "practice/inbox/Subarrays_Divisible_by_K/Subarrays_Divisible_by_K.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587I",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/I"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "0448853ad33481a4b80c688d5beb094edbe75ca87bc77ecc43a50c8ced8eaeee",
+      "category": "prefix-sums",
+      "tags": [
+        "arrays-and-counting",
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Counts subarrays by keeping a map of prefix-sum remainders mod s (normalised to non-negative) and adding the earlier frequency of each remainder.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "0448853ad33481a4b80c688d5beb094edbe75ca87bc77ecc43a50c8ced8eaeee",
+      "observed_sha256": "0448853ad33481a4b80c688d5beb094edbe75ca87bc77ecc43a50c8ced8eaeee",
+      "review_required": false,
+      "patterns": [
+        "prefix-sum-frequency-map"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "d748b53d2c914f54",
+      "title": "Subarrays with a Given Sum",
+      "path": "solutions/prefix-sums/Subarrays_with_a_Given_Sum.cpp",
+      "original_path": "practice/inbox/Subarrays_with_a_Given_Sum/Subarrays_with_a_Given_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587H",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/H"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "ed78af5fcafd6661d87c9494e494e160216590c6e85a0e970f3be36f3fda8058",
+      "category": "prefix-sums",
+      "tags": [
+        "arrays-and-counting",
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Counts subarrays with sum s by adding the frequency of prefix - s in a map of earlier prefix sums, seeded with prefix 0 once.",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "ed78af5fcafd6661d87c9494e494e160216590c6e85a0e970f3be36f3fda8058",
+      "observed_sha256": "ed78af5fcafd6661d87c9494e494e160216590c6e85a0e970f3be36f3fda8058",
+      "review_required": false,
+      "patterns": [
+        "prefix-sum-frequency-map"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "bd70f6f2e3df49c8",
+      "title": "Unexpected Precipitation",
+      "path": "solutions/needs-review/Unexpected_Precipitation.cpp",
+      "original_path": "practice/inbox/Unexpected_Precipitation/Unexpected_Precipitation.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "2292D",
+      "urls": [
+        "https://codeforces.com/contest/2292/problem/D"
+      ],
+      "collections": [
+        "Codeforces - Codeforces Round 1138 (Div. 3)"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "705de4658ececbf6d77387b66f850416eddb09f47fc4fd9f029753265a29b445",
+      "category": "needs-review",
+      "tags": [],
+      "classification_confidence": "low",
+      "classification_evidence": "Incomplete attempt: reads the two arrays and allocates dp1 and dp2, then a loop only skips an index when a[i] + a[i+1] < b[i]. Limitation: it never prints an answer.",
+      "classification_status": "needs-review",
+      "classification_locked": true,
+      "classification_sha256": "705de4658ececbf6d77387b66f850416eddb09f47fc4fd9f029753265a29b445",
+      "observed_sha256": "705de4658ececbf6d77387b66f850416eddb09f47fc4fd9f029753265a29b445",
+      "review_required": true,
+      "patterns": [],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
+    },
+    {
+      "key": "bf9c9949c2ad4742",
+      "title": "Weighted Range Sum",
+      "path": "solutions/prefix-sums/Weighted_Range_Sum.cpp",
+      "original_path": "practice/inbox/Weighted_Range_Sum/Weighted_Range_Sum.cpp",
+      "language": "cpp",
+      "role": "solution",
+      "platform": "codeforces",
+      "problem_id": "728587K",
+      "urls": [
+        "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/K"
+      ],
+      "collections": [
+        "Codeforces - 1. Prefix Sums and Difference Arrays"
+      ],
+      "implementation_status": "not-verified",
+      "original_sha256": "ca0bb5bcc15fe7d2b2ef09e748764f9c40988b3132e9bcf846c2a5333d0eef6e",
+      "category": "prefix-sums",
+      "tags": [
+        "prefix-sums"
+      ],
+      "classification_confidence": "high",
+      "classification_evidence": "Keeps prefix sums of a[i] and i*a[i], and answers each query as pb[r] - pb[l-1] - (l-1) * (pa[r] - pa[l-1]).",
+      "classification_status": "reviewed",
+      "classification_locked": true,
+      "classification_sha256": "ca0bb5bcc15fe7d2b2ef09e748764f9c40988b3132e9bcf846c2a5333d0eef6e",
+      "observed_sha256": "ca0bb5bcc15fe7d2b2ef09e748764f9c40988b3132e9bcf846c2a5333d0eef6e",
+      "review_required": false,
+      "patterns": [
+        "prefix-sums-and-difference-arrays"
+      ],
+      "time_limit_ms": 2000,
+      "memory_limit_mb": 256,
+      "interactive": false
     }
   ]
 }

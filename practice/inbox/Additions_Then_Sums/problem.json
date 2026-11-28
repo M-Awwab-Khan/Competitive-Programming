@@ -1,0 +1,31 @@
+{
+  "name": "E. Additions, Then Sums",
+  "group": "Codeforces - 1. Prefix Sums and Difference Arrays",
+  "url": "https://codeforces.com/group/vhYDNJe7qM/contest/728587/problem/E",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "5 2 3\n1 2 3 4 5\n1 3 2\n4 5 -1\n1 3\n2 5\n4 4\n",
+      "output": "12\n16\n3\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "EAdditionsThenSums"
+    }
+  },
+  "batch": {
+    "id": "1d483918-181c-4242-931d-ce075b0d3865",
+    "size": 1
+  }
+}

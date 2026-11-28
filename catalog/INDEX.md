@@ -1,6 +1,6 @@
 # Problem index
 
-1223 source files across 37 primary categories.
+1236 source files across 37 primary categories.
 
 Categories describe local implementations. Suggested labels are inferred; reviewed labels are explicit decisions. Neither implies judge acceptance.
 
@@ -21,7 +21,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [dynamic-programming/bitmask](#dynamic-programmingbitmask) | 2 | Dynamic programming over subsets |
 | [dynamic-programming/general](#dynamic-programminggeneral) | 32 | Other dynamic programming recurrences |
 | [dynamic-programming/intervals](#dynamic-programmingintervals) | 3 | Dynamic programming over intervals |
-| [dynamic-programming/kadane](#dynamic-programmingkadane) | 7 | Maximum subarray sums and Kadane style recurrences |
+| [dynamic-programming/kadane](#dynamic-programmingkadane) | 8 | Maximum subarray sums and Kadane style recurrences |
 | [dynamic-programming/knapsack](#dynamic-programmingknapsack) | 19 | Subset sum, coin change, and knapsack states |
 | [dynamic-programming/sequences](#dynamic-programmingsequences) | 9 | Subsequence and string dynamic programming |
 | [games](#games) | 9 | Winning states, parity games, and strategy |
@@ -36,10 +36,10 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [math/combinatorics](#mathcombinatorics) | 22 | Combinatorial counting, factorials, and binomial coefficients |
 | [math/number-theory](#mathnumber-theory) | 70 | GCD, primes, factorization, divisibility, and modular arithmetic |
 | [meet-in-the-middle](#meet-in-the-middle) | 5 | Enumerate two halves and combine their results |
-| [needs-review](#needs-review) | 11 | Insufficient evidence for a specific pattern |
-| [prefix-sums](#prefix-sums) | 55 | Prefix/suffix aggregates, differences, and prefix sum hashing |
+| [needs-review](#needs-review) | 12 | Insufficient evidence for a specific pattern |
+| [prefix-sums](#prefix-sums) | 65 | Prefix/suffix aggregates, differences, and prefix sum hashing |
 | [recursion-and-divide-and-conquer](#recursion-and-divide-and-conquer) | 5 | Recursive decomposition and divide and conquer |
-| [simulation](#simulation) | 81 | Direct simulation of rules, grids, and processes |
+| [simulation](#simulation) | 82 | Direct simulation of rules, grids, and processes |
 | [sorting-and-searching](#sorting-and-searching) | 61 | Sorting, rank queries, and sorted order reasoning |
 | [strings](#strings) | 57 | String matching, parsing, and character transformations |
 | [ternary-search](#ternary-search) | 4 | Searching a unimodal function |
@@ -515,6 +515,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C Yarik and Array — C_Yarik_and_Array.cpp](../solutions/dynamic-programming/kadane/C_Yarik_and_Array.cpp) | cpp | unknown | dynamic-programming/kadane | reviewed | [Kadane maximum subarray](../notes/patterns/kadane-max-subarray.md) |
 | [cses maximumsubarraysum — cses-maximumsubarraysum.cpp](../solutions/dynamic-programming/kadane/cses-maximumsubarraysum.cpp) | cpp | cses | dynamic-programming/kadane | reviewed | [Kadane maximum subarray](../notes/patterns/kadane-max-subarray.md) |
 | [E Max Subarray Sum — E_Max_Subarray_Sum.cpp](../solutions/dynamic-programming/kadane/E_Max_Subarray_Sum.cpp) | cpp | unknown | dynamic-programming/kadane | reviewed | [Kadane maximum subarray](../notes/patterns/kadane-max-subarray.md) |
+| [Maximum Subarray Sum — Maximum_Subarray_Sum.cpp](../solutions/dynamic-programming/kadane/Maximum_Subarray_Sum.cpp) | cpp | codeforces / 728587F | dynamic-programming/kadane | reviewed | [Kadane maximum subarray](../notes/patterns/kadane-max-subarray.md) |
 | [Range Operation — Range_Operation.cpp](../solutions/dynamic-programming/kadane/Range_Operation.cpp) | cpp | codeforces / 2169C | arrays-and-counting, dynamic-programming/kadane | reviewed | [Kadane maximum subarray](../notes/patterns/kadane-max-subarray.md) |
 
 ## dynamic-programming/knapsack
@@ -1081,12 +1082,14 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [H - ABCD quadruplets — H_ABCD_quadruplets.cpp](../solutions/needs-review/H_ABCD_quadruplets.cpp) | cpp | vjudge / contest-788184-H |  | needs-review |  |
 | [K Flowers — K_Flowers.cpp](../solutions/needs-review/K_Flowers.cpp) | cpp | unknown |  | needs-review |  |
 | [Problem 2. Milking Order — Problem_2_Milking_Order.cpp](../solutions/needs-review/Problem_2_Milking_Order.cpp) | cpp | usaco / cpid-832 |  | needs-review |  |
+| [Unexpected Precipitation — Unexpected_Precipitation.cpp](../solutions/needs-review/Unexpected_Precipitation.cpp) | cpp | codeforces / 2292D |  | needs-review |  |
 
 ## prefix-sums
 
 | Problem / file | Language | Platform / ID | Tags | Classification | Patterns |
 | --- | --- | --- | --- | --- | --- |
 | [A Dividing Candies — A_Dividing_Candies.cpp](../solutions/prefix-sums/A_Dividing_Candies.cpp) | cpp | unknown | math/number-theory, prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
+| [Additions, Then Sums — Additions_Then_Sums.cpp](../solutions/prefix-sums/Additions_Then_Sums.cpp) | cpp | codeforces / 728587E | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [AJ - Data Structures Fan — AJ_Data_Structures_Fan.cpp](../solutions/prefix-sums/AJ_Data_Structures_Fan.cpp) | cpp | vjudge / contest-688791-AJ | bit-manipulation, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md), [XOR properties and cancellation](../notes/patterns/xor-properties.md) |
 | [B Fence — B_Fence.cpp](../solutions/prefix-sums/B_Fence.cpp) | cpp | unknown | prefix-sums, two-pointers-and-sliding-window | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [B Flip The Bits — B_Flip_The_Bits.cpp](../solutions/prefix-sums/B_Flip_The_Bits.cpp) | cpp | unknown | greedy, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
@@ -1106,6 +1109,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [C. Prefix Min and Suffix Max — C_Prefix_Min_and_Suffix_Max.cpp](../solutions/prefix-sums/C_Prefix_Min_and_Suffix_Max.cpp) | cpp | codeforces / 2123C | arrays-and-counting, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [cf vladsumofdigits — cf-vladsumofdigits.cpp](../solutions/prefix-sums/cf-vladsumofdigits.cpp) | cpp | codeforces | math/arithmetic, prefix-sums | reviewed | [Digit manipulation](../notes/patterns/digit-manipulation.md), [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [cf wrath — cf-wrath.cpp](../solutions/prefix-sums/cf-wrath.cpp) | cpp | codeforces | intervals, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
+| [Circular Range Additions — Circular_Range_Additions.cpp](../solutions/prefix-sums/Circular_Range_Additions.cpp) | cpp | codeforces / 728587J | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [Closest Cities — Closest_Cities.cpp](../solutions/prefix-sums/Closest_Cities.cpp) | cpp | codeforces / 1922C | arrays-and-counting, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [cses forestqueries — cses-forestqueries.cpp](../solutions/prefix-sums/cses-forestqueries.cpp) | cpp | cses | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [D - Swap and Range Sum — D_Swap_and_Range_Sum.cpp](../solutions/prefix-sums/D_Swap_and_Range_Sum.cpp) | cpp | atcoder / abc442_d | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
@@ -1120,6 +1124,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [H - Range Xor Queries — H_Range_Xor_Queries.cpp](../solutions/prefix-sums/H_Range_Xor_Queries.cpp) | cpp | vjudge / contest-688779-H | bit-manipulation, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md), [XOR properties and cancellation](../notes/patterns/xor-properties.md) |
 | [haybale stacking — haybale_stacking.cpp](../solutions/prefix-sums/haybale_stacking.cpp) | cpp | unknown | prefix-sums, sorting-and-searching | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [hoof paper scissors — hoof_paper_scissors.cpp](../solutions/prefix-sums/hoof_paper_scissors.cpp) | cpp | unknown | dynamic-programming/general, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
+| [Hoof, Paper, Scissors — Hoof_Paper_Scissors.cpp](../solutions/prefix-sums/Hoof_Paper_Scissors.cpp) | cpp | codeforces / 728587G | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [I. Swap(Mohamed, !Mohamed) — I_Swap_Mohamed_Mohamed.cpp](../solutions/prefix-sums/I_Swap_Mohamed_Mohamed.cpp) | cpp | codeforces / gym-106350-I | prefix-sums | reviewed | [Contribution technique](../notes/patterns/contribution-technique.md), [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [icpcworldfinals — icpcworldfinals.cpp](../solutions/prefix-sums/icpcworldfinals.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [J - Counting Rectangles — J_Counting_Rectangles.cpp](../solutions/prefix-sums/J_Counting_Rectangles.cpp) | cpp | vjudge / contest-688779-J | geometry, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
@@ -1129,7 +1134,11 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [Kousuke Assignment — Kousuke_Assignment.cpp](../solutions/prefix-sums/Kousuke_Assignment.cpp) | cpp | unknown | greedy, prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [longest subarray with sum k — longest_subarray_with_sum_k.cpp](../algorithms/prefix-sums/longest_subarray_with_sum_k.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [maximum sum — maximum_sum.py](../solutions/prefix-sums/maximum_sum.py) | python | unknown | brute-force-and-backtracking, prefix-sums, sorting-and-searching | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
+| [Practical Skill Test — Practical_Skill_Test.cpp](../solutions/prefix-sums/Practical_Skill_Test.cpp) | cpp | codeforces / 728587M | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [Prefix Sum Addicts — Prefix_Sum_Addicts.cpp](../solutions/prefix-sums/Prefix_Sum_Addicts.cpp) | cpp | codeforces / 1738B | arrays-and-counting, math/arithmetic, prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
+| [Range Additions — Range_Additions.cpp](../solutions/prefix-sums/Range_Additions.cpp) | cpp | codeforces / 728587d | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
+| [Rectangle Additions — Rectangle_Additions.cpp](../solutions/prefix-sums/Rectangle_Additions.cpp) | cpp | codeforces / 728587N | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
+| [Rectangle Sum — Rectangle_Sum.cpp](../solutions/prefix-sums/Rectangle_Sum.cpp) | cpp | codeforces / 728587L | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [Robert Hood and Mrs Hood — Robert_Hood_and_Mrs_Hood.cpp](../solutions/prefix-sums/Robert_Hood_and_Mrs_Hood.cpp) | cpp | codeforces / 2014D | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [static range sum queries — static-range-sum-queries.py](../solutions/prefix-sums/static-range-sum-queries.py) | python | unknown | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [static range sum queries — static_range_sum_queries.cpp](../solutions/prefix-sums/static_range_sum_queries.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
@@ -1137,9 +1146,12 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [subarray sum equals k — subarray_sum_equals_k.cpp](../algorithms/prefix-sums/subarray_sum_equals_k.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [subarray sum x — subarray-sum-x.cpp](../solutions/prefix-sums/subarray-sum-x.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [subarray sum x — subarray-sum-x.py](../solutions/prefix-sums/subarray-sum-x.py) | python | unknown | prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
+| [Subarrays Divisible by K — Subarrays_Divisible_by_K.cpp](../solutions/prefix-sums/Subarrays_Divisible_by_K.cpp) | cpp | codeforces / 728587I | arrays-and-counting, prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
+| [Subarrays with a Given Sum — Subarrays_with_a_Given_Sum.cpp](../solutions/prefix-sums/Subarrays_with_a_Given_Sum.cpp) | cpp | codeforces / 728587H | arrays-and-counting, prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [subsequences summing to seven — subsequences_summing_to_seven.cpp](../solutions/prefix-sums/subsequences_summing_to_seven.cpp) | cpp | unknown | math/number-theory, prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
 | [trace of matrix — trace_of_matrix.py](../solutions/prefix-sums/trace_of_matrix.py) | python | unknown | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [utpc 3 11 g — utpc-3-11-g.cpp](../solutions/prefix-sums/utpc-3-11-g.cpp) | cpp | unknown | prefix-sums | reviewed | [Prefix sums with a frequency map](../notes/patterns/prefix-sum-frequency-map.md) |
+| [Weighted Range Sum — Weighted_Range_Sum.cpp](../solutions/prefix-sums/Weighted_Range_Sum.cpp) | cpp | codeforces / 728587K | prefix-sums | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 | [Winning Record — Winning_Record.cpp](../solutions/prefix-sums/Winning_Record.cpp) | cpp | codeforces / 106104B | prefix-sums, strings | reviewed | [Prefix sums and difference arrays](../notes/patterns/prefix-sums-and-difference-arrays.md) |
 
 ## recursion-and-divide-and-conquer
@@ -1208,6 +1220,7 @@ Categories describe local implementations. Suggested labels are inferred; review
 | [minesweeper 2 — minesweeper 2.py](../solutions/simulation/minesweeper%202.py) | python | unknown | simulation | reviewed | [Grid traversal and neighbourhood scans](../notes/patterns/grid-traversal.md) |
 | [Mixing Milk — Mixing_Milk.cpp](../solutions/simulation/Mixing_Milk.cpp) | cpp | unknown | simulation | reviewed |  |
 | [packingforholiday — packingforholiday.cpp](../solutions/simulation/packingforholiday.cpp) | cpp | unknown | simulation | reviewed |  |
+| [Picnic for Two — Picnic_for_Two.cpp](../solutions/simulation/Picnic_for_Two.cpp) | cpp | codeforces / 2292A | simulation | reviewed | [Simulation with cycle detection](../notes/patterns/simulation-with-cycle.md) |
 | [Problem 3. Swapity Swap — Problem_3_Swapity_Swap.cpp](../solutions/simulation/Problem_3_Swapity_Swap.cpp) | cpp | usaco / cpid-1013 | simulation | reviewed | [Simulation with cycle detection](../notes/patterns/simulation-with-cycle.md) |
 | [rotate mat — rotate-mat.py](../solutions/simulation/rotate-mat.py) | python | unknown | simulation | reviewed |  |
 | [Shell Game — Shell_Game.cpp](../solutions/simulation/Shell_Game.cpp) | cpp | eolymp / 10329 | simulation | reviewed |  |
